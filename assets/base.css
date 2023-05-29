@@ -2439,6 +2439,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   height: 4.4rem;
   width: 4.4rem;
   padding: 0;
+  color: white;
 }
 
 .header__icon--cart {
@@ -2697,8 +2698,8 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
   text-underline-offset: 0.3rem;
 }
 
@@ -2992,4 +2993,22 @@ details-disclosure > details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+.scrolled-past-header > sticky-header {
+  background-color: white;
+}
+
+sticky-header > header > nav > ul > li:nth-child(6) > a > span {
+  color: white;
+}
+
+.scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
+.scrolled-past-header > sticky-header > header > div > #cart-icon-bubble > svg,
+.scrolled-past-header > sticky-header > header > details-modal > details > summary > span > svg.modal__toggle-open.icon.icon-search {
+  color:rgb(0, 0, 0);
+}
+
+.banner--desktop-transparent {
+  margin-top: -144px;
 }
