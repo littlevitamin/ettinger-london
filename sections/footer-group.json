@@ -4,6 +4,42 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "8b3b6df9-9253-48fc-afbc-f61a5cd07e0a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "OUR SERVICES",
+            "menu": "our-services"
+          }
+        },
+        "804e71c0-dbf0-438f-934c-e0c9d2761b45": {
+          "type": "link_list",
+          "settings": {
+            "heading": "CUSTOMER SERVICES",
+            "menu": "customer-services"
+          }
+        },
+        "f6cf660f-c51c-4682-a64a-2d8a718fd3d1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "GETTING IN TOUCH",
+            "menu": "getting-in-touch"
+          }
+        },
+        "0d5491d6-ee5e-4677-905e-768f2eb4c913": {
+          "type": "link_list",
+          "settings": {
+            "heading": "ABOUT US",
+            "menu": "about-us"
+          }
+        }
+      },
+      "block_order": [
+        "8b3b6df9-9253-48fc-afbc-f61a5cd07e0a",
+        "804e71c0-dbf0-438f-934c-e0c9d2761b45",
+        "f6cf660f-c51c-4682-a64a-2d8a718fd3d1",
+        "0d5491d6-ee5e-4677-905e-768f2eb4c913"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
