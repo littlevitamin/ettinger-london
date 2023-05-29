@@ -3012,3 +3012,8 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 .banner--desktop-transparent {
   margin-top: -144px;
 }
+
+.banner__heading, 
+.banner__text {
+  color: white;
+}
