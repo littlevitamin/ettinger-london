@@ -114,12 +114,67 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "f7352756-f97c-452c-bd97-8043c9b05af2": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "acbdfb55-a4dc-4532-b737-4d6a4762d1d8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "247f3d94-da82-4fdb-88b3-05e44efe8e4a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-0",
+        "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-1",
+        "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-2",
+        "acbdfb55-a4dc-4532-b737-4d6a4762d1d8",
+        "247f3d94-da82-4fdb-88b3-05e44efe8e4a"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "f1325849-5435-4589-a9c8-02c3bdd74086",
     "featured_collection",
-    "67b740cd-fb79-4fc8-95ba-3ff5337f155a"
+    "67b740cd-fb79-4fc8-95ba-3ff5337f155a",
+    "f7352756-f97c-452c-bd97-8043c9b05af2"
   ]
 }
