@@ -3021,7 +3021,8 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 
 .scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
 .scrolled-past-header > sticky-header > header > div > #cart-icon-bubble > svg,
-.scrolled-past-header > sticky-header > header > details-modal > details > summary > span > svg.modal__toggle-open.icon.icon-search {
+.scrolled-past-header > sticky-header > header > details-modal > details > summary > span > svg.modal__toggle-open.icon.icon-search,
+.scrolled-past-header .mega-menu .header__active-menu-item {
   color:rgb(0, 0, 0);
 }
 
