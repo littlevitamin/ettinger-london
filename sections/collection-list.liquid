@@ -16,6 +16,39 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .collection-list-title {
+    font-family: 'Gotham Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .collection-list-subheading {
+    font-family: 'Gotham Medium', sans-serif;
+    font-style: normal;
+    font-weight: 325;
+    font-size: 12px;
+    line-height: 172%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #777777!important;
+  }
+
+  .collection-list-btn {
+    color: white!important;
+    background: var(--gradient-base-accent-2);
+    --border-offset: 0;
+    font-family: 'Gotham Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+  }
+
+  
 {%- endstyle -%}
 
 {%- liquid
@@ -29,21 +62,27 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
+      <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin newsletter-text" style="padding: 0;">
         <h2 id="SectionHeading-{{ section.id }}" class="collection-list-title {{ section.settings.heading_size }}">
           {{ section.settings.title | escape }}
         </h2>
-
-        {%- if section.settings.show_view_all and show_mobile_slider -%}
-          <a
-            href="{{ routes.collections_url }}"
-            id="ViewAll-{{ section.id }}"
-            class="link underlined-link large-up-hide"
-            aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}"
-          >
-            {{- 'sections.collection_list.view_all' | t -}}
-          </a>
-        {%- endif -%}
+        {% if section.settings.subheading != blank %}
+          <h4 class="collection-list-subheading">
+            {{ section.settings.subheading | escape }}
+          </h4>
+        {% endif %}
+        {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
+      <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
+        <a
+          href="{{ routes.collections_url }}"
+          class="button collection-list-btn"
+          id="ViewAllButton-{{ section.id }}"
+          aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}"
+        >
+          DISCOVER MORE
+        </a>
+      </div>
+    {%- endif -%}
       </div>
     {%- endunless -%}
 
@@ -100,19 +139,6 @@
           </div>
         {%- endif -%}
       </slider-component>
-
-    {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
-      <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
-        <a
-          href="{{ routes.collections_url }}"
-          class="button"
-          id="ViewAllButton-{{ section.id }}"
-          aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}"
-        >
-          {{- 'sections.collection_list.view_all' | t -}}
-        </a>
-      </div>
-    {%- endif -%}
   </div>
 </div>
 
@@ -131,6 +157,11 @@
       "id": "title",
       "default": "Collections",
       "label": "t:sections.collection-list.settings.title.label"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
     },
     {
       "type": "select",
