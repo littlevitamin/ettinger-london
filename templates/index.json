@@ -80,41 +80,6 @@
         "padding_bottom": 36
       }
     },
-    "67b740cd-fb79-4fc8-95ba-3ff5337f155a": {
-      "type": "image-banner",
-      "blocks": {
-        "4ec97f79-a6a9-409b-a071-eda8b9b6dc7b": {
-          "type": "heading",
-          "settings": {
-            "heading": "LOREM ISPUM DOLOR",
-            "heading_size": "h1"
-          }
-        },
-        "bc498775-9e8b-4302-b217-f3bd904ef94b": {
-          "type": "text",
-          "settings": {
-            "text": "Caring for your leather goods is essential for their longevity and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "4ec97f79-a6a9-409b-a071-eda8b9b6dc7b",
-        "bc498775-9e8b-4302-b217-f3bd904ef94b"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1_91118.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "f7352756-f97c-452c-bd97-8043c9b05af2": {
       "type": "collection-list",
       "blocks": {
@@ -151,7 +116,7 @@
       ],
       "settings": {
         "title": "ETTINGER COLLECTIONS",
-        "subheading": "",
+        "subheading": "Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -161,6 +126,41 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "67b740cd-fb79-4fc8-95ba-3ff5337f155a": {
+      "type": "image-banner",
+      "blocks": {
+        "4ec97f79-a6a9-409b-a071-eda8b9b6dc7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOREM ISPUM DOLOR",
+            "heading_size": "h1"
+          }
+        },
+        "bc498775-9e8b-4302-b217-f3bd904ef94b": {
+          "type": "text",
+          "settings": {
+            "text": "Caring for your leather goods is essential for their longevity and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "4ec97f79-a6a9-409b-a071-eda8b9b6dc7b",
+        "bc498775-9e8b-4302-b217-f3bd904ef94b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_91118.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "4069cf3b-d352-43bb-82a6-811b35f856af": {
@@ -185,8 +185,8 @@
     "image_banner",
     "f1325849-5435-4589-a9c8-02c3bdd74086",
     "featured_collection",
-    "67b740cd-fb79-4fc8-95ba-3ff5337f155a",
     "f7352756-f97c-452c-bd97-8043c9b05af2",
+    "67b740cd-fb79-4fc8-95ba-3ff5337f155a",
     "4069cf3b-d352-43bb-82a6-811b35f856af"
   ]
 }
