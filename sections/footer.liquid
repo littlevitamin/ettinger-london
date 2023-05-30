@@ -52,6 +52,30 @@
     width: 50%;
     padding: 0 5%;
   }
+
+  .footer-block__header {
+    font-family: 'Gotham Medium', sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .footer-block__subheader {
+    font-family: 'Gotham Medium', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .footer-block__paragraph {
+    font-family: 'Gotham Medium', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+  }
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
@@ -161,18 +185,18 @@
               <div class="newsletter-flex">
                 <div class="newsletter-text">
                   {% if section.settings.newsletter_subheader != blank %}
-                    <h2 class="footer-block__heading">{{ section.settings.newsletter_subheader | escape }}</h2>
+                    <h2 class="footer-block__subheader">{{ section.settings.newsletter_subheader | escape }}</h2>
                   {% endif %}
                   {% if section.settings.newsletter_header != blank %}
-                    <h1 class="footer-block__heading">{{ section.settings.newsletter_header | escape }}</h1>
+                    <h1 class="footer-block__header">{{ section.settings.newsletter_header | escape }}</h1>
                   {% endif %}
                   {% if section.settings.newsletter_paragraph != blank %}
-                    <h5 class="footer-block__heading">{{ section.settings.newsletter_paragraph | escape }}</h5>
+                    <h5 class="footer-block__paragraph">{{ section.settings.newsletter_paragraph | escape }}</h5>
                   {% endif %}
                 </div>
                 <div class="newsletter-text">
                   {%- if section.settings.newsletter_heading != blank -%}
-                    <h2 class="footer-block__heading newsletter-form">{{ section.settings.newsletter_heading | escape }}</h2>
+                    <h2 class="footer-block__subheader newsletter-form">{{ section.settings.newsletter_heading | escape }}</h2>
                   {%- endif -%}
                   {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                     <input type="hidden" name="contact[tags]" value="newsletter">
