@@ -3030,3 +3030,6 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
   color: white;
 }
 
+.scrolled-past-header > sticky-header > header > h1 > a > img {
+  content: url('//cdn.shopify.com/s/files/1/0580/5617/9892/files/logo-1.png?v=1628066915');
+}

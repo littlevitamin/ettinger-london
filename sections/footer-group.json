@@ -52,9 +52,6 @@
       "settings": {
         "color_scheme": "accent-2",
         "newsletter_enable": true,
-        "newsletter_subheader": "SUBSCRIBE TO OUR NEWSLETTER",
-        "newsletter_header": "STAY UP TO DATE",
-        "newsletter_paragraph": "Subscribe to our newsletter today to be the first to know about new product launches, exclusive events and special offers.",
         "newsletter_heading": "EMAIL ADDRESS",
         "enable_follow_on_shop": false,
         "show_social": true,
