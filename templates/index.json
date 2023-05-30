@@ -173,8 +173,8 @@
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_image": true,
-        "show_date": false,
-        "show_author": false,
+        "show_date": true,
+        "show_author": true,
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
