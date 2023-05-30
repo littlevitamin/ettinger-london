@@ -28,7 +28,7 @@
         "logo": "shopify:\/\/shop_images\/Ettinger_London_svg.svg",
         "logo_position": "top-center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "always",
         "show_line_separator": true,
         "mobile_logo_position": "center",
