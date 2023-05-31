@@ -3063,6 +3063,9 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 
 .top-icons {
   padding-right: 5%;
+  border-bottom: 1px solid white;
+  width: 90%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 990px) {
