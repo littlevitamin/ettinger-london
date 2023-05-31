@@ -2508,12 +2508,12 @@ menu-drawer + .header__search {
 @media screen and (min-width: 990px) {
   .header:not(.header--top-center) * > .header__search,
   .header--top-center > .header__search {
-    display: inline-flex;
+    display: none;
   }
 
   .header:not(.header--top-center) > .header__search,
   .header--top-center * > .header__search {
-    display: none;
+    display: inline-flex;
   }
 }
 
@@ -3022,7 +3022,8 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 .scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
 .scrolled-past-header > sticky-header > header > div > #cart-icon-bubble > svg,
 .scrolled-past-header > sticky-header > header > details-modal > details > summary > span > svg.modal__toggle-open.icon.icon-search,
-.scrolled-past-header .mega-menu .header__active-menu-item {
+.scrolled-past-header .mega-menu .header__active-menu-item,
+.scrolled-past-header .icon-search {
   color:rgb(0, 0, 0);
 }
 
@@ -3036,7 +3037,12 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 }
 
 .scrolled-past-header > sticky-header > header > h1 > a > img {
-  content: url('//cdn.shopify.com/s/files/1/0580/5617/9892/files/logo-1.png?v=1628066915');
+  content: url('https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Ettinger_wordmark_K_1.svg?v=1685525890');
+}
+
+.scrolled-past-header .header--top-center {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Collection list */
