@@ -3048,3 +3048,35 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 .swiper-slide .card__content {
   display: none;
 }
+
+/* Blog posts */
+
+.blog__posts .card__heading {
+  font-family: "Gotham Medium", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #121212;
+}
+
+.article-card__info {
+  font-family: 'Gotham Medium', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+  color: #6D7175;
+}
+
+.article-card__excerpt {
+  font-family: 'Gotham Medium', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 172%;
+  letter-spacing: 0.04em;
+  color: #202223;
+  text-transform: uppercase;
+}
