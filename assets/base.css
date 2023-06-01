@@ -3050,6 +3050,7 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
 .scrolled-past-header .header--top-center {
   display: flex;
   justify-content: space-between;
+  padding: 0 50px;
 }
 
 .hidden-icons,
