@@ -60,10 +60,15 @@
   margin-top: 2rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .collection-list-wrapper .title-wrapper-with-link {
+    width: var(--page-width)!important;
+  }
+}
+
 .collection-list-wrapper .title-wrapper-with-link {
   display: flex;
   flex-direction: column;
   align-items: baseline;
   padding-bottom: 45px!important;
-  width: var(--page-width)!important;
 }
