@@ -38,8 +38,8 @@
   .footer-block--newsletter {
     background-image: url(https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_48.png?v=1685349171);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
+    background-size: 100%;
+    background-position: 50% 50%;
   }
 
   .newsletter-flex {
@@ -50,7 +50,6 @@
   .newsletter-text {
     text-align: left;
     width: 50%;
-    padding: 0 5%;
   }
 
   .footer-block__header {
@@ -182,7 +181,7 @@
         <div class="footer-block--newsletter">
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
-              <div class="newsletter-flex">
+              <div class="newsletter-flex page-width">
                 <div class="newsletter-text">
                   {% if section.settings.newsletter_subheader != blank %}
                     <h2 class="footer-block__subheader">{{ section.settings.newsletter_subheader | escape }}</h2>
@@ -281,7 +280,7 @@
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
               <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+                <h2 class="caption-large text-body" id="FooterCountryLabel">Change country - </h2>
                 <div class="disclosure">
                   <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
                     {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
