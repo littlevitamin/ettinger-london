@@ -663,6 +663,9 @@ noscript .localization-selector.link {
   .footer__bottom-wrap {
     width: 120rem;
   }
+  .footer__blocks-wrapper {
+    width: var(--page-width);
+  }
 }
 
 .footer__copyright {
