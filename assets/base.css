@@ -260,10 +260,6 @@ html.no-js .no-js-hidden {
 }
 
 @media screen and (min-width: 750px) {
-  .page-width {
-    padding: 0 5rem;
-  }
-
   .page-width--narrow {
     padding: 0 9rem;
   }
@@ -3147,4 +3143,16 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
   letter-spacing: 0.04em;
   color: #202223;
   text-transform: uppercase;
+}
+
+/* Footer */
+
+.footer-block__heading {
+  font-family: 'Gotham Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 116%;
+  text-transform: uppercase;
+  color: #000000;
 }
