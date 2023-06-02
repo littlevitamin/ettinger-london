@@ -3100,6 +3100,23 @@ sticky-header > header > nav > ul > li:nth-child(6) > a > span {
   display: none;
 }
 
+/* Collage */
+
+.collage .card__heading {
+  font-family: 'Gotham Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.collage .card__heading .icon-wrap {
+  color: rgb(var(--color-base-accent-2));
+}
+
 /* Blog posts */
 
 .blog__posts .card__heading {
