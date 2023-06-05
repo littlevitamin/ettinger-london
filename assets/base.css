@@ -3012,8 +3012,12 @@ details-disclosure > details {
   background-color: white;
 }
 
-sticky-header > header > nav > ul > li:nth-child(6) > a > span {
+sticky-header > header > nav > ul > li > a > span {
   color: white;
+}
+
+.black-background {
+  color: black;
 }
 
 .scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
