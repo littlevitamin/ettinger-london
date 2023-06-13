@@ -104,7 +104,7 @@
         "acbdfb55-a4dc-4532-b737-4d6a4762d1d8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all-products"
+            "collection": "frontpage"
           }
         }
       },
