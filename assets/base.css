@@ -3091,12 +3091,6 @@ sticky-header > header > nav > ul > li > a > span {
   letter-spacing: 0.02em;
 }
 
-/* Collection list */
-
-.swiper-slide .card--media {
-  padding: 10px;
-}
-
 .swiper-slide .card__content,
 .scrolled-past-header .header__icons > img {
   display: none;
@@ -3117,6 +3111,11 @@ sticky-header > header > nav > ul > li > a > span {
 
 .collage .card__heading .icon-wrap {
   color: rgb(var(--color-base-accent-2));
+}
+
+/* Collection list */
+.swiper-slide .card--media {
+  padding: 10px;
 }
 
 /* Blog posts */
