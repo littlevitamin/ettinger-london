@@ -3160,3 +3160,35 @@ sticky-header > header > nav > ul > li > a > span {
   text-transform: uppercase;
   color: #000000;
 }
+
+.icon-down-arrow {
+  display: none;
+}
+
+/* Hide the list on viewports smaller than 990px */
+/* Hide the list on viewports smaller than 990px */
+@media (max-width: 749px) {
+  .footer-block__details-content.list-unstyled {
+    display: none;
+  }
+
+  /* Show the list when its parent is active */
+  .icon-down-arrow.active + .footer-block__details-content.list-unstyled {
+    display: block;
+  }
+
+  .icon-down-arrow {
+    display: inline;
+  }
+
+  .mobile-flex {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-block__heading {
+    width: 90%;
+    display: inline-block;
+  }
+}
+

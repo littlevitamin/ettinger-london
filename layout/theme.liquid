@@ -300,7 +300,41 @@
         container.style.padding = 'calc(' + containerPadding + 'px)';
       });
     </script>
-    
+
+    <script>
+      function toggleList(event) {
+        var target = event.target;
+        var list = target.nextElementSibling;
+
+        if (list.classList.contains('footer-block__details-content')) {
+          if (list.style.display === 'none' || list.style.display === '') {
+            list.style.display = 'block';
+          } else {
+            list.style.display = 'none';
+          }
+
+          target.classList.toggle('active');
+        }
+      }
+
+      function addClickEvent() {
+        var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+        var headings = document.querySelectorAll('.icon-down-arrow');
+
+        if (viewportWidth < 749 && headings) {
+          headings.forEach(function (heading) {
+            heading.addEventListener('click', toggleList);
+          });
+        }
+      }
+
+      // Add event listener on initial page load
+      document.addEventListener('DOMContentLoaded', addClickEvent);
+
+      // Add event listener on window resize
+      window.addEventListener('resize', addClickEvent);
+    </script>
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
