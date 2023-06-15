@@ -71,6 +71,7 @@
 
   .footer-block--newsletter {
     background-image: url(https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Rectangle_48.png?v=1686835760)!important;
+    background-size: cover!important;
   }
 
   .newsletter-flex {

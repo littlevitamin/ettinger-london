@@ -295,12 +295,13 @@
     <script>
       window.addEventListener('resize', function() {
         var screenWidth = window.innerWidth;
-        var containerPadding = 0.032 * screenWidth;
+        var containerPadding = 0.04 * screenWidth;
         var container = document.querySelector('.footer-block__newsletter');
         container.style.padding = 'calc(' + containerPadding + 'px)';
       });
     </script>
 
+    {% comment %} Function for custom accordion menu section in the footer {% endcomment %}
     <script>
       function toggleList(event) {
         var target = event.target;
