@@ -139,6 +139,10 @@
   .banner--stacked .banner__media {
     flex-direction: column;
   }
+
+  .banner__content {
+    margin-top: -300px;
+  }
 }
 
 .banner__media {
