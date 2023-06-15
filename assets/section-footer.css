@@ -27,7 +27,7 @@
     margin-top: 0;
   }
 
-  .footer__content-top {
+  .footer__blocks-wrapper {
     padding-bottom: 3rem;
     padding-left: calc(4rem / var(--font-body-scale));
     padding-right: calc(4rem / var(--font-body-scale));
@@ -67,6 +67,18 @@
     flex-wrap: wrap;
     row-gap: 1.5rem;
     justify-content: center;
+  }
+
+  .footer-block--newsletter {
+    background-image: url(https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Rectangle_48.png?v=1686835760)!important;
+  }
+
+  .newsletter-flex {
+    flex-direction: column!important;
+  }
+
+  .newsletter-form {
+    align-items: start!important;
   }
 }
 
