@@ -139,10 +139,6 @@
   .banner--stacked .banner__media {
     flex-direction: column;
   }
-
-  .banner__content {
-    margin-top: -300px;
-  }
 }
 
 .banner__media {
@@ -301,6 +297,7 @@
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
+    margin-top: -300px;
   }
 
   .banner:not(.banner--mobile-bottom) .field__input {
