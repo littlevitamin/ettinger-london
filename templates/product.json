@@ -66,7 +66,7 @@
         "0728fee7-3b23-44fb-beee-ab6d2272b19a": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.care_instructions.value }}",
+            "text": "Care Instructions: <br>{{ product.metafields.custom.care_instructions.value }}",
             "text_style": "body"
           }
         }
