@@ -3194,18 +3194,34 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 /* Collection grid template modification */
-.grid__item:nth-child(22n + 11),
-.grid__item:nth-child(22n + 22) {
-  grid-row: span 2;
-  grid-column: span 2;
+@media screen and (min-width: 750px) {
+  .grid__item:nth-child(22n + 11),
+  .grid__item:nth-child(22n + 22) {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .grid__item:nth-child(22n + 11) .card__inner,
+  .grid__item:nth-child(22n + 22) .card__inner {
+    height: 125%;
+  }
+
+
+  #product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #product-grid > * {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
-#product-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-#product-grid > * {
-  max-width: 100%;
-  width: 100%;
+@media screen and (max-width: 750px) {
+  .grid__item:nth-child(22n + 9),
+  .grid__item:nth-child(22n + 20) {
+    max-width: 100%!important;
+    width: 100%;
+  }
 }
