@@ -3193,3 +3193,19 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
+/* Collection grid template modification */
+.grid__item:nth-child(22n + 11),
+.grid__item:nth-child(22n + 22) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+#product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#product-grid > * {
+  max-width: 100%;
+  width: 100%;
+}
