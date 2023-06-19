@@ -38,6 +38,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_13.svg",
             "image_width": 140,
+            "enable_video": true,
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9e5518ae981d4499ba83bdc6a7177184.mp4",
             "alignment": "center"
           }
         }
