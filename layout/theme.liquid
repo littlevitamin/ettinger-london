@@ -341,7 +341,6 @@
     {% comment %}Allow mega menu to appear on hover of parent element{% endcomment %}
     <script>
       let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
-      console.log(items)
       items.forEach(item => {
         item.addEventListener("mouseover", () => {
           item.setAttribute("open", true);
@@ -351,8 +350,7 @@
         item.addEventListener("mouseleave", () => {
           item.removeAttribute("open");
         });
-      });
-      
+      });    
       });
     </script>
 
