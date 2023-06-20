@@ -3232,7 +3232,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .header-watermark {
   transition: opacity 0.6s cubic-bezier(0.2, 0.4, 0.2, 1),
-  transform 0.6s cubic-bezier(0.2, 0.4, 0.2, 1);
+    transform 0.6s cubic-bezier(0.2, 0.4, 0.2, 1);
   opacity: 1;
   transform: scale(1);
 }
