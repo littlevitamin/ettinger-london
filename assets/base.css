@@ -3047,6 +3047,10 @@ sticky-header > header > nav > ul > li > a > span {
   content: url('https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Ettinger_wordmark_K_1.svg?v=1685525890')!important;
 }
 
+.new-content {
+  content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Group.svg?v=1687270956");
+}
+
 .scrolled-past-header .header--top-center {
   display: flex;
   justify-content: space-between;
@@ -3224,4 +3228,16 @@ sticky-header > header > nav > ul > li > a > span {
     max-width: 100%!important;
     width: 100%;
   }
+}
+
+.header-watermark {
+  transition: opacity 0.6s cubic-bezier(0.2, 0.4, 0.2, 1),
+    transform 0.6s cubic-bezier(0.2, 0.4, 0.2, 1);
+  opacity: 1;
+  transform: scale(1);
+}
+.header-watermark.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.2);
 }

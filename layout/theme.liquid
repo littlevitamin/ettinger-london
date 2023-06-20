@@ -354,6 +354,32 @@
       });
     </script>
 
+    {% comment %}Header animations on scroll{% endcomment %}
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var headerWatermark = document.querySelector(".header-watermark");
+        var imageElement = document.querySelector("#shopify-section-sections--19423924355358__header > sticky-header > header > h1 > a > img");
+
+        window.addEventListener("scroll", function() {
+          var scrollPosition = window.pageYOffset;
+          if (scrollPosition > 100 && scrollPosition < 150) {
+            imageElement.classList.add("new-content");
+            var opacity = 1 - (scrollPosition - 100) / 20;
+            var scale = 1 - (scrollPosition - 100) / 400;
+            headerWatermark.style.opacity = opacity;
+            headerWatermark.style.transform = "scale(" + scale + ")";
+          } else if (scrollPosition >= 120) {
+            headerWatermark.classList.add("hidden");
+          } else {
+            imageElement.classList.remove("new-content");
+            headerWatermark.style.opacity = 1;
+            headerWatermark.style.transform = "scale(1)";
+            headerWatermark.classList.remove("hidden");
+          }
+        });
+      });
+    </script>
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
