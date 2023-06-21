@@ -3239,5 +3239,62 @@ sticky-header > header > nav > ul > li > a > span {
 .header-watermark.hidden {
   opacity: 0;
   pointer-events: none;
-  transform: scale(0.2);
+  transform: scale(0.5);
+}
+
+.customer-services-menu {
+  position: relative;
+  display: flex;
+  margin-right: 70%;
+  color: white;
+  align-items: center;
+}
+
+@media screen and (min-width: 1600px) {
+  .customer-services-menu {
+    margin-right: 80%;
+  }
+}
+
+.menu-title {
+  padding-right: 8px;
+  font-family: 'Gotham Medium', sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 172%;
+  letter-spacing: 0.04em;
+}
+
+.customer-services-menu .submenu {
+  display: none;
+  position: absolute;
+  top: 66%;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  padding: 15px 16px 16px;
+  border-top: none;
+}
+
+.customer-services-menu:hover .submenu {
+  display: block;
+}
+
+.submenu-item {
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.submenu-item > a {
+  font-family: 'Gotham Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #777777;
+  padding-bottom: 14px;
 }
