@@ -3051,6 +3051,10 @@ sticky-header > header > nav > ul > li > a > span {
   content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Group.svg?v=1687270956");
 }
 
+.white-background-watermark {
+  content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Group_1.svg?v=1687345356");
+}
+
 .scrolled-past-header .header--top-center {
   display: flex;
   justify-content: space-between;
@@ -3071,6 +3075,10 @@ sticky-header > header > nav > ul > li > a > span {
   border-bottom: 1px solid white;
   width: 90%;
   margin: 0 auto;
+}
+
+.top-icons-white-background {
+  border-bottom: 1px solid black;
 }
 
 @media screen and (max-width: 990px) {
@@ -3283,6 +3291,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .submenu-item {
   border-bottom: 1px solid #D0D0D0;
+  list-style-type: none;
 }
 
 .submenu-item > a {
@@ -3296,5 +3305,10 @@ sticky-header > header > nav > ul > li > a > span {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #777777;
-  padding-bottom: 14px;
+  padding: 8px 0;
+}
+
+.white-background, .white-background > svg > path {
+  color:rgb(0, 0, 0);
+  fill: #000000;
 }
