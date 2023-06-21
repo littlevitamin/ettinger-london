@@ -33,6 +33,24 @@
     line-height: 15px;
     letter-spacing: 0.04em;
   }
+
+  .blog-image-container {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .blog-border {
+    height: 110px;
+    width: 40%;
+    border-bottom: 1px solid #EC9A00;
+  }
+
+  .blog-image {
+    display: flex;
+    margin: 80px auto;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -43,6 +61,11 @@
   endif
 -%}
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+  <div class="blog-image-container">
+    <span class="blog-border"></span>
+    <img class="blog-image" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Frame_279.svg?v=1687349682" width="200px" height="70px"/>
+    <span class="blog-border"></span>
+  </div>
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
