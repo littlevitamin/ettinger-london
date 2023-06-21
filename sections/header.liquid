@@ -153,7 +153,7 @@
 
 {% comment %} Enabling top menu option {% endcomment %}
 
-  <div class="{%- if request.page_type != 'index' -%} top-icons-white-background {% endif %} header__icons top-icons">
+  <div class="{%- if request.page_type != 'index' -%} header-white-background top-icons-white-background {% endif %} header__icons top-icons">
     <div class="{%- if request.page_type != 'index' -%} white-background {% endif %} customer-services-menu">
       <span class="menu-title">CUSTOMER SERVICES</span>
       <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -283,7 +283,7 @@
   </div>
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+  <header class=" {% if request.page_type != 'index' %}header-white-background{% endif %} header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">

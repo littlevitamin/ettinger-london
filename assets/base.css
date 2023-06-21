@@ -3007,7 +3007,8 @@ details-disclosure > details {
 
 /* Transparent Header */
 
-.scrolled-past-header > sticky-header {
+.scrolled-past-header > sticky-header,
+.header-white-background {
   background-color: white;
 }
 
@@ -3073,7 +3074,7 @@ sticky-header > header > nav > ul > li > a > span {
 .top-icons {
   padding-right: 5%;
   border-bottom: 1px solid white;
-  width: 90%;
+  width: var(--page-width);
   margin: 0 auto;
 }
 
