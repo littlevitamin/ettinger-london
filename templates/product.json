@@ -46,7 +46,7 @@
         "b24c4c73-06cb-45e2-b7ed-bf287bea63d4": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "FEATURES",
+            "heading": "Features",
             "icon": "leather",
             "content": "<p>{{ product.metafields.custom.features.value }}<\/p>",
             "page": ""
@@ -55,7 +55,7 @@
         "c8c754cc-d9bc-4609-90e9-9c9a958efe9f": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "MATERIALS",
+            "heading": "Materials",
             "icon": "ruler",
             "content": "<p>{{ product.metafields.custom.materials.value }}<\/p>",
             "page": ""
@@ -64,7 +64,7 @@
         "7964240b-1d84-4bce-9ad4-9100dc78eae4": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "CARE INSTRUCTIONS",
+            "heading": "Care Instructions",
             "icon": "heart",
             "content": "<p>{{ product.metafields.custom.care_instructions.value }}<\/p>",
             "page": ""
@@ -105,6 +105,93 @@
         "padding_bottom": 12
       }
     },
+    "70612a51-31be-4bab-abcf-05e1ca59161e": {
+      "type": "multirow",
+      "blocks": {
+        "template--19423920357662__70612a51-31be-4bab-abcf-05e1ca59161e-1687519821f3a2f6fa-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ettinger-8237_1.png",
+            "caption": "TO EACH THEIR OWN",
+            "heading": "PERSONALISED CHOICES",
+            "text": "<p>Selected Ettinger items can be personalised with bespoke initials<\/p>",
+            "button_label": "LEARN ABOUT",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--19423920357662__70612a51-31be-4bab-abcf-05e1ca59161e-1687519821f3a2f6fa-0"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "89c547c3-cc6c-4172-91eb-87d598a0e2df": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-0": {
+          "type": "column",
+          "settings": {
+            "title": "WORLDWIDE SHIPPING",
+            "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-1": {
+          "type": "column",
+          "settings": {
+            "title": "SHOPPING HELP",
+            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-2": {
+          "type": "column",
+          "settings": {
+            "title": "GIFT BOXES",
+            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-0",
+        "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-1",
+        "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -125,6 +212,8 @@
   },
   "order": [
     "main",
+    "70612a51-31be-4bab-abcf-05e1ca59161e",
+    "89c547c3-cc6c-4172-91eb-87d598a0e2df",
     "related-products"
   ]
 }

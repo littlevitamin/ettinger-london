@@ -322,6 +322,8 @@ fieldset.product-form__input .form__label {
 .product__info-container .product__description,
 .product__info-container .icon-with-text {
   margin: 2.5rem 0;
+  font-size: 14px;
+  color: #121212;
 }
 
 .product__text {
@@ -345,6 +347,10 @@ a.product__text {
 
 .product__title > * {
   margin: 0;
+  font-size: 30px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  color: #121212;
 }
 
 .product__title > a {
@@ -361,6 +367,8 @@ a.product__text {
 
 .product__accordion .accordion__content {
   padding: 0 1rem;
+  font-size: 14px;
+  color: #121212;
 }
 
 .product .price .badge {
@@ -1456,4 +1464,10 @@ a.product__text {
   .product-media-container .product__modal-opener:not(.product__modal-opener--image) {
     display: none;
   }
+}
+
+button[name="add"] {
+  background: var(--gradient-base-accent-2);
+  font-size: 13px;
+  text-transform: uppercase;
 }
