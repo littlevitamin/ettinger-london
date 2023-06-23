@@ -146,6 +146,7 @@
           "type": "column",
           "settings": {
             "title": "WORLDWIDE SHIPPING",
+            "icon_image": "shopify:\/\/shop_images\/Group_47bc8342-822a-4cc1-8fea-bcb1b926a6f6.svg",
             "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.<\/p>",
             "link_label": "",
             "link": ""
@@ -155,6 +156,7 @@
           "type": "column",
           "settings": {
             "title": "SHOPPING HELP",
+            "icon_image": "shopify:\/\/shop_images\/Group_cddfc540-0b78-48bc-8011-cc9ce3209bba.svg",
             "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address. <\/p>",
             "link_label": "",
             "link": ""
@@ -164,6 +166,7 @@
           "type": "column",
           "settings": {
             "title": "GIFT BOXES",
+            "icon_image": "shopify:\/\/shop_images\/noun-gift-5679114.svg",
             "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address. <\/p>",
             "link_label": "",
             "link": ""

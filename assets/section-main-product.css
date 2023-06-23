@@ -323,7 +323,7 @@ fieldset.product-form__input .form__label {
 .product__info-container .icon-with-text {
   margin: 2.5rem 0;
   font-size: 14px;
-  color: #121212;
+  color: var(--gradient-base-accent-1);
 }
 
 .product__text {
@@ -350,7 +350,7 @@ a.product__text {
   font-size: 30px;
   padding-top: 15px;
   text-transform: uppercase;
-  color: #121212;
+  color: var(--gradient-base-accent-1);
 }
 
 .product__title > a {
@@ -368,7 +368,7 @@ a.product__text {
 .product__accordion .accordion__content {
   padding: 0 1rem;
   font-size: 14px;
-  color: #121212;
+  color: var(--gradient-base-accent-1);
 }
 
 .product .price .badge {

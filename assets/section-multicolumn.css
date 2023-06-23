@@ -85,6 +85,11 @@
 }
 
 .multicolumn-card__info > :nth-child(2) {
+  margin-left: 1rem;
+  display: inline;
+}
+
+.multicolumn-card__info > :nth-child(3) {
   margin-top: 1rem;
 }
 
