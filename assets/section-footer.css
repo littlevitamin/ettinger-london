@@ -676,7 +676,7 @@ noscript .localization-selector.link {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   .footer__bottom-wrap {
     width: 120rem;
   }

@@ -136,6 +136,11 @@
     padding-bottom: 1.7rem;
     padding-top: 1.7rem;
   }
+
+  .collection-list__item .card__media,
+  .collection-list__item .card--media {
+    height: 582px;
+  }
 }
 
 .card__badge {
