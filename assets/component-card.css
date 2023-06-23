@@ -81,6 +81,12 @@
   text-align: var(--text-alignment);
 }
 
+.card-information > p {
+  font-size: 10px;
+  color: #777777;
+  font-weight: 400;
+}
+
 .card__media,
 .card .media {
   bottom: 0;
@@ -176,6 +182,10 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--gradient-base-accent-1);
 }
 
 .card__heading:last-child {
@@ -335,6 +345,8 @@
 
 .card-information {
   width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .card-information > * {
@@ -343,7 +355,8 @@
 }
 
 .card-information > .price {
-  color: rgb(var(--color-foreground));
+  font-size: 12px;
+  color: #777777;
 }
 
 .card--horizontal .card-information > .price {
