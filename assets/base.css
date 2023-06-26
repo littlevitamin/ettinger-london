@@ -3321,7 +3321,10 @@ sticky-header > header > nav > ul > li > a > span {
 
 /* Mega menu on hover styling */
 
-.hovered {
+.hovered,
+.menu-drawer__navigation-container,
+.menu-drawer__inner-submenu,
+.menu-drawer__submenu {
   /* Background color on hover */
   background-color: white !important;
 }
