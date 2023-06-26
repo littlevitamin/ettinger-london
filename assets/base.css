@@ -3053,8 +3053,9 @@ sticky-header > header > nav > ul > li > a > span {
   content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Group.svg?v=1687270956");
 }
 
-.white-background-watermark {
-  content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Group_1.svg?v=1687345356");
+.white-background-watermark,
+.hovered > sticky-header > header > div > img {
+  content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Group_1.svg?v=1687345356")!important;
 }
 
 .scrolled-past-header .header--top-center {
@@ -3312,4 +3313,34 @@ sticky-header > header > nav > ul > li > a > span {
 .white-background, .white-background > svg > path {
   color:rgb(0, 0, 0);
   fill: #000000;
+}
+
+/* Mega menu on hover styling */
+
+.hovered {
+  /* Background color on hover */
+  background-color: white !important;
+}
+
+.hovered .header__menu-item > span,
+.hovered > div > div > span,
+.hovered .header__icon,
+.hovered .header__icon--cart .icon {
+  color: #121212!important;
+}
+
+.hovered .top-icons {
+  border-bottom: 1px solid #121212;
+}
+
+.hovered > div > div > svg > path {
+  fill: #121212;
+}
+
+.hovered > sticky-header > header > h1 > a > img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637')!important;
+}
+
+#MegaMenu-Content-2 {
+  max-height: 500px!important;
 }

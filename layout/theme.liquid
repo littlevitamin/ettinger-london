@@ -380,6 +380,19 @@
       });
     </script>
 
+    <script>
+const cube = document.querySelector('#Details-HeaderMenu-2');
+const container = cube.closest('.shopify-section-group-header-group');
+
+cube.addEventListener('mouseover', () => {
+  container.classList.add('hovered');
+});
+
+cube.addEventListener('mouseleave', () => {
+  container.classList.remove('hovered');
+});
+</script>
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
