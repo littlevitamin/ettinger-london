@@ -3310,8 +3310,12 @@ sticky-header > header > nav > ul > li > a > span {
   padding: 8px 0;
 }
 
-.white-background, .white-background > svg > path {
+.white-background > svg > path {
   color:rgb(0, 0, 0);
+  fill: #000000;
+}
+
+.white-background {
   fill: #000000;
 }
 
@@ -3377,6 +3381,7 @@ sticky-header > header > nav > ul > li > a > span {
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px!important;
 }
 
 .color-black {
@@ -3409,6 +3414,7 @@ sticky-header > header > nav > ul > li > a > span {
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px;
 }
 
 .color-navy {
@@ -3419,3 +3425,10 @@ sticky-header > header > nav > ul > li > a > span {
   padding: 10px!important;
 }
 
+.form__label {
+  font-size: 13px;
+  font-weight: 400;
+  color: #121212;
+  line-height: 15.6px;
+  letter-spacing: 3%;
+}
