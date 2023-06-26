@@ -814,7 +814,7 @@
           {%- endif -%}
         </a>
       </div>
-      <img class="{%- if request.page_type != 'index' -%} white-background-watermark {% endif %}" src="https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Group_1.svg?v=1685458589" width="77px" height="65px"/>
+      <img class="{%- if request.page_type != 'index' -%} white-background-watermark {% endif %} {% if request.page_type == index %}header-watermark{% endif %}" src="https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Group_1.svg?v=1685458589" width="77px" height="65px"/>
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
