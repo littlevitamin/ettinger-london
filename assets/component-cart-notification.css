@@ -53,6 +53,7 @@
   transform: translateY(0);
   transition: transform var(--duration-default) ease, visibility 0s;
   visibility: visible;
+  background-color: white;
 }
 
 .cart-notification__header {

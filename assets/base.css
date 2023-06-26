@@ -3445,3 +3445,18 @@ svg.modal__toggle-open.icon.icon-search > use {
   line-height: 15.6px;
   letter-spacing: 3%;
 }
+
+
+/* Cart drawer styling */
+
+#cart-notification-form > button,
+#cart-notification-button {
+  color: white;
+}
+
+/* Product card styling */
+
+.card__content {
+  display: flex!important;
+  flex-direction: column-reverse!important;
+}
