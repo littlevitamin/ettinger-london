@@ -3329,6 +3329,10 @@ sticky-header > header > nav > ul > li > a > span {
   background-color: white !important;
 }
 
+.icon-homepage {
+  color: white!important;
+}
+
 .hovered .header__menu-item > span,
 .hovered > div > div > span,
 .hovered .header__icon,
@@ -3336,10 +3340,6 @@ sticky-header > header > nav > ul > li > a > span {
 .white-background .menu-title,
 svg.modal__toggle-open.icon.icon-search > use {
   color: #121212!important;
-}
-
-.icon-homepage {
-  color: white!important;
 }
 
 .hovered .top-icons {
