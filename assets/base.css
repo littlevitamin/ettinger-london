@@ -3338,6 +3338,10 @@ svg.modal__toggle-open.icon.icon-search > use {
   color: #121212!important;
 }
 
+.icon-homepage {
+  color: white!important;
+}
+
 .hovered .top-icons {
   border-bottom: 1px solid #121212;
 }
