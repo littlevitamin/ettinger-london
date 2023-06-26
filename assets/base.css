@@ -3073,9 +3073,8 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .top-icons {
-  padding-right: 5%;
+  padding-right: 7.5%;
   border-bottom: 1px solid white;
-  width: var(--page-width);
   margin: 0 auto;
 }
 
