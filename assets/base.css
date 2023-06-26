@@ -3332,7 +3332,9 @@ sticky-header > header > nav > ul > li > a > span {
 .hovered .header__menu-item > span,
 .hovered > div > div > span,
 .hovered .header__icon,
-.hovered .header__icon--cart .icon {
+.hovered .header__icon--cart .icon,
+.white-background .menu-title,
+svg.modal__toggle-open.icon.icon-search > use {
   color: #121212!important;
 }
 
