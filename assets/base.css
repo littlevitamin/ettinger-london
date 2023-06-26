@@ -3333,6 +3333,10 @@ sticky-header > header > nav > ul > li > a > span {
   color: white!important;
 }
 
+.hovered .icon-homepage {
+  color: #121212!important;
+}
+
 .hovered .header__menu-item > span,
 .hovered > div > div > span,
 .hovered .header__icon,
