@@ -3339,7 +3339,7 @@ sticky-header > header > nav > ul > li > a > span {
 .hovered .header__icon--cart .icon,
 .white-background .menu-title,
 svg.modal__toggle-open.icon.icon-search > use {
-  color: #121212!important;
+  color: #121212;
 }
 
 .hovered .top-icons {
