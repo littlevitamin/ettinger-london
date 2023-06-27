@@ -3089,11 +3089,17 @@ sticky-header > header > nav > ul > li > a > span {
     display: flex;
   }
   .top-icons,
-  .header-watermark {
+  .header-watermark,
+  .white-background-watermark {
     display: none;
   }
   .scrolled-past-header .header--top-center {
     padding: 0 20px;
+  }
+
+  .header-white-background .icon-hamburger,
+  .header-white-background .icon-close {
+    color: black!important;
   }
 }
 
@@ -3345,7 +3351,9 @@ sticky-header > header > nav > ul > li > a > span {
 .hovered .header__icon,
 .hovered .header__icon--cart .icon,
 .white-background .menu-title,
-svg.modal__toggle-open.icon.icon-search > use {
+.hovered svg.modal__toggle-open.icon.icon-search > use,
+.header-white-background svg.modal__toggle-open.icon.icon-search > use,
+.header-white-background .icon-cart {
   color: #121212;
 }
 
