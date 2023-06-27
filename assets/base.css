@@ -3045,7 +3045,8 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .scrolled-past-header > sticky-header > header > h1 > a > img,
-.scrolled-past-header > sticky-header > header > a > img {
+.scrolled-past-header > sticky-header > header > a > img,
+.scrolled-past-header.hovered > sticky-header > header > h1 > a > img {
   content: url('https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Ettinger_wordmark_K_1.svg?v=1685525890')!important;
 }
 
@@ -3329,7 +3330,9 @@ sticky-header > header > nav > ul > li > a > span {
   background-color: white !important;
 }
 
-.icon-homepage {
+.icon-homepage,
+.hovered > div > #cart-icon-bubble > div > span:nth-child(1),
+.hovered > sticky-header > header > div > div > #cart-icon-bubble > div > span:nth-child(1) {
   color: white!important;
 }
 
@@ -3355,7 +3358,7 @@ svg.modal__toggle-open.icon.icon-search > use {
 }
 
 .hovered > sticky-header > header > h1 > a > img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637')!important;
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637');
 }
 
 #MegaMenu-Content-2 {

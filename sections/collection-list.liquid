@@ -55,10 +55,10 @@
     margin: 0 auto;
   }
 
-  .blog-border {
-    height: 75px!important;
+  .list-border {
+    height: 75px;
     width: 40%;
-    border-bottom: 1px solid #777777!important;
+    border-bottom: 1px solid #777777;
   }
 
   .blog-image {
@@ -80,11 +80,11 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="blog-image-container">
-    <span class="blog-border"></span>
+    <span class="list-border"></span>
       <video style="height: 150px; width: 150px" autoplay muted>
         <source src="{{ section.settings.video_url }}" />
       </video>
-    <span class="blog-border"></span>
+    <span class="list-border"></span>
   </div>
   <div class="collection-list-wrapper isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.title == blank -%}
