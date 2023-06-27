@@ -592,7 +592,7 @@ table:not([class]) th {
 }
 
 @media screen and (min-width: 990px) {
-  .large-up-hide {
+  .large-up-hide, .quick-add__submit {
     display: none !important;
   }
 }
@@ -3097,6 +3097,15 @@ sticky-header > header > nav > ul > li > a > span {
     padding: 0 20px;
   }
 
+  .quick-add__submit {
+    min-height: 12px;
+    max-height: 20px;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #777777;
+  }
+
   .header-white-background .icon-hamburger,
   .header-white-background .icon-close {
     color: black!important;
@@ -3187,8 +3196,6 @@ sticky-header > header > nav > ul > li > a > span {
   display: none;
 }
 
-/* Hide the list on viewports smaller than 990px */
-/* Hide the list on viewports smaller than 990px */
 @media (max-width: 749px) {
   .footer-block__details-content.list-unstyled {
     display: none;
