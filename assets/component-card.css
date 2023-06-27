@@ -186,6 +186,17 @@
   font-size: 12px;
   font-weight: 400;
   color: var(--gradient-base-accent-1);
+  height: 32px;
+}
+
+@media screen and (max-width: 450px) {
+  .card__heading.h5 {
+    height: 48px;
+  }
+
+  swiper-slide > div > div > div.card__content > div > h3 > a {
+    display: none;
+  }
 }
 
 .card__heading:last-child {
