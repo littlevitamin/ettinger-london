@@ -540,6 +540,13 @@ noscript .localization-selector.link {
   .footer-block-image.right {
     justify-content: center;
   }
+  .footer__bottom-wrap {
+    flex-direction: column;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .footer-block__image-wrapper {
