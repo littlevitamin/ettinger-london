@@ -1,5 +1,6 @@
 var products_on_page = $('.products-on-page');
 var next_url = products_on_page.data('next-url');
+var load_more_btn = $('.load-more');
 
 function loadMoreProducts() {
     $.ajax (
@@ -15,6 +16,9 @@ function loadMoreProducts() {
         next_url = new_url;
 
         products_on_page.append(new_products.html());
+
+        if (new_url === next_url)
+            load_more_btn.hide();
 
     })
 }
