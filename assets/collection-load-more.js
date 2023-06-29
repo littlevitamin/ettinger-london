@@ -17,8 +17,8 @@ function loadMoreProducts() {
 
         products_on_page.append(new_products.html());
 
-        if (new_url === next_url)
-            load_more_btn.hide();
-
+        if(next_url === '') {
+            load_more_btn.hide()
+        }
     })
 }
