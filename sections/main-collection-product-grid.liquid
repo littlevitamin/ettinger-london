@@ -155,7 +155,7 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              data-next-url="{% if paginate.next %}{{ paginate.next.url }}{% endif %}"
+              data-next-url="{{ paginate.next.url }}"
               class="
                 products-on-page grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                 grid--{{ section.settings.columns_desktop }}-col-desktop
@@ -190,7 +190,7 @@
                 {% render 'pagination', paginate: paginate, anchor: '' %}
               {%- endif -%}
             {% endif %}
-
+            
           </div>
         {%- endif -%}
       {%- endpaginate -%}

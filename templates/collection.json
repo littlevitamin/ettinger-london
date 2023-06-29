@@ -16,7 +16,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
-        "enable_load_more": false,
+        "enable_load_more": true,
         "show_rating": false,
         "enable_quick_add": true,
         "enable_filtering": true,
