@@ -451,6 +451,16 @@
   customElements.define('localization-form', LocalizationForm);
 {% endjavascript %}
 
+    {% comment %} Dynamically rendering CSS values based on screen width {% endcomment %}
+    <script>
+      window.addEventListener('resize', function() {
+        var screenWidth = window.innerWidth;
+        var containerPadding = 0.05 * screenWidth;
+        var container = document.querySelector('.footer-block__newsletter');
+        container.style.padding = 'calc(' + containerPadding + 'px)';
+      });
+    </script>
+
 {% schema %}
 {
   "name": "t:sections.footer.name",
