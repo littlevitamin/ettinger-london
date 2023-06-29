@@ -29,6 +29,15 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .load-more {
+    display: flex;
+    justify-content: center;
+  }
+
+  .load-more-btn {
+    background: var(--gradient-base-accent-2);
+  }
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding">
@@ -146,8 +155,9 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
+              data-next-url="{{ paginate.next.url }}"
               class="
-                grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                products-on-page grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
@@ -171,9 +181,16 @@
               {%- endfor -%}
             </ul>
 
-            {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
-            {%- endif -%}
+            {% if section.settings.enable_load_more == true %}
+              <div class="load-more">
+                <button class="button load-more-btn" onclick="loadMoreProducts()">LOAD MORE</button>
+              </div>
+            {% else %}
+              {%- if paginate.pages > 1 -%}
+                {% render 'pagination', paginate: paginate, anchor: '' %}
+              {%- endif -%}
+            {% endif %}
+
           </div>
         {%- endif -%}
       {%- endpaginate -%}
@@ -239,6 +256,12 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_load_more",
+      "default": true,
+      "label": "Enable Load More button"
     },
     {
       "type": "checkbox",

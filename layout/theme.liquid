@@ -32,6 +32,12 @@
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer="defer"></script>
+
+    {% if template contains 'collection' %}
+      <script src="{{ 'collection-load-more.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
+
     {{ content_for_header }}
 
     {%- liquid
