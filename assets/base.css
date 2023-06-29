@@ -3297,8 +3297,9 @@ sticky-header > header > nav > ul > li > a > span {
   left: 0;
   z-index: 1;
   background-color: #fff;
-  padding: 15px 16px 16px;
+  padding: 14px;
   border-top: none;
+  width: 200px;
 }
 
 .customer-services-menu:hover .submenu {
