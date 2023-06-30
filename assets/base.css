@@ -3197,13 +3197,27 @@ sticky-header > header > nav > ul > li > a > span {
     display: none;
   }
 
+  .icon-down-arrow {
+    display: block!important;
+  }
+
   /* Show the list when its parent is active */
   .icon-down-arrow.active + .footer-block__details-content.list-unstyled {
     display: block;
   }
 
+  .footer-block {
+    position: relative!important;
+  }
+
   .icon-down-arrow {
-    display: inline;
+    position: absolute;
+    width: -webkit-fill-available;
+    top: 9px;
+    left: 0;
+    height: 10px;
+    right: 0;
+    padding-left: 90%;
   }
 
   .mobile-flex {
@@ -3221,7 +3235,7 @@ sticky-header > header > nav > ul > li > a > span {
   }
 
   .footer-block__heading {
-    width: 90%;
+    width: 100%;
     display: inline-block;
   }
 }
