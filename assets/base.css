@@ -3209,6 +3209,15 @@ sticky-header > header > nav > ul > li > a > span {
   .mobile-flex {
     width: 100%;
     margin: 0 auto;
+    display: flex!important;
+  }
+
+  .footer-block.grid__item:last-child {
+    order: -1;
+  }
+
+  .footer-block.grid__item {
+    margin: 2rem 0!important;
   }
 
   .footer-block__heading {
