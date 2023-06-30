@@ -3344,7 +3344,8 @@ sticky-header > header > nav > ul > li > a > span {
 .hovered,
 .menu-drawer__navigation-container,
 .menu-drawer__inner-submenu,
-.menu-drawer__submenu {
+.menu-drawer__submenu,
+.search__input {
   /* Background color on hover */
   background-color: white !important;
 }
