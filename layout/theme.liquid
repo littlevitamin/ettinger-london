@@ -33,6 +33,8 @@
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer="defer"></script>
 
     {% if template contains 'collection' %}
       <script src="{{ 'collection-load-more.js' | asset_url }}" defer="defer"></script>
@@ -374,6 +376,36 @@
           }
         });
       });
+    </script>
+
+    {% comment %}Horizontal scroll functionality{% endcomment %}
+    <script>
+      gsap.registerPlugin(scrollTrigger);
+      let container = document.querySelector('.multirow__scroll');
+      let sections = Array.from(document.querySelectorAll('.multirow__scroll .image-with-text'));
+      let firstElement = document.querySelector('.image-with-text:nth-child(1)');
+
+      let scrollTween = gsap.to(sections, {
+        xPercent: -100 * (sections.length - 1),
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".container",
+          pin: true,
+          scrub: 1,
+          end: "+=3000"
+        }
+      });
+
+      gsap.to(firstElement, {
+        duration: 1,
+        scrollTrigger: {
+          trigger: firstElement,
+          containerAnimation: scrollTween,
+          start: "left center",
+          toggleActions: "play none none reset",
+          id: "1",
+      }
+    });
     </script>
 
     {% comment %} Header menu on hover styling {% endcomment %}

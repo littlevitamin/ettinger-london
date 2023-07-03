@@ -13,6 +13,20 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .multirow__wrapper {
+    overflow-x: hidden;
+  }
+
+  .multirow__scroll {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+  }
+
+  .multirow__scroll .image-with-text {
+    width: 100vw;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -43,8 +57,8 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="multirow__inner page-width">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' %}multirow__wrapper{% endif %}">
+  <div class="multirow__inner {% if template contains 'about' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
