@@ -39,6 +39,21 @@
   .banner-text {
     color: #777777;
   }
+
+  .transparent {
+    background: transparent;
+  }
+
+  .banner__heading.h2 {
+    text-align: left;
+  }
+
+  .banner__text {
+    width: 50%;
+    text-align: left;
+    line-height: 21px;
+    font-size: 12px;
+  }
 {%- endstyle -%}
 
 <div
@@ -114,7 +129,7 @@
       </div>
     {%- endif -%}
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-      <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+      <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
