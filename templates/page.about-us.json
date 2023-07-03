@@ -79,6 +79,52 @@
         "padding_bottom": 36
       }
     },
+    "1ae7cd35-661d-4e96-841f-375aa136959f": {
+      "type": "multirow",
+      "blocks": {
+        "template--19689578070302__1ae7cd35-661d-4e96-841f-375aa136959f-16883793978430baef-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ettinger_wallets.png",
+            "caption": "",
+            "heading": "1930s The Foundation Years",
+            "text": "<p>Gerry Ettinger founded Ettinger in 1934. Having worked as a film producer in Italy and Germany (where he worked with Marlene Dietrich), he used his extensive contacts in continental Europe and England to create a range of luxury gifts, which became renowned throughout the UK for quality and innovation.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "cbd159b3-8618-436b-9af7-ccf8563ca938": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ettinger_wallets.png",
+            "caption": "",
+            "heading": "1930s The Foundation Years",
+            "text": "<p>Gerry Ettinger founded Ettinger in 1934. Having worked as a film producer in Italy and Germany (where he worked with Marlene Dietrich), he used his extensive contacts in continental Europe and England to create a range of luxury gifts, which became renowned throughout the UK for quality and innovation.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19689578070302__1ae7cd35-661d-4e96-841f-375aa136959f-16883793978430baef-0",
+        "cbd159b3-8618-436b-9af7-ccf8563ca938"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
       "type": "image-banner",
       "disabled": true,
@@ -118,6 +164,7 @@
     "main",
     "69786272-ce6f-41df-88d5-a13f76b893c0",
     "db0edc3e-ca60-4a6c-ab26-82abecf1fd37",
+    "1ae7cd35-661d-4e96-841f-375aa136959f",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
     "e5724cce-e348-435d-8216-726d0bd7bcf4"
   ]
