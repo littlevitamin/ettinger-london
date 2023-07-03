@@ -38,9 +38,24 @@
   .load-more-btn {
     background: var(--gradient-base-accent-2);
   }
+
+  .bottom-grid {
+    position: relative;
+    top: 250px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .bottom-grid {
+      top: 450px!important;
+    }
+  }
+
+  .collection-hero {
+    display: none!important;
+  }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}-padding">
+<div class="section-{{ section.id }}-padding {% if template contains 'collection' %}bottom-grid{% endif %}">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
   {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
     <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
