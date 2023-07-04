@@ -3499,3 +3499,13 @@ sticky-header > header > nav > ul > li > a > span {
   display: flex!important;
   flex-direction: column-reverse!important;
 }
+
+/* Scrolling section styling */
+
+.image-with-text__text > p {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #777777;
+  line-height: 17px;
+}
