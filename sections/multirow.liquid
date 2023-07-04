@@ -58,10 +58,10 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' %}multirow__wrapper{% endif %}">
-  <div class="multirow__inner {% if template contains 'about' %}multirow__scroll{% else %}page-width{% endif %}">
+  <div id="contain" class="multirow__inner {% if template contains 'about' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div
-        class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
+        class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }} panel"
         {{ block.shopify_attributes }}
       >
         <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
@@ -121,6 +121,27 @@
     {%- endfor -%}
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    let sections = gsap.utils.toArray(".panel");
+    let contain = document.getElementById("contain");
+
+    let scrollTween = gsap.to(sections, {
+      xPercent: -100 * (sections.length - 1),
+      ease: "none",
+      scrollTrigger: {
+        trigger: contain,
+        pin: true,
+        scrub: 1,
+        end: "+=10000"
+      },
+    });
+  });
+</script>
 
 {% schema %}
 {
