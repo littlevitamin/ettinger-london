@@ -80,10 +80,10 @@
         "padding_bottom": 36
       }
     },
-    "1ae7cd35-661d-4e96-841f-375aa136959f": {
-      "type": "multirow",
+    "ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf": {
+      "type": "scrolling-section",
       "blocks": {
-        "template--19689578070302__1ae7cd35-661d-4e96-841f-375aa136959f-16883793978430baef-0": {
+        "template--19689640395038__ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf-1688478860e10784ca-0": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ettinger_wallets.png",
@@ -94,7 +94,7 @@
             "button_link": ""
           }
         },
-        "cbd159b3-8618-436b-9af7-ccf8563ca938": {
+        "template--19689640395038__ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf-1688478860e10784ca-1": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ettinger_Press_Book_1949_cut_out.png",
@@ -105,7 +105,7 @@
             "button_link": ""
           }
         },
-        "8d600a1c-20c3-4c9b-8eda-455992cbe23a": {
+        "template--19689640395038__ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf-1688478860e10784ca-2": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ettinger_Press_Book_1969.png",
@@ -116,18 +116,18 @@
             "button_link": ""
           }
         },
-        "a602f909-9d34-471a-abb8-ea3c0aa3dc93": {
+        "da219a4f-1748-474b-b6fe-e1caedeee124": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ettinger_Family_picture.png",
             "caption": "",
             "heading": "1970s & 80s The Consolidation Years",
-            "text": "<p>Gerry Ettinger continued to work in the business until well into his 80s and saw the transformation of the company into one of the most respected leathergoods designers and manufacturers in the UK. In 1975 the Saddle Hide Collection was launched.<\/p>",
+            "text": "<p>Gerry Ettinger continued to work in the business until well into his 80s and saw the transformation of the company into one of the most respected leather goods designers and manufacturers in the UK. In 1975 the Saddle Hide Collection was launched.<\/p>",
             "button_label": "",
             "button_link": ""
           }
         },
-        "e9ef122b-5e4c-494b-824f-7a798eaf6174": {
+        "2c748d2b-120c-4127-acfe-54829d5e2d6a": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ettinger-Wimbledon-1992.png",
@@ -140,11 +140,11 @@
         }
       },
       "block_order": [
-        "template--19689578070302__1ae7cd35-661d-4e96-841f-375aa136959f-16883793978430baef-0",
-        "cbd159b3-8618-436b-9af7-ccf8563ca938",
-        "8d600a1c-20c3-4c9b-8eda-455992cbe23a",
-        "a602f909-9d34-471a-abb8-ea3c0aa3dc93",
-        "e9ef122b-5e4c-494b-824f-7a798eaf6174"
+        "template--19689640395038__ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf-1688478860e10784ca-0",
+        "template--19689640395038__ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf-1688478860e10784ca-1",
+        "template--19689640395038__ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf-1688478860e10784ca-2",
+        "da219a4f-1748-474b-b6fe-e1caedeee124",
+        "2c748d2b-120c-4127-acfe-54829d5e2d6a"
       ],
       "settings": {
         "image_height": "medium",
@@ -201,7 +201,7 @@
     "main",
     "69786272-ce6f-41df-88d5-a13f76b893c0",
     "db0edc3e-ca60-4a6c-ab26-82abecf1fd37",
-    "1ae7cd35-661d-4e96-841f-375aa136959f",
+    "ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
     "e5724cce-e348-435d-8216-726d0bd7bcf4"
   ]
