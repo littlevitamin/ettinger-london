@@ -356,10 +356,19 @@
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         var headerWatermark = document.querySelector(".header-watermark");
+        var header = document.querySelector(".top-icons-white-background");
+        var headerWrapper = document.querySelector(".header-wrapper");
         var imageElement = document.querySelector(".shopify-section-group-header-group > sticky-header > header > h1 > a > img");
 
         window.addEventListener("scroll", function() {
           var scrollPosition = window.pageYOffset;
+          if (scrollPosition > 80 && scrollPosition < 200) {
+            header.classList.add("hidden");
+            headerWrapper.classList.add("scrolled-past-header");
+          } else if (scrollPosition = 0) {
+            header.classList.remove("hidden");
+            headerWrapper.classList.remove("scrolled-past-header");
+          }
           if (scrollPosition > 100 && scrollPosition < 150) {
             imageElement.classList.add("new-content");
             var opacity = 1 - (scrollPosition - 100) / 20;
