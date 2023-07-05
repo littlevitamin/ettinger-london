@@ -32,7 +32,7 @@ function getColorClass(color) {
     case 'Black':
       return 'color-black';
     case 'Forest Green':
-      return 'color-forest-green';
+      return '';
     case 'Marine Blue':
       return 'color-marine-blue';
     case 'Tan':
