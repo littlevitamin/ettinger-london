@@ -27,7 +27,6 @@
   .multirow__scroll .image-with-text {
     width: 100vw;
     padding: 10px;
-    margin-top: 50px;
   }
 {%- endstyle -%}
 
@@ -145,6 +144,27 @@
     });
   });
 </script>
+
+<script>
+  function setStyles() {
+    var scrollingMargins = document.querySelectorAll('.panel');
+    var viewportHeight = window.innerHeight;
+    var marginHeight = 0.2 * viewportHeight; // 20% margin-top height
+    var elementHeight = 0.7 * viewportHeight; // 50% height
+
+    scrollingMargins.forEach(function(scrollingMargin) {
+      scrollingMargin.style.marginTop = marginHeight + 'px';
+      scrollingMargin.style.height = elementHeight + 'px';
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    setStyles(); // Set the initial styles on page load
+    window.addEventListener('resize', setStyles); // Update the styles when the viewport changes
+  });
+</script>
+
+
 
 {% schema %}
 {

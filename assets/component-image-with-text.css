@@ -144,6 +144,13 @@
   margin: 0 auto;
 }
 
+@media screen and (max-height: 700px) {
+  .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
+  .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
+    max-height: 350px;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .image-with-text__media-item:after,
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .grid__item .image-with-text__media,
