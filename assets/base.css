@@ -3404,7 +3404,7 @@ sticky-header > header > nav > ul > li > a > span {
 /* Color swatch styling */
 
 .color-green {
-  background-color: green!important;
+  background-color: #286a4a!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
@@ -3412,23 +3412,23 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-orange {
-  background-color: orange!important;
+  background-color: #f67028!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
 }
 
-.color-brown {
-  background-color: brown!important;
+.color-dark-brown {
+  background-color: #6e4b3f!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
 }
 
-.color-grey {
-  background-color: grey!important;
+.color-silver {
+  background-color: #c5c5c5!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
@@ -3445,23 +3445,23 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-red {
-  background-color: red!important;
+  background-color: #d52424!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
 }
 
-.color-darkbrown {
-  background-color: burlywood!important;
+.color-bordeaux {
+  background-color: #502a2e!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
 }
 
-.color-blue {
-  background-color: blue!important;
+.color-marine-blue {
+  background-color: #243350!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
@@ -3470,12 +3470,149 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-navy {
-  background-color: navy!important;
+  background-color: #214878!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
 }
+
+.color-tan {
+  background-color: #d7790a!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-white {
+  background-color: #ffffff!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-chocolate {
+  background-color: #d52424!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-nut {
+  background-color: #683931!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-hazelnut {
+  background-color: #b65025!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-pink {
+  background-color: #f1a7af!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-pale-blue {
+  background-color: #b5d5da!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-taupe {
+  background-color: #7a6658!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-madeira-blue {
+  background-color: #333545!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-havana {
+  background-color: #884b2d!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-chestnut {
+  background-color: #5e3324!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-yellow {
+  background-color: #facc13!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-petrol-blue {
+  background-color: #256981!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-purple {
+  background-color: #b47484!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-turquoise {
+  background-color: #09a688!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-dark-havana {
+  background-color: #43342c!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
+.color-london-tan {
+  background-color: #f3aa36!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
 
 .form__label {
   font-size: 13px;

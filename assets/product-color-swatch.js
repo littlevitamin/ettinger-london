@@ -12,22 +12,74 @@ function changeLabelBackground() {
 function getColorClass(color) {
   switch (color) {
     case 'Green/London Tan':
-      return 'color-green';
-    case 'London Tan':
-      return 'color-orange';
+      return 'color-green-london-tan';
     case 'Havana/London Tan':
-      return 'color-brown';
+      return 'color-havana-london-tan';
     case 'Ettinger Grey/London Tan':
-      return 'color-grey';
+      return 'color-ettinger-grey-london-tan';
     case 'Black/London Tan':
-      return 'color-black';
+      return 'color-black-london-tan';
     case 'Red/London Tan':
-      return 'color-red';
+      return 'color-red-london-tan';
     case 'Nut/London Tan':
-      return 'color-darkbrown';
+      return 'color-nut-london-tan';
     case 'Petrol Blue/London Tan':
-      return 'color-blue';          
+      return 'color-petrol-blue-london-tan';          
     case 'Navy/London Tan':
+      return 'color-navy-london-tan';
+    case 'Bordeaux':
+      return 'color-bordeaux';
+    case 'Black':
+      return 'color-black';
+    case 'Forest Green':
+      return 'color-forest-green';
+    case 'Marine Blue':
+      return 'color-marine-blue';
+    case 'Tan':
+      return 'color-tan';
+    case 'White':
+      return 'color-white';
+    case 'Chocolate':
+      return 'color-chocolate';
+    case 'Nut':
+      return 'color-nut';
+    case 'Hazelnut':
+      return 'color-hazelnut';
+    case 'Pink':
+      return 'color-pink';
+    case 'Pale Blue':
+      return 'color-pale-blue';
+    case 'Taupe':
+      return 'color-taupe';
+    case 'Madeira Blue':
+      return 'color-madeira-blue';
+    case 'Havana':
+      return 'color-havana';
+    case 'Chestnut':
+      return 'color-chestnut';
+    case 'Green':
+      return 'color-green';
+    case 'Yellow':
+      return 'color-yellow';
+    case 'Petrol Blue':
+      return 'color-petrol-blue';
+    case 'Red':
+      return 'color-red';
+    case 'Purple':
+      return 'color-purple';
+    case 'Turquoise':
+      return 'color-turquoise';
+    case 'Orange':
+      return 'color-orange';
+    case 'Silver':
+      return 'color-silver';
+    case 'Dark Brown':
+      return 'color-dark-brown';
+    case 'Dark Havana':
+      return 'color-dark-havana';
+    case 'London Tan':
+      return 'color-london-tan';
+    case 'Navy':
       return 'color-navy';
     default:
       return '';
