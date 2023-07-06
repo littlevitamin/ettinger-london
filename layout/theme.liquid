@@ -437,6 +437,27 @@
     });
   </script>
 
+  <script>
+    function checkAndHideElements() {
+  var elements = document.getElementsByClassName("product-media-container");
+
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var parentElement = element.parentElement;
+
+    var elementHeight = window.getComputedStyle(element).getPropertyValue("height");
+
+    if (elementHeight === "0px") {
+      parentElement.style.display = "none";
+    } else if (elementHeight !== "0px") {
+      parentElement.style.display = "block";
+    }
+  }
+}
+
+document.addEventListener("click", checkAndHideElements);
+  </script>
+
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
