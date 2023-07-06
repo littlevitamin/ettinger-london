@@ -4444,6 +4444,10 @@ sticky-header > header > nav > ul > li > a > span {
   flex-direction: column-reverse!important;
 }
 
+.product-media-container {
+  border: 0!important;
+}
+
 /* Scrolling section styling */
 
 .image-with-text__text > p {

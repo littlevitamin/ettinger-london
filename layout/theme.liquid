@@ -400,6 +400,43 @@
       });
     </script>
 
+  {% comment %}Display images based on alt tag{% endcomment %}  
+  <script>
+    function displayImages(input) {
+      var variantFieldset = document.querySelector('.variant-fieldset');
+      var inputs = variantFieldset.querySelectorAll('input[name="Colour"]');
+      var images = document.querySelectorAll('.product__media > img');
+
+      images.forEach(function (image) {
+        var grandparent = image.parentElement.parentElement;
+        grandparent.style.display = 'none';
+      });
+
+      inputs.forEach(function (input) {
+        var inputValue = input.value;
+        var label = variantFieldset.querySelector('label[for="' + input.id + '"]');
+        var labelText = label.textContent.trim();
+
+        if (input.checked) {
+          images.forEach(function (image) {
+            var altText = image.getAttribute('alt');
+            var grandparent = image.parentElement.parentElement;
+            if (altText === inputValue || altText === labelText) {
+              grandparent.style.display = 'block';
+            }
+          });
+        }
+      });
+    }
+
+    var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
+    inputs.forEach(function (input) {
+      input.onclick = function () {
+        displayImages(input);
+      };
+    });
+  </script>
+
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
