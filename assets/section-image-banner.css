@@ -132,6 +132,10 @@
     flex-wrap: wrap;
   }
 
+  .banner--medium:not(.banner--adapt) {
+    min-height: 36rem;
+  }
+
   .banner--stacked {
     height: auto;
   }
