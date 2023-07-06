@@ -148,13 +148,16 @@
 <script>
   function setStyles() {
     var scrollingMargins = document.querySelectorAll('.panel');
+    var elementMaxHeights = document.querySelectorAll('.image-with-text__grid');
     var viewportHeight = window.innerHeight;
-    var marginHeight = 0.2 * viewportHeight; // 20% margin-top height
-    var elementHeight = 0.7 * viewportHeight; // 50% height
+    var marginHeight = 0.2 * viewportHeight; 
+    var elementHeight = 0.5 * viewportHeight; 
 
     scrollingMargins.forEach(function(scrollingMargin) {
       scrollingMargin.style.marginTop = marginHeight + 'px';
-      scrollingMargin.style.height = elementHeight + 'px';
+    });
+    elementMaxHeights.forEach(function(elementMaxHeight) {
+      elementMaxHeight.style.height = elementHeight + 'px';
     });
   }
 
