@@ -576,7 +576,8 @@ table:not([class]) th {
 }
 
 @media screen and (max-width: 749px) {
-  .small-hide {
+  .small-hide,
+  .slider-buttons {
     display: none !important;
   }
   .newsletter-text {
@@ -4457,3 +4458,4 @@ sticky-header > header > nav > ul > li > a > span {
   color: #777777;
   line-height: 17px;
 }
+
