@@ -3125,6 +3125,10 @@ sticky-header > header > nav > ul > li > a > span {
   color: white!important;
 }
 
+.header-white-background .list-menu__item-homepage {
+  color: #000000!important;
+}
+
 .swiper-slide .card__content,
 .scrolled-past-header .header__icons > img {
   display: none;
