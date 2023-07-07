@@ -2,8 +2,30 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "85636987-b70b-4ec2-b6b6-dd7bd8e9f59b": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "e0b630b5-3792-459b-b5a5-d10b6641c09b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "85636987-b70b-4ec2-b6b6-dd7bd8e9f59b",
+        "e0b630b5-3792-459b-b5a5-d10b6641c09b"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Morgan_Car_Shoot_2018__50.png",
+        "image": "shopify:\/\/shop_images\/Travel_Bags_Home_Page_Banner.jpg",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 40,
