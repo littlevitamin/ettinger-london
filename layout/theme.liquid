@@ -388,7 +388,6 @@
   {% comment %} Header menu on hover styling {% endcomment %}
   <script>
 const cubes = [];
-const headerWrapper = document.querySelector('.header-wrapper');
 const existingIDs = [2, 5]; // IDs of existing elements
 
 existingIDs.forEach(id => {
@@ -401,7 +400,7 @@ existingIDs.forEach(id => {
       container.classList.add('hovered');
     });
 
-    headerWrapper.addEventListener('mouseleave', () => {
+    cube.addEventListener('mouseleave', () => {
       container.classList.remove('hovered');
     });
   }
