@@ -2329,7 +2329,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
-    margin: 0.5rem 0;
+    margin: 0;
   }
 }
 
