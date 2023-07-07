@@ -459,22 +459,16 @@ document.addEventListener("click", checkAndHideElements);
   </script>
 
   <script>
-    var spanElement = document.evaluate(
-  '//*[@id="ProductAccordion-c8c754cc-d9bc-4609-90e9-9c9a958efe9f-template--19633489510686__main"]/p/span',
-  document,
-  null,
-  XPathResult.FIRST_ORDERED_NODE_TYPE,
-  null
-).singleNodeValue;
+    // Get the HTML content of the element
+    var element = document.querySelectorAll("metafield-multi_line_text_field > #text");
+    var htmlContent = element.innerHTML;
 
-// Get the text content of the span
-var textContent = spanElement.textContent;
+    // Replace the HTML entity with the <br> tag
+    var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
 
-// Replace the HTML entity with the <br> tag
-var convertedContent = textContent.replace(/&lt;br&gt;/g, "<br>");
+    // Update the element with the converted content
+    element.innerHTML = convertedContent;
 
-// Update the text content of the span with the converted content
-spanElement.textContent = convertedContent;
   </script>
 
     {% comment %} Custom color swatch {% endcomment %}
