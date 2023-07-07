@@ -2694,6 +2694,7 @@ details[open] > .header__submenu {
 .header__menu-item:hover span {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+  color: var(--gradient-base-accent-2)!important;
 }
 
 details[open] > .header__menu-item {
@@ -3075,10 +3076,12 @@ sticky-header > header > nav > ul > li > a > span {
   padding-right: 7.5%;
   border-bottom: 1px solid white;
   margin: 0 auto;
+  width: 90%;
 }
 
 .top-icons-white-background {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--gradient-base-accent-2);
+  width: 90%;
 }
 
 @media screen and (max-width: 990px) {
@@ -4459,3 +4462,19 @@ sticky-header > header > nav > ul > li > a > span {
   line-height: 17px;
 }
 
+/* Global styling */
+
+.button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid var(--gradient-base-accent-2);
+  color: var(--gradient-base-accent-2)!important;
+}
+
+.link:hover,
+.menu-title:hover {
+  font-weight: 700!important;
+}
+
+.header__menu-item:hover {
+  color: var(--gradient-base-accent-2)!important;
+}
