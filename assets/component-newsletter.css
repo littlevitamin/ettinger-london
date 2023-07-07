@@ -23,6 +23,7 @@
   padding-right: 5rem;
   background: transparent;
   border-bottom: 1px solid white;
+  border-radius: 0;
 }
 
 .newsletter-form__field-wrapper .field {
