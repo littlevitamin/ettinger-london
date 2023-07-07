@@ -3121,6 +3121,10 @@ sticky-header > header > nav > ul > li > a > span {
   letter-spacing: 0.02em;
 }
 
+.list-menu__item-homepage {
+  color: white!important;
+}
+
 .swiper-slide .card__content,
 .scrolled-past-header .header__icons > img {
   display: none;
