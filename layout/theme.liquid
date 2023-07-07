@@ -459,15 +459,23 @@ document.addEventListener("click", checkAndHideElements);
   </script>
 
   <script>
-    // Get the HTML content of the element
-    var element = document.querySelectorAll("metafield-multi_line_text_field > #text");
-    var htmlContent = element.innerHTML;
+    // Get all elements with the class 'metafield-multi_line_text_field'
+var elements = document.getElementsByClassName("metafield-multi_line_text_field");
 
-    // Replace the HTML entity with the <br> tag
-    var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
+// Iterate through each element
+for (var i = 0; i < elements.length; i++) {
+  var element = elements[i];
 
-    // Update the element with the converted content
-    element.innerHTML = convertedContent;
+  // Get the HTML content of the element
+  var htmlContent = element.innerHTML;
+
+  // Replace the HTML entity with the <br> tag
+  var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
+
+  // Update the element with the converted content
+  element.innerHTML = convertedContent;
+}
+
 
   </script>
 
