@@ -439,44 +439,35 @@
 
   <script>
     function checkAndHideElements() {
-  var elements = document.getElementsByClassName("product-media-container");
-
-  for (var i = 0; i < elements.length; i++) {
-    var element = elements[i];
-    var parentElement = element.parentElement;
-
-    var elementHeight = window.getComputedStyle(element).getPropertyValue("height");
-
-    if (elementHeight === "0px") {
-      parentElement.style.display = "none";
-    } else if (elementHeight !== "0px") {
-      parentElement.style.display = "block";
+    var elements = document.getElementsByClassName("product-media-container");
+  
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var parentElement = element.parentElement;
+  
+      var elementHeight = window.getComputedStyle(element).getPropertyValue("height");
+  
+      if (elementHeight === "0px") {
+        parentElement.style.display = "none";
+      } else if (elementHeight !== "0px") {
+        parentElement.style.display = "block";
+      }
     }
   }
-}
-
-document.addEventListener("click", checkAndHideElements);
+  
+  document.addEventListener("click", checkAndHideElements);
   </script>
 
+  {% comment %}Display product metafields{% endcomment %}  
   <script>
-    // Get all elements with the class 'metafield-multi_line_text_field'
-var elements = document.getElementsByClassName("metafield-multi_line_text_field");
-
-// Iterate through each element
-for (var i = 0; i < elements.length; i++) {
-  var element = elements[i];
-
-  // Get the HTML content of the element
-  var htmlContent = element.innerHTML;
-
-  // Replace the HTML entity with the <br> tag
-  var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
-
-  // Update the element with the converted content
-  element.innerHTML = convertedContent;
-}
-
-
+    var elements = document.getElementsByClassName("metafield-multi_line_text_field");
+    
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var htmlContent = element.innerHTML;
+      var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
+      element.innerHTML = convertedContent;
+    }
   </script>
 
     {% comment %} Custom color swatch {% endcomment %}
