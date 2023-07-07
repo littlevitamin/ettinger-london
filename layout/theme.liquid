@@ -337,20 +337,25 @@
     </script>
 
     {% comment %}Allow mega menu to appear on hover of parent element{% endcomment %}
-    <script>
-      let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
-      items.forEach(item => {
-        item.addEventListener("mouseover", () => {
-          item.setAttribute("open", true);
-          item.querySelector("ul").addEventListener("mouseleave", () => {
-            item.removeAttribute("open");
-          });
-        item.addEventListener("mouseleave", () => {
-          item.removeAttribute("open");
-        });
-      });    
+<script>
+  const headerWrapper = document.querySelector(".header-wrapper");
+  const items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+
+  items.forEach(item => {
+    item.addEventListener("mouseover", () => {
+      item.setAttribute("open", true);
+      item.querySelector("ul").addEventListener("mouseleave", () => {
+        item.removeAttribute("open");
       });
-    </script>
+    });
+
+    item.addEventListener("mouseleave", () => {
+      if (!headerWrapper.contains(event.relatedTarget)) {
+        item.removeAttribute("open");
+      }
+    });
+  });
+</script>
 
     {% comment %}Header animations on scroll{% endcomment %}
     <script>
