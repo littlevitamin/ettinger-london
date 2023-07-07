@@ -388,7 +388,11 @@
     {% comment %} Header menu on hover styling {% endcomment %}
 
     <script>
-      const cube = document.querySelector('#Details-HeaderMenu-2');
+      const cubes = [];
+      for (let i = 1; i <= 5; i++) {
+        const cube = document.querySelector(`#Details-HeaderMenu-${i}`);
+        cubes.push(cube);
+      }
       const container = cube.closest('.shopify-section-group-header-group');
 
       cube.addEventListener('mouseover', () => {
