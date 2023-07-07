@@ -3244,6 +3244,14 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
+#FooterCountryList {
+  background: white;
+}
+
+#FooterCountryList .link--text {
+  color: var(--gradient-base-accent-2);
+}
+
 /* Collection grid template modification */
 @media screen and (min-width: 750px) {
   .grid__item:nth-child(22n + 11),
