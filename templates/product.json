@@ -49,7 +49,7 @@
           "settings": {
             "heading": "Features",
             "icon": "leather",
-            "content": "<p>{{ product.metafields.custom.feature | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -58,7 +58,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.material | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.materials | metafield_tag }}<\/p>",
             "page": ""
           }
         },
