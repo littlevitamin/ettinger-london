@@ -4474,6 +4474,10 @@ sticky-header > header > nav > ul > li > a > span {
   background: white!important;
 }
 
+.quick-add__submit:after {
+  --border-opacity: 0.1;
+}
+
 .link:hover,
 .menu-title:hover {
   font-weight: 700!important;
