@@ -4470,6 +4470,10 @@ sticky-header > header > nav > ul > li > a > span {
   color: var(--gradient-base-accent-2)!important;
 }
 
+.quick-add__submit {
+  background: white!important;
+}
+
 .link:hover,
 .menu-title:hover {
   font-weight: 700!important;
