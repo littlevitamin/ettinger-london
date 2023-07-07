@@ -322,7 +322,7 @@
                                         </a>
                                       {%- else -%}
                                         <details id="Details-menu-drawer-submenu-{{ forloop.index }}">
-                                          <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
+                                          <summary class="menu-drawer__menu-item link link--text list-menu__item {% if request.page_type == 'index' %}list-menu__item-homepage{% endif %} focus-inset">
                                             {{ childlink.title | escape }}
                                             {% render 'icon-arrow' %}
                                             {% render 'icon-caret' %}
