@@ -458,6 +458,19 @@
 document.addEventListener("click", checkAndHideElements);
   </script>
 
+  <script>
+    // Get the HTML content of the element
+    var element = document.getElementsByClassName("metafield-multi_line_text_field");
+    var htmlContent = element.innerHTML;
+
+    // Replace the HTML entity with the <br> tag
+    var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
+
+    // Update the element with the converted content
+    element.innerHTML = convertedContent;
+
+  </script>
+
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
