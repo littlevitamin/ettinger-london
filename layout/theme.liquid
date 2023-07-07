@@ -387,21 +387,25 @@
 
   {% comment %} Header menu on hover styling {% endcomment %}
   <script>
-    const cubes = [];
-    for (let i = 1; i <= 5; i++) {
-      const cube = document.querySelector(`#Details-HeaderMenu-${i}`);
-      cubes.push(cube);
-      
-      const container = cube.closest('.shopify-section-group-header-group');
-    
-      cube.addEventListener('mouseover', () => {
-        container.classList.add('hovered');
-      });
-    
-      cube.addEventListener('mouseleave', () => {
-        container.classList.remove('hovered');
-      });
-    }
+const cubes = [];
+const existingIDs = [2, 5]; // IDs of existing elements
+
+existingIDs.forEach(id => {
+  const cube = document.querySelector(`#Details-HeaderMenu-${id}`);
+  if (cube) {
+    cubes.push(cube);
+    const container = cube.closest('.shopify-section-group-header-group');
+
+    cube.addEventListener('mouseover', () => {
+      container.classList.add('hovered');
+    });
+
+    cube.addEventListener('mouseleave', () => {
+      container.classList.remove('hovered');
+    });
+  }
+});
+
   </script>
 
   {% comment %}Display images based on alt tag{% endcomment %}  
