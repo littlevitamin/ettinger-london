@@ -67,7 +67,26 @@
     max-width: 300px;
   }
 
+  @media screen and (min-width: 990px) {
+    .swiper-mobile {
+      display: none!important;
+    }
+    .swiper-desktop {
+      display: block!important;
+    }
+  }
   
+  @media screen and (max-width: 989px) {
+    .swiper-desktop {
+      display: none!important;
+    }
+    .swiper-mobile {
+      display: block!important;
+    }
+  }
+
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -112,9 +131,64 @@
       </div>
     {%- endunless -%}
 
-      <slider-component class="slider-mobile-gutter swiper-slide">
+      <slider-component class="slider-mobile-gutter swiper-slide swiper-desktop">
         <swiper-container 
           slides-per-view="3" 
+          loop="true"
+          class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
+          id="Slider-{{ section.id }}"
+          role="list"
+        >
+          {%- liquid
+            assign columns = section.blocks.size
+            if columns > 3
+              assign columns = 3
+            endif
+          -%}
+          {%- for block in section.blocks -%}
+            <swiper-slide
+              id="Slide-{{ section.id }}-{{ forloop.index }}"
+              class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              {% render 'card-collection',
+                card_collection: block.settings.collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                columns: columns
+              %}
+            </swiper-slide>
+          {%- endfor -%}
+        </swiper-container>
+        {%- if show_mobile_slider -%}
+          <div class="slider-buttons no-js-hidden">
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'general.slider.previous_slide' | t }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+            <div class="slider-counter caption">
+              <span class="slider-counter--current">1</span>
+              <span aria-hidden="true"> / </span>
+              <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+              <span class="slider-counter--total">{{ section.blocks.size }}</span>
+            </div>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'general.slider.next_slide' | t }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+          </div>
+        {%- endif -%}
+      </slider-component>
+      <slider-component class="slider-mobile-gutter swiper-slide swiper-mobile">
+        <swiper-container 
+          slides-per-view="1" 
           loop="true"
           class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
           id="Slider-{{ section.id }}"
