@@ -3419,8 +3419,12 @@ sticky-header > header > nav > ul > li > a > span {
   fill: #121212;
 }
 
+.scrolled-past-header > sticky-header > header > h1 > a > img {
+  margin-left: 44px;
+}
+
 .hovered > sticky-header > header > h1 > a > img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637');
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_wordmark_K_1.svg?v=1689004113');
 }
 
 .mega-menu__content {
