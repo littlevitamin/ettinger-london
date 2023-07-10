@@ -4519,3 +4519,9 @@ sticky-header > header > nav > ul > li > a > span {
   line-height: 16px;
   font-weight: 400;
 }
+
+/* Search results styling */
+
+.template-search__results {
+  grid-template-columns: unset!important;
+}
