@@ -22,6 +22,19 @@
   .multirow-maxheight {
     max-height: 500px!important;
   }
+
+  .multirow-product h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 4%;
+  }
+
+.multirow-product > div > div > div > p {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -59,7 +72,7 @@
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
         {{ block.shopify_attributes }}
       >
-        <div class="image-with-text__grid {% if template contains 'about' %}multirow-maxheight{% endif %} grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
+        <div class="image-with-text__grid {% if template contains 'about' %}multirow-maxheight{% endif %} {% if template contains 'product' %}multirow-product{% endif %} grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
           <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
             <div
               class="image-with-text__media {% if template contains 'product' %}multirow-content{% endif %} image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"

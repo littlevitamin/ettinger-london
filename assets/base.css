@@ -4532,6 +4532,10 @@ sticky-header > header > nav > ul > li > a > span {
   text-transform: uppercase;
 }
 
+.header-white-background .header__active-menu-item {
+  color: #121212;
+}
+
 @media screen and (min-width: 990px) {
   .mega-menu__list {
     width: 70%!important;
