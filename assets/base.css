@@ -2329,7 +2329,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
-    margin: 0;
+    margin: -1px;
   }
 }
 
@@ -3015,14 +3015,14 @@ sticky-header > header > nav > ul > li > a > span {
   color: white;
 }
 
-.black-background {
+.black-background,
+.scrolled-past-header .mega-menu .header__active-menu-item {
   color: black;
 }
 
 .scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
 .scrolled-past-header > sticky-header > header > div > #cart-icon-bubble > svg,
 .scrolled-past-header > sticky-header > header > details-modal > details > summary > span > svg.modal__toggle-open.icon.icon-search,
-.scrolled-past-header .mega-menu .header__active-menu-item,
 .scrolled-past-header .icon-search,
 .scrolled-past-header .header__icon--cart .icon,
 .scrolled-past-header > sticky-header > header > header-drawer #Details-menu-drawer-container > summary > span {
@@ -4499,6 +4499,23 @@ sticky-header > header > nav > ul > li > a > span {
   font-weight: 700!important;
 }
 
-.header__menu-item:hover {
+.header__menu-item:hover,
+.header__active-menu-item:hover {
   color: var(--gradient-base-accent-2)!important;
+}
+
+#MegaMenu-Content-2 > ul > li> ul > li > a,
+#MegaMenu-Content-5 > ul > li> ul > li > a {
+  font-size: 10px;
+  line-height: 12px;
+  color: #777777;
+  font-weight: 300;
+}
+
+#MegaMenu-Content-2 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
+#MegaMenu-Content-5 > ul > li:nth-child(n+1):nth-child(-n+4) > a {
+  color: #777777;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
 }
