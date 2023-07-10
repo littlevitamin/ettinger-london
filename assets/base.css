@@ -3417,8 +3417,18 @@ sticky-header > header > nav > ul > li > a > span {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637');
 }
 
-#MegaMenu-Content-2 {
-  max-height: 500px!important;
+.mega-menu__content {
+  min-height: 400px!important;
+}
+
+.header__menu-item {
+  padding-bottom: 20px;
+}
+
+.menu-title:hover,
+.submenu-item > a:hover {
+  color: var(--gradient-base-accent-2);
+  text-decoration: underline;
 }
 
 /* Color swatch styling */
@@ -4542,3 +4552,4 @@ sticky-header > header > nav > ul > li > a > span {
 .template-search__results {
   grid-template-columns: unset!important;
 }
+
