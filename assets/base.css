@@ -2287,7 +2287,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0;
 }
 
 .header {
@@ -2691,14 +2691,16 @@ details[open] > .header__submenu {
   transition: text-decoration var(--duration-short) ease;
 }
 
-.header__menu-item:hover span {
+.header__menu-item:hover span,
+.mega-menu__link:hover {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-  color: var(--gradient-base-accent-2)!important;
+  text-decoration-color: var(--gradient-base-accent-2)!important;
 }
 
 details[open] > .header__menu-item {
   text-decoration: underline;
+  text-decoration-color: var(--gradient-base-accent-2)!important;
 }
 
 details[open]:hover > .header__menu-item {
@@ -4510,12 +4512,12 @@ sticky-header > header > nav > ul > li > a > span {
 
 .link:hover,
 .menu-title:hover {
-  font-weight: 700!important;
+  font-weight: inherit!important;
 }
 
 .header__menu-item:hover,
 .header__active-menu-item:hover {
-  color: var(--gradient-base-accent-2)!important;
+  text-decoration-color: var(--gradient-base-accent-2)!important;
 }
 
 #MegaMenu-Content-2 > ul > li> ul > li > a,
