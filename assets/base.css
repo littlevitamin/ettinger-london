@@ -2329,7 +2329,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
-    margin: -1px;
+    margin: 0;
   }
 }
 
@@ -4510,6 +4510,7 @@ sticky-header > header > nav > ul > li > a > span {
   line-height: 12px;
   color: #777777;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 #MegaMenu-Content-2 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
@@ -4518,6 +4519,22 @@ sticky-header > header > nav > ul > li > a > span {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 990px) {
+  .mega-menu__list {
+    width: 70%!important;
+    justify-content: flex-start!important;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .mega-menu__list {
+    width: 1020px!important;
+    padding: 0!important;
+    justify-content: flex-start!important;
+  }
 }
 
 /* Search results styling */
