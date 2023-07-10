@@ -3190,6 +3190,10 @@ sticky-header > header > nav > ul > li > a > span {
 
 /* Footer */
 
+.footer, .footer-block {
+  background: #f69b00!important;
+}
+
 .footer-block__heading {
   font-family: 'Gotham Medium', sans-serif;
   font-style: normal;
