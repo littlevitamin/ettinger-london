@@ -3419,8 +3419,10 @@ sticky-header > header > nav > ul > li > a > span {
   fill: #121212;
 }
 
-.scrolled-past-header > sticky-header > header > h1 > a > img {
-  margin-left: 44px;
+@media screen and (max-width: 990px) {
+  .scrolled-past-header > sticky-header > header > h1 > a > img {
+    margin-left: 44px;
+  }
 }
 
 .hovered > sticky-header > header > h1 > a > img {
