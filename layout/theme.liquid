@@ -469,11 +469,17 @@ existingIDs.forEach(id => {
   {% comment %}Display product metafields{% endcomment %}  
   <script>
     var elements = document.getElementsByClassName("metafield-multi_line_text_field");
-    
+
     for (var i = 0; i < elements.length; i++) {
       var element = elements[i];
       var htmlContent = element.innerHTML;
-      var convertedContent = htmlContent.replace(/&lt;br&gt;/g, "<br>");
+
+      // Remove leading <br> tags before text
+      var contentWithoutLeadingBreaks = htmlContent.replace(/^(\s*<br>)+/i, "");
+
+      // Replace remaining &lt;br&gt; with <br>
+      var convertedContent = contentWithoutLeadingBreaks.replace(/&lt;br&gt;/g, "<br>");
+
       element.innerHTML = convertedContent;
     }
   </script>
