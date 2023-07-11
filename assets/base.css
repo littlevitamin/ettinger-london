@@ -1832,7 +1832,6 @@ details[open] > .share-button__fallback {
 .field__label,
 .customer .field label {
   font-size: 1.6rem;
-  left: calc(var(--inputs-border-width) + 2rem);
   top: calc(1rem + var(--inputs-border-width));
   margin-bottom: 0;
   pointer-events: none;
@@ -3076,7 +3075,6 @@ sticky-header > header > nav > ul > li > a > span {
 
 .top-icons {
   padding-right: 7.5%;
-  border-bottom: 1px solid white;
   margin: 0 auto;
   width: 90%;
 }
@@ -3123,7 +3121,8 @@ sticky-header > header > nav > ul > li > a > span {
   letter-spacing: 0.02em;
 }
 
-.list-menu__item-homepage {
+.list-menu__item-homepage,
+.hovered .cart-count-bubble > span {
   color: white!important;
 }
 
@@ -3191,6 +3190,12 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 /* Footer */
+
+@media (min-width: 750px) and (max-width: 1150px) {
+  .footer-block--newsletter {
+    background-size: unset!important;
+  }
+}
 
 .footer, .footer-block {
   background: #f69b00!important;
@@ -4569,3 +4574,15 @@ sticky-header > header > nav > ul > li > a > span {
   grid-template-columns: unset!important;
 }
 
+.divider {
+  width: 90%;
+  height: 2px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 3px;
+  color: transparent;
+}
+
+.scrolled-past-header .divider {
+  display: none;
+}
