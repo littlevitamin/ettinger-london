@@ -86,3 +86,18 @@
   }
 }
 
+@media screen and (min-width: 990px) {
+  .blog__posts {
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center!important;
+  }
+
+  .blog__post {
+    max-width: 47%!important;
+  }
+}
+
+.blog__post .card__heading {
+  min-height: 58px!important;
+}
