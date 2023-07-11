@@ -3203,6 +3203,10 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
+.localization-form__select {
+  background-color: transparent!important;
+}
+
 .footer, .footer-block {
   background: #f69b00!important;
 }
@@ -4580,11 +4584,21 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
+.hovered .tan-header-divider {
+  display: none!important;
+}
+
+.header__menu-item:hover {
+  border-bottom: 2px solid var(--gradient-base-accent-2);
+}
+
 /* Search results styling */
 
 .template-search__results {
   grid-template-columns: unset!important;
 }
+
+/* Dividers styling */
 
 .divider {
   width: 90%;
