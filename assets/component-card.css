@@ -141,11 +141,6 @@
     padding-bottom: 0.7rem;
     padding-top: 0.7rem;
   }
-
-  .collection-list__item .card__media,
-  .collection-list__item .card--media {
-    height: 582px;
-  }
 }
 
 .card__badge {
@@ -191,10 +186,6 @@
 @media screen and (max-width: 450px) {
   .card__heading.h5 {
     height: 48px;
-  }
-
-  swiper-slide > div > div > div.card__content > div > h3 > a {
-    display: none;
   }
 }
 

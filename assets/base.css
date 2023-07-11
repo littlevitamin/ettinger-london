@@ -2597,7 +2597,7 @@ details[open] .modal-overlay::after {
 
 @media screen and (min-width: 990px) {
   .search-modal__form {
-    max-width: 74.2rem;
+    max-width: 300px!important;
   }
 
   .search-modal__close-button {
@@ -3163,6 +3163,18 @@ sticky-header > header > nav > ul > li > a > span {
   padding: 10px;
 }
 
+.collection-card-wrapper .full-unstyled-link {
+  color: #777777;
+}
+
+.collection-card-wrapper .icon-wrap {
+  color: var(--gradient-base-accent-2);
+}
+
+.swiper-desktop .card__inner {
+  height: 582px;
+}
+
 /* Blog posts */
 
 .blog__posts .card__heading {
@@ -3353,7 +3365,7 @@ sticky-header > header > nav > ul > li > a > span {
 .customer-services-menu .submenu {
   display: none;
   position: absolute;
-  top: 66%;
+  top: 67%;
   left: 0;
   z-index: 1;
   background-color: #fff;
@@ -4599,6 +4611,10 @@ sticky-header > header > nav > ul > li > a > span {
   grid-template-columns: unset!important;
 }
 
+.search-modal__content {
+  background-color: white;
+}
+
 /* Dividers styling */
 
 .divider {
@@ -4659,3 +4675,29 @@ sticky-header > header > nav > ul > li > a > span {
   background-color: var(--gradient-base-accent-2);
 }
 
+/* Mobile dropdown menu styling */
+
+.menu-drawer__menu-item {
+  font-size: 14px!important;
+  font-weight: 500;
+  font-family: 'Gotham Medium', sans-serif;
+  line-height: 24px!important;
+  color: #121212;
+}
+
+#menu-drawer summary.list-menu__item > svg:nth-child(1) {
+  display: block!important;
+  color: var(--gradient-base-accent-2);
+}
+
+.menu-drawer__close-button {
+  font-size: 10px!important;
+  font-weight: 300!important;
+  font-family: 'Gotham Medium', sans-serif!important;
+  line-height: 15px!important;
+  color: #777777!important;
+}
+
+.menu-drawer__close-button > svg {
+  color: #777777!important;
+}
