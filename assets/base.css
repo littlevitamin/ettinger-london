@@ -3439,7 +3439,12 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .header__menu-item {
+  padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#FreeShippingBanner {
+  display: none!important;
 }
 
 .menu-title:hover,
