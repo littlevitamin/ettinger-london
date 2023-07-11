@@ -3427,7 +3427,8 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 @media screen and (max-width: 990px) {
-  .scrolled-past-header > sticky-header > header > h1 > a > img {
+  .scrolled-past-header > sticky-header > header > h1 > a > img,
+  .scrolled-past-header > sticky-header > header > a > img {
     margin-left: 44px;
   }
 }
@@ -4595,8 +4596,13 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .scrolled-past-header .divider,
-.scrolled-past-header .tan-divider {
+.scrolled-past-header .tan-divider,
+.tan-header-divider {
   display: none;
+}
+
+.scrolled-past-header .tan-header-divider {
+  display: block;
 }
 
 .tan-divider {
@@ -4607,6 +4613,16 @@ sticky-header > header > nav > ul > li > a > span {
   border-radius: 3px;
   color: transparent;
 }
+
+.tan-header-divider {
+  width: 95%;
+  height: 2px;
+  background-color: var(--gradient-base-accent-2);
+  margin: 0 auto;
+  border-radius: 3px;
+  color: transparent;
+}
+
 
 .grey-divider {
   width: 90%;
@@ -4620,7 +4636,11 @@ sticky-header > header > nav > ul > li > a > span {
 
 @media screen and (max-width: 990px) {
   .divider, .tan-divider {
-    display: none;
+    display: none!important;
   }
+}
+
+.hovered .divider {
+  background-color: var(--gradient-base-accent-2);
 }
 

@@ -813,7 +813,7 @@
           {%- if cart != empty -%}
             <div class="cart-count-bubble">
               {%- if cart.item_count < 100 -%}
-                <span aria-hidden="true">{{ cart.item_count }}</span>
+                <span aria-hidden="true">{{ cart.iterm_count }}</span>
               {%- endif -%}
               <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
             </div>
@@ -823,7 +823,9 @@
       <img class="{%- if request.page_type != 'index' -%} white-background-watermark {% else %} header-watermark {% endif %}" src="https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Group_1.svg?v=1685458589" width="77px" height="65px"/>
     </div>
   </header>
+  <div class="tan-header-divider">hello</div>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
+
 
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
