@@ -4584,7 +4584,8 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
-.hovered .tan-header-divider {
+.hovered .tan-header-divider,
+.hide-divider .tan-header-divider {
   display: none!important;
 }
 

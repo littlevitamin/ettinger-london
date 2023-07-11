@@ -407,6 +407,21 @@
   });
   </script>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+    const headerElements = document.querySelectorAll(".header__menu-item");
+
+    headerElements.forEach((el) => {
+      el.addEventListener("mouseover", (e) => {
+        e.target.closest(".shopify-section-group-header-group").classList.add("hide-divider");
+      });
+      el.addEventListener("mouseleave", (e) => {
+        e.target.closest(".shopify-section-group-header-group").classList.remove("hide-divider");
+      });
+    });
+  });
+  </script>
+
   {% comment %}Display images based on alt tag{% endcomment %}  
   <script>
     function displayImages(input) {
