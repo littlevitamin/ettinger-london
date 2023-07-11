@@ -110,7 +110,7 @@
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bestsellers"
+            "collection": "bridle-hide"
           }
         },
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-1": {
@@ -122,19 +122,19 @@
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mens-gifts"
+            "collection": "metropolitan"
           }
         },
         "acbdfb55-a4dc-4532-b737-4d6a4762d1d8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "belts"
           }
         },
         "3b16e97f-17bf-41e3-98b4-a14a6df71395": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bridle-hide"
+            "collection": "saint-crispin"
           }
         },
         "c44e7549-0ab3-45c1-a939-763c0f5338ca": {
@@ -146,7 +146,7 @@
         "721272bf-e5c7-4937-b5c3-0c5fb73dd926": {
           "type": "featured_collection",
           "settings": {
-            "collection": "belts"
+            "collection": "sterling"
           }
         }
       },
