@@ -283,6 +283,14 @@ html.no-js .no-js-hidden {
     max-width: var(--page-width);
     padding: 0 5rem;
   }
+
+  .header-wrapper {
+    padding-top: 10px;
+  }
+
+  .scrolled-past-header>sticky-header {
+    padding-top: 0px;
+  }
 }
 
 .isolate {
@@ -742,12 +750,12 @@ details > * {
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness ease 100ms;
 }
-
+/* 
 .underlined-link:hover,
 .customer a:hover {
   color: rgb(var(--color-link));
   text-decoration-thickness: 0.2rem;
-}
+} */
 
 .icon-arrow {
   width: 1.5rem;
@@ -2692,9 +2700,8 @@ details[open] > .header__submenu {
 
 .header__menu-item:hover span,
 .mega-menu__link:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-  text-decoration-color: var(--gradient-base-accent-2)!important;
+  text-decoration: none;
+  color: var(--gradient-base-accent-2)!important;
 }
 
 details[open] > .header__menu-item {
@@ -3080,7 +3087,6 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .top-icons-white-background {
-  border-bottom: 1px solid var(--gradient-base-accent-2);
   width: 90%;
 }
 
@@ -3396,12 +3402,12 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .icon-homepage,
-.hovered > div > #cart-icon-bubble > div > span:nth-child(1),
 .hovered > sticky-header > header > div > div > #cart-icon-bubble > div > span:nth-child(1) {
   color: white!important;
 }
 
-.hovered .icon-homepage {
+.hovered .icon-homepage,
+.hovered ~ .menu-title {
   color: #121212!important;
 }
 
@@ -3414,10 +3420,6 @@ sticky-header > header > nav > ul > li > a > span {
 .header-white-background svg.modal__toggle-open.icon.icon-search > use,
 .header-white-background .icon-cart {
   color: #121212;
-}
-
-.hovered .top-icons {
-  border-bottom: 1px solid #121212;
 }
 
 .hovered > div > div > svg > path {
@@ -4529,6 +4531,10 @@ sticky-header > header > nav > ul > li > a > span {
 .link:hover,
 .menu-title:hover {
   font-weight: inherit!important;
+  text-decoration: none!important;
+  text-underline-offset: 0!important;
+  text-decoration-thickness: 0!important;
+  text-decoration-color: transparent!important;
 }
 
 .header__menu-item:hover,
@@ -4588,6 +4594,23 @@ sticky-header > header > nav > ul > li > a > span {
   color: transparent;
 }
 
-.scrolled-past-header .divider {
+.scrolled-past-header .divider,
+.scrolled-past-header .tan-divider {
   display: none;
 }
+
+.tan-divider {
+  width: 90%;
+  height: 2px;
+  background-color: var(--gradient-base-accent-2);
+  margin: 0 auto;
+  border-radius: 3px;
+  color: transparent;
+}
+
+@media screen and (max-width: 990px) {
+  .divider, .tan-divider {
+    display: none;
+  }
+}
+
