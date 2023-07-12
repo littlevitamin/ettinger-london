@@ -3232,6 +3232,10 @@ sticky-header > header > nav > ul > li > a > span {
   background: #f69b00!important;
 }
 
+.footer-block.grid__item:nth-child(4) {
+  border: 0!important;
+}
+
 .footer-block__heading {
   font-family: 'Gotham Medium', sans-serif;
   font-style: normal;
