@@ -3419,6 +3419,10 @@ sticky-header > header > nav > ul > li > a > span {
   fill: #000000;
 }
 
+.customer-services-menu:hover svg > path {
+  fill: var(--gradient-base-accent-2)!important;
+}
+
 /* Mega menu on hover styling */
 
 .hovered,
@@ -3482,7 +3486,7 @@ sticky-header > header > nav > ul > li > a > span {
 .menu-title:hover,
 .submenu-item > a:hover {
   color: var(--gradient-base-accent-2);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Color swatch styling */
@@ -4559,7 +4563,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .link:hover,
-.menu-title:hover {
+.customer-services-menu:hover {
   font-weight: inherit!important;
   text-decoration: none!important;
   text-underline-offset: 0!important;
