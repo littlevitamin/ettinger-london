@@ -4669,7 +4669,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 
 .grey-divider {
-  width: 90%;
+  width: 100%;
   height: 2px;
   background-color: #777777;
   margin: 0 auto;
