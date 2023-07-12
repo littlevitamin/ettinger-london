@@ -3145,7 +3145,6 @@ sticky-header > header > nav > ul > li > a > span {
   color: #000000!important;
 }
 
-.swiper-slide .card__content,
 .scrolled-past-header .header__icons > img {
   display: none;
 }
@@ -4526,17 +4525,6 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 /* Product card styling */
-
-@media screen and (max-width: 750px) { 
-  .card__content {
-    display: flex!important;
-    flex-direction: column-reverse!important;
-  }
-
-  .card__heading {
-    height: -webkit-fill-available!important;
-  }
-}
 
 .product-media-container {
   border: 0!important;
