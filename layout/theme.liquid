@@ -482,6 +482,23 @@
   document.addEventListener("click", checkAndHideElements);
   </script>
 
+  {% comment %}Search functionality{% endcomment %}
+  <script>
+  function handleSearchClick() {
+    var searchElement = document.querySelector('.header__search');
+    var announcementElement = document.querySelector('.announcement-bar-section');
+    var closeButton = document.querySelector('.search-modal__close-button');
+    
+    searchElement.addEventListener('click', function() {
+      announcementElement.classList.add('hidden');
+    });
+    
+    closeButton.addEventListener('click', function() {
+      announcementElement.classList.remove('hidden');
+    });
+  }
+  </script>
+
   {% comment %}Display product metafields{% endcomment %}  
   <script>
     var elements = document.getElementsByClassName("metafield-multi_line_text_field");
