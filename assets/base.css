@@ -595,7 +595,7 @@ table:not([class]) th {
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
-  .medium-hide {
+  .medium-hide, .quick-add__submit {
     display: none !important;
   }
 }
@@ -4527,9 +4527,15 @@ sticky-header > header > nav > ul > li > a > span {
 
 /* Product card styling */
 
-.card__content {
-  display: flex!important;
-  flex-direction: column-reverse!important;
+@media screen and (max-width: 750px) { 
+  .card__content {
+    display: flex!important;
+    flex-direction: column-reverse!important;
+  }
+
+  .card__heading {
+    height: -webkit-fill-available!important;
+  }
 }
 
 .product-media-container {
