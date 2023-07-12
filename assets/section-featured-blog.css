@@ -31,7 +31,8 @@
 
 @media screen and (min-width: 990px) {
   .grid--1-col-desktop .article-card .card__content {
-    text-align: center;
+    text-align: left;
+    padding-top: 20px;
   }
 }
 
