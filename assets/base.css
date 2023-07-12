@@ -3090,9 +3090,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .top-icons {
-  padding-right: 7.5%;
-  margin: 0 auto;
-  width: 90%;
+  padding-right: 50px;
 }
 
 .top-icons-white-background {
@@ -4633,7 +4631,7 @@ sticky-header > header > nav > ul > li > a > span {
 /* Dividers styling */
 
 .divider {
-  width: 90%;
+  width: 95%;
   height: 2px;
   background-color: white;
   margin: 0 auto;
@@ -4652,7 +4650,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .tan-divider {
-  width: 90%;
+  width: 95%;
   height: 2px;
   background-color: var(--gradient-base-accent-2);
   margin: 0 auto;
