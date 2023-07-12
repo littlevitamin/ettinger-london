@@ -2687,6 +2687,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
+  text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.75);
 }
 
@@ -4560,6 +4561,8 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 #MegaMenu-Content-2 > ul > li> ul > li > a,
+#MegaMenu-Content-3 > ul > li> ul > li > a,
+#MegaMenu-Content-4 > ul > li> ul > li > a,
 #MegaMenu-Content-5 > ul > li> ul > li > a {
   font-size: 10px;
   line-height: 12px;
@@ -4569,6 +4572,8 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 #MegaMenu-Content-2 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
+#MegaMenu-Content-3 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
+#MegaMenu-Content-4 > ul > li:nth-child(n+1) > a,
 #MegaMenu-Content-5 > ul > li:nth-child(n+1):nth-child(-n+4) > a {
   color: #777777;
   font-size: 14px;
