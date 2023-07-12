@@ -4684,6 +4684,10 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
+.scrolled-past-header .tan-divider {
+  display: none!important;
+}
+
 .hovered .divider {
   background-color: var(--gradient-base-accent-2);
 }
