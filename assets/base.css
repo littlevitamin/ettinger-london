@@ -4574,7 +4574,7 @@ sticky-header > header > nav > ul > li > a > span {
 #MegaMenu-Content-5 > ul > li> ul > li > a {
   font-size: 10px;
   line-height: 12px;
-  color: #121212;
+  color: #777777;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -4583,7 +4583,7 @@ sticky-header > header > nav > ul > li > a > span {
 #MegaMenu-Content-3 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
 #MegaMenu-Content-4 > ul > li:nth-child(n+1) > a,
 #MegaMenu-Content-5 > ul > li:nth-child(n+1):nth-child(-n+4) > a {
-  color: #777777;
+  color: #121212;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
