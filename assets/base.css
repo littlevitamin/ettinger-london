@@ -4706,3 +4706,9 @@ sticky-header > header > nav > ul > li > a > span {
 .menu-drawer__close-button > svg {
   color: #777777!important;
 }
+
+/* Video option styling */
+
+div.banner__media::after {
+  display: none!important;
+}
