@@ -180,14 +180,14 @@
         "4ec97f79-a6a9-409b-a071-eda8b9b6dc7b": {
           "type": "heading",
           "settings": {
-            "heading": "MAINTAIN THE NATURAL BEAUTY",
+            "heading": "MAKE IT PERSONAL",
             "heading_size": "h1"
           }
         },
         "bc498775-9e8b-4302-b217-f3bd904ef94b": {
           "type": "text",
           "settings": {
-            "text": "Caring for your leather goods is essential for their longevity and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.",
+            "text": "Adding initials to a finished product requires skill and experience. At Ettinger, every emboss is blocked by our best craftspeople using a traditional embossing machine to guarantee the best results. Each letter set is adjusted individually by hand to ensure the spacing achieves just the right balance and the emboss looks crisp and clean.",
             "text_style": "body"
           }
         }
@@ -198,10 +198,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1_91118.svg",
-        "enable_video": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/46fef42db03d4d789d9c6473e3da4f67.mp4",
+        "enable_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
