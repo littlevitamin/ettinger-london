@@ -2461,6 +2461,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
   color: white;
 }
 
+.header-white-background .header__icon--cart .icon {
+  color: black;
+}
+
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
@@ -3451,7 +3455,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .hovered > sticky-header > header > h1 > a > img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_wordmark_K_1.svg?v=1689004113');
+  content: url('https://ettinger-1.myshopify.com/cdn/shop/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637');
 }
 
 .mega-menu__content {
@@ -4688,6 +4692,7 @@ sticky-header > header > nav > ul > li > a > span {
   font-family: 'Gotham Medium', sans-serif;
   line-height: 24px!important;
   color: #121212;
+  text-transform: uppercase;
 }
 
 #menu-drawer summary.list-menu__item > svg:nth-child(1) {

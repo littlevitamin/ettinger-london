@@ -668,7 +668,7 @@
                   </header-menu>
                 {%- else -%}
                   <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                    <span {%- if request.page_type != 'index' -%}class="black-background"{% endif %}>{{ link.title | escape }}</span>
+                    <span class="{%- if request.page_type != 'index' -%}black-background{% endif %}">{{ link.title | escape }}</span>
                   </a>
                 {%- endif -%}
               </li>
