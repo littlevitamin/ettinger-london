@@ -3485,7 +3485,7 @@ sticky-header > header > nav > ul > li > a > span {
   display: none!important;
 }
 
-.menu-title:hover,
+.customer-services-menu:hover,
 .submenu-item > a:hover {
   color: var(--gradient-base-accent-2);
   text-decoration: none;
