@@ -37,7 +37,7 @@
 @media screen and (max-width: 749px) {
   .banner--small.banner--mobile-bottom:not(.banner--adapt) .banner__media,
   .banner--small.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) > .banner__media {
-    height: 32rem;
+    height: 40rem;
   }
 
   .banner--medium.banner--mobile-bottom:not(.banner--adapt) .banner__media,
@@ -300,7 +300,7 @@
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
-    margin-top: -300px;
+    margin-top: -380px;
   }
 
   .banner:not(.banner--mobile-bottom) .field__input {
