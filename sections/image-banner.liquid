@@ -76,7 +76,7 @@
 >
   {% if section.settings.enable_video %}
     <div class="banner__media">
-      <video style="height: inherit; width: inherit;" autoplay muted>
+      <video style="height: inherit; width: inherit; object-fit: cover;" autoplay muted>
         <source src="{{ section.settings.video_url }}" />
       </video>
     </div>
