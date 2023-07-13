@@ -3374,6 +3374,7 @@ sticky-header > header > nav > ul > li > a > span {
   font-size: 12px;
   line-height: 172%;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .customer-services-menu .submenu {
