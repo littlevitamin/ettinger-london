@@ -2713,6 +2713,10 @@ details[open] > .header__submenu {
   color: var(--gradient-base-accent-2)!important;
 }
 
+.mega-menu__link--active {
+  text-decoration: none!important;
+}
+
 details[open] > .header__menu-item {
   text-decoration: underline;
   text-decoration-color: var(--gradient-base-accent-2)!important;
