@@ -101,7 +101,14 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="blog-image-container">
     <span class="list-border"><div class="grey-divider">hello</div></span>
-      <video style="height: 150px; width: 150px" autoplay muted>
+      <video 
+        style="height: 150px; width: 150px" 
+        autoplay 
+        muted
+        loop
+        playsinline 
+        loading="lazy"
+      >
         <source src="{{ section.settings.video_url }}" />
       </video>
     <span class="list-border"><div class="grey-divider">hello</div></span>
