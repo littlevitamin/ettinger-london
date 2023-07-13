@@ -76,7 +76,14 @@
 >
   {% if section.settings.enable_video %}
     <div class="banner__media">
-      <video style="height: inherit; width: inherit; object-fit: cover;" autoplay playsinline loop muted loading="lazy">
+      <video 
+        style="height: inherit; width: inherit; object-fit: cover;" 
+        autoplay 
+        playsinline 
+        loop 
+        muted 
+        controls="true"
+        loading="lazy">
         <source src="{{ section.settings.video_url }}" />
       </video>
     </div>
