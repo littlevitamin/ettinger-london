@@ -198,7 +198,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1_91118.svg",
-        "enable_video": false,
+        "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
         "image_height": "small",
