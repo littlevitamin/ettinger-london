@@ -9,12 +9,13 @@
     <span id="closeIcon">&times;</span>
     <div class="leftSide">
       <div class="h2">PERSONALIZE YOUR ITEM</div>
-      <p>Ettinger takes great care to block initials by hand, with the right balance and the emboss remains very crisp and delicate.
+      <p class="text-popup">Ettinger takes great care to block initials by hand, with the right balance and the emboss remains very crisp and delicate.
         <br><br>This is done by a specialist craftsperson in our factory and so can take up to 1 week for delivery.
-        <br><br>Should you require any other assistance, please call us on <span>+44 20 8877 1616</span> or <span>email us</span>.</p>
+        <br><br>Should you require any other assistance, please call us on <a style="color: var(--gradient-base-accent-2);" href="tel:+442088771616">+44 20 8877 1616</a> or <a style="color: var(--gradient-base-accent-2);" href="mailto:clientservices@ettinger.co.uk">email us</a>.
+      </p>
       <div class="container">
         <div class="variants">
-          <p>Colour:</p>
+          <p class="text-colour">Colour</p>
           <div class="colorSquare gold" data-color="#BB9A56">123</div>
           <div class="colorSquare grey" data-color="#C5C5C5">123</div>
           <div class="colorSquare white" data-color="#FFFFFF">123</div>
@@ -22,9 +23,10 @@
         <div class="input">
           <h4>ADD YOUR INITIALS</h4>
           <input type="text" id="personalizationInput" maxlength="5" placeholder="WRITE HERE...">
-          <p>(UP TO 5 CHARACTERS)</p>
+          <p class="text-popup">(UP TO 5 CHARACTERS)</p>
         </div>
       </div>
+      <button class="button product-form__buttons button--full-width" name="add" id="addToCartBtn"><b>Add to Cart</b>&nbsp;+£19</button>
     </div>
     <div class="rightSide">
       <img id="productImage" src="{{ product.image | image_url }}" alt="Product Image">
@@ -74,6 +76,23 @@
   width: 50%;
 }
 
+.text-popup {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Gotham Medium', sans-serif;
+  color: #777777;
+  line-height: 24px;
+  letter-spacing: 0.04rem;
+}
+
+.text-colour {
+  font-size: 13px;
+  font-family: 'Gotham Medium', sans-serif;
+  line-height: 16px;
+  letter-spacing: 0.03rem;
+  color: #121212;
+}
+
 .colorSquare {
   color: transparent!important;
   box-shadow: 2px 2px 4px 0px #00000040 inset;
@@ -105,6 +124,11 @@
   padding: 10px;
 }
 
+#personalizationInput {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
 .button {
   max-width: 300px;
 }
@@ -131,6 +155,10 @@
 
 .colorSquare.white {
   background-color: #FFFFFF;
+}
+
+#addToCartBtn {
+  margin: 10px auto;
 }
 </style>
 
@@ -166,6 +194,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.getElementById('personalizationInput').addEventListener('input', function(e) {
     personalizationText.textContent = e.target.value;
+  });
+
+  document.getElementById('addToCartBtn').addEventListener('click', function() {
+    var productTitle = '{{ product.title }}';
+    var personalization = personalizationInput.value;
+    var selectedColor = document.querySelector('.colorSquare.selected').getAttribute('data-color');
+
+    var item = {
+      title: productTitle + ' PERSONALIZATION',
+      price: 19,
+      properties: {
+        Personalization: personalization,
+        Color: selectedColor
+      }
+    };
+
+    // Use Shopify AJAX API to add item to the cart
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        items: [item]
+      })
+    })
+    .then(function(response) {
+      // Handle the response
+      console.log(response);
+    })
+    .catch(function(error) {
+      console.error('Error:', error);
+    });
   });
 });
 </script>
