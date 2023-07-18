@@ -54,10 +54,20 @@
   position: relative;
   display: flex;
   width: 75%;
-  height: 500px;
+  height: 70%;
   background-color: #fff;
   display: flex;
   flex-direction: row-reverse;
+}
+
+@media screen and (max-height: 700px) {
+  .popupContent {
+    height: 500px;
+  }
+
+  .leftSide {
+    padding: 10px!important;
+  }
 }
 
 #closeIcon {
@@ -142,6 +152,7 @@
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
@@ -159,6 +170,27 @@
 
 #addToCartBtn {
   margin: 10px auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .popupContent {
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+    top: 250px;
+  }
+
+  .leftSide, .rightSide {
+    width: 100%;
+  }
+
+  #personalizationPopup {
+    overflow: auto;
+  }
+
+  #personalizationInput {
+    max-width: 100px;
+  }
 }
 </style>
 
