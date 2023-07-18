@@ -1,0 +1,101 @@
+<!-- Add personalization button -->
+<div class="product-form">
+  <button class="button product-form__buttons button--full-width" name="add" id="personalizationBtn">Add Personalization +£19</button>
+</div>
+
+<!-- Pop-up container -->
+<div id="personalizationPopup">
+  <div class="popupContent">
+    <span id="closeIcon">&times;</span>
+    <div class="leftSide">
+      <div class="h2">PERSONALIZE YOUR ITEM</div>
+      <p>Ettinger takes great care to block initials by hand, with the right balance and the emboss remains very crisp and delicate. 
+      <br><br>This is done by a specialist craftsperson in our factory and so can take up to 1 week for delivery. 
+      <br><br>Should you require any other assistance, please call us on <span>+44 20 8877 1616</span> or <span>email us</span>.</p>
+    </div>
+    <div class="rightSide">
+      <img id="productImage" src="{{ product.image | image_url }}" alt="Product Image">
+    </div>
+  </div>
+</div>
+
+<style>
+/* Pop-up container styles */
+#personalizationPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.popupContent {
+  position: relative;
+  display: flex;
+  width: 75%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.leftSide {
+  width: 50%;
+  padding: 30px;
+}
+
+.rightSide {
+  width: 50%;
+  padding: 30px;
+}
+
+#productImage {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  max-width: 300px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Button click event listener
+  document.getElementById('personalizationBtn').addEventListener('click', function() {
+    // Show the pop-up
+    document.getElementById('personalizationPopup').style.display = 'flex';
+
+    // Retrieve the first product image source and set it in the pop-up
+    var firstProductImage = document.querySelector('.product__media img');
+    var productImage = document.getElementById('productImage');
+    productImage.src = firstProductImage.src;
+  });
+
+  // Close pop-up when clicking on the close icon
+  document.getElementById('closeIcon').addEventListener('click', function() {
+    document.getElementById('personalizationPopup').style.display = 'none';
+  });
+
+  // Close pop-up when clicking outside of it
+  document.getElementById('personalizationPopup').addEventListener('click', function(e) {
+    if (e.target.id === 'personalizationPopup') {
+      document.getElementById('personalizationPopup').style.display = 'none';
+    }
+  });
+});
+
+</script>
