@@ -9,12 +9,26 @@
     <span id="closeIcon">&times;</span>
     <div class="leftSide">
       <div class="h2">PERSONALIZE YOUR ITEM</div>
-      <p>Ettinger takes great care to block initials by hand, with the right balance and the emboss remains very crisp and delicate. 
-      <br><br>This is done by a specialist craftsperson in our factory and so can take up to 1 week for delivery. 
-      <br><br>Should you require any other assistance, please call us on <span>+44 20 8877 1616</span> or <span>email us</span>.</p>
+      <p>Ettinger takes great care to block initials by hand, with the right balance and the emboss remains very crisp and delicate.
+        <br><br>This is done by a specialist craftsperson in our factory and so can take up to 1 week for delivery.
+        <br><br>Should you require any other assistance, please call us on <span>+44 20 8877 1616</span> or <span>email us</span>.</p>
+      <div class="container">
+        <div class="variants">
+          <p>Colour:</p>
+          <div class="colorSquare gold" data-color="#BB9A56">123</div>
+          <div class="colorSquare grey" data-color="#C5C5C5">123</div>
+          <div class="colorSquare white" data-color="#FFFFFF">123</div>
+        </div>
+        <div class="input">
+          <h4>ADD YOUR INITIALS</h4>
+          <input type="text" id="personalizationInput" maxlength="5" placeholder="WRITE HERE...">
+          <p>(UP TO 5 CHARACTERS)</p>
+        </div>
+      </div>
     </div>
     <div class="rightSide">
       <img id="productImage" src="{{ product.image | image_url }}" alt="Product Image">
+      <div id="personalizationText"></div>
     </div>
   </div>
 </div>
@@ -52,6 +66,20 @@
   cursor: pointer;
 }
 
+.container {
+  display: flex;
+}
+
+.variants {
+  width: 50%;
+}
+
+.colorSquare {
+  color: transparent!important;
+  box-shadow: 2px 2px 4px 0px #00000040 inset;
+  border-radius: 3px;
+}
+
 .leftSide {
   width: 50%;
   padding: 30px;
@@ -60,6 +88,7 @@
 .rightSide {
   width: 50%;
   padding: 30px;
+  position: relative;
 }
 
 #productImage {
@@ -67,35 +96,76 @@
   height: 100%;
 }
 
+#personalizationText {
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+
 .button {
   max-width: 300px;
+}
+
+.variants {
+  margin-bottom: 20px;
+}
+
+.colorSquare {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.colorSquare.gold {
+  background-color: #BB9A56;
+}
+
+.colorSquare.grey {
+  background-color: #C5C5C5;
+}
+
+.colorSquare.white {
+  background-color: #FFFFFF;
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Button click event listener
-  document.getElementById('personalizationBtn').addEventListener('click', function() {
-    // Show the pop-up
-    document.getElementById('personalizationPopup').style.display = 'flex';
+  var colorSquares = document.querySelectorAll('.colorSquare');
+  var personalizationInput = document.getElementById('personalizationInput');
+  var personalizationText = document.getElementById('personalizationText');
 
-    // Retrieve the first product image source and set it in the pop-up
+  document.getElementById('personalizationBtn').addEventListener('click', function() {
+    document.getElementById('personalizationPopup').style.display = 'flex';
     var firstProductImage = document.querySelector('.product__media img');
     var productImage = document.getElementById('productImage');
     productImage.src = firstProductImage.src;
   });
 
-  // Close pop-up when clicking on the close icon
   document.getElementById('closeIcon').addEventListener('click', function() {
     document.getElementById('personalizationPopup').style.display = 'none';
   });
 
-  // Close pop-up when clicking outside of it
   document.getElementById('personalizationPopup').addEventListener('click', function(e) {
     if (e.target.id === 'personalizationPopup') {
       document.getElementById('personalizationPopup').style.display = 'none';
     }
   });
-});
 
+  colorSquares.forEach(function(square) {
+    square.addEventListener('click', function() {
+      var color = this.getAttribute('data-color');
+      personalizationText.style.color = color;
+    });
+  });
+
+  document.getElementById('personalizationInput').addEventListener('input', function(e) {
+    personalizationText.textContent = e.target.value;
+  });
+});
 </script>
