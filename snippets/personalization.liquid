@@ -2,6 +2,7 @@
 <div class="product-form">
   <button class="button product-form__buttons button--full-width" name="add" id="personalizationBtn">Add Personalization +£19</button>
 </div>
+<div id="personalizationData"></div>
 
 <!-- Pop-up container -->
 <div id="personalizationPopup">
@@ -16,17 +17,17 @@
       <div class="container">
         <div class="variants">
           <p class="text-colour">Colour</p>
-          <div class="colorSquare gold" data-color="#BB9A56">123</div>
-          <div class="colorSquare grey" data-color="#C5C5C5">123</div>
-          <div class="colorSquare white" data-color="#FFFFFF">123</div>
+          <div class="colorSquare gold" data-color="#BB9A56" data-colour="GOLD FOILED">123</div>
+          <div class="colorSquare grey" data-color="#C5C5C5" data-colour="GREY">123</div>
+          <div class="colorSquare white" data-color="#FFFFFF" data-colour="WHITE">123</div>
         </div>
         <div class="input">
           <h4>ADD YOUR INITIALS</h4>
           <input type="text" id="personalizationInput" maxlength="5" placeholder="WRITE HERE...">
-          <p class="text-popup">(UP TO 5 CHARACTERS)</p>
+          <p class="text-popup">(UP TO 5 CHARACTER)</p>
         </div>
       </div>
-      <button class="button product-form__buttons button--full-width" name="add" id="addToCartBtn"><b>Add to Cart</b>&nbsp;+£19</button>
+      <button class="button product-form__buttons button--full-width" name="add" id="addToCartBtn"><b>Save</b>&nbsp;+£19</button>
     </div>
     <div class="rightSide">
       <img id="productImage" src="{{ product.image | image_url }}" alt="Product Image">
@@ -199,28 +200,31 @@ document.addEventListener('DOMContentLoaded', function() {
   var colorSquares = document.querySelectorAll('.colorSquare');
   var personalizationInput = document.getElementById('personalizationInput');
   var personalizationText = document.getElementById('personalizationText');
+  var addToCartBtn = document.getElementById('addToCartBtn');
+  var personalizationData = document.getElementById('personalizationData');
 
   document.getElementById('personalizationBtn').addEventListener('click', function() {
     document.getElementById('personalizationPopup').style.display = 'flex';
     var firstProductImage = document.querySelector('.product__media img');
     var productImage = document.getElementById('productImage');
     productImage.src = firstProductImage.src;
+    personalizationBtn.textContent = 'Edit Personalization';
   });
 
   document.getElementById('closeIcon').addEventListener('click', function() {
     document.getElementById('personalizationPopup').style.display = 'none';
   });
 
-  document.getElementById('personalizationPopup').addEventListener('click', function(e) {
-    if (e.target.id === 'personalizationPopup') {
-      document.getElementById('personalizationPopup').style.display = 'none';
-    }
-  });
-
   colorSquares.forEach(function(square) {
     square.addEventListener('click', function() {
       var color = this.getAttribute('data-color');
       personalizationText.style.color = color;
+      square.classList.add('selected');
+      colorSquares.forEach(function(otherSquare) {
+        if (otherSquare !== square) {
+          otherSquare.classList.remove('selected');
+        }
+      });
     });
   });
 
@@ -228,37 +232,31 @@ document.addEventListener('DOMContentLoaded', function() {
     personalizationText.textContent = e.target.value;
   });
 
-  document.getElementById('addToCartBtn').addEventListener('click', function() {
+  addToCartBtn.addEventListener('click', function() {
     var productTitle = '{{ product.title }}';
     var personalization = personalizationInput.value;
-    var selectedColor = document.querySelector('.colorSquare.selected').getAttribute('data-color');
+    var selectedColor = document.querySelector('.colorSquare.selected').getAttribute('data-colour');
 
-    var item = {
-      title: productTitle + ' PERSONALIZATION',
-      price: 19,
-      properties: {
-        Personalization: personalization,
-        Color: selectedColor
-      }
-    };
+    var personalizationDataString =
+      productTitle + ' personalization<br>' +
+      "Price: £19<br>" +
+      "Embroidery: " + personalization + "<br>" +
+      "Colour: " + selectedColor;
 
-    // Use Shopify AJAX API to add item to the cart
-    fetch('/cart/add.js', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        items: [item]
-      })
-    })
-    .then(function(response) {
-      // Handle the response
-      console.log(response);
-    })
-    .catch(function(error) {
-      console.error('Error:', error);
-    });
+    personalizationData.innerHTML = personalizationDataString;
+
+    document.getElementById('personalizationPopup').style.display = 'none';
+
+    addPersonalizationToCart();
   });
+
+  function addPersonalizationToCart() {
+    var personalizationDataJSON = personalizationData.textContent;
+    if (!personalizationDataJSON) return; 
+
+    var personalizationDataObj = JSON.parse(personalizationDataJSON);
+    console.log('Personalization product added to cart:', personalizationDataObj);
+  }
+
 });
 </script>
