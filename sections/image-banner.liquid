@@ -60,6 +60,10 @@
     text-align: left;
   }
 
+  .banner-journal-box {
+    text-align: left;
+  }
+
   .banner__text {
     width: 80%;
     text-align: left;
@@ -166,7 +170,7 @@
       </div>
     {%- endif -%}
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-      <div class="banner__box {% if template contains 'collection' %}banner-collection-box{% endif %} content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
+      <div class="banner__box {% if template contains 'journal' %}banner-journal-box{% endif %} {% if template contains 'collection' %}banner-collection-box{% endif %} content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
@@ -179,7 +183,7 @@
               </div>
             {%- when 'buttons' -%}
               <div
-                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %} {% if template contains 'journal' %}blog__button{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {%- if block.settings.button_label_1 != blank -%}

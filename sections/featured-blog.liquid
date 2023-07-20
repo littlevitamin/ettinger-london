@@ -63,6 +63,10 @@
     display: flex;
     margin: 80px auto;
   }
+
+  .empty-blog {
+    display: none;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -73,7 +77,7 @@
   endif
 -%}
 <div class="blog {% if template contains 'about' %}relative-blog{% endif %} color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
-  <div class="blog-image-container">
+  <div class="blog-image-container {% if template contains 'journal' %}empty-blog{% endif %}">
     <span class="blog-border"><div class="tan-divider">hello</div></span>
     <img class="blog-image" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Frame_279.svg?v=1687349682" width="200px" height="70px"/>
     <span class="blog-border"><div class="tan-divider">hello</div></span>

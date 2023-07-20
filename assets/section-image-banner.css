@@ -113,6 +113,7 @@
   .banner__content.banner__content--bottom-left {
     align-items: flex-end;
     justify-content: flex-start;
+    margin-top: 200px;
   }
 
   .banner__content.banner__content--bottom-center {
