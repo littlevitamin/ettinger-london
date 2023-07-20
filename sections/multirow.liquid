@@ -35,6 +35,14 @@
     font-weight: 300;
     color: white;
   }
+
+  .multirow-personalization .image-with-text {
+    min-height: 600px;
+  }
+
+  .multirow-personalization h2 {
+    color: var(--gradient-base-accent-2);
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -66,7 +74,7 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="multirow__inner page-width">
+  <div class="multirow__inner page-width {% if template contains 'personalization' %}multirow-personalization{% endif %}">
     {%- for block in section.blocks -%}
       <div
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
