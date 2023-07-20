@@ -70,8 +70,8 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' %}multirow__wrapper{% endif %}">
-  <div id="contain" class="multirow__inner {% if template contains 'about' %}multirow__scroll{% else %}page-width{% endif %}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %}">
+  <div id="contain" class="multirow__inner {% if template contains 'about' or 'factory' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }} panel"

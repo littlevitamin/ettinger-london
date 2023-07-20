@@ -317,6 +317,7 @@
   width: 100%;
   word-wrap: break-word;
   z-index: 1;
+  background: transparent;
 }
 
 @media screen and (min-width: 750px) {
