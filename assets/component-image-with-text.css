@@ -149,6 +149,11 @@
   .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
     max-height: 350px;
   }
+  
+  .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
+  .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
+    max-height: -webkit-fill-available;
+  }
 }
 
 @media screen and (max-width: 749px) {
