@@ -34,7 +34,7 @@
         "image": "shopify:\/\/shop_images\/Rectangle_70.png",
         "enable_video": false,
         "video_url": "",
-        "image_overlay_opacity": 60,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,

@@ -70,8 +70,21 @@
     line-height: 21px;
     font-size: 12px;
     text-transform: uppercase;
-/*     font-weight: 600;
-    color: var(--gradient-base-accent-2); */
+  }
+  @media screen and (min-width: 750px) {
+    .text-over-image {
+      min-height: 76rem!important;
+    }
+
+    .text-over-image .banner__media {
+      margin-top: 250px;
+      height: 46rem;
+    }
+
+    .text-over-image h2,
+    .text-over-image .banner__text {
+      color: #121212;
+    }
   }
 
   #Banner-template--19283159777566__67b740cd-fb79-4fc8-95ba-3ff5337f155a > div:nth-child(2) > div.banner__content.banner__content--middle-left.page-width > div > div {
@@ -82,7 +95,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} {% if request.path contains '/topics' or request.path contains '/leather-care' %}text-over-image{% endif %}"
 >
   {% if section.settings.enable_video %}
     <div class="banner__media">
