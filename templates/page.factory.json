@@ -134,13 +134,27 @@
           "settings": {
             "collection": "heritage"
           }
+        },
+        "b06fd603-469d-46b1-b34b-81893e0db821": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-gifts"
+          }
+        },
+        "f107b4ae-08ed-4d89-97a4-a10b57caa1a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "metropolitan"
+          }
         }
       },
       "block_order": [
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-1",
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-2",
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3",
-        "ac1861e4-5e7a-482f-834d-93b1397f69a8"
+        "ac1861e4-5e7a-482f-834d-93b1397f69a8",
+        "b06fd603-469d-46b1-b34b-81893e0db821",
+        "f107b4ae-08ed-4d89-97a4-a10b57caa1a3"
       ],
       "settings": {
         "title": "OUR LEATHERS",
