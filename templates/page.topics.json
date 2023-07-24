@@ -47,6 +47,7 @@
     },
     "cc9d72b2-dd14-4150-a8b6-bfd4fb93743d": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--19982020182302__cc9d72b2-dd14-4150-a8b6-bfd4fb93743d-heading-1": {
           "type": "heading",

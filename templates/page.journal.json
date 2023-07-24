@@ -49,55 +49,49 @@
         "show_text_below": true
       }
     },
-    "db0edc3e-ca60-4a6c-ab26-82abecf1fd37": {
-      "type": "multirow",
-      "disabled": true,
+    "c248f5cf-92b0-48f4-b23d-58c3a95af572": {
+      "type": "image-with-text",
       "blocks": {
-        "bd61a935-dc3d-4c67-be95-decadc4d3bd7": {
-          "type": "row",
+        "template--19981996163358__c248f5cf-92b0-48f4-b23d-58c3a95af572-heading-1": {
+          "type": "heading",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "heading": "THE TOPICS",
+            "heading_size": "h2"
+          }
+        },
+        "template--19981996163358__c248f5cf-92b0-48f4-b23d-58c3a95af572-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Refine by article theme from all editions<br\/><br\/><a href=\"\/blogs\/news\" title=\"News\">NEWS<\/a><br\/><a href=\"\/blogs\/style\" title=\"Style\">STYLE<\/a><br\/><a href=\"\/blogs\/lifestyle\" title=\"Lifestyle\">LIFESTYLE<\/a><br\/><a href=\"\/blogs\/behind-the-brand\" title=\"Behind The Brand\">BEHIND THE BRAND<\/a><br\/><a href=\"\/blogs\/interviews\" title=\"Interviews\">INTERVIEWS<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "519e81d9-9670-4e5d-84fd-cbdf1124e043": {
+          "type": "caption",
+          "settings": {
+            "caption": "Explore the world of Ettinger in the articles below, where you will find a wealth of information about our personal stories, our place in history, some nods to people we admire, a glimpse into the British luxury leather goods industry and a deeper insight into our beginnings.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
-        "bd61a935-dc3d-4c67-be95-decadc4d3bd7"
+        "template--19981996163358__c248f5cf-92b0-48f4-b23d-58c3a95af572-heading-1",
+        "template--19981996163358__c248f5cf-92b0-48f4-b23d-58c3a95af572-text-1",
+        "519e81d9-9670-4e5d-84fd-cbdf1124e043"
       ],
       "settings": {
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/Capra_group_1_1.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
+        "layout": "image_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "enable_video": true,
-        "video_url": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "e5724cce-e348-435d-8216-726d0bd7bcf4": {
@@ -138,8 +132,7 @@
   "order": [
     "main",
     "69786272-ce6f-41df-88d5-a13f76b893c0",
-    "db0edc3e-ca60-4a6c-ab26-82abecf1fd37",
-    "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
+    "c248f5cf-92b0-48f4-b23d-58c3a95af572",
     "e5724cce-e348-435d-8216-726d0bd7bcf4",
     "be9fc443-ebd8-4123-9c5f-32474bb60f38"
   ]
