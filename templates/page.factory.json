@@ -173,6 +173,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "423510c1-700c-4401-88c7-1c96827a3757": {
+      "type": "second-scrolling-section",
+      "blocks": {
+        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_1_-_Leathers_selected_by_Gary_1.png",
+            "caption": "",
+            "heading": "CRAFTSPEOPLE",
+            "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shaun_Bloodworth_4_1.png",
+            "caption": "\"Most of us have one or several family members that have worked in the small leather goods making industry\"",
+            "heading": "CRAFTSPEOPLE",
+            "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.  <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-1",
+        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-2"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -181,6 +227,7 @@
     "84f0e71e-b677-4469-93a2-195177bc1beb",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
     "8c0e7dba-1be8-4a00-91ab-5202adf80b6d",
-    "e5724cce-e348-435d-8216-726d0bd7bcf4"
+    "e5724cce-e348-435d-8216-726d0bd7bcf4",
+    "423510c1-700c-4401-88c7-1c96827a3757"
   ]
 }
