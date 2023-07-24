@@ -178,6 +178,76 @@
         "show_text_below": true
       }
     },
+    "69bad005-e029-4d84-84b3-26a0f3ad9e38": {
+      "type": "second-scrolling-section",
+      "blocks": {
+        "template--19689578070302__69bad005-e029-4d84-84b3-26a0f3ad9e38-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gerry_Ettinger_1960s657.png",
+            "caption": "",
+            "heading": "THE FOUNDER",
+            "text": "<p>Born in Prussia, Gerry Ettinger founded the family firm in London in 1934, having previously built an extensive list of contacts throughout Europe. Thanks to his natural ability for languages and his engaging character, he had worked in his native Germany, Italy and Switzerland, in various industries. The vagaries of history meant he had to move to London in 1933 and found employment as the UK representative for several German factories producing leather goods, jewellery and gifts. In 1934, Herion of Pforzheim – a German leather goods manufacturer – offered him the exclusive agency for the UK and he was set up with an office in Regent Street in London. He applied his talents to supplying the best department stores of the time with unique luxury gifts and leather goods and the business soon became “G Ettinger Ltd”. With Asprey’s, Harrods and Fortnum’s soon becoming regular customers, his reputation rapidly gained ground. A tireless worker and great enthusiast, he worked late into his 90s and passed over the reins of the company to his eldest son, Robert, in 1990.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19689578070302__69bad005-e029-4d84-84b3-26a0f3ad9e38-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Robert___Paul_Skiing_low_res.png",
+            "caption": "",
+            "heading": "THE FOUNDER",
+            "text": "<p>Brought up in London, Vienna and France, Robert quickly developed his father’s gift for languages and curiosity towards new cultures. With his younger brother, Paul, he displayed evident sportsmanlike abilities and particularly enjoyed Alpine skiing. Keen to discover the world for himself, Robert went off into business apprenticeships abroad from an early age. First in Germany, learning all aspects of the marble gifting industry, then in Canada, where he spent several years working in luxury jewellery retail with Mappins.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19689578070302__69bad005-e029-4d84-84b3-26a0f3ad9e38-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Robert_Ettinger_1.png",
+            "caption": "",
+            "heading": "THE FOUNDER",
+            "text": "<p>In 1980, Robert entered the family business and in 1995 took over the reins from his father, Gerry Ettinger, when he became the Managing Director of Ettinger, London. When the company was granted a Royal Warrant to HRH The Prince of Wales in 1996, Robert set-off to build Ettinger as an internationally recognised brand whilst maintaining its crucially important UK design and manufacturing base. Robert has always ensured Ettinger leather goods remain top quality products, on a par with all the big international luxury brands, ensuring the company’s reputation abroad kept growing.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "f82b7480-0de9-4895-b5ce-a5999583ebf0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2494flat_1.png",
+            "caption": "",
+            "heading": "THE FOUNDER",
+            "text": "<p>Robert’s hobbies are snow skiing, long distance cycling (particularly overseas and in Japan, Oman, Uruguay, India and Greece to date), daily early morning swims, playing the guitar and yoga. Robert loves to travel and continues to explore new countries and destinations every year.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19689578070302__69bad005-e029-4d84-84b3-26a0f3ad9e38-row-1",
+        "template--19689578070302__69bad005-e029-4d84-84b3-26a0f3ad9e38-row-2",
+        "template--19689578070302__69bad005-e029-4d84-84b3-26a0f3ad9e38-row-3",
+        "f82b7480-0de9-4895-b5ce-a5999583ebf0"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e5724cce-e348-435d-8216-726d0bd7bcf4": {
       "type": "featured-blog",
       "settings": {
@@ -202,6 +272,7 @@
     "db0edc3e-ca60-4a6c-ab26-82abecf1fd37",
     "ecbfcb2f-7638-4de4-a9c4-7a4f49197bcf",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
+    "69bad005-e029-4d84-84b3-26a0f3ad9e38",
     "e5724cce-e348-435d-8216-726d0bd7bcf4"
   ]
 }
