@@ -86,8 +86,8 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}factory-scroll{% endif %}">
-    <div class="blog-image-container   {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}factory-scroll{% endif %} {% if request.path contains '/about-us' %}multirow-scrolling{% endif %}">
+    <div class="blog-image-container {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         <video 
             style="height: 150px; width: 150px" 
