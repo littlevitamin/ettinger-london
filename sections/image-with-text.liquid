@@ -80,7 +80,7 @@
     line-height: 20px;
   }
 
-    .blog-image-container {
+  .blog-image-container {
     display: flex;
     justify-content: space-around;
     width: 95%;
@@ -103,13 +103,6 @@
     margin: 80px auto;
   }
 
-  .empty-blog {
-    display: none;
-  }
-
-  .relative-blog .blog-image-container {
-    display: flex!important;
-  }
 {%- endstyle -%}
 
 <div class="image-with-text {% if request.path contains '/journal' %}topics-image-with-text{% endif %} image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
