@@ -4759,3 +4759,10 @@ sticky-header > header > nav > ul > li > a > span {
 div.banner__media::after {
   display: none!important;
 }
+
+@media screen and (min-width: 750px) {
+  .multirow__scroll .image-with-text__media > img {
+    object-fit: contain!important;
+    top: -100px;
+  }
+}

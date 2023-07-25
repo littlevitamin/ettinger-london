@@ -40,6 +40,27 @@
     width: 100vw;
     padding: 10px;
   }
+
+  .multirow-scrolling .image-with-text__content {
+  display: flex;
+}
+
+.multirow-scrolling .image-with-text__heading {
+  order: 1;
+  font-size: 36px;
+}
+
+.multirow-scrolling .image-with-text__text {
+  order: 2;
+  font-size: 14px;
+}
+
+.multirow-scrolling .image-with-text__text--caption {
+  order: 3;
+  font-size: 24px;
+  color: black;
+  text-transform: capitalize;
+}
 {%- endstyle -%}
 
 {%- liquid
@@ -70,7 +91,7 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}multirow-scrolling{% endif %}">
   <div id="contains" class="multirow__inner {% if template contains 'about' or 'factory' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div

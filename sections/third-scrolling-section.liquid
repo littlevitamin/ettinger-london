@@ -39,6 +39,23 @@
     width: 100vw;
     padding: 10px;
   }
+
+  .factory-scroll .image-with-text__heading,
+  .factory-scroll .image-with-text__text--caption {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'Gotham Medium', sans-serif;
+  }
+
+  .factory-scroll .image-with-text__text--caption {
+    color: var(--gradient-base-accent-2);
+    text-transform: capitalize;
+    margin: 0;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -69,7 +86,7 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}factory-scroll{% endif %}">
     <div class="blog-image-container   {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         <video 
