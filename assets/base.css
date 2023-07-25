@@ -4639,6 +4639,31 @@ sticky-header > header > nav > ul > li > a > span {
 
 /* Dividers styling */
 
+.blog-image-container {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.list-border {
+  height: 75px;
+  width: 35%;
+  position: relative;
+  top: 75px;
+}
+
+.blog-image {
+  display: flex;
+  margin: 80px auto;
+  max-width: 300px;
+}
+
+
+.empty-divider {
+  display: none!important;
+}
+
 .divider {
   width: 95%;
   height: 2px;

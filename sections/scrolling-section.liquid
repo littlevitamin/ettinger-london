@@ -71,6 +71,19 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %}">
+    <div class="blog-image-container   {% if request.path contains '/about-us' %}empty-divider{% endif %}">
+        <span class="list-border"><div class="grey-divider">hello</div></span>
+        <video 
+            style="height: 150px; width: 150px" 
+            autoplay 
+            muted
+            playsinline 
+            loading="lazy"
+        >
+            <source src="https://cdn.shopify.com/videos/c/o/v/5715306dfcc849bca518b314d0119430.mp4" />
+        </video>
+        <span class="list-border"><div class="grey-divider">hello</div></span>
+    </div>
   <div id="contain" class="multirow__inner {% if template contains 'about' or 'factory' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div
@@ -162,8 +175,8 @@
     var scrollingMargins = document.querySelectorAll('.panel');
     var elementMaxHeights = document.querySelectorAll('.image-with-text__grid');
     var viewportHeight = window.innerHeight;
-    var marginHeight = 0.2 * viewportHeight; 
-    var elementHeight = 0.5 * viewportHeight; 
+    var marginHeight = 0.15 * viewportHeight; 
+    var elementHeight = 0.7 * viewportHeight; 
 
     scrollingMargins.forEach(function(scrollingMargin) {
       scrollingMargin.style.marginTop = marginHeight + 'px';

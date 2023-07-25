@@ -48,26 +48,6 @@
     letter-spacing: 0.04em;
   }
 
-  .blog-image-container {
-    display: flex;
-    justify-content: space-around;
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .list-border {
-    height: 75px;
-    width: 35%;
-    position: relative;
-    top: 75px;
-  }
-
-  .blog-image {
-    display: flex;
-    margin: 80px auto;
-    max-width: 300px;
-  }
-
   @media screen and (min-width: 990px) {
     .swiper-mobile {
       display: none!important;
@@ -99,7 +79,7 @@
 -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="blog-image-container">
+  <div class="blog-image-container {% if reuqest.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
     <span class="list-border"><div class="grey-divider">hello</div></span>
       <video 
         style="height: 150px; width: 150px" 
