@@ -3237,7 +3237,8 @@ sticky-header > header > nav > ul > li > a > span {
   border: 0!important;
 }
 
-.footer-block__image-wrapper {
+.footer-block__image-wrapper,
+.image-with-text__media {
   border: 0;
 }
 
@@ -4765,4 +4766,25 @@ div.banner__media::after {
     object-fit: contain!important;
     top: -100px;
   }
+}
+
+.multirow-scrolling .image-with-text__content {
+  display: flex;
+}
+
+.multirow-scrolling .image-with-text__heading {
+  order: 1;
+  font-size: 36px;
+}
+
+.multirow-scrolling .image-with-text__text {
+  order: 2;
+  font-size: 14px;
+}
+
+.multirow-scrolling .image-with-text__text--caption {
+  order: 3;
+  font-size: 24px;
+  color: black;
+  text-transform: capitalize;
 }
