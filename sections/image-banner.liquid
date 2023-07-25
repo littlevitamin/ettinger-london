@@ -64,6 +64,12 @@
     text-align: left;
   }
 
+  .journal__button {
+    background-color: var(--gradient-base-accent-2);
+    color: white;
+    border-radius: 3px;
+  }
+
   .banner__text {
     width: 80%;
     text-align: left;
@@ -196,7 +202,7 @@
               </div>
             {%- when 'buttons' -%}
               <div
-                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %} {% if template contains 'journal' %}blog__button{% endif %}"
+                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %} {% if template contains 'journal' %}journal__button{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {%- if block.settings.button_label_1 != blank -%}
