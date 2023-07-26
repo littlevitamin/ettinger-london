@@ -272,7 +272,3 @@ cart-items {
 .cart-item .product-option > dd {
   text-transform: uppercase;
 }
-
-.cart-item .product-option:last-child {
-  display: none;
-}
