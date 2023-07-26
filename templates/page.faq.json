@@ -83,60 +83,122 @@
         "padding_bottom": 36
       }
     },
-    "00276728-6d66-4bfe-8ed1-6daf406e1e05": {
+    "dee29186-129a-4007-b333-587377141a1b": {
       "type": "collapsible-content",
       "blocks": {
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-1": {
+        "72bed44c-2843-47f1-9e52-faefe7639b98": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Lorem ipsum dolor sit amet ?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
             "page": ""
           }
         },
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-2": {
+        "b2ab8c87-5382-4058-a546-0ed9d7ff1b21": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Lorem ipsum dolor sit amet ?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-1",
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-2",
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-3",
-        "template--20089871302942__00276728-6d66-4bfe-8ed1-6daf406e1e05-collapsible_row-4"
+        "72bed44c-2843-47f1-9e52-faefe7639b98",
+        "b2ab8c87-5382-4058-a546-0ed9d7ff1b21"
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading": "Orders",
+        "heading_size": "h2",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bc615fd8-1b4b-4281-a81a-f71318744f58": {
+      "type": "collapsible-content",
+      "blocks": {
+        "586044da-7fe3-4632-80ad-4a1258df62c3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet ?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "page": ""
+          }
+        },
+        "6d963297-f9a7-4c99-8019-8f4a9622def9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet ?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "586044da-7fe3-4632-80ad-4a1258df62c3",
+        "6d963297-f9a7-4c99-8019-8f4a9622def9"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Payments",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b483e6d6-4dc9-4555-b975-e7b6a2abf6e8": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1770292e-b9d6-4587-9ad8-64adc751a183": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet ?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "page": ""
+          }
+        },
+        "6e8f2b4e-da65-4665-a99b-d2c52639eb31": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet ?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1770292e-b9d6-4587-9ad8-64adc751a183",
+        "6e8f2b4e-da65-4665-a99b-d2c52639eb31"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Refunds & Returns",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -149,6 +211,8 @@
     "main",
     "c628f50d-fe51-4c5d-b14d-81252449408c",
     "8191eb44-9706-4a10-b73e-fef8c9cf32d1",
-    "00276728-6d66-4bfe-8ed1-6daf406e1e05"
+    "dee29186-129a-4007-b333-587377141a1b",
+    "bc615fd8-1b4b-4281-a81a-f71318744f58",
+    "b483e6d6-4dc9-4555-b975-e7b6a2abf6e8"
   ]
 }
