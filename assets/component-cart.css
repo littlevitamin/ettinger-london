@@ -134,7 +134,7 @@ cart-items {
 
   .cart__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     border: 0;
   }
 
@@ -283,7 +283,8 @@ cart-items {
   text-transform: uppercase;
 }
 
-.cart-item > td.cart-item__details > div {
+.cart-item > td.cart-item__details > div,
+.cart__note {
   display: none;
 } 
 
