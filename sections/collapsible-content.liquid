@@ -28,7 +28,7 @@
           <a class="faq-link" href="https://ettinger-1.myshopify.com/pages/faq#:~:text=Refunds%20%26%20Returns,-Lorem%20ipsum%20dolor">Refunds</a>
         </div>
       {% endif %}
-      <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
+      <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %} {% if section.settings.enable_menu %}accordion-menu{% endif %}">
         <div class="collapsible-content__header" style="text-align: {{ section.settings.heading_alignment }};">
           {%- if section.settings.caption != blank -%}
             <p class="caption-with-letter-spacing">{{ section.settings.caption | escape }}</p>
