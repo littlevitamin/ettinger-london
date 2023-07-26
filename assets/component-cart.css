@@ -288,6 +288,10 @@ cart-items {
   display: none;
 } 
 
+.quantity__button {
+  color: var(--gradient-base-accent-2);
+}
+
 #checkout {
   background-color: var(--gradient-base-accent-2);
   text-transform: uppercase;
