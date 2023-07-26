@@ -69,6 +69,14 @@
   display: none;
 }
 
+.featured-product .product__info-wrapper .product__view-details {
+  height: 44px;
+}
+
+.featured-product .product__info-wrapper .product__view-details > svg > path {
+  fill: var(--gradient-base-accent-2);
+}
+
 @media screen and (min-width: 990px) {
   .background-secondary .featured-product:not(.product--no-media) > .product__info-wrapper {
     padding: 0 0 0 5rem;
