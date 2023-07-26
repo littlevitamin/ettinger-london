@@ -142,6 +142,11 @@
   text-decoration: none;
 }
 
+.faq-link: hover,
+.collapsible-content-menu .image-with-text__heading {
+  color: var(--gradient-base-accent-2);
+}
+
 .accordion-menu {
   width: 50%;
   margin: 0;
