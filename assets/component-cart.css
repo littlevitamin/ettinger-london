@@ -276,3 +276,7 @@ cart-items {
 .cart-item > td.cart-item__details > div {
   display: none;
 } 
+
+#checkout {
+  background-color: var(--gradient-base-accent-2);
+}
