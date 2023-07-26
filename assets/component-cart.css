@@ -279,4 +279,9 @@ cart-items {
 
 #checkout {
   background-color: var(--gradient-base-accent-2);
+  text-transform: uppercase;
+}
+
+#checkout:hover {
+  background-color: white;
 }
