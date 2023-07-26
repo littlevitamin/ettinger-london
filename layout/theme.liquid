@@ -529,20 +529,6 @@
     }
   </script>
 
-    <script>
-  // Step 1: Select the source container
-  const sourceContainer = document.querySelector('.collapsible-content-wrapper-narrow');
-
-  // Step 2: Get the height of the source container
-  const sourceContainerHeight = sourceContainer.offsetHeight;
-
-  // Step 3: Select the target container
-  const targetContainer = document.querySelector('.collapsible-content__wrapper');
-
-  // Step 4: Assign the height to the target container
-  targetContainer.style.height = `${sourceContainerHeight}px`;
-</script>
-
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
