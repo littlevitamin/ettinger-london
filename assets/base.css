@@ -80,7 +80,8 @@
 
 .button--secondary {
   --color-button: var(--color-base-outline-button-labels);
-/*   --color-button-text: var(--color-base-outline-button-labels); */
+/*   --color-button-text: var(--color-base-outline-button-labels);  */
+  --color-button-text: var(--gradient-base-accent-2); 
   --color-button: var(--color-background);
   --alpha-button-background: 1;
 }
