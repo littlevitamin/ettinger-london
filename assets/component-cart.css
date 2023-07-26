@@ -221,3 +221,58 @@ cart-items {
     gap: 1rem;
   }
 }
+
+/* Cart page fonts and colours */
+
+.title-wrapper-with-link {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.title-wrapper-with-link .title {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.title-wrapper-with-link .underlined-link {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.caption-with-letter-spacing {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.cart-item__name {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+}
+
+.cart-item .product-option > dd {
+  text-transform: uppercase;
+}
+
+.cart-item .product-option:first-child {
+  display: none;
+}
