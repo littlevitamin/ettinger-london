@@ -131,6 +131,7 @@
 .collapsible-content-menu {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .faq-link {
@@ -139,4 +140,9 @@
   line-height: 41px;
   font-weight: 300;
   text-decoration: none;
+}
+
+.accordion-menu {
+  width: 50%;
+  margin: 0;
 }
