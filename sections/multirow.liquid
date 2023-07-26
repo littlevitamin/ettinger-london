@@ -43,6 +43,10 @@
   .multirow-personalization h2 {
     color: var(--gradient-base-accent-2);
   }
+
+  .multirow-max-width {
+    max-width: 100%!important;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -83,7 +87,7 @@
         <div class="image-with-text__grid {% if template contains 'about' %}multirow-maxheight{% endif %} {% if template contains 'product' %}multirow-product{% endif %} grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
           <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
             <div
-              class="image-with-text__media {% if template contains 'product' %}multirow-content{% endif %} image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
+              class="image-with-text__media {% if template contains 'product' %}multirow-content{% endif %} {% if request.path contains '/faq' %}multirow-max-width{% endif %} image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
               {% if section.settings.image_height == 'adapt' and block.settings.image != blank %}
                 style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
