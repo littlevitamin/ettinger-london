@@ -253,7 +253,7 @@ cart-items {
   text-decoration: none;
 }
 
-.cart-item .caption-with-letter-spacing {
+.cart-items .caption-with-letter-spacing {
   font-family: 'Gotham Medium', sans-serif;
   font-size: 13px;
   line-height: 16px;
