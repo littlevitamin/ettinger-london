@@ -269,6 +269,15 @@ cart-items {
   text-transform: uppercase;
 }
 
+.totals__subtotal,
+.totals__subtotal-value {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  color: black;
+}
+
 .cart-item .product-option > dd {
   text-transform: uppercase;
 }
