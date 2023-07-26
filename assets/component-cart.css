@@ -273,6 +273,6 @@ cart-items {
   text-transform: uppercase;
 }
 
-.cart-item .product-option:first-child {
+.cart-item .product-option:last-child {
   display: none;
 }
