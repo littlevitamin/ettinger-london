@@ -48,6 +48,10 @@
   float: right;
 }
 
+.collapsible-content__wrapper {
+  min-height: 400px;
+}
+
 .collapsible-content__header {
   word-break: break-word;
 }
