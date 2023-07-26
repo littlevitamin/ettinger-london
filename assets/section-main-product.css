@@ -1470,4 +1470,6 @@ button[name="add"] {
   background: var(--gradient-base-accent-2);
   font-size: 13px;
   text-transform: uppercase;
+  color: white;
+  --border-offset: white;
 }
