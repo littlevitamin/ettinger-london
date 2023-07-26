@@ -52,6 +52,14 @@
   margin: auto;
 }
 
+.featured-product .product__info-wrapper .product__title {
+  font-size: 30px;
+  font-family: 'Gotham Medium', sans-serif;
+  text-transform: uppercase;
+  line-height: 36px;
+  color: #121212;
+}
+
 @media screen and (min-width: 990px) {
   .background-secondary .featured-product:not(.product--no-media) > .product__info-wrapper {
     padding: 0 0 0 5rem;
