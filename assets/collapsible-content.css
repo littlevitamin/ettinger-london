@@ -142,9 +142,9 @@
   text-decoration: none;
 }
 
-.faq-link: hover,
+.faq-link:hover,
 .collapsible-content-menu .image-with-text__heading {
-  color: var(--gradient-base-accent-2);
+  color: var(--gradient-base-accent-2)!important;
 }
 
 .accordion-menu {
