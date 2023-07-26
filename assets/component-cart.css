@@ -249,6 +249,7 @@ cart-items {
   font-weight: 300;
   color: #777777;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .caption-with-letter-spacing {
