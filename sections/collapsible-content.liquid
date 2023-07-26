@@ -18,7 +18,7 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
-    <div class="collapsible-content__wrapper page-width section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
+    <div class="collapsible-content__wrapper page-width section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}" {% if section.settings.enable_menu %}style="display: flex;"{% endif %}>
       {% if section.settings.enable_menu %}
         <div class="collapsible-content-menu">
           <h2 class="image-with-text__heading">FAQs</h2>
