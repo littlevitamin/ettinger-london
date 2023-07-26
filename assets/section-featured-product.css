@@ -60,6 +60,15 @@
   color: #121212;
 }
 
+.featured-product .product__info-wrapper .share-button__button,
+.featured-product .product__info-wrapper .share-button__button .icon-share {
+  color: #777777;
+}
+
+.featured-product .product__info-wrapper .product__tax {
+  display: none;
+}
+
 @media screen and (min-width: 990px) {
   .background-secondary .featured-product:not(.product--no-media) > .product__info-wrapper {
     padding: 0 0 0 5rem;
