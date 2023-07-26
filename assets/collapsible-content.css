@@ -68,11 +68,6 @@
   }
 }
 
-.collapsible-content-menu {
-  display: inline;
-  width: 50%;
-}
-
 .collapsible-none-layout .accordion + .accordion {
   border-top: 0;
 }
@@ -133,6 +128,10 @@
 }
 
 /* Custom menu section */
+.collapsible-content-menu {
+  display: flex;
+  flex-direction: column;
+}
 
 .faq-link {
   color: #777777;
