@@ -233,7 +233,8 @@ cart-items {
   text-transform: uppercase;
 }
 
-.title-wrapper-with-link .title {
+.title-wrapper-with-link .title,
+.cart__empty-text {
   font-family: 'Gotham Medium', sans-serif;
   font-size: 24px;
   line-height: 29px;
@@ -292,11 +293,13 @@ cart-items {
   color: var(--gradient-base-accent-2);
 }
 
-#checkout {
+#checkout,
+.cart__warnings .button {
   background-color: var(--gradient-base-accent-2);
   text-transform: uppercase;
 }
 
-#checkout:hover {
+#checkout:hover,
+.cart__warnings .button:hover {
   background-color: white;
 }
