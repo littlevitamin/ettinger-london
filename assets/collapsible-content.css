@@ -131,3 +131,13 @@
     }
   }
 }
+
+/* Custom menu section */
+
+.faq-link {
+  color: #777777;
+  font-size: 24px;
+  line-height: 41px;
+  font-weight: 300;
+  text-decoration: none;
+}
