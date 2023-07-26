@@ -44,13 +44,7 @@
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   max-width: 73.4rem;
-  width: 50%;
-  float: right;
 }
-/* 
-.collapsible-content__wrapper {
-  min-height: 400px;
-} */
 
 .collapsible-content__header {
   word-break: break-word;
