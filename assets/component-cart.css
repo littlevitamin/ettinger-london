@@ -272,3 +272,7 @@ cart-items {
 .cart-item .product-option > dd {
   text-transform: uppercase;
 }
+
+.cart-item > td.cart-item__details > div {
+  display: none;
+} 
