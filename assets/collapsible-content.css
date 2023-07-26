@@ -183,3 +183,18 @@
   width: 50%;
   margin: 0;
 }
+
+.menu-accordion-section {
+  display: flex;
+}
+
+@media screen and (max-width: 749px) {
+  .menu-accordion-section {
+    flex-direction: column;
+  }
+
+  .accordion-menu,
+  .collapsible-content-menu {
+    width: 100%;
+  }
+}
