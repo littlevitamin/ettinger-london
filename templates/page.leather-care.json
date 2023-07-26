@@ -75,13 +75,14 @@
         },
         "template--19982018511134__74339e0d-d21f-4ce7-8908-44a06851b3ab-quantity_selector-1": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "template--19982018511134__74339e0d-d21f-4ce7-8908-44a06851b3ab-buy_buttons-1": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "template--19982018511134__74339e0d-d21f-4ce7-8908-44a06851b3ab-share-1": {
