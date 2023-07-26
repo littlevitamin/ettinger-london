@@ -68,6 +68,11 @@
   }
 }
 
+.collapsible-content-menu {
+  display: inline;
+  width: 50%;
+}
+
 .collapsible-none-layout .accordion + .accordion {
   border-top: 0;
 }
