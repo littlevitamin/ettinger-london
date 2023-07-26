@@ -281,7 +281,7 @@ html.no-js .no-js-hidden {
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    padding: 0 1.5rem;
   }
 
   .header-wrapper {
@@ -3156,12 +3156,14 @@ sticky-header > header > nav > ul > li > a > span {
 .collage .card__heading {
   font-family: 'Gotham Medium', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 300;
+  font-size: 14px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #121212;
+  color: #777777!important;
   text-transform: uppercase;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
 .collage .card__heading .icon-wrap {
@@ -3360,7 +3362,7 @@ sticky-header > header > nav > ul > li > a > span {
 .customer-services-menu {
   position: relative;
   display: flex;
-  margin-right: 70%;
+  margin-right: 75%;
   color: white;
   align-items: center;
 }
@@ -4787,4 +4789,30 @@ div.banner__media::after {
   font-size: 24px;
   color: black;
   text-transform: capitalize;
+}
+
+/* Feedback points */
+
+@media screen and (min-width: 1300px) {
+  .customer-services-menu {
+    margin-right: 80%;
+  }
+
+  .collection-list-subheading {
+    width: 30%!important;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .customer-services-menu {
+    margin-right: 77%;
+  }
+
+  .collection-list-subheading {
+    width: 40%!important;
+  }
+}
+
+.submenu-item:last-child {
+  border-bottom: 0;
 }
