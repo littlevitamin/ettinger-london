@@ -4856,6 +4856,14 @@ div.banner__media::after {
   }
 }
 
+#MegaMenu-Content-4 > ul > li > a {
+  font-size: 10px;
+  line-height: 12px;
+  color: #777;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .footer-block__newsletter {
   background-color: rgba(0, 0, 0, 0.2);
 }
