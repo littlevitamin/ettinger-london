@@ -222,8 +222,7 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio'] + label:hover:before,
-.product-form__input input[type='radio'] + label:focus:before,
-.product-form__input input[type='radio'] + label:active:before {
+.product-form__input.active input[type='radio'] + label:before {
   padding-bottom: 35px;
   border-bottom: 1px solid black;
   border-width: thin;
