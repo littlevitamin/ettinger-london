@@ -4863,6 +4863,10 @@ div.banner__media::after {
   font-weight: 300!important;
 }
 
+#MegaMenu-Content-4 > ul > li > a:hover {
+  color: var(--gradient-base-accent-2)!important;
+}
+
 .footer-block__newsletter {
   background-color: rgba(0, 0, 0, 0.2);
 }
