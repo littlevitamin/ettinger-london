@@ -529,6 +529,15 @@
     }
   </script>
 
+  <script>
+    $(document).ready(function() {
+      $('.product-form__input label').click(function() {
+        $(this).parent().toggleClass('active');
+      });
+    });
+  </script>
+    
+
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
