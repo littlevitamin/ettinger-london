@@ -4874,8 +4874,8 @@ div.banner__media::after {
 .mobile-facets__summary,
 .mobile-facets__close-button {
   text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Gotham Medium', sans-serif;
+  font-weight: bold!important;
+  font-family: 'Gotham Medium', sans-serif!important;
 }
 
 /* Cart drawer styling */
