@@ -4848,6 +4848,10 @@ div.banner__media::after {
   font-weight: 300;
 }
 
+#CartDrawer-CartItems .cart-item__quantity {
+  display: none;
+}
+
 #CartDrawer-CartItems .product-option > dd,
 #CartDrawer-CartItems .product-option > dt {
   font-size: 6px;
