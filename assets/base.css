@@ -3796,6 +3796,14 @@ sticky-header > header > nav > ul > li > a > span {
   background: linear-gradient(-45deg, #286a4a 49%, #f3aa36 51%, #f3aa36 100%);
 }
 
+.color-ettinger-grey {
+  background-color: #756f6f;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
 .color-ettinger-grey-london-tan {
   background-color: #756f6f;
   color: transparent!important;
