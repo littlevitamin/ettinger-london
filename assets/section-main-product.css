@@ -221,11 +221,9 @@ fieldset.product-form__input .form__label {
   box-shadow: var(--variant-pills-shadow-horizontal-offset) var(--variant-pills-shadow-vertical-offset) var(--variant-pills-shadow-blur-radius) rgba(var(--color-shadow), var(--variant-pills-shadow-opacity));
 }
 
-.product-form__input input[type='radio'] + label:hover:before,
-.product-form__input.active input[type='radio'] + label:before {
+.product-form__input input[type='radio'] + label:hover:before {
   padding-bottom: 35px;
   border-bottom: 1px solid black;
-  border-width: thin;
   border-radius: 0;
 }
 
