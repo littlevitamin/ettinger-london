@@ -4846,6 +4846,10 @@ div.banner__media::after {
   footer > div.footer__content-top > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.grid--5-col-tablet.page-width.mobile-flex > div:nth-child(5) {
     margin: 0!important;
   }
+
+  .footer-block-image {
+    margin: 20px 0;
+  }
 }
 
 /* Cart drawer styling */
