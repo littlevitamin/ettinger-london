@@ -4880,7 +4880,7 @@ div.banner__media::after {
 }
 
 .active-facets__button-inner {
-  padding: 2px 8px!important;
+  padding: 5px 8px!important;
   background-color: white!important;
   color: #777777!important;
   border-radius: 3px!important;
