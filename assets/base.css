@@ -4835,3 +4835,23 @@ div.banner__media::after {
 .submenu-item:last-child {
   border-bottom: 0;
 }
+
+/* Cart drawer styling */
+
+#CartDrawer-CartItems .cart-item__name {
+  font-size: 10px;
+  font-family: 'Gotham Medium', sans-serif;
+  text-decoration: none;
+  color: black;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+#CartDrawer-CartItems .product-option > dd {
+  font-size: 6px;
+  font-family: 'Gotham Medium', sans-serif;
+  text-decoration: none;
+  color: #777777;
+  line-height: 9px;
+  font-weight: 300;
+}
