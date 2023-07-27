@@ -4892,6 +4892,10 @@ div.banner__media::after {
   box-shadow: none!important;
 }
 
+.mobile-facets__submenu > ul > li:nth-child(2) > label {
+  display: none;
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
