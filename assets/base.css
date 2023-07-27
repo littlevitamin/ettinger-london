@@ -4880,14 +4880,14 @@ div.banner__media::after {
 }
 
 .active-facets__button-inner {
-  padding: 2px 8px;
-  background-color: white;
-  color: #777777;
+  padding: 2px 8px!important;
+  background-color: white!important;
+  color: #777777!important;
 }
 
 .active-facets__button-inner:hover {
-  background-color: white;
-  color: var(--gradient-base-accent-2);
+  background-color: white!important;
+  color: var(--gradient-base-accent-2)!important;
 }
 
 /* Cart drawer styling */
