@@ -4850,6 +4850,10 @@ div.banner__media::after {
   .footer-block-image {
     margin: 20px 0;
   }
+
+  .collage .card__inner {
+    aspect-ratio: 1;
+  }
 }
 
 /* Cart drawer styling */
