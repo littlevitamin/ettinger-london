@@ -4871,6 +4871,11 @@ div.banner__media::after {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.mobile-facets__summary {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
