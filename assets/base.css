@@ -4836,7 +4836,8 @@ div.banner__media::after {
   border-bottom: 0;
 }
 
-.field__input:focus {
+.field__input:focus,
+.field:hover.field:after {
   box-shadow: none;
 }
 
