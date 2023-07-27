@@ -151,6 +151,8 @@ function getColorClass(color) {
       return 'color-purple-silver';
     case 'Pale Blue/Silver':
       return 'color-pale-blue-silver';
+    case 'Dark Tan':
+      return 'color-dark-tan';
     case 'Oxblood/Silver':
       return 'color-oxblood-silver';
     case 'Acorn/Silver':
