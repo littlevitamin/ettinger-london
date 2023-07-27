@@ -3686,6 +3686,7 @@ sticky-header > header > nav > ul > li > a > span {
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px;
 }
 
 .color-purple {
@@ -3718,6 +3719,7 @@ sticky-header > header > nav > ul > li > a > span {
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px;
 }
 
 .color-black-london-tan {
@@ -3802,6 +3804,7 @@ sticky-header > header > nav > ul > li > a > span {
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px;
 }
 
 .color-ettinger-grey-london-tan {
