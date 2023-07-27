@@ -4855,6 +4855,10 @@ div.banner__media::after {
   }
 }
 
+.footer-block__newsletter {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
