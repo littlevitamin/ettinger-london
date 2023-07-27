@@ -529,6 +529,43 @@
     }
   </script>
 
+    <script>
+      
+As an AI language model, I don't have direct access to web pages or browsing capabilities. However, I can guide you on how to achieve the desired behavior using JavaScript code.
+
+To automatically click on an element with the given CSS selector as soon as the page is accessed, you can use JavaScript to select the element and trigger a click event. Here's how you can do it:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Click Element</title>
+</head>
+<body>
+  <!-- Your HTML content with the element you want to click -->
+  <div class="variant-radios">
+    <fieldset>
+      <label>First Label</label>
+      <label>Second Label</label>
+      <!-- Add more labels if needed -->
+    </fieldset>
+  </div>
+
+  <script>
+    // Wait for the page to fully load
+    window.addEventListener('load', function() {
+      // Find the element using the given CSS selector
+      const elementToClick = document.querySelector('.variant-radios > fieldset > label:first-child');
+
+      if (elementToClick) {
+        // Trigger a click event on the element
+        elementToClick.click();
+      }
+    });
+  </script>
+    </script>
+
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
