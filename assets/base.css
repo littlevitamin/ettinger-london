@@ -4861,3 +4861,7 @@ div.banner__media::after {
   line-height: 9px;
   font-weight: 300;
 }
+
+#CartDrawer > div.drawer__inner > div.drawer__header > button > svg > path {
+  fill: var(--gradient-base-accent-2);
+}
