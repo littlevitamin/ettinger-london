@@ -89,8 +89,8 @@ function getColorClass(color) {
       return 'color-mahogany-black';
     case 'Green/London Tan':
       return 'color-green-london-tan';
-    case 'Ettinger Grey/London Tan':
-      return 'color-ettinger-grey-london-tan';
+    case 'Ettinger Grey':
+      return 'color-ettinger-grey';
     case 'Havana/London Tan':
       return 'color-havana-london-tan';
     case 'Nut/London Tan':
