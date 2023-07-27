@@ -80,9 +80,6 @@
               >
                 {{- block.settings.text -}}
               </p>{% endcomment %}
-              {% for collection in product.collections %}
-                <p class="collections-title">{{ collection.title }}</p>
-              {% endfor %}
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
