@@ -294,12 +294,14 @@ cart-items {
 }
 
 #checkout,
-.cart__warnings .button {
+.cart__warnings .button,
+#CartDrawer-Checkout {
   background-color: var(--gradient-base-accent-2);
   text-transform: uppercase;
 }
 
 #checkout:hover,
-.cart__warnings .button:hover {
+.cart__warnings .button:hover,
+#CartDrawer-Checkout:hover {
   background-color: white;
 }
