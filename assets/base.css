@@ -4847,7 +4847,8 @@ div.banner__media::after {
   font-weight: 300;
 }
 
-#CartDrawer-CartItems .product-option > dd {
+#CartDrawer-CartItems .product-option > dd,
+#CartDrawer-CartItems .product-option > dt {
   font-size: 6px;
   font-family: 'Gotham Medium', sans-serif;
   text-decoration: none;
