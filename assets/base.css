@@ -3523,6 +3523,7 @@ sticky-header > header > nav > ul > li > a > span {
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px;
 }
 
 .color-silver {
