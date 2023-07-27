@@ -4879,6 +4879,17 @@ div.banner__media::after {
   font-family: 'Gotham Medium', sans-serif!important;
 }
 
+.active-facets__button-inner {
+  padding: 2px 8px;
+  background-color: white;
+  color: #777777;
+}
+
+.active-facets__button-inner:hover {
+  background-color: white;
+  color: var(--gradient-base-accent-2);
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
