@@ -4838,7 +4838,8 @@ div.banner__media::after {
 
 /* Cart drawer styling */
 
-#CartDrawer-CartItems .cart-item__name {
+#CartDrawer-CartItems .cart-item__name,
+#CartDrawer-CartItems .price--end {
   font-size: 10px;
   font-family: 'Gotham Medium', sans-serif;
   text-decoration: none;
