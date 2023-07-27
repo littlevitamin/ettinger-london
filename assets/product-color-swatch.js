@@ -165,6 +165,8 @@ function getColorClass(color) {
       return 'color-navy-silver';
     case 'Black/Silver':
       return 'color-black-silver';
+    case 'Dark Tan':
+      return 'color-dark-tan';
     default:
       return '';
   }
