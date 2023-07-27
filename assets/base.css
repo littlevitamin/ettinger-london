@@ -4844,7 +4844,7 @@ div.banner__media::after {
 @media screen and (max-width: 749px) {
   .footer-block--newsletter,
   .footer-block-image,
-  #shopify-section-sections--19283159056670__footer > footer > div.footer__content-top > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.grid--5-col-tablet.page-width.mobile-flex > div:nth-child(5) {
+  footer > div.footer__content-top > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.grid--5-col-tablet.page-width.mobile-flex > div:nth-child(5) {
     margin: 0!important;
   }
 }
