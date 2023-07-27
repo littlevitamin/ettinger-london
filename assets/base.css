@@ -4883,11 +4883,13 @@ div.banner__media::after {
   padding: 2px 8px!important;
   background-color: white!important;
   color: #777777!important;
+  border-radius: 3px!important;
 }
 
 .active-facets__button-inner:hover {
   background-color: white!important;
   color: var(--gradient-base-accent-2)!important;
+  box-shadow: none!important;
 }
 
 /* Cart drawer styling */
