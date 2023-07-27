@@ -4871,9 +4871,11 @@ div.banner__media::after {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.mobile-facets__summary {
+.mobile-facets__summary,
+.mobile-facets__close-button {
   text-transform: uppercase;
   font-weight: bold;
+  font-family: 'Gotham Medium', sans-serif;
 }
 
 /* Cart drawer styling */
