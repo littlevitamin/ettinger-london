@@ -243,6 +243,15 @@ cart-items {
   text-transform: uppercase;
 }
 
+.collection-title {
+  font-family: 'Gotham Medium', sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+}
+
 .title-wrapper-with-link .underlined-link {
   font-family: 'Gotham Medium', sans-serif;
   font-size: 13px;
