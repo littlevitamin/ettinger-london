@@ -4843,7 +4843,6 @@ div.banner__media::after {
 
 @media screen and (max-width: 749px) {
   .footer-block--newsletter,
-  .footer-block-image,
   footer > div.footer__content-top > div.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet.grid--5-col-tablet.page-width.mobile-flex > div:nth-child(5) {
     margin: 0!important;
   }
