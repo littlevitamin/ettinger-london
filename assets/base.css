@@ -3950,11 +3950,12 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-dark-tan {
-  background-color: #c66c36;
+  background-color: #c66c36!important;
   color: transparent!important;
   max-width: 30px!important;
   max-height: 30px!important;
   padding: 10px!important;
+  top: 14px;
 }
 
 .color-dark-tan-london-tan {
