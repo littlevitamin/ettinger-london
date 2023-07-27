@@ -3542,6 +3542,14 @@ sticky-header > header > nav > ul > li > a > span {
   padding: 10px!important;
 }
 
+.color-navy {
+  background-color: #214878!important;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
+}
+
 .color-red {
   background-color: #d52424!important;
   color: transparent!important;
@@ -3939,6 +3947,14 @@ sticky-header > header > nav > ul > li > a > span {
   right: 0;
   background: #f3aa36;
   background: linear-gradient(-45deg, #6e4b3f 49%, #f3aa36 51%, #f3aa36 100%);
+}
+
+.color-dark-tan {
+  background-color: #c66c36;
+  color: transparent!important;
+  max-width: 30px!important;
+  max-height: 30px!important;
+  padding: 10px!important;
 }
 
 .color-dark-tan-london-tan {
