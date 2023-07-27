@@ -529,19 +529,6 @@
     }
   </script>
 
-        <script>
-    // Wait for the DOM content to be fully loaded
-    document.addEventListener('DOMContentLoaded', function() {
-      // Find the element using the given CSS selector
-      const elementToClick = document.querySelector('.product-form__input > label:first-child');
-
-      if (elementToClick) {
-        // Trigger a click event on the element
-        elementToClick.click();
-      }
-    });
-  </script>
-
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
