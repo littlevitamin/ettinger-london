@@ -4836,6 +4836,10 @@ div.banner__media::after {
   border-bottom: 0;
 }
 
+.field__input:focus {
+  box-shadow: none;
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
