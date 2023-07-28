@@ -438,7 +438,6 @@
 
   {% comment %}Display images based on alt tag{% endcomment %}
   <script>
-      // Function to filter images by alt tag on initial page load
   function filterImagesByAltTag() {
     const firstImage = document.querySelector(".product__media-item img");
     if (!firstImage) return;
@@ -485,12 +484,28 @@
       };
     });
 
-      // Run the filtering function on initial page load and then stop further executions
   filterImagesByAltTag();
   const inputsContainer = document.querySelector(".variant-fieldset");
   inputsContainer.onclick = function () {
-    inputsContainer.onclick = null; // Remove the click event listener after the first click
+    inputsContainer.onclick = null;
   };
+  </script>
+
+  <script>
+    function setAccordionDisplay(displayValue) {
+      const accordions = document.querySelectorAll(".product__accordion");
+      accordions.forEach((accordion) => {
+        accordion.style.display = displayValue;
+      });
+    }
+  
+    const accordions = document.querySelectorAll(".product__accordion");
+    accordions.forEach((accordion) => {
+      accordion.addEventListener("click", function () {
+        const displayValue = this.style.display === "none" ? "block" : "none";
+        setAccordionDisplay(displayValue);
+      });
+    });
   </script>
 
   <script>
