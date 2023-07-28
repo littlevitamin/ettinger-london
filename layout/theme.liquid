@@ -561,7 +561,7 @@
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
-
+        {% comment %}Hide load more button if products are only 1 page{% endcomment %}
         <script>
           function hideLoadMoreIfChildrenLessThan(targetId, maxChildren) {
             const productGrid = document.getElementById(targetId);
@@ -570,7 +570,7 @@
             if (productGrid.children.length < maxChildren) {
               loadMoreButton.style.display = 'none';
             } else {
-              loadMoreButton.style.display = 'block'; // Or any other desired display property
+              loadMoreButton.style.display = 'flex';
             }
           }
       
