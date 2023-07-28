@@ -529,49 +529,6 @@
     }
   </script>
 
-<script>
-  function filterImagesByAltTag() {
-    const firstImage = document.querySelector(".product__media-item img");
-    if (!firstImage) return;
-
-    const altTag = firstImage.alt;
-
-    const allImages = document.querySelectorAll(".product__media-item img");
-    allImages.forEach((image) => {
-      if (image.alt === altTag) {
-        image.parentElement.parentElement.parentElement.style.display = "block";
-      } else {
-        image.parentElement.parentElement.parentElement.style.display = "none";
-      }
-    });
-  }
-
-  function handleIntersection(entries, observer) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        filterImagesByAltTag();
-        observer.disconnect();
-      }
-    });
-  }
-
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.1,
-  };
-
-  const observer = new IntersectionObserver(handleIntersection, options);
-
-  const firstImage = document.querySelector(".product__media-item img");
-  if (firstImage) {
-    observer.observe(firstImage);
-  }
-</script>
-
-
-
-
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
@@ -580,8 +537,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
-{% include 'swymSnippet' %}
-
-</body>
+  </body>
 </html>
