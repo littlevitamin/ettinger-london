@@ -4907,6 +4907,10 @@ div.banner__media::after {
   display: none;
 }
 
+.mega-menu__content {
+  padding-top: 36px;
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
