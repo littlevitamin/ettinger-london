@@ -529,10 +529,15 @@
     }
   </script>
 
-  <script>
+<script>
+  // This flag will indicate whether the function should execute or not
+  let executeFiltering = true;
+
   // This function will run when the DOM is fully loaded
   document.addEventListener("DOMContentLoaded", function () {
-    filterImagesByAltTag();
+    if (executeFiltering) {
+      filterImagesByAltTag();
+    }
   });
 
   function filterImagesByAltTag() {
@@ -551,6 +556,9 @@
         image.parentElement.parentElement.parentElement.style.display = "none";
       }
     });
+
+    // Disable filtering after the initial load
+    executeFiltering = false;
   }
 </script>
 
