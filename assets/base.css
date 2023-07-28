@@ -3031,6 +3031,10 @@ details-disclosure > details {
   flex-direction: column-reverse;
 }
 
+.product-grid-container .card__information {
+  padding: 0;
+}
+
 /* Transparent Header */
 
 .scrolled-past-header > sticky-header,
