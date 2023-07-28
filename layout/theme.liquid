@@ -438,8 +438,19 @@
 
   {% comment %}Display images based on alt tag{% endcomment %}
   <script>
+    function findFirstValidImage() {
+      const allImages = document.querySelectorAll(".product__media-item img");
+      for (let i = 0; i < allImages.length; i++) {
+        const image = allImages[i];
+        if (image.getAttribute("alt")) {
+          return image;
+        }
+      }
+      return null;
+    }
+    
   function filterImagesByAltTag() {
-    const firstImage = document.querySelector(".product__media-item img");
+    const firstImage = findFirstValidImage();
     if (!firstImage) return;
 
     const altTag = firstImage.getAttribute("alt");
