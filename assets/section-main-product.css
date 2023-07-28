@@ -754,7 +754,9 @@ a.product__text {
 .product-media-modal__dialog {
   display: flex;
   align-items: center;
-  margin: auto;
+  height: 90vh;
+  aspect-ratio: 1;
+  margin: 0 auto;
 }
 
 .product-media-modal__content {
@@ -833,13 +835,20 @@ a.product__text {
 .product-media-modal__content .deferred-media {
   width: 100%;
 }
-/* 
+
 .product-media-modal__content,
 .product-media-modal__content .global-media-settings {
   width: 100%;
   height: 100%;
-} */
+}
 
+.global-media-settings {
+  display: none;
+}
+
+.global-media-settings.active {
+  display: block!important;
+}
 @media screen and (min-width: 750px) {
   .product-media-modal__content {
     padding: 2rem 11rem;
