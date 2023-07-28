@@ -588,7 +588,7 @@
       if (activeLabel) {
         activeLabel.classList.remove('active');
       }
-      event.currentTarget.querySelector('label').classList.add('active');
+      event.target.classList.add('active');
     }
 
     formInputs.forEach(input => {
@@ -596,6 +596,7 @@
     });
   });
 </script>
+
 
     {% endif %}
 
