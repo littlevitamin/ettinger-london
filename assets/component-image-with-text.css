@@ -406,10 +406,10 @@
 @media screen and (max-width: 749px) {
   .topics-image-with-text .image-with-text__media,
   .topics-image-with-text .image-with-text__content {
-    max-width: 100%;
+    max-width: 100%!important;
   } 
   .topics-image-with-text .image-with-text__content {
-    margin: 0;
-    padding: 0;
+    margin: 0!important;
+    padding: 0!important;
   }
 }
