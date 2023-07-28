@@ -436,7 +436,7 @@
   });
   </script>
 
-  {% comment %}Display images based on alt tag{% endcomment %}  
+  {% comment %}Display images based on alt tag 
   <script>
     function displayImages(input) {
       var variantFieldset = document.querySelector('.variant-fieldset');
@@ -471,7 +471,66 @@
         displayImages(input);
       };
     });
-  </script>
+  </script>{% endcomment %}
+
+    <script>
+  // Function to filter images by alt tag on initial page load
+  function filterImagesByAltTag() {
+    const firstImage = document.querySelector(".product__media-item img");
+    if (!firstImage) return;
+
+    const altTag = firstImage.getAttribute("alt");
+
+    const allImages = document.querySelectorAll(".product__media > img");
+    allImages.forEach((image) => {
+      const grandparent = image.parentElement.parentElement;
+      grandparent.style.display = image.getAttribute("alt") === altTag ? "block" : "none";
+    });
+  }
+
+  // Function to display images based on label click
+  function displayImages(input) {
+    const variantFieldset = document.querySelector(".variant-fieldset");
+    const inputs = variantFieldset.querySelectorAll('input[name="Colour"]');
+    const images = document.querySelectorAll(".product__media > img");
+
+    images.forEach((image) => {
+      const grandparent = image.parentElement.parentElement;
+      grandparent.style.display = "none";
+    });
+
+    inputs.forEach((input) => {
+      const inputValue = input.value;
+      const label = variantFieldset.querySelector('label[for="' + input.id + '"]');
+      const labelText = label.textContent.trim();
+
+      if (input.checked) {
+        images.forEach((image) => {
+          const altText = image.getAttribute("alt");
+          const grandparent = image.parentElement.parentElement;
+          if (altText === inputValue || altText === labelText) {
+            grandparent.style.display = "block";
+          }
+        });
+      }
+    });
+  }
+
+  const inputs = document.querySelectorAll(".variant-fieldset input[name='Colour']");
+  inputs.forEach((input) => {
+    input.onclick = function () {
+      displayImages(input);
+    };
+  });
+
+  // Run the filtering function on initial page load and then stop further executions
+  filterImagesByAltTag();
+  const inputsContainer = document.querySelector(".variant-fieldset");
+  inputsContainer.onclick = function () {
+    inputsContainer.onclick = null; // Remove the click event listener after the first click
+  };
+</script>
+
 
   <script>
     function checkAndHideElements() {
