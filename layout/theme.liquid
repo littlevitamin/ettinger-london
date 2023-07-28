@@ -577,26 +577,6 @@
           // Call the function with the desired parameters
           hideLoadMoreIfChildrenLessThan('product-grid', 22);
         </script>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const formInputs = document.querySelectorAll('.product-form__input');
-
-    formInputs[0].querySelector('label').classList.add('active');
-
-    function handleFormInputClick(event) {
-      const activeLabel = document.querySelector('.product-form__input label.active');
-      if (activeLabel) {
-        activeLabel.classList.remove('active');
-      }
-      event.target.classList.add('active');
-    }
-
-    formInputs.forEach(input => {
-      input.addEventListener('click', handleFormInputClick);
-    });
-  });
-</script>
-
 
     {% endif %}
 
