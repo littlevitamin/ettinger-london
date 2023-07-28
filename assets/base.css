@@ -3026,6 +3026,11 @@ details-disclosure > details {
   }
 }
 
+.product-grid-container .card__content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /* Transparent Header */
 
 .scrolled-past-header > sticky-header,
