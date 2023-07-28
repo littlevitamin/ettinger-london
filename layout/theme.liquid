@@ -529,6 +529,31 @@
     }
   </script>
 
+  <script>
+  // This function will run when the DOM is fully loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    filterImagesByAltTag();
+  });
+
+  function filterImagesByAltTag() {
+    const firstImage = document.querySelector(".product__media-item img"); // Get the first image
+    if (!firstImage) return; // If no images are found, return
+
+    const altTag = firstImage.alt; // Get the alt tag of the first image
+
+    const allImages = document.querySelectorAll(".product__media-item img"); // Get all images
+    allImages.forEach((image) => {
+      if (image.alt === altTag) {
+        // If the image's alt tag matches the first image's alt tag, display it
+        image.parentElement.parentElement.parentElement.style.display = "block";
+      } else {
+        // Otherwise, hide the image
+        image.parentElement.parentElement.parentElement.style.display = "none";
+      }
+    });
+  }
+</script>
+
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
