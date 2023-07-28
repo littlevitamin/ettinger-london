@@ -4921,7 +4921,7 @@ div.banner__media::after {
 }
 
 @media screen and (max-width: 749px) {
-  .multirow__wrapper, .relative-blog {
+  .multirow__wrapper {
     top: 0px!important;
   }
 }
