@@ -4957,6 +4957,10 @@ div.banner__media::after {
   color: #777777;
 }
 
+#CartDrawer .button--tertiary {
+  background: transparent;
+}
+
 #CartDrawer > div.drawer__inner > div.drawer__header > button > svg > path {
   fill: var(--gradient-base-accent-2);
 }
