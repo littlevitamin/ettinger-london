@@ -492,23 +492,6 @@
   </script>
 
   <script>
-    function setAccordionDisplay(displayValue) {
-      const accordions = document.querySelectorAll(".product__accordion");
-      accordions.forEach((accordion) => {
-        accordion.style.display = displayValue;
-      });
-    }
-  
-    const accordions = document.querySelectorAll(".product__accordion");
-    accordions.forEach((accordion) => {
-      accordion.addEventListener("click", function () {
-        const displayValue = this.style.display === "none" ? "block" : "none";
-        setAccordionDisplay(displayValue);
-      });
-    });
-  </script>
-
-  <script>
     function checkAndHideElements() {
     var elements = document.getElementsByClassName("product-media-container");
   
