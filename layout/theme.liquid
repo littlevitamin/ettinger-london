@@ -561,6 +561,22 @@
     {% comment %} Custom color swatch {% endcomment %}
     {% if template contains 'product' or template contains 'collection' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
+
+        <script>
+          function hideLoadMoreIfChildrenLessThan(targetId, maxChildren) {
+            const productGrid = document.getElementById(targetId);
+            const loadMoreButton = document.querySelector('.load-more');
+      
+            if (productGrid.children.length < maxChildren) {
+              loadMoreButton.style.display = 'none';
+            } else {
+              loadMoreButton.style.display = 'block'; // Or any other desired display property
+            }
+          }
+      
+          // Call the function with the desired parameters
+          hideLoadMoreIfChildrenLessThan('product-grid', 22);
+        </script>
     {% endif %}
 
     {%- if settings.predictive_search_enabled -%}
