@@ -4920,6 +4920,12 @@ div.banner__media::after {
   padding-top: 36px!important;
 }
 
+@media screen and (max-width: 749px) {
+  .multirow-scrolling {
+    top: 0px!important;
+  }
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
