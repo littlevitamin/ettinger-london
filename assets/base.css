@@ -4908,7 +4908,7 @@ div.banner__media::after {
 }
 
 .mega-menu__content {
-  padding-top: 36px;
+  padding-top: 36px!important;
 }
 
 /* Cart drawer styling */
