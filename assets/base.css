@@ -4723,6 +4723,14 @@ sticky-header > header > nav > ul > li > a > span {
   display: none!important;
 }
 
+.show-divider {
+  display: flex!important;
+}
+
+#shopify-section-template--19981970145566__576fdaac-98b4-49d7-9080-0454e97e59f1 > div > div.blog-image-container {
+  display: none!important;
+}
+
 .divider {
   width: 95%;
   height: 2px;

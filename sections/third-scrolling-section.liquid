@@ -87,19 +87,6 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}factory-scroll{% endif %} {% if request.path contains '/about-us' %}multirow-scrolling{% endif %}">
-    <div class="blog-image-container {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
-        <span class="list-border"><div class="grey-divider">hello</div></span>
-        <video 
-            style="height: 180px; width: 180px; margin-top: -15px;" 
-            autoplay 
-            muted
-            playsinline 
-            loading="lazy"
-        >
-            <source src="https://cdn.shopify.com/videos/c/o/v/5715306dfcc849bca518b314d0119430.mp4" />
-        </video>
-        <span class="list-border"><div class="grey-divider">hello</div></span>
-    </div>
   <div id="containers" class="multirow__inner {% if template contains 'about' or 'factory' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div

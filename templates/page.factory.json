@@ -45,21 +45,10 @@
         "show_text_below": true
       }
     },
-    "84f0e71e-b677-4469-93a2-195177bc1beb": {
-      "type": "scrolling-section",
+    "32f72ee9-97ec-4028-b64a-51342bf29250": {
+      "type": "multirow",
       "blocks": {
-        "template--19981970145566__84f0e71e-b677-4469-93a2-195177bc1beb-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1955-Overseas-Watchmaker-jeweller-and-silversmith_1.png",
-            "caption": "",
-            "heading": "FACTORY HISTORY",
-            "text": "<p>Historically, the finest leather goods in Britain were always made in London, where the country’s best tailors, perfumers and trunk-makers all held shop.<\/p><p>Establishing his company in a smart address just off Regent Street, Gerry Ettinger ensured he could easily connect with the London and international elites as well as the best department stores of his time.<\/p><p>Maintaining leather workshops in central London was unfortunately not tenable, as those areas were being gentrified and rents pushed workshops out of town. Ettinger had been working with one of Walsall’s oldest manufacturers for some time and when in 1999 the factory was up for sale, Ettinger decided it was time to increase its own manufacturing capacity and so bought the factory out with all its workforce.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19981970145566__84f0e71e-b677-4469-93a2-195177bc1beb-row-2": {
+        "template--19981970145566__32f72ee9-97ec-4028-b64a-51342bf29250-row-1": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/James-Homer-Photo-ca-1936-small-surround-HiRes_1.png",
@@ -72,8 +61,7 @@
         }
       },
       "block_order": [
-        "template--19981970145566__84f0e71e-b677-4469-93a2-195177bc1beb-row-1",
-        "template--19981970145566__84f0e71e-b677-4469-93a2-195177bc1beb-row-2"
+        "template--19981970145566__32f72ee9-97ec-4028-b64a-51342bf29250-row-1"
       ],
       "settings": {
         "image_height": "medium",
@@ -83,7 +71,7 @@
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "align-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
@@ -93,10 +81,9 @@
     },
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "enable_video": true,
-        "video_url": "",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -108,21 +95,10 @@
         "show_text_below": true
       }
     },
-    "423510c1-700c-4401-88c7-1c96827a3757": {
-      "type": "second-scrolling-section",
+    "576fdaac-98b4-49d7-9080-0454e97e59f1": {
+      "type": "multirow",
       "blocks": {
-        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Step_1_-_Leathers_selected_by_Gary_1.png",
-            "caption": "",
-            "heading": "CRAFTSPEOPLE",
-            "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-2": {
+        "89a62a6a-7eb9-4091-a125-7cdc9265dd8d": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shaun_Bloodworth_4_1.png",
@@ -135,8 +111,7 @@
         }
       },
       "block_order": [
-        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-1",
-        "template--19982028898590__423510c1-700c-4401-88c7-1c96827a3757-row-2"
+        "89a62a6a-7eb9-4091-a125-7cdc9265dd8d"
       ],
       "settings": {
         "image_height": "medium",
@@ -146,7 +121,7 @@
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "align-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
@@ -284,9 +259,9 @@
   "order": [
     "main",
     "69786272-ce6f-41df-88d5-a13f76b893c0",
-    "84f0e71e-b677-4469-93a2-195177bc1beb",
+    "32f72ee9-97ec-4028-b64a-51342bf29250",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
-    "423510c1-700c-4401-88c7-1c96827a3757",
+    "576fdaac-98b4-49d7-9080-0454e97e59f1",
     "82a7aa87-fb54-44c8-972a-8acec6db5d6d",
     "8c0e7dba-1be8-4a00-91ab-5202adf80b6d",
     "e5724cce-e348-435d-8216-726d0bd7bcf4"

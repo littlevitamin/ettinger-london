@@ -83,7 +83,20 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-  <div class="multirow__inner page-width {% if template contains 'personalization' %}multirow-personalization{% endif %}">
+      <div class="blog-image-container empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalization' %} show-divider{% endif %}">
+        <span class="list-border"><div class="grey-divider">hello</div></span>
+        <video 
+            style="height: 180px; width: 180px; margin-top: -15px;" 
+            autoplay 
+            muted
+            playsinline 
+            loading="lazy"
+        >
+            <source src="https://cdn.shopify.com/videos/c/o/v/5715306dfcc849bca518b314d0119430.mp4" />
+        </video>
+        <span class="list-border"><div class="grey-divider">hello</div></span>
+    </div>
+  <div class="multirow__inner page-width {% if template contains 'personalization' %}multirow-personalization{% endif %} {% if request.path contains '/the-ettinger-factory' %}multirow-factory{% endif %}">
     {%- for block in section.blocks -%}
       <div
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
