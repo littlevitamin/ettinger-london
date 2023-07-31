@@ -47,7 +47,6 @@
     },
     "cc9d72b2-dd14-4150-a8b6-bfd4fb93743d": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--19982020182302__cc9d72b2-dd14-4150-a8b6-bfd4fb93743d-heading-1": {
           "type": "heading",
@@ -81,7 +80,7 @@
         "image": "shopify:\/\/shop_images\/Capra_group_1_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
