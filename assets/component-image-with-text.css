@@ -144,6 +144,10 @@
   margin: 0 auto;
 }
 
+.multirow-factory .image-with-text__media > img {
+  max-height: 360px;
+}
+
 .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
 .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
   max-width: 100%;
