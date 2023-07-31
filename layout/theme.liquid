@@ -35,7 +35,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer="defer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer="defer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer="defer"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    
     {% if template contains 'collection' %}
       <script src="{{ 'collection-load-more.js' | asset_url }}" defer="defer"></script>
     {% endif %}
@@ -244,7 +245,6 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
     {%comment%}Marker.io install{%endcomment%}
     <script>
