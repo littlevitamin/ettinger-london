@@ -220,7 +220,7 @@
         }}
       </div>
     {%- endif -%}
-    <div style="height: 100%; background: rgba(0,0,0,0.3);" class="banner__content banner__content--{{ section.settings.desktop_content_position }} {% if request.page_type == 'index' %}banner-home-box{% endif %} {% if request.page_type != 'index' %} banner-other-box{% endif %} {% if request.path contains 'collection' %} banner-collection-box-1{% endif %} {% if request.path contains 'collection' %} banner-journal-box-1{% endif %}">
+    <div style="height: 100%; background: rgba(0,0,0,0.3);" class="banner__content banner__content--{{ section.settings.desktop_content_position }} {% if request.page_type == 'index' %}banner-home-box{% endif %} {% if request.page_type != 'index' %} banner-other-box{% endif %} {% if request.path contains 'collection' %} banner-collection-box-1{% endif %} {% if request.path contains '/journal' %} banner-journal-box-1{% endif %}">
       <div class="banner__box {% if template contains 'journal' %}banner-journal-box{% endif %} {% if template contains 'collection' %}banner-collection-box{% endif %} content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
