@@ -355,19 +355,17 @@
 }
 
 .image-with-text__heading {
-  font-family: 'Gotham Medium', sans-serif;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 400;
   color: #000000;
-  line-height: 36px;
+  line-height: 43px;
 }
 
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 14px;
-  font-family: 'Gotham Medium', sans-serif;
   font-weight: 300;
   color: #777777;
   line-height: 17px;
