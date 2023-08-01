@@ -35,6 +35,10 @@
     width: 60%!important;
   }
 
+  .collection-list-homepage {
+    text-transform: uppercase;
+  }
+
   .collection-list-btn {
     color: white!important;
     background: var(--gradient-base-accent-2);
@@ -95,7 +99,7 @@
           {{ section.settings.title | escape }}
         </h2>
         {% if section.settings.subheading != blank %}
-          <h4 class="collection-list-subheading">
+          <h4 class="collection-list-subheading {% if request.page_type == 'index' %} collection-list-homepage{% endif %}">
             {{ section.settings.subheading | escape }}
           </h4>
         {% endif %}
