@@ -27,6 +27,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Travel_Bags_Home_Page_Banner.jpg",
         "enable_video": true,
+        "paragraph": "",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
         "image_overlay_opacity": 20,
         "image_height": "large",
@@ -199,6 +200,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/1_91118.svg",
         "enable_video": true,
+        "paragraph": "<p>Caring for your leather goods is essential for their longevity and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.<\/p>",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
         "image_height": "small",
