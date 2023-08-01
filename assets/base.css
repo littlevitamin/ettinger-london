@@ -3534,11 +3534,19 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 #MegaMenu-Content-4 > ul {
-  width: 260px!important;
+  width: 255px!important;
 }
 
 #MegaMenu-Content-4 > ul > li {
   width: 100%!important;
+}
+
+#MegaMenu-Content-5 > ul {
+  width: 510px!important;
+}
+
+#MegaMenu-Content-4 > ul > li {
+  width: 50%!important;
 }
 
 /* Color swatch styling */
