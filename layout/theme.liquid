@@ -540,6 +540,22 @@
   }
   </script>
 
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchToggle = document.querySelector('div.header__icons.top-icons.page-width > details-modal > details > summary > span > svg.modal__toggle-open.icon.icon-search');
+    const closeButton = document.querySelector('.search-modal__close-button .icon-close');
+    const announcementBar = document.querySelector('.announcement-bar');
+
+    searchToggle.addEventListener('click', function() {
+      announcementBar.classList.add('hide'); 
+    });
+
+    closeButton.addEventListener('click', function() {
+      announcementBar.classList.remove('hide'); 
+    });
+  });
+  </script>
+
   {% comment %}Display product metafields{% endcomment %}  
   <script>
     var elements = document.getElementsByClassName("metafield-multi_line_text_field");
