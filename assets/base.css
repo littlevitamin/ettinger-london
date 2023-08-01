@@ -5009,3 +5009,10 @@ div.banner__media::after {
 .styled-text > p > strong {
   color: var(--gradient-base-accent-2);
 }
+
+.mega-menu:hover > .header__menu-item {
+  color: var(--gradient-base-accent-2) !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border: 2px solid var(--gradient-base-accent-2) !important;
+}
