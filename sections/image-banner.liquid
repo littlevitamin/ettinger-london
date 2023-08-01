@@ -200,7 +200,7 @@
               <h2 class="banner__heading {{ block.settings.heading_size }}  {% if template contains 'collection' %} banner-heading {% endif %} " {{ block.shopify_attributes }}>
                 <span>{% if template == 'collection.collection' %}{{ collection.title }} <span style="color: #ec9a00;">COLLECTION</span>{% elsif template contains 'collaboration' %}{{ collection.title }} <span style="color: #ec9a00;">COLLABORATION</span>{% elsif template == 'collection' %}{{ collection.title }}{% else %}{{ block.settings.heading | escape }}{% endif %}</span>
               </h2>
-            {%- when 'text' -%}
+            {%- when 'text' or section.settings.paragraph != blank -%}
               <div class="banner__text {{ block.settings.text_style }}  {% if template contains 'collection' %} banner-text {% endif %}" {{ block.shopify_attributes }}>
                 <span>{% if template contains 'collection' %}{{ collection.description }}{% else %}<p>{{ section.settings.paragraph | raw }}</p>{% endif %}</span>
               </div>
