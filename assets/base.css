@@ -2730,15 +2730,6 @@ details[open] > .header__submenu {
   color: var(--gradient-base-accent-2)!important;
 }
 
-.mega-menu:hover > .header__menu-item span {
-  color: var(--gradient-base-accent-2) !important;
-}
-.mega-menu:hover > .header__menu-item {
-  background-color: transparent !important;
-  text-decoration: none !important;
-  border-bottom: 2px solid var(--gradient-base-accent-2) !important;
-}
-
 .mega-menu__link--active {
   text-decoration: none!important;
 }
@@ -4714,10 +4705,6 @@ sticky-header > header > nav > ul > li > a > span {
 
 .search-modal__content {
   background-color: white;
-}
-
-.hide {
-  display: none;
 }
 
 /* Dividers styling */
