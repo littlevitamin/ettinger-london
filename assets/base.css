@@ -5005,3 +5005,7 @@ div.banner__media::after {
 #CartDrawer > div.drawer__inner > div.drawer__header > button > svg > path {
   fill: var(--gradient-base-accent-2);
 }
+
+.styled-text > p > strong {
+  color: var(--gradient-base-accent-2);
+}
