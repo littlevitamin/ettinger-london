@@ -21,7 +21,7 @@
         "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-1": {
           "type": "text",
           "settings": {
-            "text": "Adding initials onto wallets or leather accessories has long been a sign of distinction and ensures the item becomes entirely unique.",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         }
@@ -33,6 +33,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Robert_Ettinger_Pondering_the_Future_with_UBS.png",
         "enable_video": true,
+        "paragraph": "<p>Adding initials onto wallets or leather accessories has long been a <strong>sign of distinction<\/strong> and ensures the item becomes <strong>entirely unique<\/strong>.<\/p>",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 60,
         "image_height": "medium",
