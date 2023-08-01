@@ -3533,6 +3533,14 @@ sticky-header > header > nav > ul > li > a > span {
   text-decoration: none;
 }
 
+#MegaMenu-Content-4 > ul {
+  width: 260px!important;
+}
+
+#MegaMenu-Content-4 > ul > li {
+  width: 100%!important;
+}
+
 /* Color swatch styling */
 
 .color-green {
