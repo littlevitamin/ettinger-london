@@ -332,6 +332,11 @@ fieldset.product-form__input .form__label {
   color: #777777!important;
 }
 
+.metafield-multi_line_text_field,
+.accordion__content > p {
+  color: #777777!important;  
+}
+
 .product__text {
   margin-bottom: 0;
 }
