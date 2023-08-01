@@ -3085,6 +3085,10 @@ sticky-header > header > nav > ul > li > a > span {
   color: white;
 }
 
+.banner__heading {
+  font-size: 36px!important;
+}
+
 #shopify-section-sections--16002241560756__header > sticky-header > header > h1 > a > img {
   content: url('https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Ettinger_London_svg.svg?v=1685433893');
 }
