@@ -255,6 +255,7 @@
 
   .footer-block__newsletter {
     flex-direction: column;
+    min-height: 350px;
   }
 
 }

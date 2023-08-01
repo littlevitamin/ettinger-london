@@ -425,12 +425,14 @@ h2,
 h3,
 h4,
 h5,
+h6,
 .h0,
 .h1,
 .h2,
 .h3,
 .h4,
-.h5 {
+.h5,
+.h6 {
   font-family: 'Gotham Book', sans-serif!important;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
@@ -440,7 +442,7 @@ h5,
   word-break: break-word;
 }
 
-p {
+p, span {
   font-family: 'Gotham Light', sans-serif!important;
 }
 
@@ -3122,7 +3124,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .top-icons-white-background {
-  width: 90%;
+  width: 100%;
 }
 
 @media screen and (max-width: 990px) {
@@ -3192,6 +3194,15 @@ sticky-header > header > nav > ul > li > a > span {
 
 .collage .card__heading .icon-wrap {
   color: rgb(var(--color-base-accent-2));
+}
+
+@media screen and (max-width: 749px) {
+  .collage .card__information {
+    padding: 0;
+  }
+  .collage .full-unstyled-link {
+    font-size: 12px;
+  }
 }
 
 /* Collection list */
@@ -4927,17 +4938,19 @@ div.banner__media::after {
   font-family: 'Gotham Medium', sans-serif!important;
 }
 
-.active-facets__button-inner {
+/* .active-facets__button-inner {
   padding: 5px 8px!important;
   background-color: white!important;
   color: #777777!important;
-  border-radius: 3px!important;
-}
+} */
 
-.active-facets__button-inner:hover {
+.active-facets__button-inner {
   background-color: white!important;
   color: var(--gradient-base-accent-2)!important;
+  border: 1px solid var(--gradient-base-accent-2)!important;
   box-shadow: none!important;
+  border-radius: 3px!important;
+
 }
 
 .mobile-facets__submenu > ul > li:nth-child(2) > label {
