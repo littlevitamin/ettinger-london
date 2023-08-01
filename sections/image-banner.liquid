@@ -202,7 +202,7 @@
               </h2>
             {%- when 'text' or section.settings.paragraph != blank -%}
               <div class="banner__text {{ block.settings.text_style }}  {% if template contains 'collection' %} banner-text {% endif %}" {{ block.shopify_attributes }}>
-                <span class="{% if request.page_type != 'index' %}styled-text{% endif %}">{% if template contains 'collection' %}{{ collection.description }}{% else %}<p>{{ section.settings.paragraph | raw }}</p>{% endif %}</span>
+                <span>{% if template contains 'collection' %}{{ collection.description }}{% else %}<p>{{ section.settings.paragraph | raw }}</p>{% endif %}</span>
               </div>
             {%- when 'buttons' -%}
               <div
