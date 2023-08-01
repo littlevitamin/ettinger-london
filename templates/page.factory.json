@@ -21,7 +21,7 @@
         "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-1": {
           "type": "text",
           "settings": {
-            "text": "Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.",
+            "text": "",
             "text_style": "caption-with-letter-spacing"
           }
         }
@@ -33,6 +33,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/1_91118.png",
         "enable_video": false,
+        "paragraph": "<p>Unexpected shapes with smart <strong>details, functionality, a new luxury feel<\/strong> with a contemporary price point.<\/p>",
         "video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -83,6 +84,7 @@
       "type": "image-banner",
       "settings": {
         "enable_video": true,
+        "paragraph": "",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
         "image_height": "medium",
