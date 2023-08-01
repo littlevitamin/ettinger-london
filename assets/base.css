@@ -5037,3 +5037,6 @@ div.banner__media::after {
   border-bottom: 2px solid var(--gradient-base-accent-2) !important;
 }
 
+.banner__box {
+  width: var(--page-width);
+}
