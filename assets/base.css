@@ -5038,5 +5038,5 @@ div.banner__media::after {
 }
 
 .banner__box {
-  width: var(--page-width);
+  min-width: var(--page-width)!important;
 }
