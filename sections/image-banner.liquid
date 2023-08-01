@@ -202,7 +202,7 @@
               </h2>
             {%- when 'text' -%}
               <div class="banner__text {{ block.settings.text_style }}  {% if template contains 'collection' %} banner-text {% endif %}" {{ block.shopify_attributes }}>
-                <span>{% if template contains 'collection' %}{{ collection.description }}{% else %}{{ block.settings.text | escape }}{% endif %}</span>
+                <span>{% if template contains 'collection' %}{{ collection.description }}{% else %}{{ section.settings.paragraph | escape }}{% endif %}</span>
               </div>
             {%- when 'buttons' -%}
               <div
@@ -270,7 +270,7 @@
       "type": "richtext",
       "id": "paragraph",
       "label": "Description",
-      "default": "<p>Caring for your leather goods is essential for their longevity and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.</p>"
+      "default": "<p>Caring for your leather goods is <strong>essential</strong> for their <strong>longevity</strong> and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.</p>"
     },
     {
       "type": "url",
