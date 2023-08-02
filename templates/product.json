@@ -92,7 +92,7 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -114,10 +114,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ettinger-8237_1.png",
             "caption": "TO EACH THEIR OWN",
-            "heading": "PERSONALISED CHOICES",
-            "text": "<p>Selected Ettinger items can be personalised with bespoke initials<\/p>",
-            "button_label": "LEARN ABOUT",
-            "button_link": "shopify:\/\/collections\/all"
+            "heading": "MAKE IT PERSONAL",
+            "text": "<p>Make your accessory one of a kind with our exclusive personalisation service. At Ettinger, every emboss is blocked by our best craftspeople using a traditional embossing machine to guarantee the best results.<br\/><\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/personalization"
           }
         }
       },
@@ -148,7 +148,7 @@
           "settings": {
             "title": "WORLDWIDE SHIPPING",
             "icon_image": "shopify:\/\/shop_images\/Group_47bc8342-822a-4cc1-8fea-bcb1b926a6f6.svg",
-            "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.<\/p>",
+            "text": "<p>We deliver worldwide using our express service. Refer to our shipping guide here for costs and estimated delivery time.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -158,7 +158,7 @@
           "settings": {
             "title": "SHOPPING HELP",
             "icon_image": "shopify:\/\/shop_images\/Group_cddfc540-0b78-48bc-8011-cc9ce3209bba.svg",
-            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address. <\/p>",
+            "text": "<p>For product or order enquiries, please complete the form here or email us directly <a href=\"#\" title=\"clientservices@ettinger.co.uk\">clientservices@ettinger.co.uk<\/a><br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -166,9 +166,9 @@
         "template--19423920357662__89c547c3-cc6c-4172-91eb-87d598a0e2df-1687519809326c59c1-2": {
           "type": "column",
           "settings": {
-            "title": "GIFT BOXES",
+            "title": "GIFT WRAPPING",
             "icon_image": "shopify:\/\/shop_images\/noun-gift-5679114.svg",
-            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address. <\/p>",
+            "text": "<p>Looking for a special gift? Upgrade your order and add gift wrapping for that extra touch of luxury.<\/p>",
             "link_label": "",
             "link": ""
           }
