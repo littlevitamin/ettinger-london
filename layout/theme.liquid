@@ -473,8 +473,8 @@
 
 
     {% if template contains 'product' or template contains 'collection' %}
-      {% comment %}<script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
-
+      <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
+      {% comment %}
       <script>
         function findFirstValidImage() {
           const allImages = document.querySelectorAll(".product__media-item img");
