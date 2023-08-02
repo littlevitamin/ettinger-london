@@ -5014,8 +5014,7 @@ div.banner__media::after {
 }
 
 @media screen and (max-width: 749px) {
-  .banner__text,
-  .collection-list-subheading {
+  .banner__text {
     width: 100%!important;
   }
 }
