@@ -5013,6 +5013,12 @@ div.banner__media::after {
   width: var(--page-width)!important;
 }
 
+@media screen and (max-width: 749px) {
+  .banner__text {
+    width: 100%!important;
+  }
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
