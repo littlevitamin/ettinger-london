@@ -4653,7 +4653,7 @@ sticky-header > header > nav > ul > li > a > span {
   --border-opacity: 0.1;
 }
 
-/* .link:hover, */
+.link:hover,
 .customer-services-menu:hover {
   font-weight: inherit!important;
   text-decoration: none!important;
