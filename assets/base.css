@@ -4664,7 +4664,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .footer-block .link:hover {
   text-decoration: underline!important;
-  text-underline-offset: 0.2!important;
+  text-underline-offset: 0.3rem!important;
   text-decoration-color: black!important;  
 }
 
