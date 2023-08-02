@@ -2437,6 +2437,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   display: flex;
   grid-area: icons;
   justify-content: flex-end;
+  padding-right: 20px;
 }
 
 .header__icon:not(.header__icon--summary),
