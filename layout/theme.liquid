@@ -505,7 +505,7 @@
           var images = document.querySelectorAll('.product__media > img');
 
           images.forEach(function (image) {
-            var grandparent = image.parentElement.parentElement;
+            var grandparent = image.parentElement.parentElement.parentElement.parentElement;
             grandparent.style.display = 'none';
           });
 
