@@ -26,8 +26,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Travel_Bags_Home_Page_Banner.jpg",
-        "enable_video": true,
         "paragraph": "",
+        "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
         "image_overlay_opacity": 20,
         "image_height": "large",
@@ -162,7 +162,7 @@
       ],
       "settings": {
         "title": "ETTINGER COLLECTIONS",
-        "subheading": "Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.",
+        "subheading": "<p>Unexpected shapes with smart <strong>details, functionality, a new luxury feel<\/strong> with a contemporary price point.<\/p>",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -199,8 +199,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1_91118.svg",
-        "enable_video": true,
         "paragraph": "<p>Caring for your leather goods is <strong>essential<\/strong> for their <strong>longevity<\/strong> and regular use of Ettinger's leather wax and leather balm will help to maintain the natural beauty of the leather. Please refer to specific leather care instructions for more details.<\/p>",
+        "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
         "image_height": "small",

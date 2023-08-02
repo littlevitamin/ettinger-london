@@ -68,6 +68,10 @@
       display: block!important;
     }
   }
+
+  .swiper-slide {
+    margin-left: -10px;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -99,8 +103,8 @@
           {{ section.settings.title | escape }}
         </h2>
         {% if section.settings.subheading != blank %}
-          <h4 class="collection-list-subheading {% if request.page_type == 'index' %} collection-list-homepage{% endif %}">
-            {{ section.settings.subheading | escape }}
+          <h4 class="collection-list-subheading styled-text {% if request.page_type == 'index' %} collection-list-homepage{% endif %}">
+            {{ section.settings.subheading | raw }}
           </h4>
         {% endif %}
         {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
@@ -262,7 +266,7 @@
       "label": "t:sections.collection-list.settings.title.label"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "subheading",
       "label": "Subheading"
     },
