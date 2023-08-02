@@ -3212,7 +3212,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 /* Collection list */
 .swiper-slide .card--media {
-  padding: 5px;
+  padding: 2px;
 }
 
 .collection-card-wrapper .full-unstyled-link {
