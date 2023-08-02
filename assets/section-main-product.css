@@ -220,12 +220,12 @@ fieldset.product-form__input .form__label {
   border-radius: var(--variant-pills-radius);
   box-shadow: var(--variant-pills-shadow-horizontal-offset) var(--variant-pills-shadow-vertical-offset) var(--variant-pills-shadow-blur-radius) rgba(var(--color-shadow), var(--variant-pills-shadow-opacity));
 }
-
+/* Uncomment to add border to variant pills on hover
 .product-form__input input[type='radio'] + label:hover:before {
   padding-bottom: 35px;
   border-bottom: 1px solid black;
   border-radius: 0;
-}
+} */
 
 .product-form__input input[type='radio'] + label:hover {
   border-color: rgb(var(--color-foreground));
