@@ -4662,6 +4662,12 @@ sticky-header > header > nav > ul > li > a > span {
   text-decoration-color: transparent!important;
 }
 
+.footer-block grid__item .link:hover {
+  text-decoration: underline!important;
+  text-underline-offset: 0.2!important;
+  text-decoration-color: black!important;  
+}
+
 .header__menu-item:hover,
 .header__active-menu-item:hover {
   text-decoration-color: var(--gradient-base-accent-2)!important;
