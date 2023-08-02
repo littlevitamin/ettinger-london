@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+#product-grid .card-wrapper,
+#product-grid .card:not(.ratio) {
+  height: unset;
+}
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
