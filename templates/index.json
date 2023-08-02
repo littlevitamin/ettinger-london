@@ -202,7 +202,7 @@
         "paragraph": "<p>Make your accessory one of a kind with our <strong>exclusive personalisation<\/strong> service. At Ettinger, every emboss is blocked by our best craftspeople using a <strong>traditional embossing<\/strong> machine to guarantee the best results.<br\/><\/p>",
         "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 30,
         "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": true,
