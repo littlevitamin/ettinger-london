@@ -4689,7 +4689,7 @@ div.banner__media::after {
   letter-spacing: 3%;
 }
 
-.mobile-facets__summary {
+.mobile-facets__inner .mobile-facets__summary {
   padding: 1.3rem 0;
   margin: 0 2.5rem;
   border-bottom: 1px solid #D9D9D9;
