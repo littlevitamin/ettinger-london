@@ -4595,14 +4595,14 @@ div.banner__media::after {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.mobile-facets__summary,
+.mobile-facets__summary > div > span,
 .mobile-facets__close-button {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Gotham Book', sans-serif!important;
   font-size: 14px!important;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04rem;
 }
 }
 
