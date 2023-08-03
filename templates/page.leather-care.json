@@ -10,6 +10,7 @@
     },
     "69786272-ce6f-41df-88d5-a13f76b893c0": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0": {
           "type": "heading",
@@ -32,6 +33,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_70.png",
+        "paragraph": "",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
