@@ -4661,6 +4661,10 @@ div.banner__media::after {
   }
 }
 
+.product-grid .card__heading {
+  padding: 10px 0;
+}
+
 /* Cart drawer styling */
 
 #CartDrawer-CartItems .cart-item__name,
