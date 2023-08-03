@@ -4649,7 +4649,7 @@ div.banner__media::after {
   width: 80%;
 }
 
-.variant-label {
+.product .variant-fieldset > label {
   height: 30px!important;
   width: 30px!important;
 }
