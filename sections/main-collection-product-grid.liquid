@@ -64,9 +64,11 @@
     display: none!important;
   }
 
-  .card-wrapper:hover ~ .quick-add__sumbit {
+  .card-wrapper:hover + .quick-add__sumbit {
     display: flex!important;
-    top: -70px;
+    min-height: 25px;
+    top: -50px;
+    z-index: 9999!important;
   }
 
   @media screen and (max-width: 749px) {
