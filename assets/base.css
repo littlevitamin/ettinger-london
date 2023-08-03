@@ -4661,7 +4661,7 @@ div.banner__media::after {
   font-weight: 300!important;
 }
 
-.style.text > oll > li {
+.style.text > ul > li {
   font-family: 'Gotham Light', sans-serif;
   font-size: 14px;
   font-weight: 300;
