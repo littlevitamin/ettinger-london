@@ -510,7 +510,7 @@ noscript .localization-selector.link {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #000000;
+    color: #121212;
   }
 
   .footer-block__details-content > :first-child .list-menu__item--link {
@@ -700,7 +700,7 @@ noscript .localization-selector.link {
   font-size: 10px;
   line-height: 12px;
   text-align: right;
-  color: #000000;
+  color: #121212;
 }
 
 #FooterCountryForm .no-js-hidden {

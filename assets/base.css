@@ -3175,7 +3175,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .scrolled-past-header .list-menu__item-homepage {
-  color: #000000!important;
+  color: #121212!important;
 }
 
 .scrolled-past-header .header__icons > img {
@@ -3291,7 +3291,7 @@ sticky-header > header > nav > ul > li > a > span {
   font-size: 14px;
   line-height: 116%;
   text-transform: uppercase;
-  color: #000000;
+  color: #121212;
 }
 
 .icon-down-arrow {
@@ -4296,8 +4296,18 @@ sticky-header > header > nav > ul > li > a > span {
   text-transform: uppercase;
 }
 
-.header-white-background .header__active-menu-item {
+.header-white-background .header__active-menu-item,
+.header-white-background .header__menu-item {
   color: #121212;
+}
+
+.header__menu-item > span {
+  font-family: 'Gotham Book',sans-serif!important;
+  font-weight: 500;
+}
+
+.banner__heading > span {
+  font-family: 'Gotham Book',sans-serif!important;
 }
 
 @media screen and (min-width: 990px) {
@@ -4597,6 +4607,7 @@ div.banner__media::after {
 .styled-text > p > strong,
 .mega-menu:hover > .header__menu-item > span {
   color: var(--gradient-base-accent-2);
+  font-family: 'Gotham Medium', sans-serif!important;
 }
 
 .styled-text > p {
