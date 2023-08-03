@@ -4649,6 +4649,10 @@ div.banner__media::after {
   width: 80%;
 }
 
+.variant-label {
+  height: 40px;
+}
+
 .mega-menu:hover > .header__menu-item {
   background-color: transparent !important;
   text-decoration: none !important;
