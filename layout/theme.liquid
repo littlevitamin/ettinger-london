@@ -560,21 +560,6 @@
       document.addEventListener("click", checkAndHideElements);
       </script>
 
-          <script>
-        // Get all elements with the specified selector
-        const elements = document.querySelectorAll(".product .variant-fieldset > label[class*='color-']");
-
-        // Iterate through each element
-        elements.forEach(element => {
-            // Check if the class name is longer than 15 characters
-            if (element.classList[0].length > 15) {
-                // If longer, add the specified style
-                element.style.top = "14px";
-                element.style.setProperty("top", "14px", "important");
-            }
-        });
-    </script>
-
         {% comment %}Hide load more button if products are only 1 page{% endcomment %}
         <script>
           function hideLoadMoreIfChildrenLessThan(targetId, maxChildren) {
