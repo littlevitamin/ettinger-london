@@ -4661,7 +4661,7 @@ div.banner__media::after {
   }
 }
 
-.product-grid .card__heading {
+.product-grid .card__heading > a {
   padding: 10px 0;
 }
 
