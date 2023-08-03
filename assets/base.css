@@ -4665,6 +4665,7 @@ div.banner__media::after {
   font-family: 'Gotham Light', sans-serif;
   font-size: 14px;
   font-weight: 300;
+  color: #777777;
 }
 
 .image-with-text__text--caption-raw > p > strong,
