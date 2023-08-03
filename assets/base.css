@@ -4688,6 +4688,7 @@ div.banner__media::after {
 .image-with-text__text--caption-raw > p {
   text-align: center;
   line-height: 29px;
+  color: #121212;
 }
 
 .image-with-text__text--caption-raw > h6 {
