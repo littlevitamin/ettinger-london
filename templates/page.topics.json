@@ -14,7 +14,7 @@
         "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0": {
           "type": "heading",
           "settings": {
-            "heading": "JOURNAL NEWS",
+            "heading": "JOURNAL",
             "heading_size": "h2"
           }
         },
@@ -32,8 +32,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_70_1.png",
-        "enable_video": false,
         "paragraph": "<p>Find out the latest news at Ettinger, from the latest launches to events and competitions.<\/p>",
+        "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
