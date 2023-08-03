@@ -4666,6 +4666,11 @@ div.banner__media::after {
   font-size: 14px;
   font-weight: 300;
   color: #777777;
+  list-style-type: none;
+  background-image: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Monogram_K_Black_2.png?v=1691073357');
+  background-size: 9px 9px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .image-with-text__text--caption-raw > p > strong,
