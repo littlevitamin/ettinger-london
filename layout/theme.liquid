@@ -472,9 +472,8 @@
   </script> {% endcomment %}
 
 
-    {% if template contains 'collection' %}
+    {% if template contains 'collection' or template contains 'product' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
-      {% comment %}
       <script>
         function findFirstValidImage() {
           const allImages = document.querySelectorAll(".product__media-item img");
@@ -559,7 +558,7 @@
       }
       
       document.addEventListener("click", checkAndHideElements);
-      </script>{% endcomment %}
+      </script>
 
         {% comment %}Hide load more button if products are only 1 page{% endcomment %}
         <script>
