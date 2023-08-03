@@ -4657,7 +4657,7 @@ div.banner__media::after {
 .style-text > p > strong {
   color: var(--gradient-base-accent-2);
   text-decoration: underline;
-  text-underline-offset: 0.2rem;
+  text-underline-offset: 0.3rem;
   font-weight: 300!important;
 }
 
