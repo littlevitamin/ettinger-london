@@ -105,7 +105,7 @@
 
 {%- endstyle -%}
 
-<div class="image-with-text {% if request.path contains '/journal' %}topics-image-with-text{% endif %} image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
+<div class="image-with-text {% if request.path contains '/journal' or request.path contains '/topics' %}topics-image-with-text{% endif %} image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
   <div class="blog-image-container">
     <span class="blog-border"><div class="tan-divider">hello</div></span>
     <img class="blog-image" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Frame_279.svg?v=1687349682" width="200px" height="70px"/>
