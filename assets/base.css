@@ -4653,6 +4653,10 @@ div.banner__media::after {
   background-color: transparent !important;
   text-decoration: none !important;
   border-bottom: 2px solid var(--gradient-base-accent-2) !important;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .banner__box {
