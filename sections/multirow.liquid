@@ -147,7 +147,7 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.text -%}
-                <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+                <div class="image-with-text__text {% if request.path contains '/personalization' %}style-text{% endif %} rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
