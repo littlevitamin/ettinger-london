@@ -4650,7 +4650,8 @@ div.banner__media::after {
 }
 
 .variant-label {
-  height: 40px;
+  height: 30px!important;
+  width: 30px!important;
 }
 
 .mega-menu:hover > .header__menu-item {
