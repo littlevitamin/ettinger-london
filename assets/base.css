@@ -4661,8 +4661,8 @@ div.banner__media::after {
   }
 }
 
-.product-grid .card__heading > a {
-  padding: 10px 0;
+.product-grid .card__heading {
+  margin: 10px 0;
 }
 
 /* Cart drawer styling */
