@@ -59,7 +59,7 @@
         class="disabled"
       {% endif %}
     >
-    <label class="variant-options {% if template contains 'product' %}variant-label{% endif %}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
