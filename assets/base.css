@@ -4654,6 +4654,12 @@ div.banner__media::after {
   font-family: 'Gotham Medium', sans-serif!important;
 }
 
+.style-text > p > strong {
+  color: var(--gradient-base-accent-2);
+  text-decoration: underline;
+  text-underline-offset: 0.02rem;
+}
+
 .image-with-text__text--caption-raw > p > strong,
 .image-with-text__text--caption-raw > h6 > strong {
   color: var(--gradient-base-accent-2);
