@@ -4661,8 +4661,10 @@ div.banner__media::after {
   font-weight: 300!important;
 }
 
-.style.text > ul > li::marker {
-  display: none;
+.style.text > oll > li {
+  font-family: 'Gotham Light', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .image-with-text__text--caption-raw > p > strong,
