@@ -334,7 +334,8 @@ fieldset.product-form__input .form__label {
 .metafield-multi_line_text_field,
 .accordion__content > p,
 .product__info-container .product__description {
-  color: #121212!important;  
+  color: #121212!important;
+  font-weight: 300;
 }
 
 .product__text {
