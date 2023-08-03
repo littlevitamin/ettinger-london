@@ -4662,7 +4662,7 @@ div.banner__media::after {
 }
 
 .style.text > ul > li::marker {
-  background: blue;
+  display: none;
 }
 
 .image-with-text__text--caption-raw > p > strong,
