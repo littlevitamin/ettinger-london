@@ -4674,7 +4674,7 @@ div.banner__media::after {
 .banner-collection-box-1 > div > div > span > span > span.link > a {
   font-size: 12px!important;
   font-family: 'Gotham Medium', sans-serif!important;
-  font-weight: bold;
+  font-weight: 400!important;
 }
 
 .banner-collection-box-1 > div > div > span > span > span.link:hover a {
