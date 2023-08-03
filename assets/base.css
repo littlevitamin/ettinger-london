@@ -4671,6 +4671,7 @@ div.banner__media::after {
   background-size: 9px 9px;
   background-repeat: no-repeat;
   background-position: 0 50%;
+  padding-left: 20px;
 }
 
 .image-with-text__text--caption-raw > p > strong,
