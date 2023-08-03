@@ -611,18 +611,6 @@ table:not([class]) th {
   }
 }
 
-@media screen and (min-width: 750px) and (max-width: 989px) {
-  .medium-hide, .quick-add__submit {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .large-up-hide, .quick-add__submit {
-    display: none !important;
-  }
-}
-
 .left {
   text-align: left;
 }
