@@ -4652,6 +4652,7 @@ div.banner__media::after {
 .product .variant-fieldset > label {
   height: 30px!important;
   width: 30px!important;
+  padding: 0!important;
 }
 
 .mega-menu:hover > .header__menu-item {
