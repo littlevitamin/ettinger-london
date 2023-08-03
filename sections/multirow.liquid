@@ -142,7 +142,7 @@
               {%- endif -%}
               {%- if block.settings.caption -%}
                 <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium">
-                  {% if request.path contains '/about' or request.path contains '/the-ettinger-factory' %}<div class="image-with-text__text--caption-raw">{{ block.settings.caption | raw }}</div>{% else %}{{ block.settings.caption | raw }}{% endif %}
+                  {% if request.path contains '/about' %}<div class="image-with-text__text--caption-raw">{{ block.settings.caption | raw }}</div>{% else %}{{ block.settings.caption | raw }}{% endif %}
                 </p>
               {%- endif -%}
               {%- if block.settings.text -%}
