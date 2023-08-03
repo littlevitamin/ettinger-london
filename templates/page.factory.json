@@ -32,8 +32,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1_91118.png",
-        "enable_video": false,
         "paragraph": "<p>Unexpected shapes with smart <strong>details, functionality, a new luxury feel<\/strong> with a contemporary price point.<\/p>",
+        "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -83,8 +83,8 @@
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
       "type": "image-banner",
       "settings": {
-        "enable_video": true,
         "paragraph": "",
+        "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -104,7 +104,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shaun_Bloodworth_4_1.png",
-            "caption": "\"Most of us have one or several family members that have worked in the small leather goods making industry\"",
+            "caption": "<p><strong>\"<\/strong>Most of us have one or several family members that have worked in the small leather goods making industry<strong>\"<\/strong><\/p><h6><strong>-<\/strong> Gary Billingham, Factory Manager & Pattern Maker<\/h6>",
             "heading": "CRAFTSPEOPLE",
             "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.<\/p>",
             "button_label": "",
@@ -227,7 +227,7 @@
       ],
       "settings": {
         "title": "OUR LEATHERS",
-        "subheading": "Ettinger commissions and selects the best tanned skins from a number of tanneries, all of whom are based in the E.U. Having developed special relationships with these tanneries over many years ensures we can maintain our leather supply standards and offer an extensive range of leathers, many of which are exclusive to Ettinger. Discover our full ranges here.",
+        "subheading": "<p>Ettinger commissions and selects the best tanned skins from a number of tanneries, all of whom are based in the E.U. Having developed special relationships with these tanneries over many years ensures we can maintain our leather supply standards and offer an extensive range of leathers, many of which are exclusive to Ettinger. Discover our full ranges here.<\/p>",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
