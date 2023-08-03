@@ -4543,6 +4543,10 @@ div.banner__media::after {
   margin-top: 55px;
 }
 
+.multirow-factory .image-with-text__text--caption-raw {
+  margin-top: 0;
+}
+
 /* Feedback points */
 
 @media screen and (min-width: 1300px) {
