@@ -3469,10 +3469,10 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .submenu-item > a {
-  font-family: 'Gotham Medium', sans-serif;
+  font-family: 'Gotham Book', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 300;
+  font-size: 10px;
   line-height: 12px;
   display: flex;
   align-items: center;
