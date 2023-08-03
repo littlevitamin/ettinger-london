@@ -453,19 +453,6 @@
   }
   </script>
  
-  {% comment %}Update the price formatting{% endcomment %}
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const priceElements = document.getElementsByClassName("price-item--regular");
-
-      for (const priceElement of priceElements) {
-        let priceText = priceElement.textContent.trim();
-        let formattedPrice = priceText.substring(0, priceText.lastIndexOf(" "));
-        priceElement.textContent = formattedPrice;
-      }
-    });
-  </script>
-
   {% comment %} 
   //Need to add hide class with display none property and adjust the functionality
    <script>
