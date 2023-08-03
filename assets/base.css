@@ -3236,7 +3236,8 @@ sticky-header > header > nav > ul > li > a > span {
   text-transform: uppercase!important;
 }
 
-.blog__posts .card__heading {
+.blog__posts .card__heading,
+.article-template__title {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -3277,14 +3278,17 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
-.blog-styles .article-card__excerpt {
+.blog-styles .article-card__excerpt,
+.article-template .article-template__content
+ {
   font-weight: 300!important;
   color: #121212!important;
   font-size: 14px!important;
   text-transform: none!important;
 }
 
-.blog-styles .article-card__info {
+.blog-styles .article-card__info,
+.article-template .caption-with-letter-spacing {
   font-weight: 300!important;
   color: #121212!important;
   font-size: 10px!important;
