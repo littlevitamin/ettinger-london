@@ -4643,10 +4643,6 @@ div.banner__media::after {
 .mega-menu:hover > .header__menu-item > span {
   color: var(--gradient-base-accent-2);
   font-family: 'Gotham Medium', sans-serif!important;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 12px;
-  margin-right: 12px;
 }
 
 .styled-text > p {
