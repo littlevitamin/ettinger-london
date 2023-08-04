@@ -51,6 +51,7 @@
       >
         {%- if card_product.featured_media -%}
           <div class="card__media">
+                      {% render 'swymSnippet' with product: product %}
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
