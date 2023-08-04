@@ -3410,8 +3410,8 @@ sticky-header > header > nav > ul > li > a > span {
 
   .product-grid-container .grid__item:nth-child(22n + 11) .icon-wrap,
   .product-grid-container .grid__item:nth-child(22n + 22) .icon-wrap {
-    display: block;
-    fill: var(--gradient-base-accent-2);
+    display: inline;
+    color: var(--gradient-base-accent-2);
   }
 
   .grid__item:nth-child(22n + 11) .card__inner,
