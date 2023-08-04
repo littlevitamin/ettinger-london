@@ -3397,7 +3397,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 /* Collection grid template modification */
-.product .icon-wrap {
+.product-grid-container .icon-wrap {
   display: none;
 }
 
