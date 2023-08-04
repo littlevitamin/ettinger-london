@@ -3397,11 +3397,21 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 /* Collection grid template modification */
+.product .icon-wrap {
+  display: none;
+}
+
 @media screen and (min-width: 750px) {
   .grid__item:nth-child(22n + 11),
   .grid__item:nth-child(22n + 22) {
     grid-row: span 2;
     grid-column: span 2;
+  }
+
+  .grid__item:nth-child(22n + 11) .card__inner .icon-wrap,
+  .grid__item:nth-child(22n + 22) .card__inner .icon-wrap {
+    display: block;
+    fill: var(--gradient-base-accent-2);
   }
 
   .grid__item:nth-child(22n + 11) .card__inner,
