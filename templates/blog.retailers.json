@@ -102,7 +102,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "blog": "news",
+        "blog": "retailers",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "background-1",
@@ -119,7 +119,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "blog": "news",
+        "blog": "retailers",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "background-1",
@@ -136,7 +136,7 @@
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
-        "blog": "news",
+        "blog": "retailers",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "background-1",
