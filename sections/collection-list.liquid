@@ -156,6 +156,7 @@
               {% render 'card-collection',
                 card_collection: block.settings.collection,
                 media_aspect_ratio: section.settings.image_ratio,
+                collection_list_image: image,
                 columns: columns
               %}
             </swiper-slide>
@@ -426,6 +427,11 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "collection_list_image",
+          "label": "Collection Image"
         }
       ]
     }
