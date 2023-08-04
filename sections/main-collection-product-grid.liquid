@@ -52,31 +52,26 @@
     display: flex;
     flex-wrap: wrap;
     padding: 5px 0;
+    margin-top: -20px;
   }
 
   .collection-fieldset label {
     margin: 4px;
     opacity: 0;
   }
-
-
-  /*.grid__item:hover .card-information > p {
-    display: none!important;
+  
+  .grid__item .collection-fieldset label,
+  .grid__item .card-information > p {
+    transition: opacity 0.5s ease;
   }
-   */
-
-.grid__item .collection-fieldset label,
-.grid__item .card-information > p {
-  transition: opacity 0.5s ease;
-}
-
-.grid__item:hover .collection-fieldset label {
-  opacity: 1;
-}
-
-.grid__item:hover .card-information > p {
-  opacity: 0;
-}
+  
+  .grid__item:hover .collection-fieldset label {
+    opacity: 1;
+  }
+  
+  .grid__item:hover .card-information > p {
+    opacity: 0;
+  }
 
   @media screen and (min-width: 750px) and (max-width: 989px) {
     .medium-hide, .quick-add__submit {
