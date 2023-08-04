@@ -1,6 +1,6 @@
 <!-- Add personalization button -->
 <div class="product-form">
-  <button class="button product-form__buttons button--full-width" name="add" id="personalizationBtn">Add Personalization +£19</button>
+  <button class="button personalization-btn product-form__buttons button--full-width" name="add" id="personalizationBtn">Add Personalisation &nbsp;<span style="font-weight: 300">+£19</span></button>
 </div>
 <div id="personalizationData"></div>
 
@@ -9,7 +9,7 @@
   <div class="popupContent">
     <span id="closeIcon">&times;</span>
     <div class="leftSide">
-      <div class="h2">PERSONALIZE YOUR ITEM</div>
+      <div class="h2">PERSONALISE YOUR ITEM</div>
       <p class="text-popup">Ettinger takes great care to block initials by hand, with the right balance and the emboss remains very crisp and delicate.
         <br><br>This is done by a specialist craftsperson in our factory and so can take up to 1 week for delivery.
         <br><br>Should you require any other assistance, please call us on <a style="color: var(--gradient-base-accent-2);" href="tel:+442088771616">+44 20 8877 1616</a> or <a style="color: var(--gradient-base-accent-2);" href="mailto:clientservices@ettinger.co.uk">email us</a>.
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var firstProductImage = document.querySelector('.product__media img');
     var productImage = document.getElementById('productImage');
     productImage.src = firstProductImage.src;
-    personalizationBtn.textContent = 'Edit Personalization';
+    personalizationBtn.textContent = 'Edit Personalisation';
   });
 
   document.getElementById('closeIcon').addEventListener('click', function() {

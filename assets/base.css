@@ -96,6 +96,25 @@
   --alpha-button-background: 1;
 }
 
+.personalization-btn {
+  background-color: white!important;
+  color: #777777!important;
+  border: 1px solid #777777!important;
+  border-radius: 3px!important;
+  font-family: 'Gotham Book', sans-serif!important;
+  font-weight: 400!important;
+  font-size: 13px!important;
+  line-height: 15px!important;
+}
+
+.personalization-btn:hover {
+  border: 1px solid var(--gradient-base-accent-2)!important;
+}
+
+.add-to-cart-btn {
+  font-weight: 700!important;
+}
+
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
 .color-accent-2 .button--secondary {
@@ -4665,7 +4684,7 @@ div.banner__media::after {
   font-family: 'Gotham Light', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  color: #777777;
+  color: #121212;
   list-style-type: none;
   background-image: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Monogram_K_Black_2.svg?v=1691073743');
   background-size: 9px 9px;

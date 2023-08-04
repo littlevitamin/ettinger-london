@@ -61,6 +61,11 @@
     object-fit: contain;
     max-height: -webkit-fill-available;
   }
+
+  .multirow-text > p {
+    color: #121212!important;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -147,7 +152,7 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.text -%}
-                <div class="image-with-text__text {% if request.path contains '/personalization' %}style-text{% endif %} rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+                <div class="image-with-text__text multirow-text {% if request.path contains '/personalization' %}style-text{% endif %} rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
