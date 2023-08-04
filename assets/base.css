@@ -4716,6 +4716,7 @@ div.banner__media::after {
   font-family: 'Gotham Light', sans-serif;
   font-weight: 300;
   color: var(--gradient-base-accent-2);
+  cursor: pointer;
 }
 
 .image-with-text__text--caption-raw > p > strong,
