@@ -41,12 +41,13 @@
 
       {%- when 'title' -%}
         <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
-          <form>
+          <form class="form-back">
             <input class="input-back" type="button" value="
               {% if request.path contains '/news' %}NEWS
               {% elsif request.path contains '/style' %}STYLE
               {% elsif request.path contains '/lifestyle' %}LIFESTYLE
               {% elsif request.path contains '/behind' %}BEHIND THE BRAND
+              {% elsif request.path contains '/retailers' %}RETAILERS
               {% else request.path contains '/interviews' %}INTERVIEWS{% endif %}" onclick="history.back()">
           </form>
           <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
