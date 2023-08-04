@@ -68,20 +68,11 @@
   }
    */
 
-  /* Initially hide the elements */
-.grid__item .collection-fieldset label,
-.grid__item .card-information > p {
-  opacity: 0;
-  position: absolute;
-}
-
-/* Apply the transition to the opacity property */
 .grid__item .collection-fieldset label,
 .grid__item .card-information > p {
   transition: opacity 0.5s ease;
 }
 
-/* Show the collection-fieldset label on hover and hide the card-information paragraph */
 .grid__item:hover .collection-fieldset label {
   opacity: 1;
 }
