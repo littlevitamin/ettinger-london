@@ -239,6 +239,7 @@
                 {% elsif request.path contains '/lifestyle' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">LIFESTYLE</span> 
                 {% elsif request.path contains '/behind' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">BEHIND THE BRAND</span> 
                 {% elsif request.path contains '/interviews' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">INTERVIEWS</span> 
+                {% elsif request.path contains '/retailers' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">RETAILERS</span> 
                 {% else %}{{ block.settings.heading | escape }}{% endif %}</span>
               </h2>
             {%- when 'text' or section.settings.paragraph != blank -%}
