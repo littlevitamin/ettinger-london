@@ -133,6 +133,19 @@
   .collection-hero {
     display: none!important;
   }
+
+  .wishlist-collection-btn {
+    z-index: 9999;
+    top: 10px;
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+  }
+
+  .grid__item:hover .wishlist-collection-btn {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding {% if template contains 'collection' %}bottom-grid{% endif %}">
