@@ -1380,7 +1380,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  background-color: var(--gradient-base-accent-2);
 }
 
 .button:before,
@@ -4691,6 +4691,25 @@ div.banner__media::after {
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 20px;
+}
+
+.article-template__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.input-back {
+  background-color: transparent;
+  border: 0;
+  padding-bottom: 8px;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: 'Gotham Light', sans-serif;
+  font-weight: 300;
+  color: var(--gradient-base-accent-2);
 }
 
 .image-with-text__text--caption-raw > p > strong,

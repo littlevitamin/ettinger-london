@@ -137,7 +137,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} {% if request.path contains '/topics' or request.path contains '/leather-care' %}text-over-image{% endif %} {% if request.path contains '/about-us' or request.path contains '/personalization' or request.path contains '/the-ettinger-factory' %}larger-banner{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} {% if request.path contains '/blogs' or request.path contains '/leather-care' %}text-over-image{% endif %} {% if request.path contains '/about-us' or request.path contains '/personalization' or request.path contains '/the-ettinger-factory' %}larger-banner{% endif %}"
 >
   {% if section.settings.enable_video %}
     <div class="banner__media">
@@ -225,13 +225,21 @@
         }}
       </div>
     {%- endif -%}
-    <div style="height: 100%; background: rgba(0,0,0,0.3);" class="banner__content banner__content--{{ section.settings.desktop_content_position }} {% if request.page_type == 'index' %}banner-home-box{% endif %} {% if request.page_type != 'index' %} banner-other-box{% endif %} {% if request.path contains 'collection' %} banner-collection-box-1{% endif %} {% if request.path contains '/journal' %} banner-journal-box-1{% endif %} {% if request.path contains '/topics' or request.path contains '/leather-care' %} banner-topics-box-1{% endif %}">
+    <div style="height: 100%; background: rgba(0,0,0,0.3);" class="banner__content banner__content--{{ section.settings.desktop_content_position }} {% if request.page_type == 'index' %}banner-home-box{% endif %} {% if request.page_type != 'index' %} banner-other-box{% endif %} {% if request.path contains 'collection' %} banner-collection-box-1{% endif %} {% if request.path contains '/journal' %} banner-journal-box-1{% endif %} {% if request.path contains '/blogs' or request.path contains '/leather-care' %} banner-topics-box-1{% endif %}">
       <div class="banner__box {% if template contains 'journal' %}banner-journal-box{% endif %} {% if template contains 'collection' %}banner-collection-box{% endif %} content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2 class="banner__heading {{ block.settings.heading_size }}  {% if template contains 'collection' %} banner-heading {% endif %} " {{ block.shopify_attributes }}>
-                <span>{% if template == 'collection.collection' %}{{ collection.title }} <span style="color: #ec9a00;">COLLECTION</span>{% elsif template contains 'collaboration' %}{{ collection.title }} <span style="color: #ec9a00;">COLLABORATION</span>{% elsif template == 'collection' %}{{ collection.title }}{% elsif request.path contains '/topics' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">NEWS</span> {% else %}{{ block.settings.heading | escape }}{% endif %}</span>
+                <span>{% if template == 'collection.collection' %}{{ collection.title }} <span style="color: #ec9a00;">COLLECTION</span>
+                {% elsif template contains 'collaboration' %}{{ collection.title }} <span style="color: #ec9a00;">COLLABORATION</span>
+                {% elsif template == 'collection' %}{{ collection.title }}
+                {% elsif request.path contains '/news' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">NEWS</span> 
+                {% elsif request.path contains '/style' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">STYLE</span> 
+                {% elsif request.path contains '/lifestyle' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">LIFESTYLE</span> 
+                {% elsif request.path contains '/behind' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">BEHIND THE BRAND</span> 
+                {% elsif request.path contains '/interviews' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">INTERVIEWS</span> 
+                {% else %}{{ block.settings.heading | escape }}{% endif %}</span>
               </h2>
             {%- when 'text' or section.settings.paragraph != blank -%}
               <div class="banner__text {{ block.settings.text_style }}  {% if template contains 'collection' %} banner-text {% endif %}" {{ block.shopify_attributes }}>

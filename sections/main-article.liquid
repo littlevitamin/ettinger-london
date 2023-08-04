@@ -41,6 +41,14 @@
 
       {%- when 'title' -%}
         <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
+          <form>
+            <input class="input-back" type="button" value="
+              {% if request.path contains '/news' %}NEWS
+              {% elsif request.path contains '/style' %}STYLE
+              {% elsif request.path contains '/lifestyle' %}LIFESTYLE
+              {% elsif request.path contains '/behind' %}BEHIND THE BRAND
+              {% else request.path contains '/interviews' %}INTERVIEWS{% endif %}" onclick="history.back()">
+          </form>
           <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
           {%- if block.settings.blog_show_date -%}
             <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
@@ -72,7 +80,7 @@
   {%- endfor -%}
 
   <div class="article-template__back element-margin-top center">
-    <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
+    <a href="{{ blog.url }}" class="article-template__link link button animate-arrow">
       <span class="icon-wrap">{% render 'icon-arrow' %}</span>
       {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
     </a>
