@@ -97,7 +97,7 @@
 -%}
 
 <div class="multirow {% if request.path contains '/the-ettinger-factory' %}multirow-scrolling {% endif %} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-      <div class="blog-image-container empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalization' %} show-divider{% endif %}">
+      <div class="blog-image-container empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalisation' %} show-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         <video 
             style="height: 180px; width: 180px; margin-top: -15px;" 
@@ -152,7 +152,7 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.text -%}
-                <div class="image-with-text__text multirow-text {% if request.path contains '/personalization' %}style-text{% endif %} rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+                <div class="image-with-text__text multirow-text {% if request.path contains '/personalisation' %}style-text{% endif %} rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
