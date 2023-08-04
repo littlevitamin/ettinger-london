@@ -4753,8 +4753,10 @@ div.banner__media::after {
   margin-right: 12px;
 }
 
-.banner__box {
-  width: var(--page-width)!important;
+@media screen and (min-width: 750px) {
+  .banner__box {
+    width: var(--page-width)!important;
+  }
 }
 
 @media screen and (max-width: 749px) {
