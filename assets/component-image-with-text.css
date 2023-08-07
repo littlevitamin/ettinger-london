@@ -81,7 +81,7 @@
   padding-right: 6rem!important;
 }
 
-.multirow__scroll .grid--1-col .grid__item {
+.multirow__scroll .grid--1-col .grid__item > div {
   max-width: 100%!important;
 }
 
