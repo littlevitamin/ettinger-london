@@ -4540,6 +4540,7 @@ div.banner__media::after {
   .multirow__scroll .image-with-text__media > img {
     object-fit: contain!important;
     top: -100px;
+    object-position: top center;
   }
 }
 
