@@ -183,37 +183,73 @@
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bridle-hide"
+            "collection": "canvas"
           }
         },
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "capra"
+            "collection": "goat-leather"
           }
         },
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "croco"
+            "collection": "suede"
           }
         },
         "ac1861e4-5e7a-482f-834d-93b1397f69a8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "heritage"
+            "collection": "saint-crispin-calf"
           }
         },
         "b06fd603-469d-46b1-b34b-81893e0db821": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mens-gifts"
+            "collection": "smooth-calfskin"
           }
         },
         "f107b4ae-08ed-4d89-97a4-a10b57caa1a3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "metropolitan"
+            "collection": "shadow-hide"
+          }
+        },
+        "c227ccab-a8c5-44cf-bddb-082bcbe06b92": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "croco-leather"
+          }
+        },
+        "8ea102ea-cb2c-4799-9269-ccd78cd244dc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dressed-calf"
+          }
+        },
+        "742403f8-9b18-4fb6-a7da-4dbdd6d02196": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "soft-dressed-calf"
+          }
+        },
+        "9a8654af-8108-4437-8ff3-0fbc757d857d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fine-bridle-hide"
+          }
+        },
+        "32753946-180a-4fd2-8df0-bbd3737cd9fa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "traditional-english-bridle-hide"
+          }
+        },
+        "62709a05-6740-4708-a735-85a943dc8d19": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "panel-hide"
           }
         }
       },
@@ -223,7 +259,13 @@
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3",
         "ac1861e4-5e7a-482f-834d-93b1397f69a8",
         "b06fd603-469d-46b1-b34b-81893e0db821",
-        "f107b4ae-08ed-4d89-97a4-a10b57caa1a3"
+        "f107b4ae-08ed-4d89-97a4-a10b57caa1a3",
+        "c227ccab-a8c5-44cf-bddb-082bcbe06b92",
+        "8ea102ea-cb2c-4799-9269-ccd78cd244dc",
+        "742403f8-9b18-4fb6-a7da-4dbdd6d02196",
+        "9a8654af-8108-4437-8ff3-0fbc757d857d",
+        "32753946-180a-4fd2-8df0-bbd3737cd9fa",
+        "62709a05-6740-4708-a735-85a943dc8d19"
       ],
       "settings": {
         "title": "OUR LEATHERS",
