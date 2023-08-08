@@ -24,5 +24,6 @@ function loadMoreProducts() {
             load_more_btn.hide()
         }
     })
+    updateProductCount();
 }
 
