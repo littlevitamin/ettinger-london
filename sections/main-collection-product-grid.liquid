@@ -33,13 +33,6 @@
   .load-more {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    max-width: 200px;
-    margin: 0 auto;
-  }
-
-  #productCount {
-    text-align: center;
   }
 
   .load-more-btn {
@@ -158,7 +151,7 @@
   }
 
   .swym-add-to-wishlist-view-product {
-    z-index: 2;
+    z-index: 9999;
     top: 10px!important;
     position: absolute!important;
     right: 10px!important;
@@ -355,9 +348,7 @@
 
             {% if section.settings.enable_load_more == true %}
               <div class="load-more">
-                <button class="button load-more-btn" onclick="loadMoreProducts();">VIEW MORE</button>
-                {% capture visibleProductsCountLiquid %}{% endcapture %}
-                <div id="productCount">{{ visible_products_count }}/{{ collection.all_products_count }}</div>
+                <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
               </div>
             {% else %}
               {%- if paginate.pages > 1 -%}
@@ -371,29 +362,6 @@
     </div>
   </div>
 </div>
-
-<script>
-var productItems = document.querySelectorAll('.grid__item');
-
-function updateProductCount() {
-    var visibleProducts = 0;
-
-    for (var i = 0; i < productItems.length; i++) {
-        if (isVisible(productItems[i])) {
-            visibleProducts++;
-        }
-    }
-
-    var productCountElement = document.getElementById('productCount');
-    productCountElement.textContent = `${visibleProducts}/{{ collection.all_products_count }} PRODUCTS`;
-}
-
-function isVisible(element) {
-    return element.offsetWidth > 0 && element.offsetHeight > 0;
-}
-
-    updateProductCount();
-</script>
 
 {% schema %}
 {
