@@ -351,6 +351,7 @@
                 <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
               </div>
               {% capture visibleProductsCountLiquid %}{% endcapture %}
+              <div id="productCount">{{ visible_products_count }}/{{ collection.all_products_count }} products</div>
             {% else %}
               {%- if paginate.pages > 1 -%}
                 {% render 'pagination', paginate: paginate, anchor: '' %}
