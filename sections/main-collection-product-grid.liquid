@@ -374,8 +374,6 @@
 
 <script>
 var productItems = document.querySelectorAll('.grid__item');
-var loadMoreButton = document.querySelector('.load-more-btn');
-var loadMoreButtonClicks = 0;
 
 function updateProductCount() {
     var visibleProducts = 0;
@@ -387,20 +385,14 @@ function updateProductCount() {
     }
 
     var productCountElement = document.getElementById('productCount');
-    var totalCount = (visibleProducts + loadMoreButtonClicks) + '/' + '{{ collection.all_products_count }} PRODUCTS';
-    productCountElement.textContent = totalCount;
+    productCountElement.textContent = `${visibleProducts}/{{ collection.all_products_count }} PRODUCTS`;
 }
 
 function isVisible(element) {
     return element.offsetWidth > 0 && element.offsetHeight > 0;
 }
 
-loadMoreButton.addEventListener('click', function() {
-    loadMoreButtonClicks++;
     updateProductCount();
-    // Your logic to load more products
-});
-
 </script>
 
 {% schema %}
