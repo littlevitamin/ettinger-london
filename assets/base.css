@@ -4609,7 +4609,7 @@ predictive-search .field {
 
 .variant-fieldset label:hover {
     color: #121212!important;
-    font-size: 10px;
+    font-size: 10px!important;
 }
 
 .variant-fieldset label:hover::before {
