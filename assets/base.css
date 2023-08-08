@@ -4603,6 +4603,10 @@ predictive-search .field {
   border-radius: 0;
 }
 
+#product-grid > li > fieldset:nth-child(4) {
+  display: none;
+}
+
 @media screen and (min-width: 1300px) {
   .customer-services-menu {
     margin-right: 80%;
