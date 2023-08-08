@@ -368,15 +368,6 @@
   </div>
 </div>
 
-<script>
-  let currentPageSize = {{ paginate.page_size }};
-  
-  function loadMoreProducts() {
-    currentPageSize += {{ paginate.page_size }};
-    document.getElementById("product-count").textContent = currentPageSize;
-  }
-</script>
-
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
