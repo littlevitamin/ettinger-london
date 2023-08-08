@@ -350,6 +350,7 @@
               <div class="load-more">
                 <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
               </div>
+              {{ paginate.page_size }}
             {% else %}
               {%- if paginate.pages > 1 -%}
                 {% render 'pagination', paginate: paginate, anchor: '' %}
