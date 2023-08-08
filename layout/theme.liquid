@@ -375,7 +375,7 @@
           var scrollPosition = window.pageYOffset;
           if (scrollPosition > 50 && scrollPosition < 250) {
             headerWrapper.style.position = 'unset';
-          } else if (scrollPosition < 50 || scrollPosition >= 250) {
+          } else if (scrollPosition < 50 && scrollPosition >= 250) {
             headerWrapper.style.position = 'sticky';
             headerWrapper.classList.add('scrolled-past-header');
           } 
