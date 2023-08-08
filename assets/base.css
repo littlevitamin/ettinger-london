@@ -4924,3 +4924,17 @@ div.banner__media::after {
     max-width: 68rem!important;
   }
 }
+
+/* Stockists page */
+
+.stockist-powered-by-link {
+  display: none;
+}
+
+.stockist-result-message-text,
+.stockist-search-field {
+  font-size: 14px;
+  color: #121212;
+  font-family: 'Gotham Book', sans-serif;
+  font-weight: 300;
+}
