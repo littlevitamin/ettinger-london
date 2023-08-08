@@ -1451,7 +1451,7 @@ a.product__text {
   padding-top: var(--ratio-percent);
 }
 
-.product-media-container.constrain-height .media {
+.product-media-container.constrain-height:first-child .media {
   padding-top: min(var(--constrained-height), var(--ratio-percent));
   aspect-ratio: 1;
 }
