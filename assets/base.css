@@ -4587,6 +4587,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.search__input {
+  border-bottom: 1px solid #121212;
+}
+
 @media screen and (min-width: 1300px) {
   .customer-services-menu {
     margin-right: 80%;
