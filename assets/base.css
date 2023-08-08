@@ -4603,6 +4603,10 @@ predictive-search .field {
   border-radius: 0;
 }
 
+.variant-fieldset label #text {
+  font-size: 10px;
+}
+
 #product-grid > li > fieldset:nth-child(4) {
   display: none;
 }
