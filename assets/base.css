@@ -4604,18 +4604,24 @@ predictive-search .field {
 }
 
 .variant-fieldset label {
-  position: relative;
+    position: relative;
 }
 
 .variant-fieldset label:hover {
-  color: #121212;
-  font-size: 10px;
+    color: #121212;
+    font-size: 10px;
 }
 
-.variant-fielset label:hover .variant-fielset label::before {
-  position: absolute;
-  top: -10px;
+.variant-fieldset label:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
 }
+
 
 #product-grid > li > fieldset:nth-child(4) {
   display: none;
