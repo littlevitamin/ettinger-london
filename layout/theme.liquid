@@ -373,7 +373,7 @@
 
         window.addEventListener("scroll", function() {
           var scrollPosition = window.pageYOffset;
-          if (scrollPosition > 50 || scrollPosition < 250) {
+          if (scrollPosition > 50 && scrollPosition < 250) {
             headerWrapper.style.position = 'unset';
           } else if (scrollPosition < 50 || scrollPosition >= 250) {
             headerWrapper.style.position = 'sticky';
