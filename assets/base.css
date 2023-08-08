@@ -4587,7 +4587,7 @@ div.banner__media::after {
 
 /* Feedback points */
 
-.search__input {
+.search__input::after {
   border-bottom: 1px solid #121212;
   border-radius: 0;
 }
