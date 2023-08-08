@@ -351,7 +351,7 @@
                 <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
               </div>
               {% capture visibleProductsCountLiquid %}{% endcapture %}
-              <div id="productCount">{{ visible_products_count }}/{{ collection.all_products_count }} PRODUCTS</div>
+              <div id="productCount">{{ visible_products_count }}/{{ collection.all_products_count }}</div>
             {% else %}
               {%- if paginate.pages > 1 -%}
                 {% render 'pagination', paginate: paginate, anchor: '' %}
@@ -378,7 +378,7 @@ function updateProductCount() {
     }
 
     var productCountElement = document.getElementById('productCount');
-    productCountElement.textContent = `${visibleProducts}/{{ collection.all_products_count }}`;
+    productCountElement.textContent = `${visibleProducts}/{{ collection.all_products_count }} PRODUCTS`;
 }
 
 function isVisible(element) {
