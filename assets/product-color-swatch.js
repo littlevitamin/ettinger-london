@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
     switch (color) {
       case 'Green/London Tan':
         return 'color-green-london-tan';
+      case 'Bracken/Eggshell':
+        return 'color-bracken-eggshell';
       case 'Havana/London Tan':
         return 'color-havana-london-tan';
       case 'Ettinger Grey/London Tan':
