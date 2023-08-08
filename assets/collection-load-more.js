@@ -24,5 +24,7 @@ function loadMoreProducts() {
             load_more_btn.hide()
         }
     })
+
+    location.reload();
 }
 
