@@ -350,7 +350,7 @@
               <div class="load-more">
                 <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
               </div>
-              {{ collection.products_count }}/{{ collection.all_products_count }}
+              {{ collection.current_type }}/{{ collection.all_products_count }}
             {% else %}
               {%- if paginate.pages > 1 -%}
                 {% render 'pagination', paginate: paginate, anchor: '' %}
