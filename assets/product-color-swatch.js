@@ -46,6 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
         return 'color-tan';
       case 'White':
         return 'color-white';
+      case 'Neutral/White':
+        return 'color-white';
       case 'Chocolate':
         return 'color-chocolate';
       case 'Nut':
