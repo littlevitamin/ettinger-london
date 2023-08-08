@@ -355,7 +355,7 @@
 
             {% if section.settings.enable_load_more == true %}
               <div class="load-more">
-                <button class="button load-more-btn" onclick="loadMoreProducts();updateProductCount();">VIEW MORE</button>
+                <button class="button load-more-btn" onclick="loadMoreProducts();">VIEW MORE</button>
                 {% capture visibleProductsCountLiquid %}{% endcapture %}
                 <div id="productCount">{{ visible_products_count }}/{{ collection.all_products_count }}</div>
               </div>
@@ -392,8 +392,12 @@ function isVisible(element) {
     return element.offsetWidth > 0 && element.offsetHeight > 0;
 }
 
-// Call the updateProductCount function whenever you need to update the count, like when the page loads or when products are filtered.
-updateProductCount();
+function loadMoreProducts() {
+    // Call your logic to load more products here
+    
+    // After loading products, call the updateProductCount function to update the count
+    updateProductCount();
+}
 
 </script>
 
