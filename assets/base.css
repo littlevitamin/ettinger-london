@@ -3731,6 +3731,7 @@ sticky-header > header > nav > ul > li > a > span {
   width: 14px;
   height: 14px;
   border-radius: 1px;
+  border: 1px solid #121212;
 }
 
 .color-chocolate {
