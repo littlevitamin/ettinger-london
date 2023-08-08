@@ -4926,8 +4926,8 @@ div.banner__media::after {
 }
 
 @media screen and (min-width: 750px) {
-  #shopify-section-template--19283159318814__9456937c-73e1-4da5-9cfb-2e98306c6c66 > div > div > div > div > div:nth-child(3),
-  #shopify-section-template--19283159318814__9456937c-73e1-4da5-9cfb-2e98306c6c66 > div > div > div > div > div:nth-child(4) {
+  .rich-text > div > div > div:nth-child(3),
+  .rich-text > div > div > div:nth-child(4) {
     display: inline-block;
     width: 49%;
   }
