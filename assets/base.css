@@ -4850,3 +4850,70 @@ div.banner__media::after {
 #CartDrawer > div.drawer__inner > div.drawer__header > button > svg > path {
   fill: var(--gradient-base-accent-2);
 }
+
+/* Contact form */
+
+#ContactForm .field__input {
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.contact-text {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.contact-text .h1 {
+  font-size: 36px;
+  line-height: 43px;
+  font-family: 'Gotham Book', sans-serif;
+  font-weight: 400;
+  color: var(--gradient-base-accent-2);
+}
+
+.contact-text .rich-text__text {
+  font-size: 10px;
+  font-family: 'Gotham Light', sans-serif;
+  line-height: 17px;
+  font-weight: 300;
+  color: #121212;
+}
+
+.contact-text .rich-text__text > p > a > strong {
+  text-decoration: underline;
+  color: var(--gradient-base-accent-2);
+}
+
+.contact-text .rich-text__text > p > a {
+  text-decoration-thickness: 0!important;
+}
+
+.contact-text .rich-text__text > h6 {
+  font-size: 16px;
+}
+
+.email__field {
+  width: calc(200% + 2rem);
+}
+
+.contact .field__label {
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.04rem;
+  font-family: 'Gotham Light', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 749px) {
+  .contact {
+    width: calc(100% - 4rem / var(--font-body-scale));
+  }
+  .email__field {
+    width: 100%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 989px) {
+  .contact {
+    max-width: 68rem!important;
+  }
+}
