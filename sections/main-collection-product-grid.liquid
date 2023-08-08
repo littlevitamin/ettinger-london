@@ -372,7 +372,7 @@
   </div>
 </div>
 
-{% comment %}<script>
+<script>
 var productItems = document.querySelectorAll('.grid__item');
 
 function updateProductCount() {
@@ -391,13 +391,15 @@ function updateProductCount() {
 function isVisible(element) {
     return element.offsetWidth > 0 && element.offsetHeight > 0;
 }
+
 function loadMoreProducts() {
     // Call your logic to load more products here
     
     // After loading products, call the updateProductCount function to update the count
     updateProductCount();
 }
-</script>{% endcomment %}
+
+</script>
 
 {% schema %}
 {
