@@ -436,7 +436,7 @@
   });
   </script>
 
-  {% comment %}Search functionality
+  {% comment %}Search functionality{% endcomment %}
   <script>
   function handleSearchClick() {
     var searchElement = document.querySelector('.header__search');
@@ -444,14 +444,14 @@
     var closeButton = document.querySelector('.search-modal__close-button');
     
     searchElement.addEventListener('click', function() {
-      announcementElement.classList.add('hidden');
+      announcementElement.style.zIndex = '3';
     });
     
     closeButton.addEventListener('click', function() {
-      announcementElement.classList.remove('hidden');
+      announcementElement.style.zIndex = '4';
     });
   }
-  </script>{% endcomment %}
+  </script>
  
   {% comment %} 
   //Need to add hide class with display none property and adjust the functionality
