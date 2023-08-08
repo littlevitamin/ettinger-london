@@ -353,7 +353,7 @@
             {% if section.settings.enable_load_more == true %}
               <div class="load-more">
                 <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
-                {{ paginate.page_size }}/{{ collection.all_products_count }} PRODUCTS
+                <span id="product-count">{{ paginate.page_size }}</span> / {{ collection.all_products_count }} PRODUCTS
               </div>
             {% else %}
               {%- if paginate.pages > 1 -%}
@@ -367,6 +367,15 @@
     </div>
   </div>
 </div>
+
+<script>
+  let currentPageSize = {{ paginate.page_size }};
+  
+  function loadMoreProducts() {
+    currentPageSize += {{ paginate.page_size }};
+    document.getElementById("product-count").textContent = currentPageSize;
+  }
+</script>
 
 {% schema %}
 {
