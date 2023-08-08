@@ -369,6 +369,7 @@
       document.addEventListener("DOMContentLoaded", function() {
         var headerWatermark = document.querySelector(".header-watermark");
         var headerWrapper = document.querySelector(".section-header");
+        var searchModal = document.querySelector(".search-modal__content");
         var imageElement = document.querySelector(".shopify-section-group-header-group > sticky-header > header > h1 > a > img");
 
         window.addEventListener("scroll", function() {
@@ -379,7 +380,7 @@
             headerWrapper.style.position = 'sticky';
             headerWrapper.classList.add('scrolled-past-header');
           } else if (scrollPosition < 50) {
-            headerWrapper.style.position = 'sticky';
+            searchModal.style.marginTop = '65px';
           }
           if (scrollPosition > 100 && scrollPosition < 150) {
             imageElement.classList.add("new-content");
