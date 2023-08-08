@@ -24,7 +24,4 @@ function loadMoreProducts() {
             load_more_btn.hide()
         }
     })
-    clickCount++;
-    currentPageSize = initialPageSize * (clickCount + 1);
-    document.getElementById("product-count").textContent = currentPageSize;
 }
