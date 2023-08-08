@@ -183,73 +183,85 @@
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "canvas"
+            "collection": "canvas",
+            "collection_list_image": "shopify:\/\/shop_images\/Canvas_1200x1000_90a2c00b-cc46-4e19-9371-13c69f488c3f.jpg"
           }
         },
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "goat-leather"
+            "collection": "goat-leather",
+            "collection_list_image": "shopify:\/\/shop_images\/Goat_Leather_Collection_1200x1000_caf849a2-3ec9-4abf-a877-9a730f662df9.jpg"
           }
         },
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "suede"
+            "collection": "suede",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_Collection_Banner_copy_f3e7e2e1-5706-4105-ac4e-7842f6e52997.jpg"
           }
         },
         "ac1861e4-5e7a-482f-834d-93b1397f69a8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "saint-crispin-calf"
+            "collection": "saint-crispin-calf",
+            "collection_list_image": "shopify:\/\/shop_images\/Saint_Crispin_Calf_Collection_1200x1000_9b61669d-12df-4cf3-a7d0-c5165d86729e.jpg"
           }
         },
         "b06fd603-469d-46b1-b34b-81893e0db821": {
           "type": "featured_collection",
           "settings": {
-            "collection": "smooth-calfskin"
+            "collection": "smooth-calfskin",
+            "collection_list_image": "shopify:\/\/shop_images\/Smooth_Calf_1200x1000_2eb68e5f-3725-4744-8c6d-2c81583cc0e7.jpg"
           }
         },
         "f107b4ae-08ed-4d89-97a4-a10b57caa1a3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shadow-hide"
+            "collection": "shadow-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Shadow_Hide_1200x1000_43c1ccde-8061-4534-b59a-0d505afcf521.jpg"
           }
         },
         "c227ccab-a8c5-44cf-bddb-082bcbe06b92": {
           "type": "featured_collection",
           "settings": {
-            "collection": "croco-leather"
+            "collection": "croco-leather",
+            "collection_list_image": "shopify:\/\/shop_images\/Croco_1200x1000_062a89bb-c3f3-4f8e-ab7e-294bf378b973.jpg"
           }
         },
         "8ea102ea-cb2c-4799-9269-ccd78cd244dc": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dressed-calf"
+            "collection": "dressed-calf",
+            "collection_list_image": "shopify:\/\/shop_images\/Dressed_Calf_1200x1000_2249b3f6-2c18-4aff-8b61-1c05fb965143.jpg"
           }
         },
         "742403f8-9b18-4fb6-a7da-4dbdd6d02196": {
           "type": "featured_collection",
           "settings": {
-            "collection": "soft-dressed-calf"
+            "collection": "soft-dressed-calf",
+            "collection_list_image": "shopify:\/\/shop_images\/Soft_Dressed_Calf_1200x1000_37ba488d-8d3f-42a4-ad82-e8b8bca8607c.jpg"
           }
         },
         "9a8654af-8108-4437-8ff3-0fbc757d857d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "fine-bridle-hide"
+            "collection": "fine-bridle-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_1200x1000_8bc9894a-5d68-4394-a049-605b6202055f.jpg"
           }
         },
         "32753946-180a-4fd2-8df0-bbd3737cd9fa": {
           "type": "featured_collection",
           "settings": {
-            "collection": "traditional-english-bridle-hide"
+            "collection": "traditional-english-bridle-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Traditional_English_Bridle_Hide_Collection_1200x1000_eaad5c8e-70b6-46c1-80c6-fb78fd0b597e.jpg"
           }
         },
         "62709a05-6740-4708-a735-85a943dc8d19": {
           "type": "featured_collection",
           "settings": {
-            "collection": "panel-hide"
+            "collection": "panel-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Panel_Hide_Collection_1200x1000_e975fa7c-af99-4697-a892-2581ba397b45.jpg"
           }
         }
       },
