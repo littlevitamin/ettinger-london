@@ -629,7 +629,7 @@ a.product__text {
 }
 
 .product__media-item:first-child {
-  min-width: 90%!important;
+  min-width: 80vh!important;
   margin: 0 auto;
 } 
 
