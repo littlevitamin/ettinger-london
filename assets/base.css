@@ -3868,8 +3868,18 @@ sticky-header > header > nav > ul > li > a > span {
   border-radius: 1px;
 }
 
-.color-black-london-tan {
+.color-bracken-eggshell {
   background: linear-gradient(-45deg, #000000 49%, #f3aa36 51%, #f3aa36 100%);
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;  
+}
+
+
+.color-black-london-tan {
+  background: linear-gradient(-45deg, #6e443d 49%, #d5ad93 51%, #d5ad93 100%);
   color: transparent!important;
   display: inline-block;
   width: 14px;
