@@ -4925,6 +4925,13 @@ div.banner__media::after {
   }
 }
 
+@media screen and (min-width: 750px) {
+  .contact-text .rich-text__text:not(:first-child) {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
 /* Stockists page */
 
 .stockist-powered-by-link {
