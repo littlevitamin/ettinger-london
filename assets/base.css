@@ -4603,8 +4603,18 @@ predictive-search .field {
   border-radius: 0;
 }
 
-.variant-fieldset label #text {
+.variant-fieldset label {
+  position: relative;
+}
+
+.variant-fieldset label:hover {
+  color: #121212;
   font-size: 10px;
+}
+
+.variant-fielset label:hover .variant-fielset label::before {
+  position: absolute;
+  top: -10px;
 }
 
 #product-grid > li > fieldset:nth-child(4) {
