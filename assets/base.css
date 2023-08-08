@@ -15,11 +15,11 @@
 }
 
 .main-page-title {
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 36px!important;
+  font-weight: 400!important;
   text-transform: uppercase;
-  color: var(--gradient-base-accent-2);
-  line-height: 43px;
+  color: var(--gradient-base-accent-2)!important;
+  line-height: 43px!important;
 }
 
 :root,
