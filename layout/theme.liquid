@@ -373,12 +373,14 @@
 
         window.addEventListener("scroll", function() {
           var scrollPosition = window.pageYOffset;
-          if (scrollPosition > 50 && scrollPosition < 250) {
+          if (scrollPosition < 250) {
             headerWrapper.style.position = 'unset';
-          } else if (scrollPosition < 50 && scrollPosition >= 250) {
+          } else if (scrollPosition >= 250) {
             headerWrapper.style.position = 'sticky';
             headerWrapper.classList.add('scrolled-past-header');
-          } 
+          } else if (scrollPosition < 50) {
+            headerWrapper.style.position = 'sticky';
+          }
           if (scrollPosition > 100 && scrollPosition < 150) {
             imageElement.classList.add("new-content");
             var opacity = 1 - (scrollPosition - 100) / 20;
@@ -494,7 +496,7 @@
 
         const allImages = document.querySelectorAll(".product__media > img");
         allImages.forEach((image) => {
-          const grandparent = image.parentElement.parentElement.parentElement.parentElement;
+          const grandparent = image.parentElement.parentElement.parentElement.parentElement.parentElement;
           grandparent.style.display = image.getAttribute("alt") === altTag ? "block" : "none";
         });
       }
