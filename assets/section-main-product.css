@@ -629,7 +629,8 @@ a.product__text {
 }
 
 .product__media-item:first-child {
-  min-width: 100%!important;
+  width: 100%!important;
+  height: 100%!important;
 } 
 
 @media screen and (min-width: 750px) {
