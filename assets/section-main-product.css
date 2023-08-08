@@ -1453,12 +1453,17 @@ a.product__text {
 
 .product-media-container.constrain-height .media {
   padding-top: min(var(--constrained-height), var(--ratio-percent));
+  aspect-ratio: 1;
 }
 
 @media screen and (max-width: 749px) {
   .product-media-container.media-fit-cover {
     display: flex;
     align-self: stretch;
+  }
+
+  .product-media-container.constrain-height .media {
+    aspect-ratio: unset;
   }
 
   .product-media-container.media-fit-cover .media {
