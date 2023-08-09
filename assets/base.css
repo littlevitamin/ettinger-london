@@ -4417,6 +4417,8 @@ sticky-header > header > nav > ul > li > a > span {
 
 .search-modal__content {
   background-color: white;
+  font-size: 14px;
+  font-family: 'Gotham Book', sans-serif;
 }
 
 /* Dividers styling */
