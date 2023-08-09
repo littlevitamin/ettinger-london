@@ -55,7 +55,7 @@
 {%- endstyle -%}
 
 <div class="customer login section-{{ section.id }}-padding page-width">
-  <img class="login-image" src="{{ section.settings.image | img_url | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000' }}" width="50%" height="100%" loading="lazy"/> 
+  <img class="login-image" src="{{ section.settings.image | image_url: width: 3000 | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000' }}" width="50%" height="100%" loading="lazy"/> 
   <div class="login-content">
   <h1 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
