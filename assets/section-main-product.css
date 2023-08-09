@@ -1215,11 +1215,11 @@ a.product__text {
 }
 
 @media (hover: hover) {
-  /* .product__media-zoom-hover,
+  .product__media-zoom-hover,
   .product__media-icon--hover {
     display: none;
   }
-} */
+}
 
 @media screen and (max-width: 749px) {
   .product__media-zoom-hover,
