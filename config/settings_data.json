@@ -1,6 +1,5 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Ettinger_logo_square.jpg",
     "logo_width": 140,
     "favicon": "shopify:\/\/shop_images\/Ettinger_Monogram_K_Black_2_1.svg",
     "colors_solid_button_labels": "#ffffff",
@@ -128,12 +127,6 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Ettinger_TYPE_ONLY_K.jpg",
-    "checkout_logo_position": "center",
-    "checkout_logo_size": "large",
-    "checkout_sidebar_background_color": "#ffffff",
-    "checkout_accent_color": "#ec9a00",
-    "checkout_button_color": "#ec9a00",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
