@@ -28,20 +28,12 @@
 
 .js .mega-menu__content {
   opacity: 0;
-  /* transform: translateY(-1.5rem); */
-}
-
-.mega-menu__content {
-  transition: opacity 0.5s ease;
-}
-
-.mega-menu:hover > mega-menu__content {
-  opacity: .5!important;
+  transform: translateY(-1.5rem);
 }
 
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
-  /* transform: translateY(0); */
+  transform: translateY(0);
   margin: 0 auto;
 }
 
