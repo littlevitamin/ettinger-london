@@ -93,7 +93,7 @@
       </a>
     {%- endform -%}
   </div>
-  <div class="login-display {% if request.path contains '#recover' %}hide{% endif %}">
+  <div class="login-display {% if request.path contains '/login#recover' %}hide{% endif %}">
   <h1 id="login" tabindex="-1">
     {{ 'customer.login_page.title' | t }}
     <h1 class="welcome-message">WELCOME BACK</h1>
