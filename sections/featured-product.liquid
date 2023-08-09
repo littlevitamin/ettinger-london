@@ -17,6 +17,20 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  
+  .swym-add-to-wishlist-view-product {
+    z-index: 2;
+    top: 10px!important;
+    position: absolute!important;
+    right: 10px!important;
+    opacity: 0;
+  }
+
+  .grid__item:hover .swym-add-to-wishlist-view-product {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+  
 {%- endstyle -%}
 
 <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
