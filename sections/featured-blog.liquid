@@ -77,6 +77,10 @@
     display: none;
   }
 
+  .input-blog {
+    left: 50px!important;
+  }
+
   .relative-blog .blog-image-container {
     display: flex!important;
   }
@@ -102,7 +106,7 @@
   </div>
   {% if request.path contains '/blogs/' %}
   <form class="form-back page-width-desktop">
-    <input class="input-back" type="button" value="JOURNAL" onclick="history.back()">
+    <input class="input-back input-blog" type="button" value="JOURNAL" onclick="history.back()">
   </form>
   {% endif %}
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
