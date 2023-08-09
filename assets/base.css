@@ -5013,3 +5013,9 @@ predictive-search .field {
   font-family: 'Gotham Book', sans-serif;
   font-weight: 300;
 }
+
+/* Styling Product Options App */
+
+.cl-po--swatch {
+  height: 30px;
+}
