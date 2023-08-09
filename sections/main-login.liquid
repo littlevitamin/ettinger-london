@@ -66,10 +66,10 @@
             aria-describedby="RecoverEmail-email-error"
             autofocus
           {% endif %}
-          placeholder="{{ 'customer.login_page.email' | t }}"
+          placeholder="EMAIL ADDRESS"
         >
         <label for="RecoverEmail">
-          {{ 'customer.login_page.email' | t }}
+          EMAIL ADDRESS
         </label>
       </div>
       {%- if form.errors -%}
@@ -85,11 +85,11 @@
       {%- endif -%}
 
       <button>
-        {{ 'customer.login_page.submit' | t }}
+        SUBMIT
       </button>
 
       <a onclick="showLoginDisplay();" href="#login">
-        {{ 'customer.login_page.cancel' | t }}
+        BACK TO LOGIN PAGE
       </a>
     {%- endform -%}
   </div>
