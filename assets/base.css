@@ -314,6 +314,7 @@ html.no-js .no-js-hidden {
   .page-width--narrow {
     max-width: 72.6rem;
     padding: 0;
+    margin: 0 auto;
   }
 
   .page-width-desktop {
