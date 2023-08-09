@@ -435,23 +435,6 @@
     });
   });
   </script>
-
-  {% comment %}Search functionality{% endcomment %}
-  <script>
-  function handleSearchClick() {
-    var searchElement = document.querySelector('.header__icon--search');
-    var announcementElement = document.querySelector('.announcement-bar-section');
-    var closeButton = document.querySelector('.search-modal__close-button');
-    
-    searchElement.addEventListener('click', function() {
-      announcementElement.style.zIndex = '3';
-    });
-    
-    closeButton.addEventListener('click', function() {
-      announcementElement.style.zIndex = '4';
-    });
-  }
-  </script>
  
   {% comment %} 
   //Need to add hide class with display none property and adjust the functionality
@@ -486,57 +469,57 @@
           return null;
         }
         
-      function filterImagesByAltTag() {
-        const firstImage = findFirstValidImage();
-        if (!firstImage) return;
+      // function filterImagesByAltTag() {
+      //   const firstImage = findFirstValidImage();
+      //   if (!firstImage) return;
 
-        const altTag = firstImage.getAttribute("alt");
+      //   const altTag = firstImage.getAttribute("alt");
 
-        const allImages = document.querySelectorAll(".product__media > img");
-        allImages.forEach((image) => {
-          const grandparent = image.parentElement.parentElement.parentElement.parentElement;
-          grandparent.style.display = image.getAttribute("alt") === altTag ? "block" : "none";
-        });
-      }
-        function displayImages(input) {
-          var variantFieldset = document.querySelector('.variant-fieldset');
-          var inputs = variantFieldset.querySelectorAll('input[name="Colour"]');
-          var images = document.querySelectorAll('.product__media > img');
+      //   const allImages = document.querySelectorAll(".product__media > img");
+      //   allImages.forEach((image) => {
+      //     const grandparent = image.parentElement.parentElement.parentElement.parentElement;
+      //     grandparent.style.display = image.getAttribute("alt") === altTag ? "block" : "none";
+      //   });
+      // }
+      //   function displayImages(input) {
+      //     var variantFieldset = document.querySelector('.variant-fieldset');
+      //     var inputs = variantFieldset.querySelectorAll('input[name="Colour"]');
+      //     var images = document.querySelectorAll('.product__media > img');
 
-          images.forEach(function (image) {
-            var grandparent = image.parentElement.parentElement;
-            grandparent.style.display = 'none';
-          });
+      //     images.forEach(function (image) {
+      //       var grandparent = image.parentElement.parentElement;
+      //       grandparent.style.display = 'none';
+      //     });
 
-          inputs.forEach(function (input) {
-            var inputValue = input.value;
-            var label = variantFieldset.querySelector('label[for="' + input.id + '"]');
-            var labelText = label.textContent.trim();
+      //     inputs.forEach(function (input) {
+      //       var inputValue = input.value;
+      //       var label = variantFieldset.querySelector('label[for="' + input.id + '"]');
+      //       var labelText = label.textContent.trim();
 
-            if (input.checked) {
-              images.forEach(function (image) {
-                var altText = image.getAttribute('alt');
-                var grandparent = image.parentElement.parentElement;
-                if (altText === inputValue || altText === labelText) {
-                  grandparent.style.display = 'block';
-                }
-              });
-            }
-          });
-        }
+      //       if (input.checked) {
+      //         images.forEach(function (image) {
+      //           var altText = image.getAttribute('alt');
+      //           var grandparent = image.parentElement.parentElement;
+      //           if (altText === inputValue || altText === labelText) {
+      //             grandparent.style.display = 'block';
+      //           }
+      //         });
+      //       }
+      //     });
+      //   }
 
-        var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-        inputs.forEach(function (input) {
-          input.onclick = function () {
-            displayImages(input);
-          };
-        });
+      //   var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
+      //   inputs.forEach(function (input) {
+      //     input.onclick = function () {
+      //       displayImages(input);
+      //     };
+      //   });
 
-      filterImagesByAltTag();
-      const inputsContainer = document.querySelector(".variant-fieldset");
-      inputsContainer.onclick = function () {
-        inputsContainer.onclick = null;
-      };
+      // filterImagesByAltTag();
+      // const inputsContainer = document.querySelector(".variant-fieldset");
+      // inputsContainer.onclick = function () {
+      //   inputsContainer.onclick = null;
+      // };
       </script>
 
       <script>
