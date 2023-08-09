@@ -77,6 +77,10 @@
     display: none;
   }
 
+  .form-blog {
+    height: unset!important;
+  }
+
   .input-blog {
     left: 50px!important;
   }
@@ -105,7 +109,7 @@
     <span class="blog-border"><div class="tan-divider">hello</div></span>
   </div>
   {% if request.path contains '/blogs/' %}
-  <form class="form-back page-width-desktop">
+  <form class="form-back form-blog page-width-desktop">
     <input class="input-back input-blog" type="button" value="JOURNAL" onclick="history.back()">
   </form>
   {% endif %}
