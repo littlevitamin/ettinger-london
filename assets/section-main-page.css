@@ -15,3 +15,7 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.main-page-content a {
+  text-decoration: none;
+}
