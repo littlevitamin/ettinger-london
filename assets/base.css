@@ -4613,6 +4613,10 @@ div.banner__media::after {
   text-align: center;
 }
 
+.homepage-banner-text .button {
+  --border-offset: unset!important;
+}
+
 .banner-homepage {
   min-height: 59rem!important;
 }
