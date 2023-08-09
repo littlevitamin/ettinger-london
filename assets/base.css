@@ -4598,6 +4598,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.hide {
+  display: none;
+}
+
 predictive-search .field {
   border-bottom: 1px solid #121212;
   border-radius: 0;
