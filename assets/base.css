@@ -4631,7 +4631,7 @@ predictive-search .field {
 
 @media screen and (min-width: 1300px) {
   .customer-services-menu {
-    margin-right: 80%;
+    margin-right: 77%;
   }
 
   .collection-list-subheading {
@@ -4639,9 +4639,13 @@ predictive-search .field {
   }
 }
 
-@media (min-width: 1100px) and (max-width: 1300px) {
+.header-white-background .header__icon--account {
+  color: black;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
   .customer-services-menu {
-    margin-right: 77%;
+    margin-right: 70%;
   }
 
   .collection-list-subheading {
