@@ -100,6 +100,11 @@
     <img class="blog-image homepage-image" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ettinger_00014.png?v=1691597361" width="200px" height="200px" loading='lazy'/>
     <span class="blog-border"><div class="tan-divider">hello</div></span>
   </div>
+  {% if request.path contains '/blogs/' %}
+  <form class="form-back">
+    <input class="input-back" type="button" value="JOURNAL" onclick="history.back()">
+  </form>
+  {% endif %}
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
