@@ -4616,6 +4616,21 @@ div.banner__media::after {
   min-height: 65rem!important;
 }
 
+.variant-fieldset > label {
+  border: 0!important;
+}
+
+.variant-fieldset label:hover::before {
+  content: "";
+  border-bottom: 1px solid black;
+  border-radius: 0!important;
+  margin-bottom: -3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+
 #predictive-search-results {
   background: white;
 }
