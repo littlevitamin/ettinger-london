@@ -36,7 +36,7 @@
 }
 
 .mega-menu:hover > mega-menu__content {
-  opacity: 1;
+  opacity: .5;
 }
 
 .mega-menu[open] .mega-menu__content {
