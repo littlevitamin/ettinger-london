@@ -4613,7 +4613,11 @@ div.banner__media::after {
 }
 
 .banner-homepage {
-  min-height: 60rem!important;
+  min-height: 65rem!important;
+}
+
+#predictive-search-results {
+  background: white;
 }
 
 predictive-search .field {
