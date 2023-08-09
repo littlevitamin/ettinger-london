@@ -4639,7 +4639,8 @@ predictive-search .field {
   }
 }
 
-.header-white-background .header__icon--account {
+.header-white-background .header__icon--account,
+.scrolled-past-header .header__icon--account {
   color: black;
 }
 
