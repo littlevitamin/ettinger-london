@@ -5019,3 +5019,13 @@ predictive-search .field {
 .cl-po--swatch {
   height: 30px;
 }
+
+.cl-po--swatch-button {
+  background: var(--gradient-base-accent-2);
+}
+
+.cl-po--swatch-button:hover {
+  color: var(--gradient-base-accent-2);
+  background: white;
+  border: 1px solid var(--gradient-base-accent-2);
+}
