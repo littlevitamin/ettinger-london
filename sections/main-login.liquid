@@ -12,9 +12,36 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .login-content {
+    text-align: left;
+    margin: auto;
+    min-width: 350px;
+  }
+
+  @media screen and (max-width: 989px) {
+    .login-image {
+      width: 100%!important;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .login {
+      max-width: 100%!important;
+      padding: 0!important;
+      display: block!important;
+    }
+
+    .login-content {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
 {%- endstyle -%}
 
-<div class="customer login section-{{ section.id }}-padding">
+<div class="customer login section-{{ section.id }}-padding page-width">
+  <img class="login-image" src="{{ section.settings.image | img_url }}" width="50%" height="100%"/> 
+  <div class="login-content">
   <h1 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
   </h1>
@@ -69,6 +96,7 @@
 
   <h1 id="login" tabindex="-1">
     {{ 'customer.login_page.title' | t }}
+    <h1 class="welcome-message">WELCOME BACK</h1>
   </h1>
   <div>
     {%- if recover_success == true -%}
@@ -110,7 +138,7 @@
           placeholder="{{ 'customer.login_page.email' | t }}"
         >
         <label for="CustomerEmail">
-          {{ 'customer.login_page.email' | t }}
+          EMAIL ADDRESS
         </label>
       </div>
 
@@ -128,7 +156,7 @@
             placeholder="{{ 'customer.login_page.password' | t }}"
           >
           <label for="CustomerPassword">
-            {{ 'customer.login_page.password' | t }}
+            PASSWORD
           </label>
         </div>
 
@@ -137,10 +165,11 @@
         </a>
       {%- endif -%}
 
-      <button>
-        {{ 'customer.login_page.sign_in' | t }}
+      <button style="width: 100%">
+        {% comment %} {{ 'customer.login_page.sign_in' | t }} {% endcomment %}SUBMIT
       </button>
 
+      <p class="login-question">DON’T HAVE AN ACCOUNT YET?</p>
       <a href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
       </a>
@@ -159,6 +188,7 @@
       {%- endform -%}
     </div>
   {%- endif -%}
+  </div>
 </div>
 
 {% schema %}
@@ -168,6 +198,11 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
     },
     {
       "type": "range",
