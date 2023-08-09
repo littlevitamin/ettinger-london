@@ -4614,7 +4614,13 @@ div.banner__media::after {
 }
 
 .banner-homepage {
-  min-height: 65rem!important;
+  min-height: 59rem!important;
+}
+
+@media screen and (max-width: 749px) {
+  .homepage-banner-text {
+    margin-top: 130px;
+  }
 }
 
 .variant-fieldset > label {
