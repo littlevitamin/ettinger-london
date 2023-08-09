@@ -4601,6 +4601,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+cart-remove-button > a {
+  background-color: white!important;
+}
+
 .hide {
   display: none;
 }
