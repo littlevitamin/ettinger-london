@@ -47,7 +47,7 @@
   </h1>
   <div>
     <p>
-      {{ 'customer.recover_password.subtext' | t }}
+      {% comment %}{{ 'customer.recover_password.subtext' | t }}{% endcomment %}
     </p>
 
     {%- form 'recover_customer_password' -%}
