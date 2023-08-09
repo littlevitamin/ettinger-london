@@ -16,16 +16,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  @media screen and (max-width: 749px) {
-    .page-width--narrow {
-      max-width: 90%;
-    }
-  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="page-width--narrow section-{{ section.id }}-padding">
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h2 class="page-title {{ section.settings.heading_size }}">
       {%- if section.settings.page.title != blank -%}
         {{ section.settings.page.title | escape }}
