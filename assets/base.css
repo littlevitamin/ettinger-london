@@ -4604,6 +4604,18 @@ div.banner__media::after {
   display: none;
 }
 
+.homepage-banner-text .banner__text {
+  width: 100%;
+}
+
+.homepage-banner-text .styled-text {
+  text-align: center;
+}
+
+.banner-homepage {
+  min-height: 60rem!important;
+}
+
 predictive-search .field {
   border-bottom: 1px solid #121212;
   border-radius: 0;

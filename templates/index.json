@@ -13,20 +13,31 @@
         },
         "e0b630b5-3792-459b-b5a5-d10b6641c09b": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
+          }
+        },
+        "aa572a5a-fbd6-4d86-b654-123f5837aacb": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "TRAVEL COLLECTION",
+            "button_link_1": "shopify:\/\/collections\/mens-travel-accessories",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "85636987-b70b-4ec2-b6b6-dd7bd8e9f59b",
-        "e0b630b5-3792-459b-b5a5-d10b6641c09b"
+        "e0b630b5-3792-459b-b5a5-d10b6641c09b",
+        "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Travel_Bags_Home_Page_Banner.jpg",
-        "paragraph": "",
+        "paragraph": "<h2>EMBARK ON NEW ADVENTURES<br\/>TRAVEL IN STYLE<\/h2>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
         "image_overlay_opacity": 10,
