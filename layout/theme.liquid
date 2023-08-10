@@ -452,8 +452,6 @@
   });
   </script> 
 
-
-    {% if template contains 'collection' or template contains 'product' %}
       <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script>
       <script>
         function findFirstValidImage() {
@@ -570,7 +568,6 @@
           }
         </script>
 
-    {% endif %}
 
     <script>
       function hideLoginDisplay() {
