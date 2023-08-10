@@ -5069,9 +5069,9 @@ predictive-search .field {
 }
 
 #option_8501137801502_Initials {
-  border: 0;
-  border-bottom: 1px solid #777777;
-  border-radius: 0;
+  border: 0!important;
+  border-bottom: 1px solid #777777!important;
+  border-radius: 0!important;
 }
 
 .cl-po--preview canvas {
