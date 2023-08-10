@@ -5068,6 +5068,12 @@ predictive-search .field {
   display: none!important;
 }
 
+#option_8501137801502_Initials {
+  border: 0;
+  border-bottom: 1px solid #777777;
+  border-radius: 0;
+}
+
 .cl-po--preview canvas {
   width: 90%!important;
   height: 90%!important;
