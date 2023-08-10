@@ -24,6 +24,68 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .swym-add-to-wishlist-view-product {
+    z-index: 2;
+    top: 10px!important;
+    position: absolute!important;
+    right: 10px!important;
+    opacity: 0;
+  }
+
+  .grid__item:hover .swym-add-to-wishlist-view-product {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+
+  .grid__item:hover .product-fieldset {
+    margin-top: -44px!important;
+    margin-left: 6px!important;
+  }
+
+  .featured-collection-fieldset {
+    border: 0!important;
+    margin-top: -52px;
+    margin-left: -6px!important;
+  }
+
+  .featured-collection-fieldset label {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    width: 14px!important;
+    height: 14px!important;
+    padding: 0!important;
+    margin: 0!important;
+    border-radius: 3px;
+  }
+
+  .grid__item:hover .featured-collection-fieldset label {
+    opacity: 1;
+  }
+
+  .grid__item:hover .number-of-colors {
+    display: none;
+  }
+
+  @media screen and (max-width: 989px) {
+    .number-of-colors {
+      display: none;
+    }
+    .featured-collection-fieldset {
+      margin-top: -38px;
+    }
+    .product-fieldset {
+      margin-top: -32px;
+      margin-left: 6px!important;
+    }
+    .featured-collection-fieldset label {
+      opacity: 1;
+    }
+    .swym-add-to-wishlist-view-product {
+      opacity: 1;
+    }
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -69,7 +131,7 @@
     <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}">
       <ul
         id="Slider-{{ section.id }}"
-        class="grid product-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}"
+        class="grid product-grid featured-collection-grid contains-card contains-card--product{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}"
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
@@ -87,6 +149,47 @@
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id
             %}
+            {%- for option in product.options_with_values -%}
+                    <fieldset class="js product-form__input {% if template contains 'product' %}product-fieldset{% endif %} variant-fieldset featured-collection-fieldset">
+                      {%- for value in option.values -%}
+                      {%- liquid
+                      assign option_disabled = true
+
+                      for option1_name in variants_option1_arr
+                        case option.position
+                          when 1
+                            if variants_option1_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                              assign option_disabled = false
+                            endif
+                          when 2
+                            if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                              assign option_disabled = false
+                            endif
+                          when 3
+                            if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == product.selected_or_first_available_variant.option2 and variants_option3_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+                              assign option_disabled = false
+                            endif
+                        endcase
+                      endfor
+                    -%}
+                      <input
+                        style="display: none;"
+                        type="radio"
+                        id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                        name="{{ option.name }}"
+                        value="{{ value | escape }}"
+                        form="{{ product_form_id }}"
+                        {% if option.selected_value == value %}
+                          checked
+                        {% endif %}
+                      >
+                      <label class="variant-options featured-collection-variant-options" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                        {{ value -}}
+                        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+                      </label>
+                    {%- endfor -%}
+                  </fieldset>
+                {%- endfor -%}
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}

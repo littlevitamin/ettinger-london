@@ -4650,6 +4650,7 @@ cart-remove-button > a {
 
 .variant-fieldset > label {
   border: 0!important;
+  font-size: 0;
 }
 
 .variant-fieldset label:hover::before {
