@@ -5062,3 +5062,7 @@ predictive-search .field {
   background-color: white!important;
   border: 1px solid var(--gradient-base-accent-2)!important;
 }
+
+#clzvnwnkx3od > div.options-scroll > div > div > div:nth-child(1) > div.cl-po--label {
+  display: none;
+}
