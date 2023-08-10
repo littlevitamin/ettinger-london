@@ -163,8 +163,10 @@
   min-height: 547px;
 }
 
-.multirow-personalization .image-with-text__content {
-  padding-right: 70px!important;
+@media screen and (min-width: 750px) {
+  .multirow-personalization .image-with-text__content {
+    padding-right: 70px!important;
+  }
 }
 
 @media screen and (max-height: 700px) {
