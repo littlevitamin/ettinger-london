@@ -5046,7 +5046,7 @@ predictive-search .field {
   font-weight: 300;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 989px) {
   .stockist-result-list {
     height: 150px!important;
   }
