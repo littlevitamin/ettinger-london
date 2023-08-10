@@ -36,6 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_55.png",
+        "paragraph": "",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 50,
@@ -116,7 +117,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "blog": "news",
+        "blog": "lifestyle",
         "post_limit": 2,
         "columns_desktop": 2,
         "color_scheme": "background-1",
