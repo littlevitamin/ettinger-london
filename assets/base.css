@@ -5068,6 +5068,6 @@ predictive-search .field {
 }
 
 .cl-po--preview canvas {
-  width: 400px!important;
-  height: 400px!important;
+  width: 90%!important;
+  height: 90%!important;
 }
