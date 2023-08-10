@@ -5064,5 +5064,5 @@ predictive-search .field {
 }
 
 #clzvnwnkx3od > div.options-scroll > div > div > div:nth-child(1) > div.cl-po--label {
-  display: none;
+  display: none!important;
 }
