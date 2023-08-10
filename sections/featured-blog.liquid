@@ -109,9 +109,12 @@
     <span class="blog-border"><div class="tan-divider">hello</div></span>
   </div>
   {% if request.path contains '/blogs/' %}
-  <form class="form-back form-blog page-width-desktop">
+  <div class="form-back form-blog page-width-desktop">
+    <a class="input-back input-blog" href="https://ettinger-1.myshopify.com/pages/journal">JOURNAL</a>
+  </div>
+  <!-- <form class="form-back form-blog page-width-desktop">
     <input class="input-back input-blog" type="button" value="JOURNAL" onclick="history.back()">
-  </form>
+  </form> -->
   {% endif %}
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
