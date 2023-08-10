@@ -4614,6 +4614,9 @@ div.banner__media::after {
   }
 }
 
+#Banner-template--19283159777566__67b740cd-fb79-4fc8-95ba-3ff5337f155a > div:nth-child(2) > div.banner__content.banner__content--middle-left.banner-home-box > div > div > span {
+  text-align: left;
+}
 
 cart-remove-button > a {
   background-color: white!important;
