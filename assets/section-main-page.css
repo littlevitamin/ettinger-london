@@ -16,3 +16,9 @@
   height: 52.5rem;
 }
 
+@media screen and (max-width: 749px) {
+  .page-width--narrow {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
