@@ -126,7 +126,7 @@
                 </p>
               {%- endif -%}
               {%- if block.settings.text -%}
-                <div class="image-with-text__text multirow-text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+                <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
               {%- if block.settings.button_label != blank -%}
                 <a
@@ -148,7 +148,7 @@
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer="defer"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
 
