@@ -4638,10 +4638,6 @@ cart-remove-button > a {
   --border-offset: unset!important;
 }
 
-.banner-homepage {
-  min-height: 59rem!important;
-}
-
 @media screen and (max-width: 749px) {
   .homepage-banner-text {
     margin-top: 130px;
