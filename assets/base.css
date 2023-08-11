@@ -4630,6 +4630,12 @@ cart-remove-button > a {
   width: 100%;
 }
 
+@media screen and (max-width: 749px) {
+  .homepage-banner-text {
+    padding-left: 25px!important;
+  }
+}
+
 .homepage-banner-text .styled-text {
   text-align: center;
 }
