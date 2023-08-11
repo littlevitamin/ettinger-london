@@ -42,20 +42,20 @@
   }
 
   @media screen and (min-width: 750px) {
-    .swiper-mobile {
+    .slider-mobile {
       display: none!important;
     }
-    .swiper-desktop {
-      display: flex!important;
+    .slider-desktop {
+      display: block!important;
     }
   }
   
   @media screen and (max-width: 749px) {
-    .swiper-desktop {
+    .slider-desktop {
       display: none!important;
     }
-    .swiper-mobile {
-      display: flex!important;
+    .slider-mobile {
+      display: block!important;
     }
     .multirow__scroll {
       flex-direction: column!important;
@@ -91,7 +91,7 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} swiper-desktop">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} slider-desktop">
     <div class="blog-image-container   {% if request.path contains '/about-us' %}empty-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         <video 
@@ -168,7 +168,7 @@
     {%- endfor -%}
   </div>
 </div>
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} swiper-mobile">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} slider-mobile">
     <div class="blog-image-container {% if request.path contains '/about-us' %}empty-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         <video 
