@@ -4638,7 +4638,7 @@ cart-remove-button > a {
 
 @media screen and (min-width: 750px) {
   .homepage-banner-text {
-    max-width: 140rem!important;
+    max-width: 144rem!important;
   }
   .banner-home-box {
     padding-left: 0px!important;    
