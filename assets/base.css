@@ -4641,6 +4641,9 @@ cart-remove-button > a {
     padding-left: 0px!important;
     max-width: 140rem!important;
   }
+  .homepage-banner-text .styled-text {
+    width: 60%!important;
+  }
 }
 
 .homepage-banner-text .styled-text {
