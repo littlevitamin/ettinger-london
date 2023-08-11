@@ -70,6 +70,12 @@
     .multirow-content {
       max-height: 100%!important;
     }
+    .multirow-about {
+      min-height: 1200px!important;
+    }
+    .multirow-minheight {
+      min-height: 900px!important;
+    }
   }
 
 {%- endstyle -%}
@@ -116,7 +122,7 @@
         </video>
         <span class="list-border"><div class="grey-divider">hello</div></span>
     </div>
-  <div class="multirow__inner page-width {% if template contains 'personalization' %}multirow-personalization{% endif %} {% if request.path contains '/the-ettinger-factory' %}multirow-factory{% endif %}">
+  <div class="multirow__inner {% if request.path contains '/about-us' %}multirow-minheight{% endif %} page-width {% if template contains 'personalization' %}multirow-personalization{% endif %} {% if request.path contains '/the-ettinger-factory' %}multirow-factory{% endif %}">
     {%- for block in section.blocks -%}
       <div
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
