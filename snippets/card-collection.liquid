@@ -66,7 +66,6 @@
           </div>
         </div>
       {%- elsif card_collection.featured_image -%}
-        {{ card_collection.settings.custom_image | img_url }}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
             <img
@@ -80,7 +79,7 @@
                 {%- if card_collection.featured_image.width >= 3000 -%}{{ card_collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
                 {{ card_collection.featured_image | image_url }} {{ card_collection.featured_image.width }}w
               "
-              src="{{ card_collection.featured_image | image_url: width: 1500 }}"
+              src="{{ card_collection.settings.settings.custom_image | image_url: width: 1500 }}"
               sizes="
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
