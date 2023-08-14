@@ -3430,7 +3430,7 @@ sticky-header > header > nav > ul > li > a > span {
 
   .grid__item:nth-child(22n + 11) .card--standard,
   .grid__item:nth-child(22n + 22) .card--standard {
-    height: 99%;
+    height: 99%!important;
   }
 
 
