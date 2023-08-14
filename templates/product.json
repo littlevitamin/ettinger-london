@@ -158,7 +158,7 @@
           "settings": {
             "title": "SHOPPING HELP",
             "icon_image": "shopify:\/\/shop_images\/Group_cddfc540-0b78-48bc-8011-cc9ce3209bba.svg",
-            "text": "<p>For product or order enquiries, please complete the form here or email us directly <a href=\"#\" title=\"clientservices@ettinger.co.uk\">clientservices@ettinger.co.uk<\/a><br\/><\/p>",
+            "text": "<p>For product or order enquiries, please complete the form here or email us directly <a href=\"mailto:clientservices@ettinger.co.uk\" title=\"mailto:clientservices@ettinger.co.uk\">clientservices@ettinger.co.uk<\/a><br\/><\/p>",
             "link_label": "",
             "link": ""
           }
