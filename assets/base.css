@@ -4608,8 +4608,8 @@ div.banner__media::after {
 
 /* Feedback points */
 
-.multicolumn-card__info a {
-  color: var(--gradient-base-accent-2);
+.multicolumn-card__info > a {
+  color: var(--gradient-base-accent-2)!important;
 }
 
 @media screen and (max-width: 749px) {
