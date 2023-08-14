@@ -3428,6 +3428,11 @@ sticky-header > header > nav > ul > li > a > span {
     height: 125%;
   }
 
+  .grid__item:nth-child(22n + 11) .card--standard,
+  .grid__item:nth-child(22n + 22) .card--standard {
+    height: 99%;
+  }
+
 
   #product-grid {
     display: grid;
