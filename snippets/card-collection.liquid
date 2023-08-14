@@ -16,7 +16,7 @@
   assign ratio = 1
   assign use_custom_image = false
 
-  if card_collection.settings.custom_image != blank and media_aspect_ratio == 'portrait'
+  if card_collection.settings.custom_image != blank and media_aspect_ratio == 'adapt'
     assign use_custom_image = true
     assign ratio = card_collection.settings.custom_image.aspect_ratio
   elsif card_collection.featured_image and media_aspect_ratio == 'portrait'
@@ -58,8 +58,9 @@
           <div class="media media--transparent media--hover-effect">
             <img
               src="{{ card_collection.settings.custom_image | img_url }}"
-              height="100%"
-              width="100%"
+              alt=""
+              height="{{ card_collection.settings.custom_image.height }}"
+              width="{{ card_collection.settings.custom_image.width }}"
               loading="lazy"
               class="motion-reduce"
             >
@@ -70,16 +71,16 @@
           <div class="media media--transparent media--hover-effect">
             <img
               srcset="
-                {%- if card_collection.featured_image.width >= 165 -%}{{ card_collection.custom_image | image_url: width: 165 }} 165w,{%- endif -%}
-                {%- if card_collection.featured_image.width >= 330 -%}{{ card_collection.custom_image | image_url: width: 330 }} 330w,{%- endif -%}
-                {%- if card_collection.featured_image.width >= 535 -%}{{ card_collection.custom_image | image_url: width: 535 }} 535w,{%- endif -%}
-                {%- if card_collection.featured_image.width >= 750 -%}{{ card_collection.custom_image | image_url: width: 750 }} 750w,{%- endif -%}
-                {%- if card_collection.featured_image.width >= 1000 -%}{{ card_collection.custom_image | image_url: width: 1000 }} 1000w,{%- endif -%}
-                {%- if card_collection.featured_image.width >= 1500 -%}{{ card_collection.custom_image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {%- if card_collection.featured_image.width >= 3000 -%}{{ card_collection.custom_image | image_url: width: 3000 }} 3000w,{%- endif -%}
-                {{ card_collection.custom_image | image_url }} {{ card_collection.custom_image }}w
+                {%- if card_collection.featured_image.width >= 165 -%}{{ card_collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if card_collection.featured_image.width >= 330 -%}{{ card_collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
+                {%- if card_collection.featured_image.width >= 535 -%}{{ card_collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if card_collection.featured_image.width >= 750 -%}{{ card_collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if card_collection.featured_image.width >= 1000 -%}{{ card_collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}
+                {%- if card_collection.featured_image.width >= 1500 -%}{{ card_collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {%- if card_collection.featured_image.width >= 3000 -%}{{ card_collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                {{ card_collection.featured_image | image_url }} {{ card_collection.featured_image.width }}w
               "
-              src="{{ card_collection.custom_image | image_url: width: 1500 }}"
+              src="{{ card_collection.featured_image | image_url: width: 1500 }}"
               sizes="
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
