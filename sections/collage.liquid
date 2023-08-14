@@ -60,6 +60,7 @@
               %}
           {%- when 'collection' -%}
             {% capture custom_image_url %}{{ block.settings.custom_image | img_url }}{% endcapture %}
+            <p>Custom Image URL: {{ custom_image_url }}</p>
             {% render 'card-collection',
               card_collection: block.settings.collection,
               media_aspect_ratio: 'adapt',
