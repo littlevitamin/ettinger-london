@@ -3428,8 +3428,8 @@ sticky-header > header > nav > ul > li > a > span {
     height: 125%;
   }
 
-  .grid__item:nth-child(22n + 11) .card:not(.ratio),
-  .grid__item:nth-child(22n + 22) .card:not(.ratio) {
+  .grid__item:nth-child(22n + 11) .card-wrapper,
+  .grid__item:nth-child(22n + 22) .card-wrapper {
     height: 99%!important;
   }
 
