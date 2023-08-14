@@ -4608,7 +4608,7 @@ div.banner__media::after {
 
 /* Feedback points */
 
-.multicolumn-card__info > a {
+.multicolumn-card__info .rte > p > a {
   color: var(--gradient-base-accent-2)!important;
 }
 
