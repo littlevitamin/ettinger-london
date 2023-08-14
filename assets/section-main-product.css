@@ -329,6 +329,7 @@ fieldset.product-form__input .form__label {
   margin: 2.5rem 0;
   font-size: 14px;
   color: #777777!important;
+  max-height: 120px;
 }
 
 .metafield-multi_line_text_field,

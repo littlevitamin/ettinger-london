@@ -4609,6 +4609,14 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.product__info-container .collection-title {
+  margin-bottom: 0;
+}
+
+.product__info-container .product__title {
+  margin-top: 0;
+}
+
 .multicolumn-card__info .rte > p > a {
   color: var(--gradient-base-accent-2)!important;
   text-decoration: none;
@@ -5090,6 +5098,12 @@ predictive-search .field {
 
 .cl-po--swatch {
   height: 30px;
+}
+
+.cl-po--swatch-button {
+  font-family: 'Gotham Book', sans-serif!important;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 .atc-button .cl-po--swatch-button {
