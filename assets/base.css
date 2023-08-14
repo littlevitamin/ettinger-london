@@ -4610,11 +4610,12 @@ div.banner__media::after {
 
 .multicolumn-card__info .rte > p > a {
   color: var(--gradient-base-accent-2)!important;
-  text-decoration-thickness: 0!important;
+  text-decoration: none;
   text-underline-offset: 0.3rem!important;
 }
 
 .multicolumn-card__info .rte > p > a:hover {
+  text-decoration: underline;
   text-decoration-thickness: 0.1rem!important;
 }
 
