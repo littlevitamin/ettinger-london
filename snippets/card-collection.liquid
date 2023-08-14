@@ -1,4 +1,4 @@
-{% comment %}
+{%- comment -%}
   Renders a collection card
 
   Accepts:
@@ -10,7 +10,7 @@
 
   Usage:
   {% render 'card-collection' %}
-{% endcomment %}
+{%- endcomment -%}
 
 {%- liquid
   assign ratio = 1
@@ -19,11 +19,18 @@
   elsif card_collection.featured_image and media_aspect_ratio == 'adapt'
     assign ratio = card_collection.featured_image.aspect_ratio
   endif
+
+  if card_collection.settings.custom_image != blank and media_aspect_ratio == 'adapt'
+    assign ratio = card_collection.settings.custom_image.aspect_ratio
+  endif
+
   if ratio == 0 or ratio == null
     assign ratio = 1
   endif
+
   assign card_color_scheme = settings.card_color_scheme
   assign card_style = settings.card_style
+
   if wrapper_class == null or wrapper_class == 'none'
     assign card_color_scheme = settings.collection_card_color_scheme
     assign card_style = settings.collection_card_style
@@ -35,25 +42,25 @@
     class="
       card
       card--{{ card_style }}
-      {% if card_collection.featured_image %} card--media{% else %} card--text{% endif %}
+      {% if card_collection.settings.custom_image %} card--media{% else %} card--text{% endif %}
       {% if card_style == 'card' %} color-{{ card_color_scheme }} gradient{% endif %}
       {% if extend_height %} card--extend-height{% endif %}
-      {% if card_collection.featured_image == nil and card_style == 'card' %} ratio{% endif %}
+      {% if card_collection.settings.custom_image == null and card_style == 'card' %} ratio{% endif %}
     "
     style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
   >
     <div
-      class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.featured_image or card_style == 'standard' %} ratio{% endif %}"
+      class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.settings.custom_image or card_style == 'standard' %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
-      {%- if collection_list_image -%}
+      {%- if card_collection.settings.custom_image != blank -%}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
             <img
-              src="{{ collection_list_image | image_url }}"
+              src="{{ card_collection.settings.custom_image | image_url }}"
               alt=""
-              height="{{ collection_list_image.height }}"
-              width="{{ collection_list_image.width }}"
+              height="{{ card_collection.settings.custom_image.height }}"
+              width="{{ card_collection.settings.custom_image.width }}"
               loading="lazy"
               class="motion-reduce"
             >
@@ -104,12 +111,12 @@
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}
-              {%- if card_collection.description == blank -%}
+              {%- if card_collection.settings.custom_image or card_collection.description == blank -%}
                 <span class="icon-wrap">{% render 'icon-arrow' %}</span>
               {%- endif %}
             </a>
           </h3>
-          {%- if card_collection.description != blank -%}
+          {%- if card_collection.settings.custom_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
               <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
@@ -118,7 +125,7 @@
         </div>
       </div>
     </div>
-    {% if card_style == 'card' or card_collection.featured_image %}
+    {%- if card_style == 'card' or card_collection.featured_image -%}
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading">
@@ -135,12 +142,12 @@
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}
-              {%- if card_collection.featured_image or card_collection.description == blank -%}
+              {%- if card_collection.settings.custom_image or card_collection.featured_image or card_collection.description == blank -%}
                 <span class="icon-wrap">{% render 'icon-arrow' %}</span>
               {%- endif %}
             </a>
           </h3>
-          {%- if card_collection.featured_image == null and card_collection.description != blank -%}
+          {%- if card_collection.featured_image == null and card_collection.settings.custom_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
               <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
@@ -148,6 +155,6 @@
           {%- endif -%}
         </div>
       </div>
-    {% endif %}
+    {%- endif -%}
   </div>
 </div>
