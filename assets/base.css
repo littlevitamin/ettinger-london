@@ -2698,10 +2698,6 @@ details[open] > .header__submenu {
   display: none;
 }
 
-.header-wrapper {
-  padding-top: 12px;
-}
-
 .header--top-center .header__inline-menu,
 .header--top-center .header__heading-link {
   margin-left: 0;
