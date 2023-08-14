@@ -2699,7 +2699,7 @@ details[open] > .header__submenu {
 }
 
 .header-wrapper {
-  margin-top: 12px;
+  padding-top: 12px;
 }
 
 .header--top-center .header__inline-menu,
