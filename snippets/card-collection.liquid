@@ -16,7 +16,7 @@
   assign ratio = 1
   assign use_custom_image = false
 
-  if card_collection.settings.custom_image != blank
+  if card_collection.settings.custom_image != blank and media_aspect_ratio == 'adapt'
     assign use_custom_image = true
     assign ratio = card_collection.settings.custom_image.aspect_ratio
   elsif card_collection.featured_image and media_aspect_ratio == 'portrait'
