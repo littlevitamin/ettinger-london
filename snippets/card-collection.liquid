@@ -66,6 +66,7 @@
           </div>
         </div>
       {%- elsif card_collection.featured_image -%}
+        {{ card_collection.settings.custom_image | img_url }}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
             <img
