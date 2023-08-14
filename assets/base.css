@@ -4610,6 +4610,8 @@ div.banner__media::after {
 
 .multicolumn-card__info .rte > p > a {
   color: var(--gradient-base-accent-2)!important;
+  text-decoration-thickness: 0.2rem!important;
+  text-underline-offset: 0.3rem!important;
 }
 
 @media screen and (max-width: 749px) {
