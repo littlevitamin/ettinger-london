@@ -44,7 +44,7 @@
   >
     <div
       class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.featured_image or card_style == 'standard' %} ratio{% endif %}"
-      {%- if collection_list_image -%}style="--ratio-percent: 64%;"{% else %}style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"{% endif %}
+      {%- if card_collection_image -%}style="--ratio-percent: 64%;"{% else %}style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"{% endif %}
     >
       {%- if collection_list_image -%}
         <div class="card__media">
