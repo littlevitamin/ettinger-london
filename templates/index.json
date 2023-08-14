@@ -57,19 +57,22 @@
         "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
           "type": "collection",
           "settings": {
-            "collection": "bestsellers"
+            "collection": "bestsellers",
+            "custom_image": "shopify:\/\/shop_images\/div.image_5.svg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "elegant-purses"
+            "collection": "elegant-purses",
+            "custom_image": "shopify:\/\/shop_images\/div.image_6.svg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "watch-rolls-boxes"
+            "collection": "mens-gifts",
+            "custom_image": "shopify:\/\/shop_images\/div.image_7.svg"
           }
         }
       },
