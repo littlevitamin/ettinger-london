@@ -59,6 +59,19 @@
             >
           </div>
         </div>
+      {%- elsif card_collection_image -%}
+        <div class="card__media">
+          <div class="media media--transparent media--hover-effect">
+            <img
+              src="{{ card_collection_image | image_url }}"
+              alt=""
+              height="{{ card_collection_image.height }}"
+              width="{{ card_collection_image.width }}"
+              loading="lazy"
+              class="motion-reduce"
+            >
+          </div>
+        </div>
       {%- elsif card_collection.featured_image -%}
         <div class="card__media">
           <div class="media media--transparent media--hover-effect">
