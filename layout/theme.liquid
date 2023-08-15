@@ -578,7 +578,7 @@
       }
     </script>
     
-    <!-- <script>
+    <script>
       function handleLabelClick(clickedLabel) {
         const labels = document.querySelectorAll('.variant-fieldset label');
         labels.forEach(label => {
@@ -586,7 +586,7 @@
         });
         clickedLabel.classList.add('active');
       }
-    </script> -->
+    </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
