@@ -24,6 +24,19 @@ function loadMoreProducts() {
             load_more_btn.hide()
         }
     })
+
+    updateCountBy26();
 }
 
+function updateCountBy26() {
+    var countElement = document.getElementById('product-count');
+    var totalProducts = {{ collection.all_products_count }};
+    var currentCount = parseInt(countElement.textContent, 10);
+    var newCount = currentCount + 26;
+
+    if (newCount > totalProducts) {
+        newCount = totalProducts;
+    }
+    countElement.textContent = newCount + ' / ' + totalProducts + ' PRODUCTS';
+}
 

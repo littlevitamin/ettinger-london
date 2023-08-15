@@ -369,27 +369,21 @@
   </div>
 </div>
 
-<script>
+<!-- <script>
 function updateCountBy26() {
     var countElement = document.getElementById('product-count');
     var totalProducts = {{ collection.all_products_count }};
-    
-    // Get the current count from the span
     var currentCount = parseInt(countElement.textContent, 10);
-    
-    // Update the count by adding +26
     var newCount = currentCount + 26;
 
     // Ensure new count does not exceed total products count
     if (newCount > totalProducts) {
         newCount = totalProducts;
     }
-
-    // Update the count in the span
     countElement.textContent = newCount + ' / ' + totalProducts + ' PRODUCTS';
 }
 
-</script>
+</script> -->
 
 {% schema %}
 {
