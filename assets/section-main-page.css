@@ -23,3 +23,7 @@
     margin: 0 auto;
   }
 }
+
+.main-page-content > p {
+  font-size: 14px;
+}
