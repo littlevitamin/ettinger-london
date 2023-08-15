@@ -26,12 +26,6 @@ function loadMoreProducts() {
     })
 }
 
-function updateProductCount() {
-    productsLoaded += 26; // Increment count by 26
-    var totalCount = {{ collection.all_products_count }};
-    var countElement = document.getElementById('product-count');
-    countElement.textContent = productsLoaded + ' / ' + totalCount + ' PRODUCTS';
-}
 // var products_on_page = $('.products-on-page');
 // var next_url = products_on_page.data('next-url');
 // var load_more_btn = $('.load-more');
