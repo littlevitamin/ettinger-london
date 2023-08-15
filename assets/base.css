@@ -3471,7 +3471,7 @@ sticky-header > header > nav > ul > li > a > span {
 .customer-services-menu {
   position: relative;
   display: flex;
-  margin-right: 75%;
+  margin-right: 71%;
   color: white;
   align-items: center;
 }
@@ -4727,7 +4727,7 @@ predictive-search .field {
 
 @media screen and (min-width: 1300px) {
   .customer-services-menu {
-    margin-right: 77%;
+    margin-right: 73%;
   }
 
   .collection-list-subheading {
@@ -4742,7 +4742,7 @@ predictive-search .field {
 
 @media (min-width: 990px) and (max-width: 1200px) {
   .customer-services-menu {
-    margin-right: 70%;
+    margin-right: 66%;
   }
 
   .collection-list-subheading {
