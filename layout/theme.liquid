@@ -516,17 +516,6 @@
       inputsContainer.onclick = function () {
         inputsContainer.onclick = null;
       };
-
-      const labels = document.querySelectorAll('.variant-fieldset label');
-    
-      labels.forEach(label => {
-        label.addEventListener('click', () => {
-          labels.forEach(label => {
-            label.classList.remove('active');
-          });    
-          label.classList.add('active');
-        });
-      });
       </script>
 
       <script>
