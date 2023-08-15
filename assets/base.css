@@ -4698,14 +4698,15 @@ cart-remove-button > a {
 .variant-fieldset label:hover::before,
 .variant-fieldset .active::before {
   content: "";
-  border-bottom: 1px solid #121212;
-  border-radius: 0!important;
+  border-bottom: 2px solid #777777;
   margin-bottom: -3px;
   margin-left: 4px;
   margin-right: 4px;
   display: inline-block;
+  height: 2px;
+  margin-top: 33px;
+  border-radius: 3px!important;
 }
-
 
 #predictive-search-results {
   background: white;
