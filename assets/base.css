@@ -4695,7 +4695,8 @@ cart-remove-button > a {
   font-size: 0;
 }
 
-.variant-fieldset label:hover::before {
+.variant-fieldset label:hover::before,
+.variant-fieldset .active::before {
   content: "";
   border-bottom: 1px solid #121212;
   border-radius: 0!important;
