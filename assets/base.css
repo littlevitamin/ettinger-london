@@ -5157,7 +5157,7 @@ display: inline;
 content: '\f004';
 }
 
-#swym-wishlist {
+.swym-wishlist {
   display: flex;
   align-items: center;
   width: 44px;
