@@ -10,6 +10,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  const labels = document.querySelectorAll('.variant-fieldset label');
+    
+      labels.forEach(label => {
+        label.addEventListener('click', () => {
+          labels.forEach(label => {
+            label.classList.remove('active');
+          });    
+          label.classList.add('active');
+        });
+      });
+
   function getColorClass(color) {
     switch (color) {
       case 'Green/London Tan':
