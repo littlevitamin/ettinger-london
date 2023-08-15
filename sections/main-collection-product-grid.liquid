@@ -166,6 +166,11 @@
     transition: opacity 0.5s ease;
     opacity: 1;
   }
+
+  #product-count {
+    font-size: 12px;
+    padding-top: 6px;
+  }
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding {% if template contains 'collection' %}bottom-grid{% endif %}">
@@ -346,7 +351,7 @@
                     {%- endfor -%}
                   </fieldset>
                 {%- endfor -%}
-                                </li>
+                </li>
               {%- endfor -%}
             </ul>
 
