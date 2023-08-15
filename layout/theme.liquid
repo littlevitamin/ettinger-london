@@ -517,13 +517,16 @@
         inputsContainer.onclick = null;
       };
 
-      function handleLabelClick(clickedLabel) {
-        const labels = document.querySelectorAll('.variant-fieldset label');
-        labels.forEach(label => {
-          label.classList.remove('active');
+      const labels = document.querySelectorAll('.variant-fieldset label');
+    
+      labels.forEach(label => {
+        label.addEventListener('click', () => {
+          labels.forEach(label => {
+            label.classList.remove('active');
+          });    
+          label.classList.add('active');
         });
-        clickedLabel.classList.add('active');
-      }
+      });
       </script>
 
       <script>
