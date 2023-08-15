@@ -5166,6 +5166,7 @@ content: '\f004';
   color: white;
 }
 
-.swym-wishlist-white-background {
+.swym-wishlist-white-background,
+.scrolled-past-header .swym-wishlist {
   color: #121212;
 }
