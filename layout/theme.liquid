@@ -578,7 +578,7 @@
       }
     </script>
     
-    <!-- <script>
+    <script>
       function handleLabelClick(clickedLabel) {
         const labels = document.querySelectorAll('.variant-fieldset label');
         labels.forEach(label => {
@@ -586,29 +586,7 @@
         });
         clickedLabel.classList.add('active');
       }
-    </script> -->
-
-    <script>
-  // Get the parent element that contains all the labels
-  const fieldset = document.querySelector('.variant-fieldset');
-
-  // Add a click event listener to the parent fieldset
-  fieldset.addEventListener('click', function(event) {
-    // Check if the clicked element is a label
-    if (event.target.matches('.variant-fieldset label')) {
-      const labels = fieldset.querySelectorAll('.variant-fieldset label');
-
-      // Remove the 'active' class from all labels
-      labels.forEach(label => {
-        label.classList.remove('active');
-      });
-
-      // Add the 'active' class to the clicked label
-      event.target.classList.add('active');
-    }
-  });
-</script>
-
+    </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
