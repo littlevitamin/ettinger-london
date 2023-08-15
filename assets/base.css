@@ -5160,5 +5160,6 @@ content: '\f004';
 .swym-wishlist {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 44px;
 }
