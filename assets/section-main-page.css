@@ -24,6 +24,6 @@
   }
 }
 
-.main-page-content >* {
+.main-page-content > p >* {
   font-size: 14px;
 }
