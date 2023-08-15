@@ -588,6 +588,18 @@
       }
     </script>
 
+    <script>
+    const labelz = document.querySelectorAll('.variant-fieldset label');
+      
+    labelz.forEach(label => {
+      label.addEventListener('click', () => {
+        label.click(); 
+        label.click(); 
+      });
+    });
+  </script>
+
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
