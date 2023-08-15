@@ -5162,4 +5162,6 @@ content: '\f004';
   align-items: center;
   justify-content: center;
   width: 44px;
+  text-decoration: none;
+  color: white;
 }
