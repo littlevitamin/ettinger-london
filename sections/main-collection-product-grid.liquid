@@ -352,7 +352,7 @@
 
             {% if section.settings.enable_load_more == true %}
               <div class="load-more">
-                <button class="button load-more-btn" onclick="loadMoreProducts(); setTimeout(updateCountBy26, 500);">VIEW MORE</button>
+                <button class="button load-more-btn" onclick="loadMoreProducts(); setTimeout(updateCountBy26, 1500);">VIEW MORE</button>
                 <span id="product-count">{{ paginate.page_size }} / <span id="total-products-count">{{ collection.all_products_count }}</span> PRODUCTS</span>
               </div>
             {% else %}
