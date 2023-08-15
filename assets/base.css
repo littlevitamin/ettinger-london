@@ -5170,3 +5170,9 @@ content: '\f004';
 .scrolled-past-header .swym-wishlist {
   color: #121212;
 }
+
+@media screen and (max-width: 750px) {
+  .swym-wishlist {
+    display: none;
+  }
+}
