@@ -352,9 +352,9 @@
 
             {% if section.settings.enable_load_more == true %}
               <div class="load-more">
-                <button class="button load-more-btn" onclick="updateProductCount()">UPDATE COUNT</button>
+                <button class="button load-more-btn" onclick="updateCountBy26()">UPDATE COUNT</button>
                 <button class="button load-more-btn" onclick="loadMoreProducts()">VIEW MORE</button>
-                <span id="product-count"><span id="loaded-products-count">26</span> / <span id="total-products-count">{{ collection.all_products_count }}</span> PRODUCTS</span>
+                <span id="product-count">{{ paginate.page_size }} / <span id="total-products-count">{{ collection.all_products_count }}</span> PRODUCTS</span>
               </div>
             {% else %}
               {%- if paginate.pages > 1 -%}
@@ -370,16 +370,25 @@
 </div>
 
 <script>
-var loadedProducts = 26; // Initial loaded products count
+function updateCountBy26() {
+    var countElement = document.getElementById('product-count');
+    var totalProducts = {{ collection.all_products_count }};
+    
+    // Get the current count from the span
+    var currentCount = parseInt(countElement.textContent, 10);
+    
+    // Update the count by adding +26
+    var newCount = currentCount + 26;
 
-function updateCountAndDisplay() {
-    loadedProducts += 26; // Increment count by 26
-    var totalCount = {{ collection.all_products_count }};
-    var loadedCountElement = document.getElementById('loaded-products-count');
-    var totalCountElement = document.getElementById('total-products-count');
+    // Ensure new count does not exceed total products count
+    if (newCount > totalProducts) {
+        newCount = totalProducts;
+    }
 
-    loadedCountElement.textContent = loadedProducts;
-    totalCountElement.textContent = totalCount; // Update the total count element
+    // Update the count in the span
+    countElement.textContent = newCount + ' / ' + totalProducts + ' PRODUCTS';
+}
+
 }
 
 </script>
