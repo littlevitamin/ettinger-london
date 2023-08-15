@@ -577,20 +577,16 @@
           $('.login-display').show();
       }
     </script>
-
-    <script>
-      const labels = document.querySelectorAll('.variant-fieldset label');
     
-      labels.forEach(label => {
-        label.addEventListener('click', () => {
-          labels.forEach(label => {
-            label.classList.remove('active');
-          });    
-          label.classList.add('active');
+    <script>
+      function handleLabelClick(clickedLabel) {
+        const labels = document.querySelectorAll('.variant-options.collection-variant-options');
+        labels.forEach(label => {
+          label.classList.remove('active');
         });
-      });
+        clickedLabel.classList.add('active');
+      }
     </script>
-
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
