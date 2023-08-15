@@ -4698,7 +4698,7 @@ cart-remove-button > a {
 .variant-fieldset label:hover::before,
 .variant-fieldset .active::before {
   content: "";
-  border-bottom: 1px solid #121212;
+  border-bottom: 2px solid #121212;
   border-radius: 0!important;
   margin-bottom: -3px;
   margin-left: 4px;
