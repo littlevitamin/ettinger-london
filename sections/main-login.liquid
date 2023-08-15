@@ -62,7 +62,23 @@
 
 <div class="customer login section-{{ section.id }}-padding page-width">
   <div class="image-container">
-    <img class="login-image" src="{{ section.settings.image | img_url }}" width="100%" height="100%" loading="lazy"/> 
+    <img 
+      srcset="
+        {%- if section.settings.image >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.image >= 330 -%}{{ section.settings.image | image_url: width: 330 }} 330w,{%- endif -%}
+        {%- if section.settings.image >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+        {%- if section.settings.image >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+        {%- if section.settings.image >= 1000 -%}{{ section.settings.image | image_url: width: 1000 }} 1000w,{%- endif -%}
+        {%- if section.settings.image >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+        {%- if section.settings.image >= 3000 -%}{{ section.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
+        {{ section.settings.image | image_url }} {{ section.settings.image }}w
+      "
+      class="login-image" 
+      src="{{ section.settings.image | img_url }}" 
+      width="{{ section.settings.image.width }}" 
+      height="{{ section.settings.image.height }}" 
+      loading="lazy"
+    > 
   </div>
   <div class="login-content">
   <h1 id="recover" tabindex="-1">
