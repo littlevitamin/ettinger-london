@@ -91,6 +91,7 @@
 
 .multicolumn-card__info > :nth-child(3) {
   margin-top: 1rem;
+  font-size: 14px;
 }
 
 .multicolumn-list__item.center .media--adapt,
