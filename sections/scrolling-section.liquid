@@ -96,7 +96,7 @@
 -%}
 
 <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} slider-desktop">
-    <div class="blog-image-container   {% if request.path contains '/about-us' or request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
+    <div class="blog-image-container   {% if request.path contains '/about-us' %}empty-divider{% endif %} {% if request.path contains '/the-ettinger-factory' %} hide{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         <video 
             style="height: 180px; width: 180px; margin-top: -15px;" 
