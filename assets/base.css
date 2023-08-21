@@ -3402,7 +3402,10 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 #FooterCountryList .link--text {
-  color: var(--gradient-base-accent-2);
+  color: #121212;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Gotham Light', sans-serif;
 }
 
 /* Collection grid template modification */
