@@ -162,6 +162,7 @@
         "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-1",
         "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-2"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -208,7 +209,6 @@
         "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-1",
         "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-2"
       ],
-      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
