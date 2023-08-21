@@ -56,6 +56,31 @@
     margin: 0;
   }
 
+    @media screen and (min-width: 750px) {
+    .slider-mobile {
+      display: none!important;
+    }
+    .slider-desktop {
+      display: block!important;
+    }
+  }
+  
+  @media screen and (max-width: 749px) {
+    .slider-desktop {
+      display: none!important;
+    }
+    .slider-mobile {
+      display: flex!important;
+    }
+    .slider-mobile .multirow__scroll {
+      flex-direction: column!important;
+    }
+    .image-with-text__heading {
+      font-size: 24px!important;
+      line-height: 26px!important;
+    }
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -86,7 +111,7 @@
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}factory-scroll{% endif %} {% if request.path contains '/about-us' %}multirow-scrolling{% endif %}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} {% if request.path contains '/the-ettinger-factory' %}factory-scroll{% endif %} {% if request.path contains '/about-us' %}multirow-scrolling{% endif %} slider-desktop">
   <div id="containers" class="multirow__inner {% if template contains 'about' or 'factory' %}multirow__scroll{% else %}page-width{% endif %}">
     {%- for block in section.blocks -%}
       <div
@@ -150,6 +175,79 @@
     {%- endfor -%}
   </div>
 </div>
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {% if template contains 'about' or 'factory' %}multirow__wrapper{% endif %} slider-mobile">
+  <swiper-container
+    slides-per-view="1" 
+    pagination="{ 'el': '.swiper-pagination', 'clickable': true }"
+    style="
+      --swiper-pagination-color: #EC9A00; 
+      --swiper-pagination-bullet-width: 21px;
+      --swiper-pagination-bullet-active-width: 40px;
+      --swiper-pagination-bullet-height: 3px;
+      --swiper-pagination-bullet-border-radius: 3px;"
+    class="multirow__inner {% if template contains 'about' or 'factory' %}multirow__scroll{% else %}page-width{% endif %}">
+    {%- for block in section.blocks -%}
+      <swiper-slide
+        class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
+        {{ block.shopify_attributes }}
+      >
+        <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
+          <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+            <div
+              class="image-with-text__media image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
+              {% if section.settings.image_height == 'adapt' and block.settings.image != blank %}
+                style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
+              {% endif %}
+            >
+              {%- if block.settings.image != blank -%}
+                {%- capture sizes -%}
+                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                  (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 1500
+                  | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
+                }}
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+          </div>
+          <div class="image-with-text__text-item grid__item">
+            <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.image_height }} content-container{% unless no_content_background and no_content_styles %} gradient color-{{ section.settings.row_color_scheme }}{% endunless %}">
+              {%- if block.settings.heading -%}
+                <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
+                  {{ block.settings.heading }}
+                </h2>
+              {%- endif -%}
+              {%- if block.settings.caption -%}
+                <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium">
+                  {{ block.settings.caption | escape }}
+                </p>
+              {%- endif -%}
+              {%- if block.settings.text -%}
+                <div class="image-with-text__text multirow-text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+              {%- endif -%}
+              {%- if block.settings.button_label != blank -%}
+                <a
+                  {% if block.settings.button_link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link }}"
+                  {% endif %}
+                  class="button button--{{ section.settings.button_style }}"
+                >
+                  {{ block.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+    {%- endfor -%}
+  </swiper-container>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -167,7 +265,7 @@
         trigger: containers,
         pin: true,
         scrub: 1,
-        end: "+=5000"
+        end: "+=3000"
       },
     });
   });
