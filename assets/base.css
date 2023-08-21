@@ -5004,7 +5004,7 @@ predictive-search .field {
 }
 
 #CartDrawer > div.drawer__inner > div.drawer__header > button > svg > path {
-  fill: var(--gradient-base-accent-2);
+  fill: #777777;
 }
 
 /* Contact form */
