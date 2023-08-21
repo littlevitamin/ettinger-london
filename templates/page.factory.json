@@ -82,6 +82,7 @@
     },
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "paragraph": "",
         "enable_video": true,
