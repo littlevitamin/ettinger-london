@@ -4842,17 +4842,23 @@ predictive-search .field {
   font-weight: 300!important;
 }
 
-.style-text > ul > li {
+.style-text > ul > li,
+.main-page-content li {
   font-family: 'Gotham Light', sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #121212;
-  list-style-type: none;
+  list-style-type: none!important;
   background-image: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Monogram_K_Black_2.svg?v=1691073743');
   background-size: 9px 9px;
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 20px;
+}
+
+.main-page-content li {
+  background-position-x: left;
+  background-position-y: 10px;
 }
 
 .article-template__title {
