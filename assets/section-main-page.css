@@ -28,6 +28,8 @@
   font-size: 14px;
 }
 
-.main-page-content > h2 {
-  font-size: 24px;
+.main-page-content > h2,
+.main-page-content > h3 {
+  font-size: 18px;
+  text-decoration: none;
 }
