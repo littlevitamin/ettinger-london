@@ -61,6 +61,10 @@
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
     min-height: 59rem;
   }
+
+  .banner-homepage .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
+    min-height: 76rem;
+  }
 }
 
 @media screen and (min-width: 750px) {
