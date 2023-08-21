@@ -82,7 +82,6 @@
     },
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "paragraph": "",
         "enable_video": true,
@@ -125,53 +124,6 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-right",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "6b494442-5327-4fe3-8bf5-e08eb50bd0b5": {
-      "type": "scrolling-section",
-      "blocks": {
-        "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ludovic_Robert_Photographer-20130404-0407.png",
-            "caption": "Factory Manager & Pattern Maker",
-            "heading": "Gary Billingham",
-            "text": "<p>Gary has worked in our factory since he was 16 and, needless to say, has a wealth of experience under his belt. He is our main pattern and sample maker and is also the factory manager. Pattern making means transforming a 2D drawing (or sometimes nothing more than a small description over the phone) into a working 3D model by creating all the necessary parts of the item. These parts are generally made of cardboard first and then hand cut in leather.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ludovic_Robert_Photographer-20130404-0748.png",
-            "caption": "Quality Controller",
-            "heading": "Meg Sims",
-            "text": "<p>Meg ensures our quality control is second to none. She's been working in the the Ettinger factory since she was 16, so her eagle eye is certainly well trained. In the factory she ensures our production runs smoothly and manages a team of outworkers.<\/p><p>Meg is the first point of contact for our suppliers, and ensures we have the best product available on the market.<\/p><p>In recent years Meg has been at the helm of our initialling service, perfecting the skills and producing the finest results.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-1",
-        "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "align-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
@@ -366,7 +318,6 @@
     "32f72ee9-97ec-4028-b64a-51342bf29250",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
     "576fdaac-98b4-49d7-9080-0454e97e59f1",
-    "6b494442-5327-4fe3-8bf5-e08eb50bd0b5",
     "82a7aa87-fb54-44c8-972a-8acec6db5d6d",
     "8c0e7dba-1be8-4a00-91ab-5202adf80b6d",
     "e5724cce-e348-435d-8216-726d0bd7bcf4"
