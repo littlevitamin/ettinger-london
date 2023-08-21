@@ -5102,20 +5102,6 @@ predictive-search .field {
   }
 } */
 
-#stockist-widget {
-  display: flex;
-}
-
-.stockist-search-form {
-  display: flex;
-  order: 1;
-}
-
-.stockist-horizontal {
-  display: flex;
-  order: 2;
-}
-
 /* Styling Product Options App */
 
 .cl-po--swatch {
