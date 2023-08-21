@@ -137,20 +137,22 @@
         "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-1": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/Ludovic_Robert_Photographer-20130404-0407.png",
+            "caption": "Factory Manager & Pattern Maker",
+            "heading": "Gary Billingham",
+            "text": "<p>Gary has worked in our factory since he was 16 and, needless to say, has a wealth of experience under his belt. He is our main pattern and sample maker and is also the factory manager. Pattern making means transforming a 2D drawing (or sometimes nothing more than a small description over the phone) into a working 3D model by creating all the necessary parts of the item. These parts are generally made of cardboard first and then hand cut in leather.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "template--19982028898590__6b494442-5327-4fe3-8bf5-e08eb50bd0b5-row-2": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/Ludovic_Robert_Photographer-20130404-0748.png",
+            "caption": "Quality Controller",
+            "heading": "Meg Sims",
+            "text": "<p>Meg ensures our quality control is second to none. She's been working in the the Ettinger factory since she was 16, so her eagle eye is certainly well trained. In the factory she ensures our production runs smoothly and manages a team of outworkers.<\/p><p>Meg is the first point of contact for our suppliers, and ensures we have the best product available on the market.<\/p><p>In recent years Meg has been at the helm of our initialling service, perfecting the skills and producing the finest results.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -205,6 +207,7 @@
         "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-1",
         "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-2"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
