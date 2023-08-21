@@ -62,7 +62,7 @@
     min-height: 59rem;
   }
 
-  .banner-homepage .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
+  .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner-home-box {
     min-height: 76rem;
   }
 }
