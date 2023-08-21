@@ -86,6 +86,28 @@
     }
   }
 
+  @media screen and (min-width: 990px) {
+    .quick-add__submit {
+      opacity: 0;
+    }
+  }
+
+    .quick-add__submit {
+    padding: 2px;
+    min-height: 30px;
+    min-width: 33%;
+    max-width: 33%;
+    float: right;
+    border: 0;
+    margin-right: 10px;
+    margin-top: -40px;
+  }
+
+  .grid__item:hover .quick-add__submit {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
