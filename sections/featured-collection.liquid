@@ -84,6 +84,14 @@
     .swym-add-to-wishlist-view-product {
       opacity: 1;
     }
+    .quick-add__submit {
+      opacity: 1;
+      min-width: 94%;
+      margin-top: 5px;
+      border: 1px solid #777777;
+      min-height: 18px;
+      z-index:  9999!important;
+    }
   }
 
   @media screen and (min-width: 990px) {
@@ -92,7 +100,7 @@
     }
   }
 
-    .quick-add__submit {
+  .quick-add__submit {
     padding: 2px;
     min-height: 30px;
     min-width: 33%;
@@ -101,6 +109,10 @@
     border: 0;
     margin-right: 10px;
     margin-top: -140px;
+  }
+
+  .quick-add__submit:hover {
+    border: 1px solid var(--gradient-base-accent-2);
   }
 
   .grid__item:hover .quick-add__submit {
