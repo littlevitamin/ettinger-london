@@ -599,6 +599,16 @@
     });
   </script>
 
+  <script>
+    var interval = setInterval(function(){
+          var countForVideo = document.getElementById('vid').readyState;
+          if(countForVideo == 4){
+            document.getElementById('vid').play();
+            clearInterval(interval);
+          }
+        },2000);
+  </script>
+
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
