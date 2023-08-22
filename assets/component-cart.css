@@ -252,6 +252,10 @@ cart-items {
   text-transform: uppercase;
 }
 
+.cl-po--checkbox-item {
+  font-size: 13px;
+}
+
 .title-wrapper-with-link .underlined-link {
   font-family: 'Gotham Medium', sans-serif;
   font-size: 13px;
