@@ -4708,6 +4708,9 @@ cart-remove-button > a {
   .homepage-banner-text .styled-text > p {
     width: 50%!important;
   }
+  .multirow__scroll .image-with-text__text {
+    width: 80%!important;
+  }
 }
 
 .homepage-banner-text .styled-text {
