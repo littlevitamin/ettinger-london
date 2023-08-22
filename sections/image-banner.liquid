@@ -89,7 +89,7 @@
       min-height: 76rem!important;
     }
 
-    .blog-hero-width {
+    .banner-topics-box-1 > div {
       max-width: -webkit-fill-available!important;
     }
 
@@ -264,7 +264,7 @@
       </div>
     {%- endif -%}
     <div style="height: 100%; background: rgba(0,0,0,0.3);" class="banner__content banner__content--{{ section.settings.desktop_content_position }} {% if request.page_type == 'index' %}banner-home-box{% endif %} {% if request.page_type != 'index' %} banner-other-box{% endif %} {% if request.path contains 'collection' %} banner-collection-box-1{% endif %} {% if request.path contains '/journal' %} banner-journal-box-1{% endif %} {% if request.path contains '/blogs' or request.path contains '/leather-care' %} banner-topics-box-1{% endif %}">
-      <div class="banner__box {% if template contains 'journal' %}banner-journal-box{% endif %} {% if template contains '/blogs/' %} page-width-desktop blog-hero-width{% endif %} {% if template contains 'collection' %}banner-collection-box{% endif %} {% if request.page_type == 'index' %} page-width homepage-banner-text {% endif %} content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
+      <div class="banner__box {% if template contains 'journal' %}banner-journal-box{% endif %} {% if template contains 'collection' %}banner-collection-box{% endif %} {% if request.page_type == 'index' %} page-width homepage-banner-text {% endif %} content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient {% if template contains 'about' %}transparent{% endif %}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
