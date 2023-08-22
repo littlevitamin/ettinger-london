@@ -4622,6 +4622,12 @@ div.banner__media::after {
   .second-scrolling-height {
     height: 1050px;
   }
+  .multirow .image-with-text {
+    margin-top: 0!important;
+  }
+  .banner__box {
+    padding: 4rem 1.5rem!important;
+  }
 }
 
 .product__info-container .collection-title {
