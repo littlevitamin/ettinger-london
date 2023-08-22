@@ -4628,6 +4628,9 @@ div.banner__media::after {
   .banner__box {
     padding: 4rem 1.5rem!important;
   }
+  .banner__heading {
+    font-size: 30px!important;
+  }
 }
 
 .product__info-container .collection-title {
