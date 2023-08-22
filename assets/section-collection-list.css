@@ -64,7 +64,6 @@
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  padding-bottom: 45px!important;
   width: 100%;
   margin: 0!important;
 }
