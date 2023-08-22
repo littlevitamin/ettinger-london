@@ -3935,7 +3935,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 
 .color-ettinger-grey {
-  background-color: #756f6f;
+  background-color: #756f6f!important;
   color: transparent!important;
   display: inline-block;
   width: 14px;
