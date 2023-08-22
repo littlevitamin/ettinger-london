@@ -3115,7 +3115,7 @@ sticky-header > header > nav > ul > li > a > span {
 .scrolled-past-header.hovered > sticky-header > header > h1 > a > img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_wordmark_K_1_1.svg?v=1692711536')!important;
   height: 30px;
-  aspect-ratio: auto;
+  max-width: 200px;
 }
 
 .new-content {
