@@ -3285,7 +3285,8 @@ sticky-header > header > nav > ul > li > a > span {
   font-weight: 300!important;
   color: #121212!important;
   font-size: 24px!important;
-  height: 64px!important;
+  padding-top: 30px!important;
+  height: auto;
 }
 
 @media screen and (max-width: 500px) {
