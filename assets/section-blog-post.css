@@ -80,6 +80,8 @@
   text-decoration: none;
   width: max-content;
   margin: 0 auto;
+  background: white;
+  color: var(--gradient-base-accent-2);
 }
 
 .article-template__link .icon-wrap {
