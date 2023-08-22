@@ -4916,9 +4916,9 @@ predictive-search .field {
   border: 0;
   padding-left: 0;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 10px;
   line-height: 15px;
-  font-family: 'Gotham Light', sans-serif;
+  font-family: 'Gotham Book', sans-serif;
   font-weight: 300;
   color: var(--gradient-base-accent-2);
   cursor: pointer;
