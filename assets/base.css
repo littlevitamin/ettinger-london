@@ -3122,7 +3122,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .white-background-watermark,
 .hovered > sticky-header > header > div > img {
-  height: 6vh;
+  height: 9vh;
   content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Royal_Warrant_CMYK.png?v=1690892666")!important;
 }
 
