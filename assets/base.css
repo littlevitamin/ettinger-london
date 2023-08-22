@@ -4612,6 +4612,18 @@ div.banner__media::after {
 
 /* Feedback points */
 
+@media screen and (max-width: 749px) {
+  .slider-mobile .image-with-text__text-item {
+    padding-left: 20px;
+  }
+  .slider-mobile .image-with-text {
+    padding: 0!important;
+  }
+  .second-scrolling-height {
+    height: 1050px;
+  }
+}
+
 .product__info-container .collection-title {
   margin-bottom: 0;
 }
