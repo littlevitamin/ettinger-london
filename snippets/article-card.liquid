@@ -97,6 +97,7 @@
                     {{ article.content | strip_html | truncatewords: 30 }}
                   {%- endif -%}
                 </p>
+                <a href="{{ article.url }}" style="color: #ec9a00">Read More...</a>
               {%- endif -%}
               <div class="article-card__footer">
                 {%- if article.comments_count > 0 and blog.comments_enabled? -%}
