@@ -42,7 +42,7 @@
       {%- when 'title' -%}
         <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
           <form class="form-back">
-            <a href="{{ blog.url }}" class="input-back">
+            <a href="{{ blog.url }}" class="input-back link-back">
               {% if request.path contains '/news' %}NEWS
               {% elsif request.path contains '/style' %}STYLE
               {% elsif request.path contains '/lifestyle' %}LIFESTYLE
