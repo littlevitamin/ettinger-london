@@ -4627,7 +4627,8 @@ div.banner__media::after {
     opacity: 1!important;
   }
   .variant-fieldset label:hover + .color-name-span {
-    margin-left: -100px;
+    margin-left: -40px;
+    width: fit-content;
   }
 }
 
