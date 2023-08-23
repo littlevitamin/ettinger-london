@@ -5195,8 +5195,6 @@ predictive-search .field {
 input[type=radio]:checked+.cl-po--swatch {
   box-shadow: none!important;
   border-color: #121212!important;
-  padding-bottom: 10px;
-  border: 1px solid #777777;
 }
 
 /* Wishlist header icon */
