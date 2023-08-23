@@ -5146,6 +5146,10 @@ predictive-search .field {
 
 /* Styling Product Options App */
 
+.cl-po--popup-preview {
+  box-shadow: none!important;
+}
+
 .cl-po--swatch {
   height: 30px;
 }
