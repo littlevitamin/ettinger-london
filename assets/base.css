@@ -4620,7 +4620,7 @@ div.banner__media::after {
 
 .multicolumn-list__item:nth-child(3) > div > div > h3 {
   margin-left: 0.5rem;
-  top: 0;
+  top: 5px;
   position: absolute;
 }
 
