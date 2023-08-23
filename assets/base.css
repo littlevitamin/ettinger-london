@@ -4937,6 +4937,11 @@ predictive-search .field {
   cursor: pointer;
 }
 
+.link-back {
+  left: 0;
+  top: 20px;
+}
+
 .image-with-text__text--caption-raw > p > strong,
 .image-with-text__text--caption-raw > h6 > strong {
   color: var(--gradient-base-accent-2);
