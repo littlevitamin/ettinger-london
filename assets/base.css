@@ -4609,6 +4609,12 @@ div.banner__media::after {
 
 /* Feedback points */
 
+@media screen and (max-width: 750px) {
+  .swym-button {
+    opacity: 1;
+  }
+}
+
 .multicolumn-list__item:nth-child(3) > div > div > img {
   width: 30px;
   height: 25px;
