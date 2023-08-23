@@ -4614,10 +4614,12 @@ div.banner__media::after {
 }
 
 .variant-fieldset label:hover + .color-name-span {
-  margin-left: -3%;
   display: inline;
   position: absolute;
   font-size: 10px;
+  width: 200px;
+  text-align: center;
+  margin-left: -120px;
 }
 
 @media screen and (max-width: 750px) {
