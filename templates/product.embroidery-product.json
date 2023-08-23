@@ -92,13 +92,13 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "large",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "media_fit": "cover",
+        "gallery_layout": "columns",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -158,7 +158,7 @@
           "settings": {
             "title": "SHOPPING HELP",
             "icon_image": "shopify:\/\/shop_images\/Group_cddfc540-0b78-48bc-8011-cc9ce3209bba.svg",
-            "text": "<p>For product or order enquiries, please complete the form here or email us directly <a href=\"#\" title=\"clientservices@ettinger.co.uk\">clientservices@ettinger.co.uk<\/a><br\/><\/p>",
+            "text": "<p>For product or order enquiries, please complete the form here or email us directly <a href=\"mailto:clientservices@ettinger.co.uk\" title=\"mailto:clientservices@ettinger.co.uk\">clientservices@ettinger.co.uk<\/a><br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -210,14 +210,14 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
+        "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "f5ae2813-f7a4-4ff6-81d9-ee7267aadb5c": {
+    "0c6de396-3de4-4743-947f-bbbc6a034f63": {
       "type": "featured-collection",
       "settings": {
-        "title": "You may also like",
+        "title": "You May also like",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -234,7 +234,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -247,6 +247,6 @@
     "70612a51-31be-4bab-abcf-05e1ca59161e",
     "89c547c3-cc6c-4172-91eb-87d598a0e2df",
     "related-products",
-    "f5ae2813-f7a4-4ff6-81d9-ee7267aadb5c"
+    "0c6de396-3de4-4743-947f-bbbc6a034f63"
   ]
 }
