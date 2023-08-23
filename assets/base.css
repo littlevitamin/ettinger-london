@@ -4626,6 +4626,9 @@ div.banner__media::after {
   .swym-button {
     opacity: 1!important;
   }
+  .variant-fieldset label:hover + .color-name-span {
+    margin-left: -100px;
+  }
 }
 
 .multicolumn-list__item:nth-child(3) > div > div > img {
