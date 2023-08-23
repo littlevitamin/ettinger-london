@@ -5192,6 +5192,11 @@ predictive-search .field {
   height: 90%!important;
 }
 
+input[type=radio]:checked+.cl-po--swatch {
+  box-shadow: none!important;
+  border-color: transparent!important;
+}
+
 /* Wishlist header icon */
 
 i.icon-swym-wishlist {
