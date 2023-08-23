@@ -4940,6 +4940,7 @@ predictive-search .field {
 .link-back {
   left: 0;
   top: 20px;
+  text-decoration: none;
 }
 
 .image-with-text__text--caption-raw > p > strong,
