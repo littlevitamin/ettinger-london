@@ -4609,6 +4609,17 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.color-name-span {
+  display: none;
+}
+
+.variant-fieldset label:hover + .color-name-span {
+  margin-left: -3%;
+  display: inline;
+  position: absolute;
+  font-size: 10px;
+}
+
 @media screen and (max-width: 750px) {
   .swym-button {
     opacity: 1!important;
