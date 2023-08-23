@@ -45,6 +45,11 @@
   }
 }
 
+.newsletter-form__message {
+  font-family: 'Gotham Light', sans-serif!important;
+  font-weight: 300;
+}
+
 .newsletter-form__button {
   width: 4.4rem;
   margin: 0;
