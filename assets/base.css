@@ -4968,10 +4968,14 @@ predictive-search .field {
   .banner__text {
     width: 100%!important;
   }
+
+  .product-grid .card__heading {
+    margin: 0!important;
+  }  
 }
 
 .product-grid .card__heading {
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .banner-collection-box-1 > div > div > span > span > span.link > a {
