@@ -4617,6 +4617,10 @@ div.banner__media::after {
   width: 25px;
 }
 
+.multicolumn-list__item:nth-child(3) > div > div > h3 {
+  margin-left: 0.5rem;
+}
+
 .account p {
   font-size: 14px;
   font-weight: 300;
