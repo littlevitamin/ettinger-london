@@ -1,12 +1,19 @@
 .list-social {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  margin-left: 75%;
+}
+
+@media screen and (max-width: 1440px) {
+  .list-social {
+    margin-left: 74%;
+  }
 }
 
 @media only screen and (max-width: 749px) {
   .list-social {
     justify-content: center;
+    margin-left: 0;
   }
 }
 
