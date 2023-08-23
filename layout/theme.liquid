@@ -576,6 +576,21 @@
       function showLoginDisplay() {
           $('.login-display').show();
       }
+
+      function hideLoginDisplayInitially() {
+      var currentUrl = window.location.href;
+
+      var targetUrl = "https://ettinger-1.myshopify.com/account/login#recover";
+
+        if (currentUrl === targetUrl) {
+          var loginDisplayElement = document.querySelector('.login-display');
+          if (loginDisplayElement) {
+            loginDisplayElement.style.display = 'none';
+          }
+        }
+      }
+  
+      window.addEventListener('load', hideLoginDisplayInitially);
     </script>
     
     <script>
