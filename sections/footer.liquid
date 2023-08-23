@@ -79,6 +79,12 @@
     position: relative;
     top: 250px;
   }
+
+  @media screen and (max-width: 749px) {
+    .blog-image-container {
+      margin-top: 30px;
+    }
+  }
 {%- endstyle -%}
 
 <footer {% if request.path contains '/account' %}style="margin-top: 0px!important;"{% endif %} class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding {% if template contains 'collection' %}bottom-grid{% endif %}">
@@ -110,6 +116,19 @@
             endif
           -%}
           <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }} page-width mobile-flex">
+          <div class="blog-image-container">
+            <span class="list-border"><div class="grey-divider">hello</div></span>
+              <video 
+                style="height: 180px; width: 180px; margin-top: -15px;" 
+                autoplay 
+                muted
+                playsinline 
+                loading="lazy"
+              >
+                <source src="https://cdn.shopify.com/videos/c/o/v/5715306dfcc849bca518b314d0119430.mp4" />
+              </video>
+            <span class="list-border"><div class="grey-divider">hello</div></span>
+          </div>
             {%- for block in section.blocks -%}
               <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
