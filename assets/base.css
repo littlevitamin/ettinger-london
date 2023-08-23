@@ -4611,7 +4611,7 @@ div.banner__media::after {
 
 @media screen and (max-width: 750px) {
   .swym-button {
-    opacity: 1;
+    opacity: 1!important;
   }
 }
 
