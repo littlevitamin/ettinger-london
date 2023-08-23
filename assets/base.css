@@ -3314,10 +3314,6 @@ sticky-header > header > nav > ul > li > a > span {
   font-size: 10px!important;
 }
 
-.article-template .caption-with-letter-spacing {
-  color: var(--gradient-base-accent-2)!important;
-}
-
 /* Footer */
 
 @media (min-width: 750px) and (max-width: 1150px) {
