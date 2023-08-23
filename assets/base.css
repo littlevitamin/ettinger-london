@@ -4614,7 +4614,7 @@ div.banner__media::after {
 /* Feedback points */
 
 .multicolumn-list__item:nth-child(3) > div > div > img {
-  width: 25px;
+  width: 30px;
 }
 
 .multicolumn-list__item:nth-child(3) > div > div > h3 {
