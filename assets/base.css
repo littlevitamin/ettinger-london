@@ -1796,9 +1796,8 @@ details[open] > .share-button__fallback {
 .customer .field input:focus-visible,
 .customer select:focus-visible,
 .localization-form__select:focus-visible.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
   outline: 0;
-  border-radius: var(--inputs-radius);
+  box-shadow: none;
 }
 
 .field__input:focus,
@@ -1806,9 +1805,8 @@ details[open] > .share-button__fallback {
 .customer .field input:focus,
 .customer select:focus,
 .localization-form__select:focus.localization-form__select:after {
-  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
   outline: 0;
-  border-radius: var(--inputs-radius);
+  box-shadow: none;
 }
 
 .localization-form__select:focus {
@@ -1891,7 +1889,6 @@ details[open] > .share-button__fallback {
 .customer .field input:-webkit-autofill ~ label {
   font-size: 1rem;
   top: calc(var(--inputs-border-width) + 0.5rem);
-  left: calc(var(--inputs-border-width) + 2rem);
   letter-spacing: 0.04rem;
 }
 
@@ -1901,8 +1898,8 @@ details[open] > .share-button__fallback {
 .customer .field input:focus,
 .customer .field input:not(:placeholder-shown),
 .customer .field input:-webkit-autofill {
-  padding: 2.2rem 1.5rem 0.8rem 2rem;
-  margin: var(--inputs-border-width);
+  padding: 0;
+  margin: 0;
 }
 
 .field__input::-webkit-search-cancel-button,
@@ -4610,6 +4607,12 @@ div.banner__media::after {
 }
 
 /* Feedback points */
+
+.account p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #121212;
+}
 
 .journal__button .button::after {
   box-shadow: none!important;
