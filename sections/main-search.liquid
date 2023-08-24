@@ -263,7 +263,7 @@
               {%- if paginate.pages > 1 -%}
               {% comment %}{% render 'pagination', paginate: paginate %}{% endcomment %}                    
                 <div class="load-more">
-                  <button class="button load-more-btn" onclick="loadMoreProducts(); setTimeout(updateCountBy26, 1500);">VIEW MORE</button>
+                  <button class="button load-more-btn" style="display: block;" onclick="loadMoreProducts(); setTimeout(updateCountBy26, 1500);">VIEW MORE</button>
                   <span id="product-count">{{ paginate.page_size }} / <span id="total-products-count">{{ collection.all_products_count }}</span> PRODUCTS</span>
                 </div>
               {%- endif -%}
