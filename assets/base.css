@@ -3435,6 +3435,13 @@ sticky-header > header > nav > ul > li > a > span {
   .grid__item:nth-child(22n + 22) .card:not(.ratio) {
     height: 100%!important;
   }
+  
+  .collection .grid__item:nth-child(22n + 11) .card-wrapper,
+  .collection .grid__item:nth-child(22n + 22) .card-wrapper,
+  .collection .grid__item:nth-child(22n + 11) .card:not(.ratio),
+  .collection .grid__item:nth-child(22n + 22) .card:not(.ratio) {
+    height: 99.4%!important;
+  }
 
 
   #product-grid {
