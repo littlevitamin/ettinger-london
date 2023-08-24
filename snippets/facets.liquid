@@ -1124,7 +1124,11 @@
 </style>
 
 <script>
-  function hideViewMore() {
-    document.querySelector('.load-more').style.display = 'none';
-  }
+  document.addEventListener('DOMContentLoaded', function() {
+    function hideViewMore() {
+      document.querySelector('.load-more').style.display = 'none';
+    }
+    hideViewMore();
+  });
 </script>
+
