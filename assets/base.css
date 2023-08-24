@@ -5294,6 +5294,10 @@ content: '\f08a';
   }
 }
 
-.swym-button.swym-add-to-wishlist-view-product:after {
+.swym-button.swym-add-to-wishlist-view-product::after {
   color: #777777!important;
+}
+
+..swym-button.swym-add-to-wishlist-view-product:hover::after {
+  color: var(--gradient-base-accent-2)!important;
 }
