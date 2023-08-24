@@ -4616,6 +4616,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+#main-collection-filters>div>div.active-facets.active-facets-mobile.medium-hide.large-up-hide {
+  flex-direction: row;
+}
+
 .color-name-span {
   display: none;
 }
