@@ -3428,19 +3428,19 @@ sticky-header > header > nav > ul > li > a > span {
   .grid__item:nth-child(22n + 22) .card__inner {
     height: 125%;
   }
-
-  .grid__item:nth-child(22n + 11) .card-wrapper,
-  .grid__item:nth-child(22n + 22) .card-wrapper,
-  .grid__item:nth-child(22n + 11) .card:not(.ratio),
-  .grid__item:nth-child(22n + 22) .card:not(.ratio) {
-    height: 100%!important;
-  }
   
   .collection .grid__item:nth-child(22n + 11) .card-wrapper,
   .collection .grid__item:nth-child(22n + 22) .card-wrapper,
   .collection .grid__item:nth-child(22n + 11) .card:not(.ratio),
   .collection .grid__item:nth-child(22n + 22) .card:not(.ratio) {
     height: 99.4%!important;
+  }
+
+  .template-search__results .grid__item:nth-child(22n + 11) .card-wrapper,
+  .template-search__results .grid__item:nth-child(22n + 22) .card-wrapper,
+  .template-search__results .grid__item:nth-child(22n + 11) .card:not(.ratio),
+  .template-search__results .grid__item:nth-child(22n + 22) .card:not(.ratio) {
+    height: 100%!important;
   }
 
 
