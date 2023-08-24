@@ -5298,6 +5298,6 @@ content: '\f08a';
   color: #777777!important;
 }
 
-..swym-button.swym-add-to-wishlist-view-product:hover ~ .swym-button.swym-add-to-wishlist-view-product::after {
+..swym-button.swym-add-to-wishlist-view-product:hover + .swym-button.swym-add-to-wishlist-view-product::after {
   color: var(--gradient-base-accent-2)!important;
 }
