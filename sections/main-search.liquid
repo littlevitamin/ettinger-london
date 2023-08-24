@@ -210,7 +210,7 @@
           {% paginate search.results by 24 %}
             <div class="template-search__results collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}" id="product-grid" data-id="{{ section.id }}">
               <div class="loading-overlay gradient"></div>
-              <ul class="grid product-grid  grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop" role="list">
+              <ul class="grid products-on-page product-grid  grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop" role="list">
                 {%- for item in search.results -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
@@ -261,7 +261,11 @@
                 {%- endfor -%}
               </ul>
               {%- if paginate.pages > 1 -%}
-                {% render 'pagination', paginate: paginate %}
+              {% comment %}{% render 'pagination', paginate: paginate %}{% endcomment %}                    
+                <div class="load-more">
+                  <button class="button load-more-btn" onclick="loadMoreProducts(); setTimeout(updateCountBy26, 1500);">VIEW MORE</button>
+                  <span id="product-count">{{ paginate.page_size }} / <span id="total-products-count">{{ collection.all_products_count }}</span> PRODUCTS</span>
+                </div>
               {%- endif -%}
             </div>
           {% endpaginate %}
