@@ -735,9 +735,9 @@
                             <button
                               type="button"
                               class="no-js-hidden button button--primary"
-                              onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click(); 
-                                       document.querySelector('#main-collection-filters>div>div.active-facets.active-facets-mobile.medium-hide.large-up-hide').style.display = 'flex';
-                                       document.querySelector('.load-more').style.display = 'none';"
+                              onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();
+                                       hideViewMore();
+                                       document.querySelector('#main-collection-filters>div>div.active-facets.active-facets-mobile.medium-hide.large-up-hide').style.display = 'flex';"
                             >
                               {{ 'products.facets.apply' | t }}
                             </button>
