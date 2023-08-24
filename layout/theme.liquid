@@ -537,22 +537,6 @@
       document.addEventListener("click", checkAndHideElements);
       </script>
 
-        {% comment %}Hide load more button if products are only 1 page{% endcomment %}
-        <!-- <script>
-          function hideLoadMoreIfChildrenLessThan(targetId, maxChildren) {
-            const productGrid = document.getElementById(targetId);
-            const loadMoreButton = document.querySelector('.load-more');
-      
-            if (productGrid.children.length < maxChildren) {
-              loadMoreButton.style.display = 'none';
-            } else {
-              loadMoreButton.style.display = 'flex';
-            }
-          }
-
-          hideLoadMoreIfChildrenLessThan('product-grid', 22);
-        </script> -->
-
         {% comment %}Display product metafields{% endcomment %}  
         <script>
           var elements = document.getElementsByClassName("metafield-multi_line_text_field");
