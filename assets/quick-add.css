@@ -1,7 +1,7 @@
 .quick-add {
   position: relative;
   grid-row-start: 4;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .card--card .quick-add {
