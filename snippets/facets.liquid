@@ -736,7 +736,6 @@
                               type="button"
                               class="no-js-hidden button button--primary"
                               onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();
-                                       hideViewMore();
                                        document.querySelector('#main-collection-filters>div>div.active-facets.active-facets-mobile.medium-hide.large-up-hide').style.display = 'flex';"
                             >
                               {{ 'products.facets.apply' | t }}
@@ -847,7 +846,7 @@
                             <button
                               type="button"
                               class="no-js-hidden button button--primary"
-                              onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click(); hideViewMore();"
+                              onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();"
                             >
                               {{ 'products.facets.apply' | t }}
                             </button>
@@ -905,7 +904,7 @@
                 <button
                   type="button"
                   class="no-js-hidden button button--primary"
-                  onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click(); hideViewMore();"
+                  onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();"
                 >
                   {{ 'products.facets.apply' | t }}
                 </button>
@@ -1124,11 +1123,17 @@
 </style>
 
 <script>
+  function hideViewMore() {
+    document.querySelector('.load-more').style.display = 'none';
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
-    function hideViewMore() {
-      document.querySelector('.load-more').style.display = 'none';
+    const button = document.querySelector('.mobile-facets__footer .button');
+    if (button) {
+      button.addEventListener('click', function() {
+        hideViewMore();
+      });
     }
-    hideViewMore();
   });
 </script>
 
