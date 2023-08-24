@@ -5190,6 +5190,13 @@ predictive-search .field {
   .stockist-result-list {
     height: unset!important;
   }
+  #stockist-widget {
+    display: flex;
+    flex-direction: column;
+  }
+  .stockist-map {
+    order: 3;
+  }
 }
 
 #stockist-widget .stockist-icon-search:before {
