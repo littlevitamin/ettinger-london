@@ -67,7 +67,7 @@
       opacity: 1;
     }
 
-    .medium-hide {
+    .medium-hide, .large-up-hide {
       display: none;
     }
 
@@ -86,8 +86,12 @@
   }
 
     @media screen and (min-width: 990px) {
-      .large-up-hide, .quick-add__submit {
+      .quick-add__submit {
         opacity: 0;
+      }
+
+      .large-up-hide {
+        display: none;
       }
   
     .collection-fieldset label {
