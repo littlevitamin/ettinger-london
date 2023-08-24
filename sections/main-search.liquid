@@ -291,6 +291,25 @@
   {%- endif -%}
 </div>
 
+<script>
+  {% comment %}Update product counter{% endcomment %}
+<script>
+function updateCountBy26() {
+    var countElement = document.getElementById('product-count');
+    var totalProducts = {{ collection.all_products_count }};
+    var currentCount = parseInt(countElement.textContent, 10);
+    var newCount = currentCount + 26;
+
+    // Ensure new count does not exceed total products count
+    if (newCount > totalProducts) {
+        newCount = totalProducts;
+    }
+    countElement.textContent = newCount + ' / ' + totalProducts + ' PRODUCTS';
+}
+
+</script>
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main-search.name",
