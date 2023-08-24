@@ -555,6 +555,7 @@
       function hideLoginDisplay() {
           $('.login-display').hide();
       }
+      
       function showLoginDisplay() {
           $('.login-display').show();
       }
@@ -573,7 +574,12 @@
       }
   
       window.addEventListener('load', hideLoginDisplayInitially);
+
+      function hideViewMore() {
+        $('.load-more').hide();
+      }
     </script>
+
     
     <script>
       function handleLabelClick(clickedLabel) {
