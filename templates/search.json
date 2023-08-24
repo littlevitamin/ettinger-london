@@ -8,7 +8,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "drawer",
         "enable_sorting": true,
         "article_show_date": true,
