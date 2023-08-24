@@ -5239,6 +5239,7 @@ i.icon-swym-wishlist {
 font-family: 'swym-font';
 font-style: normal;
 vertical-align: middle;
+padding-top: 2px;
 }
 i.icon-swym-wishlist+span {
 vertical-align: middle;
@@ -5252,7 +5253,7 @@ display: inline;
 }
 /*content rendered after swym is ready to avoid showing block/invalid chars*/
 .swym-ready i.icon-swym-wishlist:after {
-content: '\f004';
+content: '\f08a';
 }
 
 .swym-wishlist {
