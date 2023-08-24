@@ -5293,3 +5293,7 @@ content: '\f08a';
     display: none;
   }
 }
+
+.swym-button.swym-add-to-wishlist-view-product:after {
+  color: #777777!important;
+}
