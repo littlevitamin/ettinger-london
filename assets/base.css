@@ -5193,7 +5193,7 @@ predictive-search .field {
 }
 
 #stockist-widget .stockist-icon-search:before {
-  content: "\e003"!important;
+  content: "\f002"!important;
 }
 
 /* Styling Product Options App */
