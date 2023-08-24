@@ -296,7 +296,7 @@
 <script>
 function updateCountBy26() {
     var countElement = document.getElementById('product-count');
-    var totalProducts = {{ collection.all_products_count }};
+    var totalProducts = {{ search.results_count }};
     var currentCount = parseInt(countElement.textContent, 10);
     var newCount = currentCount + 26;
 
