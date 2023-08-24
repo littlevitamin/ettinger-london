@@ -435,7 +435,7 @@ span.active-facets__button-inner:after {
 
   .active-facets__button-wrapper *,
   span.active-facets__button-inner {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
 
@@ -1094,7 +1094,7 @@ input.mobile-facets__checkbox {
 
   .facets-container-drawer .product-count {
     margin: 0 0 0.5rem 3.5rem;
-    width: 200px;
+    width: 300px;
   }
 
   .facets-container-drawer .facets-pill {
