@@ -5185,12 +5185,12 @@ predictive-search .field {
   font-family: 'Gotham Book', sans-serif;
   font-weight: 300;
 }
-/* 
+
 @media screen and (max-width: 749px) {
   .stockist-result-list {
-    height: 150px!important;
+    height: unset!important;
   }
-} */
+}
 
 /* Styling Product Options App */
 
