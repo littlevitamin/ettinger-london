@@ -3115,8 +3115,11 @@ sticky-header > header > nav > ul > li > a > span {
 .scrolled-past-header > sticky-header > header > h1 > a > img,
 .scrolled-past-header > sticky-header > header > a > img,
 .scrolled-past-header.hovered > sticky-header > header > h1 > a > img {
-  filter: blur(0);
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ETTINGER.svg?v=1692966141')!important;
+}
+
+.header-new-logo > h1 > a > img {
+  content: url('https://ettinger-1.myshopify.com/cdn/shop/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637')!important;
 }
 
 .new-content {

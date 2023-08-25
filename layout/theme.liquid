@@ -550,6 +550,18 @@
           }
         </script>
 
+        {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
+        <script>
+          const header = document.querySelector('.header');
+          const iconHamburger = document.querySelector('.icon-hamburger');
+          const iconClose = document.querySelector('.icon-close');
+
+          function addClasses() {
+              header.classList.add('header-white-background', 'header-new-logo');
+          }
+
+          iconHamburger.addEventListener('click', addClasses);
+        </script>
 
     <script>
       function hideLoginDisplay() {
