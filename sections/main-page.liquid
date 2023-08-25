@@ -21,12 +21,22 @@
     max-width: 90%;
     margin: 0 auto;
   }
+
+  .page-width > p {
+    font-size: 14px;
+    color: #121212;
+    font-weight: 300;
+    padding: 30px 0;
+  }
 {%- endstyle -%}
 
 <div class="{% if request.path contains '/store-locator' %}page-width {% else %}page-width--narrow{% endif %} section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
+  {% if request.path contains '/store-locator' %}  
+    {{ section.settings.paragraph }}
+  {% endif %}
   <div class="rte main-page-content">
     {{ page.content }}
   </div>
@@ -41,6 +51,11 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "text",
+      "id": "paragraph",
+      "label": "Store Locator Paragraph Text"
     },
     {
       "type": "range",
