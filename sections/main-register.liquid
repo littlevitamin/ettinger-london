@@ -17,6 +17,22 @@
     margin: auto;
   }
 
+  @media (min-width: 750px) and (max-width: 989px) {
+    .register {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .first-name, .last-name {
+    width: 49%;
+    display: inline-block!important;
+  }
+
+  .first-name label, .last-name label {
+    left: 0;
+  }
+
     @media screen and (max-width: 989px) {
       .login-image {
         width: 100%!important;
@@ -40,6 +56,75 @@
         padding-right: 5%;
       }
     }
+
+    .register .login-content {
+      text-align: left;
+    }
+
+    .customer label {
+      text-transform: uppercase;
+    }
+
+    .register .center label {
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 15px;
+      color: #777777;
+    }
+
+    .newsletter-message,
+    .password-message {
+      font-size: 8px;
+      font-weight: 300;
+      line-height: 15px;
+      color: #777777;
+      text-transform: uppercase;
+    }
+
+    .password-message {
+      margin-top: 10px;
+    }
+
+    .newsletter-message {
+      margin-left: 25px;
+    }
+
+    .login-content {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .register h1 {
+      font-size: 24px;
+      color: var(--gradient-base-accent-2);
+      text-transform: uppercase;
+      line-height: 41px;
+    }
+
+    .register-title {
+      font-size: 14px;
+      color: #777777;
+      line-height: 17px;
+    }
+   
+    .register-subheading {
+      font-size: 10px;
+      color: #777777;
+      line-height: 15px;
+      text-transform: uppercase;
+    }
+
+    .register .center {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 5%;
+      margin-top: 50px;
+    }
+
+    .register button {
+      margin: 10px 0 0 0;
+    }
 {%- endstyle -%}
 
 <div class="customer register section-{{ section.id }}-padding page-width">
@@ -53,9 +138,14 @@
     </symbol>
   </svg>
   <div class="login-content">
+  <h3 class="register-title">REGISTER</h3>
   <h1>
     {{ 'customer.register.title' | t }}
   </h1>
+  <p class="register-subheading">
+    Creating an Ettinger account affords you certain benefits such as
+    faster shopping, multiple address management and order tracking.
+  </p>
   {%- form 'create_customer', novalidate: 'novalidate' -%}
     {%- if form.errors -%}
       <h2 class="form__message" tabindex="-1" autofocus>
@@ -79,7 +169,7 @@
         {%- endfor -%}
       </ul>
     {%- endif -%}
-    <div class="field">
+    <div class="field first-name">
       <input
         type="text"
         name="customer[first_name]"
@@ -94,7 +184,7 @@
         {{ 'customer.register.first_name' | t }}
       </label>
     </div>
-    <div class="field">
+    <div class="field last-name">
       <input
         type="text"
         name="customer[last_name]"
@@ -156,6 +246,7 @@
         {{ 'customer.register.password' | t }}
       </label>
     </div>
+    <div class="password-message">Passwords must be a minimum of 5 characters long.</div>
     {%- if form.errors contains 'password' -%}
       <span id="RegisterForm-password-error" class="form__message">
         <svg aria-hidden="true" focusable="false">
@@ -165,9 +256,15 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
-    <button>
-      {{ 'customer.register.submit' | t }}
-    </button>
+    <div class="center">
+      <label class="newsletter-label" for="marketing">
+        <input type="checkbox" name="customer[accepts_marketing]" value="true" id="marketing" /> JOIN THE ETTINGER NEWSLETTER 
+      </label>
+      <div class="newsletter-message">STAY UP TO DATE WITH NEW COLLECTIONS AND PRODUCTS</div>
+      <button>
+        CREATE ACCOUNT
+      </button>
+    </div>
   {%- endform -%}
   </div>
 </div>
