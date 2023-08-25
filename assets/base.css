@@ -4616,6 +4616,13 @@ div.banner__media::after {
 
 /* Feedback points */
 
+#Mobile-Filter-Price-GTE {
+  font-size: 13px!important;
+  line-height: 15px!important;
+  font-family: 'Gotham Light', sans-serif!important;
+  font-weight: 300!important;
+}
+
 .color-name-span {
   display: none;
 }
