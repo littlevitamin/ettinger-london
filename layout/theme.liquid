@@ -632,19 +632,18 @@
   </script>
 
   <script>
-    // Get all labels with class "variant-label"
-var labels = document.querySelectorAll('.variant-label');
+// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function () {
+  // Use event delegation to handle clicks on the modal content
+  document.body.addEventListener('click', function (event) {
+    // Check if the clicked element is a label with the specified text
+    if (event.target.classList.contains('variant-label') && event.target.textContent.trim() === "Navy/London Tan") {
+      // Add the class "color-navy-london-tan" to the label
+      event.target.classList.add('color-navy-london-tan');
+    }
+  });
+});
 
-// Loop through each label and check its text content
-for (var i = 0; i < labels.length; i++) {
-  var label = labels[i];
-
-  // Check if the label's text content is "Navy/London Tan"
-  if (label.textContent.trim() === "Navy/London Tan") {
-    // Add the class "color-navy-london-tan" to the label
-    label.classList.add('color-navy-london-tan');
-  }
-}
 
   </script>
 
