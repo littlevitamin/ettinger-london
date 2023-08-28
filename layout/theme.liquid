@@ -631,43 +631,6 @@
         },2000);
   </script>
 
-  <script>
-// Function to add the class to the label
-function addClassToLabel(label) {
-  if (label.textContent.trim() === "Navy/London Tan") {
-    label.classList.add('color-navy-london-tan');
-  }
-}
-
-// Function to handle mutations in the DOM
-function handleMutations(mutationsList, observer) {
-  for (let mutation of mutationsList) {
-    if (mutation.type === 'childList') {
-      for (let addedNode of mutation.addedNodes) {
-        if (addedNode instanceof HTMLElement) {
-          // Check if the added node is a label element
-          if (addedNode.classList.contains('variant-label')) {
-            addClassToLabel(addedNode);
-          }
-        }
-      }
-    }
-  }
-}
-
-// Create a mutation observer
-const observer = new MutationObserver(handleMutations);
-
-// Observe changes in the modal content
-const modalContent = document.querySelector('.quick-add-modal__content-info'); // Replace with the actual class or ID of your modal content
-if (modalContent) {
-  observer.observe(modalContent, { childList: true, subtree: true });
-}
-
-
-  </script>
-
-
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
