@@ -138,7 +138,7 @@
           --swiper-pagination-bullet-width: 21px;
           --swiper-pagination-bullet-height: 3px;
           --swiper-pagination-bullet-border-radius: 3px;"
-          class="collection-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
+          class="collection-list swiper-container contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
           id="Slider-{{ section.id }}"
           role="list"
         >
@@ -261,6 +261,17 @@
       </slider-component>
   </div>
 </div>
+
+<script>
+  var swiper = new Swiper('.swiper-container', {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  }
+});
+</script>
 
 {% schema %}
 {
