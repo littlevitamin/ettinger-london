@@ -4646,7 +4646,7 @@ div.banner__media::after {
 /* Feedback points */
 
 .icon-search:hover > .icon-homepage,
-.swym-wishlist:hover > .icon-swym-widhlist {
+.swym-wishlist:hover > .icon-swym-wishlist {
   color: var(--gradient-base-accent-2)!important;
 }
 
