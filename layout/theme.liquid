@@ -631,6 +631,23 @@
         },2000);
   </script>
 
+  <script>
+    // Get all labels with class "variant-label"
+var labels = document.querySelectorAll('.variant-label');
+
+// Loop through each label and check its text content
+for (var i = 0; i < labels.length; i++) {
+  var label = labels[i];
+
+  // Check if the label's text content is "Navy/London Tan"
+  if (label.textContent.trim() === "Navy/London Tan") {
+    // Add the class "color-navy-london-tan" to the label
+    label.classList.add('color-navy-london-tan');
+  }
+}
+
+  </script>
+
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
