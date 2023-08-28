@@ -4645,6 +4645,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.featured-collection-grid {
+  overflow-y: hidden!important;
+}
+
 @media screen and (max-width: 749px) {
   .login-content {
     padding-bottom: 72px;
