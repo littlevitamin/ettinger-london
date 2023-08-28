@@ -4646,6 +4646,7 @@ div.banner__media::after {
 /* Feedback points */
 
 .icon-search:hover > .icon-homepage,
+.header__icon--search:hover > .icon-search,
 .swym-wishlist:hover > .icon-swym-wishlist,
 .header__icon--account:hover > .icon-account,
 .header__icon--cart:hover > .icon-cart-empty {
