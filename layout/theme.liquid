@@ -632,17 +632,37 @@
   </script>
 
   <script>
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function () {
-  // Use event delegation to handle clicks on the modal content
-  document.body.addEventListener('click', function (event) {
-    // Check if the clicked element is a label with the specified text
-    if (event.target.classList.contains('variant-label') && event.target.textContent.trim() === "Navy/London Tan") {
-      // Add the class "color-navy-london-tan" to the label
-      event.target.classList.add('color-navy-london-tan');
+// Function to add the class to the label
+function addClassToLabel(label) {
+  if (label.textContent.trim() === "Navy/London Tan") {
+    label.classList.add('color-navy-london-tan');
+  }
+}
+
+// Function to handle mutations in the DOM
+function handleMutations(mutationsList, observer) {
+  for (let mutation of mutationsList) {
+    if (mutation.type === 'childList') {
+      for (let addedNode of mutation.addedNodes) {
+        if (addedNode instanceof HTMLElement) {
+          // Check if the added node is a label element
+          if (addedNode.classList.contains('variant-label')) {
+            addClassToLabel(addedNode);
+          }
+        }
+      }
     }
-  });
-});
+  }
+}
+
+// Create a mutation observer
+const observer = new MutationObserver(handleMutations);
+
+// Observe changes in the modal content
+const modalContent = document.querySelector('.your-modal-class'); // Replace with the actual class or ID of your modal content
+if (modalContent) {
+  observer.observe(modalContent, { childList: true, subtree: true });
+}
 
 
   </script>
