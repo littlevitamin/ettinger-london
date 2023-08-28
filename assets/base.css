@@ -3551,6 +3551,32 @@ sticky-header > header > nav > ul > li > a > span {
   fill: var(--gradient-base-accent-2)!important;
 }
 
+.menu-drawer__account {
+  text-transform: uppercase;
+}
+
+.customer-services-menu-drawer {
+  color: #121212;
+}
+
+.submenu-drawer {
+  padding-left: 0;
+}
+
+.submenu-drawer,
+.list-social-drawer {
+  display: none!important;
+}
+
+.show-submenu,
+.white-background-watermark-drawer {
+  display: block!important;
+}
+
+.white-background-watermark-drawer {
+  float: right;
+}
+
 /* Mega menu on hover styling */
 
 .hovered,

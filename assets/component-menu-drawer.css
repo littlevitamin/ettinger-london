@@ -90,7 +90,6 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__navigation-container {
-  display: grid;
   grid-template-rows: 1fr auto;
   align-content: space-between;
   overflow-y: auto;
@@ -213,18 +212,22 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__utility-links {
-  padding: 2rem;
-  background-color: rgba(var(--color-foreground), 0.03);
+  margin: 0 3.2rem;
+  border-top: 1px solid #777777;
+  padding-top: 3.2rem;
 }
 
 .menu-drawer__account {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   text-decoration: none;
   padding: 1.2rem;
   margin-left: -1.2rem;
   font-size: 1.4rem;
-  color: rgb(var(--color-foreground));
+  color: #121212;
+  font-family: 'Gotham Light', sans-serif!important;
+  font-weight: 300;
+  line-height: 21px;
 }
 
 .menu-drawer__account .icon-account {

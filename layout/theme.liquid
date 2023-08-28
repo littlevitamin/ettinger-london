@@ -550,6 +550,17 @@
           }
         </script>
 
+        {% comment %}Toggle customer services menu on mobile{% endcomment %}
+        <script>
+          const menuTitle = document.querySelector('.menu-title-drawer');
+          const submenu = document.getElementById('submenu-drawer');
+
+          menuTitle.addEventListener('click', () => {
+            submenu.classList.toggle('show-submenu');
+          });
+        </script>
+
+
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
         <script>
           const header = document.querySelector('.header');

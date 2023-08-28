@@ -370,9 +370,19 @@
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
+                  <div class="{%- if request.page_type != 'index' -%} white-background {% endif %} customer-services-menu-drawer">
+                    <span class="menu-title-drawer">CUSTOMER SERVICES</span>
+                    <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8.34121 1.03608C8.5412 0.84297 8.5412 0.52251 8.34121 0.329404C8.15088 0.145641 7.84921 0.14564 7.65889 0.329403L4.7009 3.18546C4.50715 3.37253 4.20005 3.37253 4.0063 3.18546L1.04831 0.329404C0.857992 0.145641 0.556314 0.145641 0.365994 0.329404C0.165995 0.52251 0.165995 0.842971 0.365994 1.03608L4.0063 4.55094C4.20005 4.73801 4.50715 4.73801 4.7009 4.55094L8.34121 1.03608Z" fill="white"/>
+                    </svg>
+                    <ul class="submenu-drawer" id="submenu-drawer">
+                      <li class="submenu-item"><a href="/pages/contact">CONTACT</a></li>
+                      <li class="submenu-item"><a href="/pages/book-appointment">BOOK AN APPOINTMENT</a></li>
+                      <li class="submenu-item"><a href="/pages/faq">FAQ</a></li>
+                    </ul>
+                  </div>
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link focus-inset h5">
-                      {% render 'icon-account' %}
                       {%- liquid
                         if customer
                           echo 'customer.account_fallback' | t
@@ -382,7 +392,8 @@
                       -%}
                     </a>
                   {%- endif -%}
-                  <ul class="list list-social list-unstyled" role="list">
+                  <img class="white-background-watermark white-background-watermark-drawer" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Royal_Warrant_CMYK_1.png?v=1690892666" width="67px" height="57px"/>
+                  <ul class="list list-social list-social-drawer list-unstyled" role="list">
                     {%- if settings.social_twitter_link != blank -%}
                       <li class="list-social__item">
                         <a href="{{ settings.social_twitter_link }}" class="list-social__link link">
