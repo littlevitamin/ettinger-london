@@ -4645,6 +4645,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.icon-search:hover {
+  color: var(--gradient-base-accent-2);
+}
+
 .featured-collection-grid {
   overflow-y: hidden!important;
 }
