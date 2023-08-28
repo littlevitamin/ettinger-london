@@ -4645,6 +4645,12 @@ div.banner__media::after {
 
 /* Feedback points */
 
+@media screen and (max-width: 749px) {
+  .login-content {
+    padding-bottom: 72px;
+  }
+}
+
 #Mobile-Filter-Price-GTE {
   font-size: 13px!important;
   line-height: 15px!important;
