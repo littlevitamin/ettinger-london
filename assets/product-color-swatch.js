@@ -10,48 +10,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-// Define the function that changes label background
-function changeLabelBackground(input) {
-  var labelText = input.value.trim();
-  var colorClass = getColorClass(labelText);
-  var label = input.nextElementSibling;
-  if (label && label.tagName === 'LABEL') {
-    label.className = colorClass;
-  }
-}
-
-// Define the function to handle quick view
-function handleQuickView() {
-  // Find all quick view modals with the class 'quick-add__modal'
-  var quickViewModals = document.querySelectorAll('.quick-add__modal');
-
-  // Loop through all the modals
-  quickViewModals.forEach(function(quickViewModal) {
-    // Add an event listener for when each quick view modal is opened
-    quickViewModal.addEventListener('modalOpened', function() {
-      // Find the inputs in the current modal
-      var inputs = quickViewModal.querySelectorAll('input[name="Colour"]');
-
-      // Apply the changeLabelBackground function to the inputs
-      inputs.forEach(function(input) {
-        if (input.checked) {
-          changeLabelBackground(input);
-        }
-        input.addEventListener('change', function() {
-          changeLabelBackground(this);
+  // Define the function to handle quick view
+  function handleQuickView() {
+    // Find all quick view modals with the class 'quick-add__modal'
+    var quickViewModals = document.querySelectorAll('.quick-add__modal');
+  
+    // Loop through all the modals
+    quickViewModals.forEach(function(quickViewModal) {
+      // Add an event listener for when each quick view modal is opened
+      quickViewModal.addEventListener('modalOpened', function() {
+        // Find the inputs in the current modal
+        var inputs = quickViewModal.querySelectorAll('input[name="Colour"]');
+  
+        // Apply the changeLabelBackground function to the inputs
+        inputs.forEach(function(input) {
+          if (input.checked) {
+            changeLabelBackground(input);
+          }
+          input.addEventListener('change', function() {
+            changeLabelBackground(this);
+          });
         });
       });
     });
+  }
+  
+  // Add an event listener for DOMContentLoaded
+  document.addEventListener('DOMContentLoaded', function() {
+    // Call the handleQuickView function to set up the event listener for quick view
+    handleQuickView();
   });
-}
-
-// Add an event listener for DOMContentLoaded
-document.addEventListener('DOMContentLoaded', function() {
-  // Call the handleQuickView function to set up the event listener for quick view
-  handleQuickView();
-});
-
-
 
   function getColorClass(color) {
     switch (color) {
