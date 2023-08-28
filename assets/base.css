@@ -4647,6 +4647,7 @@ div.banner__media::after {
 
 .icon-search:hover > .icon-homepage,
 .icon-search:hover,
+.icon-search:hover > use,
 .swym-wishlist:hover > .icon-swym-wishlist,
 .header__icon--account:hover > .icon-account,
 .header__icon--cart:hover > .icon-cart-empty {
