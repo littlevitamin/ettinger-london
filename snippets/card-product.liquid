@@ -149,7 +149,7 @@
               endif
             -%}
             {%- if card_product.variants.size > 0 or qty_rules -%}
-              <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
+              <modal-opener class="quick-add__modal" data-modal="#QuickAdd-{{ card_product.id }}">
                 <button
                   id="{{ product_form_id }}-submit"
                   type="submit"
