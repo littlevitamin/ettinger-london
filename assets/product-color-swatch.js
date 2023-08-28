@@ -10,6 +10,30 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  function handleQuickView() {
+    var quickViewModal = document.querySelector('.quick-add__modal');
+  
+    if (quickViewModal) {
+      quickViewModal.addEventListener('modalOpened', function() {
+        var inputs = quickViewModal.querySelectorAll('input[name="Colour"]');
+  
+        inputs.forEach(function(input) {
+          if (input.checked) {
+            changeLabelBackground(input);
+          }
+          input.addEventListener('change', function() {
+            changeLabelBackground(this);
+          });
+        });
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    handleQuickView();
+  });
+
+
   function getColorClass(color) {
     switch (color) {
       case 'Green/London Tan':
