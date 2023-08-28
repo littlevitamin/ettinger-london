@@ -659,7 +659,7 @@ function handleMutations(mutationsList, observer) {
 const observer = new MutationObserver(handleMutations);
 
 // Observe changes in the modal content
-const modalContent = document.querySelector('.your-modal-class'); // Replace with the actual class or ID of your modal content
+const modalContent = document.querySelector('.quick-add-modal__content-info'); // Replace with the actual class or ID of your modal content
 if (modalContent) {
   observer.observe(modalContent, { childList: true, subtree: true });
 }
