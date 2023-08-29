@@ -4580,7 +4580,8 @@ sticky-header > header > nav > ul > li > a > span {
 
 /* Mobile dropdown menu styling */
 
-.menu-drawer__menu-item {
+.menu-drawer__menu-item,
+.menu-drawer__account {
   font-size: 14px!important;
   font-weight: 500;
   font-family: 'Gotham Medium', sans-serif;
