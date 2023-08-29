@@ -5,9 +5,11 @@
 }
 
 @media screen and (max-width: 749px) {
-  order: 1;
+  .quick-add {
+    order: 1;
+  }
 }
-
+  
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;
 }
