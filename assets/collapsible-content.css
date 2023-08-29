@@ -208,5 +208,6 @@
   .accordion-menu,
   .collapsible-content-menu {
     width: 100%;
+    padding: 0;
   }
 }
