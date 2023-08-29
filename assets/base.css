@@ -3565,7 +3565,7 @@ sticky-header > header > nav > ul > li > a > span {
   align-items: center;
 }
 
-.customer-services-menu-drawer > svg > path {
+.customer-services-menu-drawer-flex > svg > path {
   fill: var(--gradient-base-accent-2)!important;
 }
 
