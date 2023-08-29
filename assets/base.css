@@ -4645,6 +4645,15 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.article-read-more {
+  color: var(--gradient-base-accent-2);
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-family: 'Gotham Light', sans-serif!important;
+}
+
 .icon-search:hover > .icon-homepage,
 .icon-search:hover,
 .icon-search:hover > use,
