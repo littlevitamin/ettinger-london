@@ -46,7 +46,6 @@
   -%}
 
   {%- if block.settings.picker_type == 'button' -%}
-    {{ variants_option2_arr }}
     <input
       type="radio"
       id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -64,7 +63,6 @@
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
-    <span class="color-name-span">{{ value | escape }}</span>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
     <option
       value="{{ value | escape }}"
