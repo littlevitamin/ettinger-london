@@ -62,7 +62,9 @@
     .swiper-mobile {
       display: none!important;
     }
-    .swiper-desktop {
+    .swiper-desktop,
+    .swiper-button-prev,
+    .swiper-button-next {
       display: block!important;
     }
   }
@@ -168,8 +170,8 @@
             </swiper-slide>
           {%- endfor -%}
         </swiper-container>
-        <div class="swiper-button-prev"> </div>
-        <div class="swiper-button-next"> </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
         <div class="swiper-pagination"></div>
         {%- if show_mobile_slider -%}
           <div class="slider-buttons no-js-hidden">
