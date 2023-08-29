@@ -98,9 +98,9 @@
                   {% endif %}
                   {%- else -%}
                     {{ article.content | strip_html | truncatewords: 30 }}
-                                  {% if request.page_type == 'index' %}
-                <a href="{{ article.url }}" class="article-read-more">Read more...</a>  
-              {% endif %}
+                    {% if request.page_type == 'index' %}
+                      <a href="{{ article.url }}" class="article-read-more">Read more...</a>  
+                    {% endif %}
                   {%- endif -%}
                 </p>
               {%- endif -%}
