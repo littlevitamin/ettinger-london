@@ -14,12 +14,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  .flex {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding-left: 5%;
-  }
 {%- endstyle -%}
 
 {%- paginate customer.addresses by 5 -%}
@@ -29,7 +23,6 @@
         <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
       </symbol>
     </svg>
-    <div class="flex">
     <h1>{{ 'customer.addresses.title' | t }}</h1>
     <a href="{{ routes.account_url }}">
       {{ 'customer.account.return' | t }}
@@ -43,7 +36,6 @@
       >
         {{ 'customer.addresses.add_new' | t }}
       </button>
-      </div>
       <div id="AddAddress">
         <h2 id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
         {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}
