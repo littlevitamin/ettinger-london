@@ -4645,6 +4645,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.product-form .shopify-payment-button {
+  display: none!important;
+}
+
 .article-read-more {
   color: var(--gradient-base-accent-2);
   text-decoration: underline;
