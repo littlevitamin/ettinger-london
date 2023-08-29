@@ -3567,7 +3567,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .customer-services-menu-drawer-flex > svg > path {
   fill: var(--gradient-base-accent-2)!important;
-  margin-right: -5px;
+  margin-right: -8px;
 }
 
 .submenu-drawer {
