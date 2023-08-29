@@ -3557,6 +3557,9 @@ sticky-header > header > nav > ul > li > a > span {
 
 .customer-services-menu-drawer {
   color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .submenu-drawer {
