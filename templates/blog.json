@@ -117,7 +117,7 @@
     "c987e2bd-8abe-46f2-93e8-3154c38277a6": {
       "type": "featured-blog",
       "settings": {
-        "heading": "ARTICLES FROM OTHER TOPICS",
+        "heading": "OTHER TOPICS",
         "heading_size": "h2",
         "blog": "retailers",
         "post_limit": 2,
