@@ -160,6 +160,10 @@
 .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
 .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
   max-width: 100%;
+  min-height: 547px;
+}
+
+.multirow-personalization .image-with-text__text {
   min-height: 600px;
 }
 
