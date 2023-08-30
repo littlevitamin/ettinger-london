@@ -3269,8 +3269,8 @@ sticky-header > header > nav > ul > li > a > span {
 .article-card__info {
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 10px;
+  line-height: 15px;
   letter-spacing: 0.6px;
   color: #6D7175;
 }
