@@ -4658,7 +4658,7 @@ div.banner__media::after {
 
 @media screen and (max-width: 749px) {
   .multirow-factory .image-with-text__content {
-    max-height: 700px!important;
+    max-height: 830px!important;
   }
 }
 
