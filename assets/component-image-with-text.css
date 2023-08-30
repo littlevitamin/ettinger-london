@@ -157,16 +157,15 @@
   max-height: 360px;
 }
 
-.multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
-.multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
-  max-width: 100%;
-  min-height: 547px;
-}
-
 
 @media screen and (min-width: 750px) {
   .multirow-personalization .image-with-text__content {
     padding-right: 70px!important;
+  }
+  .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
+  .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
+    max-width: 100%;
+    min-height: 547px;
   }
 }
 
