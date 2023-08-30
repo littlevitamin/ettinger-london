@@ -4749,6 +4749,7 @@ div.banner__media::after {
   }
   .second-scrolling-height {
     height: 800px;
+    padding-top: 36px;
   }
   .slider-mobile > swiper-container > swiper-slide.image-with-text.isolate.collapse-padding.swiper-slide-active > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
     object-fit: contain;
