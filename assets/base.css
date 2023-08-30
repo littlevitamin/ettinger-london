@@ -4754,6 +4754,9 @@ div.banner__media::after {
   .slider-mobile > swiper-container > swiper-slide.image-with-text.isolate.collapse-padding.swiper-slide-active > div > div.image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--middle.grid__item > div > img {
     object-fit: contain;
   }
+  .slider-mobile .image-with-text__text > p {
+    min-height: 400px;
+  }
   .multirow .image-with-text {
     margin-top: 0!important;
   }
