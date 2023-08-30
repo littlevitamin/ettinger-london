@@ -5330,6 +5330,10 @@ predictive-search .field {
   height: 90%!important;
 }
 
+.cl-po--option {
+  margin-bottom: 5px!important;
+}
+
 input[type=radio]:checked+.cl-po--swatch {
   box-shadow: none!important;
   border-color: #121212!important;
