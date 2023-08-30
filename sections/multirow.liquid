@@ -45,16 +45,17 @@
     letter-spacing: 4%;
   }
 
-.multirow-product > div > div > div > p {
+  .multirow-product > div > div > div > p {
     font-size: 14px;
     font-weight: 300;
     color: white!important;
   }
-
-  .multirow-personalization .image-with-text {
-    min-height: 1000px;
+  
+  @media screen and (max-width: 749px) {
+    .multirow-personalization .image-with-text {
+      min-height: 1000px;
+    }
   }
-
   .multirow-personalization h2 {
     color: var(--gradient-base-accent-2);
   }
