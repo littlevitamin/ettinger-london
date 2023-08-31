@@ -5367,6 +5367,8 @@ font-family: 'swym-font';
 font-style: normal;
 vertical-align: middle;
 padding-top: 2px;
+-webkit-text-stroke: 1px black;
+-webkit-text-stroke-width: thin;
 }
 i.icon-swym-wishlist+span {
 vertical-align: middle;
