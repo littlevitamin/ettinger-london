@@ -4659,11 +4659,6 @@ variant-radios > div:nth-child(2) > fieldset > .color-name-span {
   display: inline!important;
 }
 
-variant-radios > div:nth-child(2) > fieldset > label {
-  width: 60px!important;
-  padding: unset!important;
-}
-
 .multirow-product .image-with-text__content {
   display: flex;
 }
@@ -5425,4 +5420,9 @@ content: '\f08a';
 
 .swym-button.swym-add-to-wishlist-view-product:hover::after {
   color: var(--gradient-base-accent-2)!important;
+}
+
+variant-radios > div:nth-child(2) > fieldset > label {
+  width: 60px!important;
+  padding: unset!important;
 }
