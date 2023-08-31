@@ -614,7 +614,7 @@
 
         <script>
         const topLevelLinks = [
-          document.querySelectorAll("#MegaMenu-Content-2 > ul > li:nth-child(1)"),
+          document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)"),
           document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)"),
           document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)"),
           document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(4)")
@@ -644,7 +644,7 @@
           setTimeout(() => {
             megaMenuImage.src = imageCache[index + 1].src;
             megaMenuImage.style.opacity = 1; // Fade in
-          }, 100); // Adjust the duration as needed to match your transition duration
+          }, 300); // Adjust the duration as needed to match your transition duration
         }
       
         topLevelLinks.forEach((link, index) => {
