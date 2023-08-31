@@ -649,10 +649,7 @@
       
         topLevelLinks.forEach((link, index) => {
           link.addEventListener("mouseover", function () {
-              if (currentMenuItem !== link) {
-                currentMenuItem = link;
-                changeImageSource(index);
-              }
+            changeImageSource(index);
           });
       
           link.addEventListener("mouseout", function () {
