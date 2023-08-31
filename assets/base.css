@@ -5109,8 +5109,8 @@ predictive-search .field {
 
 .product .variant-fieldset > label {
   height: 30px!important;
-  width: 30px!important;
-  padding: 0!important;
+  width: 30px;
+  padding: 0;
 }
 
 .mega-menu:hover > .header__menu-item {
