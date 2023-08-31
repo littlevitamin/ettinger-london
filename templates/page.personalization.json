@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "paragraph": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -107,7 +108,7 @@
     "3cc1f42e-7c8f-4dfa-b67f-8c35f3759d37": {
       "type": "featured-collection",
       "settings": {
-        "title": "Personalise your item",
+        "title": "MAKE IT YOUR OWN",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
