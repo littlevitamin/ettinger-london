@@ -4659,7 +4659,7 @@ variant-radios > div:nth-child(2) > fieldset > .color-name-span {
   display: inline!important;
 }
 
-variant-radios > div:nth-child(2) label {
+variant-radios > div:nth-child(2) > fieldset > label {
   width: 60px!important;
   padding: unset!important;
 }
