@@ -22,11 +22,12 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        {{ option1.name }}
+        <div class="quick-add-hidden">{{ option1.name }}
         <fieldset class="js product-form__input variant-fieldset">
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
+        </div>
       {%- endfor -%}
       <script type="application/json">
         {{ product.variants | json }}
