@@ -5427,4 +5427,5 @@ content: '\f08a';
 variant-radios > div:nth-child(2) > fieldset > label {
   width: 70px!important;
   padding: unset!important;
+  background: transparent!important;
 }
