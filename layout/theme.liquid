@@ -658,13 +658,15 @@
         });
       </script>{% endcomment %}
 
-      <script>
-  const topLevelLinks = [
-    document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)"),
-    document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)"),
-    document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)"),
-    document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(4)")
-  ];
+<style>
+  /* Add CSS for smooth image transition */
+  .mega-menu-img {
+    transition: opacity 0.3s ease-in-out;
+  }
+</style>
+
+<script>
+  const topLevelLinks = document.querySelectorAll("#MegaMenu-Content-2 > ul > li");
   const megaMenuImage = document.querySelector(".mega-menu-img");
 
   // Define the image URLs
@@ -685,32 +687,34 @@
     imageCache.push(img);
   });
 
-  let currentImageIndex = 0; // Track the current image index
+  let isHoveringOverMenu = false; // Track if the mouse is over the mega menu
 
   function changeImageSource(index) {
-    if (index >= 0) {
+    if (!isHoveringOverMenu) {
       megaMenuImage.style.opacity = 0; // Fade out
       setTimeout(() => {
         megaMenuImage.src = imageCache[index].src;
         megaMenuImage.style.opacity = 1; // Fade in
       }, 300); // Adjust the duration as needed to match your transition duration
-      currentImageIndex = index;
     }
   }
 
   topLevelLinks.forEach((link, index) => {
     link.addEventListener("mouseover", function () {
+      isHoveringOverMenu = true;
       changeImageSource(index + 1);
     });
 
     link.addEventListener("mouseout", function () {
-      changeImageSource(currentImageIndex);
+      isHoveringOverMenu = false;
+      changeImageSource(0); // Restore to the default image
     });
   });
 
   // Reset the image to default when the mouse leaves the menu area
-  document.querySelector("#MegaMenu").addEventListener("mouseleave", function () {
-    changeImageSource(-1); // Restore to the default image
+  document.querySelector("#MegaMenu-Content-2").addEventListener("mouseleave", function () {
+    isHoveringOverMenu = false;
+    changeImageSource(0); // Restore to the default image
   });
 </script>
 
