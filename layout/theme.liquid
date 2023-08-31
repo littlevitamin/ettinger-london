@@ -640,7 +640,7 @@
         function changeImageSource(index) {
           megaMenuImage.style.opacity = 0; // Fade out
           setTimeout(() => {
-            megaMenuImage.src = imageCache[index + 1].src;
+            megaMenuImage.src = imageCache[index].src;
             megaMenuImage.style.opacity = 1;
           }, 300);
         }
