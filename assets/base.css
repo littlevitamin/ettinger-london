@@ -4661,6 +4661,8 @@ div.banner__media::after {
 
 .multirow-product .image-with-text__content > p:nth-child(3) {
   order: -1;
+  color: white;
+  font-size: 14px;
 }
 
 .mega-menu-img {
