@@ -4655,6 +4655,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+variant-radios > div:nth-child(2) > fieldset > .color-name-span {
+  display: inline!important;
+}
+
 .multirow-product .image-with-text__content {
   display: flex;
 }
