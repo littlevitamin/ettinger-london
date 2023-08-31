@@ -136,7 +136,7 @@
 }
 
 quick-add-modal .product:not(.featured-product) .product__view-details {
-  display: block;
+  display: flex;
 }
 
 quick-add-modal .quick-add-hidden,

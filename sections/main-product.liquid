@@ -172,7 +172,7 @@
               </p>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                <div class="product__description rte" {{ block.shopify_attributes }}>
                   {{ product.description }}
                 </div>
               {%- endif -%}
@@ -320,6 +320,9 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {% comment %}{% render 'personalization' %}{% endcomment %}
+              <a href="{{ product.url }}" class="link button product__view-details animate-arrow">
+                ADD PERSONALISATION
+              </a>
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
