@@ -4657,6 +4657,8 @@ div.banner__media::after {
 
 variant-radios > div:nth-child(2) > fieldset > .color-name-span {
   display: inline!important;
+  position: absolute;
+  margin-top: 20px;
 }
 
 .multirow-product .image-with-text__content {
@@ -5423,6 +5425,6 @@ content: '\f08a';
 }
 
 variant-radios > div:nth-child(2) > fieldset > label {
-  width: 60px!important;
+  width: 70px!important;
   padding: unset!important;
 }
