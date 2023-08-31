@@ -320,7 +320,7 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {% comment %}{% render 'personalization' %}{% endcomment %}
-              <a href="{{ product.url }}" class="link button product__view-details animate-arrow">
+              <a href="{{ product.url }}" class="link personalization-btn product__view-details animate-arrow">
                 ADD PERSONALISATION
               </a>
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
