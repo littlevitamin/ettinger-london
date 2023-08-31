@@ -612,7 +612,7 @@
           });
         </script> -->
 
-        {% comment %}<script>
+        <script>
         const topLevelLinks = [
           document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)"),
           document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)"),
@@ -644,7 +644,7 @@
           setTimeout(() => {
             megaMenuImage.src = imageCache[index + 1].src;
             megaMenuImage.style.opacity = 1; // Fade in
-          }, 300); // Adjust the duration as needed to match your transition duration
+          }, 100); // Adjust the duration as needed to match your transition duration
         }
       
         topLevelLinks.forEach((link, index) => {
@@ -656,68 +656,7 @@
             changeImageSource(-1); // Restore to the default image
           });
         });
-      </script>{% endcomment %}
-
-<style>
-  /* Add CSS for smooth image transition */
-  .mega-menu-img {
-    transition: opacity 0.3s ease-in-out;
-  }
-</style>
-
-<script>
-  const topLevelLinks = document.querySelectorAll("#MegaMenu-Content-2 > ul > li");
-  const megaMenuImage = document.querySelector(".mega-menu-img");
-
-  // Define the image URLs
-  const defaultImageUrl = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
-  const imageUrls = [
-    defaultImageUrl,
-    "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113",
-    "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534",
-    "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg",
-    "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972"
-  ];
-
-  // Preload images
-  const imageCache = [];
-  imageUrls.forEach((imageUrl) => {
-    const img = new Image();
-    img.src = imageUrl;
-    imageCache.push(img);
-  });
-
-  let isHoveringOverMenu = false; // Track if the mouse is over the mega menu
-
-  function changeImageSource(index) {
-    if (!isHoveringOverMenu) {
-      megaMenuImage.style.opacity = 0; // Fade out
-      setTimeout(() => {
-        megaMenuImage.src = imageCache[index].src;
-        megaMenuImage.style.opacity = 1; // Fade in
-      }, 300); // Adjust the duration as needed to match your transition duration
-    }
-  }
-
-  topLevelLinks.forEach((link, index) => {
-    link.addEventListener("mouseover", function () {
-      isHoveringOverMenu = true;
-      changeImageSource(index + 1);
-    });
-
-    link.addEventListener("mouseout", function () {
-      isHoveringOverMenu = false;
-      changeImageSource(0); // Restore to the default image
-    });
-  });
-
-  // Reset the image to default when the mouse leaves the menu area
-  document.querySelector("#MegaMenu-Content-2").addEventListener("mouseleave", function () {
-    isHoveringOverMenu = false;
-    changeImageSource(0); // Restore to the default image
-  });
-</script>
-
+      </script>
 
 
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
