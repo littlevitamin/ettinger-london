@@ -4655,6 +4655,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.mega-menu-img {
+  object-fit: cover;
+}
+
 @media screen and (max-width: 749px) {
   .multirow-factory .image-with-text__content {
     max-height: 830px!important;
