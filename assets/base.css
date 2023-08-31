@@ -5428,4 +5428,5 @@ variant-radios > div:nth-child(2) > fieldset > label {
   width: 70px!important;
   padding: unset!important;
   background: transparent!important;
+  border: 1px solid #121212!important;
 }
