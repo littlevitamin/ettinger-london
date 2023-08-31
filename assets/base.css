@@ -4657,6 +4657,7 @@ div.banner__media::after {
 
 .mega-menu-img {
   object-fit: cover;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 749px) {
