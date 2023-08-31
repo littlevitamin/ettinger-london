@@ -4664,7 +4664,7 @@ div.banner__media::after {
 }
 
 .mega-menu-img {
-  transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   object-fit: cover;
   border-radius: 3px;
 }
