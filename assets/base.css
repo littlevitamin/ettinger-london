@@ -5371,10 +5371,9 @@ padding-top: 2px;
 -webkit-text-stroke-width: thin;
 }
 
-.scrolled-past-header > i.icon-swym-wishlist,
-.header-white-background > i.icon-swym-wishlist {
-  -webkit-text-stroke: unset;
-  -webkit-text-stroke-width: unset;
+.scrolled-past-header i.icon-swym-wishlist,
+.header-white-background i.icon-swym-wishlist {
+  -webkit-text-stroke-width: unset!important;
 }
 i.icon-swym-wishlist+span {
 vertical-align: middle;
