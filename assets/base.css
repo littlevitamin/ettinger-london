@@ -4656,6 +4656,7 @@ div.banner__media::after {
 /* Feedback points */
 
 .mega-menu-img {
+  transition: opacity 0.3s ease-in-out;
   object-fit: cover;
   border-radius: 3px;
 }
