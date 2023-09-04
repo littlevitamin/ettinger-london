@@ -22,7 +22,7 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
-{%- if forloop.first -%}
+{%- if forloop.index == 0 -%}
 <div class="variant-fieldset">
 {%- endif -%}
 
@@ -82,7 +82,7 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
-{%- if forloop.first -%}
+{%- if forloop.index == 0 -%}
 </div>
 {%- endif -%}
 
