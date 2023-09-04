@@ -320,7 +320,7 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {% comment %}{% render 'personalization' %}{% endcomment %}
-                                <fieldset class="js product-form__input variant-fieldset">
+                    <fieldset class="js product-form__input variant-fieldset collection-fieldset">
                       {%- for value in option.values -%}
                       {%- liquid
                       assign option_disabled = true
@@ -353,7 +353,7 @@
                           checked
                         {% endif %}
                       >
-                      <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                      <label class="variant-options collection-variant-options" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                         {{ value -}}
                         <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
                       </label>
