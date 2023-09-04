@@ -22,9 +22,6 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
-{%- if forloop.index == 0 -%}
-<div class="variant-fieldset">
-{%- endif -%}
 
 {%- for value in option.values -%}
   {%- liquid
@@ -82,7 +79,3 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
-{%- if forloop.index == 0 -%}
-</div>
-{%- endif -%}
-
