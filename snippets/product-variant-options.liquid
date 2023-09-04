@@ -46,7 +46,7 @@
   -%}
 
   {%- if block.settings.picker_type == 'button' -%}
-    <div class="variant-fieldset">
+    <div class="{%- if forloop.index == 0 -%}variant-fieldset{% endif %}">
     <input
       type="radio"
       id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
