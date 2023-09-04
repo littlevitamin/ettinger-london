@@ -23,7 +23,7 @@
     >
       {%- for option in product.options_with_values -%}
         <div class="quick-add-hidden">{{ option1.name }}
-        <fieldset class="js product-form__input">
+        <fieldset class="js product-form__input fieldset-class">
           <legend class="form__label">{{ option.name }}</legend>
           {% render 'product-variant-options', product: product, option: option, block: block %}
         </fieldset>
