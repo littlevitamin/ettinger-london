@@ -5432,3 +5432,7 @@ variant-radios > div:nth-child(2) > fieldset > label {
   border: 1px solid #121212!important;
 }
  */
+
+.variant-fieldset {
+  display: inline;
+}
