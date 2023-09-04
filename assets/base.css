@@ -4729,6 +4729,12 @@ variant-radios > div:nth-child(2) > fieldset > .color-name-span {
   display: none;
 }
 
+.color-name-fieldset {
+  font-size: 14px;
+  font-weight: 300;
+  color: #121212;
+}
+
 .variant-fieldset label:hover + .color-name-span {
   display: inline;
   position: absolute;
