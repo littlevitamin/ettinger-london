@@ -4724,7 +4724,8 @@ variant-radios > div:nth-child(2) > fieldset > .color-name-span {
   color: #121212!important;
 }
 
-.color-name-span {
+.color-name-span,
+.variant-fieldset .color-name-fieldset {
   display: none;
 }
 
