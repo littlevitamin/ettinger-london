@@ -963,10 +963,13 @@
     </script>
 
     <script>
-      $(document).ready(function() {
-        var firstVariantOption = $('.product__info-container .fieldset-class:first');
-        firstVariantOption.closest('.variant-fieldset').addClass('variant-fieldset');
-      });
+      function addClassToFirstElement() {
+        const firstFieldset = document.querySelector('.fieldset-class');      
+        if (firstFieldset) {
+          firstFieldset.classList.add('variant-fieldset');
+        }
+      }
+      addClassToFirstElement();
     </script>
 
     
