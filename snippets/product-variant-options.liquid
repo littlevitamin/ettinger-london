@@ -60,7 +60,7 @@
       {% endif %}
     >
     <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" onclick="handleLabelClick(this);">
-      {{ value -}}
+      {{ value | escape -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
     <span class="color-name-span">{{ value | escape }}</span>
