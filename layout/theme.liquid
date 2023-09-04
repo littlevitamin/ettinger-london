@@ -972,6 +972,18 @@
       addClassToFirstElement();
     </script>
 
+        <script>
+        const lengthInputs = document.querySelectorAll('input[name="Length"]');
+        lengthInputs.forEach(input => {
+            input.addEventListener('change', function() {
+                const label = document.querySelector(`label[for="${input.id}"]`);
+                if (label) {
+                    label.textContent = input.value;
+                }
+            });
+        });
+    </script>
+
     
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
