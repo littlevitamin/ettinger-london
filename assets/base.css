@@ -5440,6 +5440,6 @@ variant-radios > div:nth-child(2) > fieldset > label {
 }
  */
 
-.variant-fieldset {
+.product__info-wrapper .variant-fieldset {
   display: inline;
 }
