@@ -22,6 +22,9 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
+{%- if forloop.first -%}
+<div class="variant-fieldset">
+{%- endif -%}
 
 {%- for value in option.values -%}
   {%- liquid
@@ -46,7 +49,6 @@
   -%}
 
   {%- if block.settings.picker_type == 'button' -%}
-    <div class="variant-fieldset">
     <input
       type="radio"
       id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -65,7 +67,6 @@
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
     <span class="color-name-span">{{ value | escape }}</span>
-    </div>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
     <option
       value="{{ value | escape }}"
@@ -81,3 +82,7 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
+{%- if forloop.first -%}
+</div>
+{%- endif -%}
+
