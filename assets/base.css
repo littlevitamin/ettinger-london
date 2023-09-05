@@ -2281,6 +2281,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .announcement-bar__link .announcement-bar__message {
   padding: 0;
+  color: white!important;
 }
 
 .announcement-bar__message {
