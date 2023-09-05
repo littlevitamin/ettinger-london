@@ -58,7 +58,8 @@ menu-drawer > details[open] > summary::before {
 }
 
 .js details[open] > .menu-drawer,
-.js details[open] > .menu-drawer__submenu {
+.js details[open] > .menu-drawer__submenu,
+.product__accordion .accordion__content {
   transition: transform var(--duration-default) ease,
     visibility var(--duration-default) ease;
 }
