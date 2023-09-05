@@ -4655,17 +4655,6 @@ div.banner__media::after {
 
 /* Feedback points */
 
-.product__accordion details:not([open]) > .accordion__content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 3s ease-in-out;
-}
-
-.product__accordion details[open] > .accordion__content.rte {
-  max-height: none;
-  transition: max-height 3s ease-in-out;
-}
-
 .multirow-product .image-with-text__content {
   display: flex;
 }
