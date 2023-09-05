@@ -4658,7 +4658,7 @@ div.banner__media::after {
 .product__accordion details[open] > .accordion__content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 2s ease-in-out;
+  transition: max-height 10s ease-in-out;
 }
 
 .product__accordion details[open] > .accordion__content.rte {
