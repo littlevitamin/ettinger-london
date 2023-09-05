@@ -5448,5 +5448,5 @@ content: '\f08a';
 }
 
 .template-search__results .grid__item:hover .number-of-colors {
-  display: none;
+  opacity: 0;
 }
