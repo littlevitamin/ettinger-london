@@ -5447,7 +5447,8 @@ content: '\f08a';
 }
 
 .template-search__results .grid__item:hover .search-fieldset-class,
-.template-search__results .grid__item:hover .swym-add-to-wishlist-view-product {
+.template-search__results .grid__item:hover .swym-add-to-wishlist-view-product,
+.template-search__results .grid__item:hover .search-quick-add {
   transition: opacity 0.5s ease!important;
   opacity: 1!important;
 }
@@ -5458,6 +5459,15 @@ content: '\f08a';
   position: absolute;
   right: 10px;
   top: 10px;
+  opacity: 0;
+}
+
+.search-quick-add {
+  min-width: 33%;
+  max-width: 33%;
+  margin-top: -150px;
+  float: right;
+  margin-right: 10px;
   opacity: 0;
 }
 
