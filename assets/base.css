@@ -5446,9 +5446,18 @@ content: '\f08a';
   border-radius: 3px;
 }
 
-.template-search__results .grid__item:hover .search-fieldset-class {
+.template-search__results .grid__item:hover .search-fieldset-class,
+.template-search__results .grid__item:hover .template-search__results .swym-button.swym-add-to-wishlist-view-product {
   transition: opacity 0.5s ease;
   opacity: 1;
+}
+
+.template-search__results .swym-button.swym-add-to-wishlist-view-product {
+  z-index: 2;
+  color: transparent;
+  position: absolute;
+  right: -40px;
+  opacity: 0;
 }
 
 .template-search__results .grid__item:hover .number-of-colors {
