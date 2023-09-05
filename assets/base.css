@@ -5476,3 +5476,12 @@ content: '\f08a';
 .template-search__results .grid__item:hover .number-of-colors {
   opacity: 0;
 }
+
+@media screen and (max-width: 749px) {
+  .template-search__results .number-of-colors {
+    opacity: 0!important;
+  }  
+  .template-search__results .search-fieldset-class {
+    opacity: 1!important;
+  }
+}
