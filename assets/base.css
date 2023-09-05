@@ -5484,4 +5484,9 @@ content: '\f08a';
   .template-search__results .search-fieldset-class {
     opacity: 1!important;
   }
+  .search-quick-add {
+    opacity: 1!important;
+    min-width: 94%!important;
+    min-height: 20px!important;
+  }
 }
