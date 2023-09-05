@@ -5465,10 +5465,12 @@ content: '\f08a';
 .search-quick-add {
   min-width: 33%!important;
   max-width: 33%;
-  margin-top: -150px!important;
+  margin-top: -140px!important;
   float: right;
   margin-right: 10px!important;
   opacity: 0;
+  padding: 2px;
+  min-height: 30px!important;
 }
 
 .template-search__results .grid__item:hover .number-of-colors {
