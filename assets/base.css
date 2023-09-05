@@ -4654,14 +4654,7 @@ div.banner__media::after {
 }
 
 /* Feedback points */
-/* 
-variant-radios > div:nth-child(2) > fieldset > .color-name-span {
-  display: inline!important;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: -75px;
-}
- */
+
 .multirow-product .image-with-text__content {
   display: flex;
 }
@@ -4744,7 +4737,7 @@ variant-radios > div:nth-child(2) > fieldset > .color-name-span {
   margin-left: -120px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 749px) {
   .swym-button {
     opacity: 1!important;
   }
@@ -4861,6 +4854,9 @@ cart-remove-button > a {
   }
   .banner-home-box {
     padding-left: 0px!important;    
+  }  
+  .blog__title {
+    padding-left: 36px;
   }
   .homepage-banner-text .styled-text > p {
     width: 50%!important;
@@ -5431,14 +5427,6 @@ content: '\f08a';
 .swym-button.swym-add-to-wishlist-view-product:hover::after {
   color: var(--gradient-base-accent-2)!important;
 }
-/* 
-variant-radios > div:nth-child(2) > fieldset > label {
-  width: 90px!important;
-  padding: unset!important;
-  background: transparent!important;
-  border: 1px solid #121212!important;
-}
- */
 
 .product__info-wrapper .variant-fieldset {
   display: inline;
