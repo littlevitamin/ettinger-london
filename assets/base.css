@@ -5447,6 +5447,6 @@ content: '\f08a';
   opacity: 1;
 }
 
-.template-search__results .grid__item:hover .number-of-colours {
+.template-search__results .grid__item:hover .number-of-colors {
   display: none;
 }
