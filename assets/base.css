@@ -5442,6 +5442,10 @@ content: '\f08a';
   opacity: 0;
 }
 
+.search-fieldset-class > label {
+  border-radius: 3px;
+}
+
 .template-search__results .grid__item:hover .search-fieldset-class {
   transition: opacity 0.5s ease;
   opacity: 1;
