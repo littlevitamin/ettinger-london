@@ -5432,3 +5432,12 @@ content: '\f08a';
 .product__info-wrapper .variant-fieldset {
   display: inline;
 }
+
+/* Search card product on hover */
+
+.search-fieldset-class {
+  border: 0;
+  padding: 4px;
+  margin-top: -48px;
+  opacity: 0;
+}
