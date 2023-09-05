@@ -561,7 +561,7 @@
         </script>
 
         {% comment %}Mega menu hover effects{% endcomment %}
-        <!-- <script>
+        <script>
           const topLevelLink = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)");
           const topLevelLink_1 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)");
           const topLevelLink_2 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)");
@@ -610,64 +610,7 @@
           topLevelLink_3.addEventListener("mouseout", function () {
             changeImageSource(defaultImageUrl);
           });
-        </script> -->
-
-  <script>
-          const topLevelLink = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)");
-          const topLevelLink_1 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)");
-          const topLevelLink_2 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)");
-          const topLevelLink_3 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(4)");
-          const megaMenuImage = document.querySelector(".mega-menu-img");
-
-  const imageSources = [
-    "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511",
-    "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113",
-    "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534",
-    "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg",
-    "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972"
-  ];
-
-  function changeImageSourceAndOpacity(index) {
-    megaMenuImage.style.opacity = 0; 
-    setTimeout(function () {
-      megaMenuImage.src = imageSources[index];
-      megaMenuImage.style.opacity = 1;
-    }, 500);
-  }
-
-  topLevelLink.addEventListener("mouseover", function () {
-    changeImageSourceAndOpacity(1);
-  });
-
-  topLevelLink.addEventListener("mouseout", function () {
-    changeImageSourceAndOpacity(0);
-  });
-
-  topLevelLink_1.addEventListener("mouseover", function () {
-    changeImageSourceAndOpacity(2);
-  });
-
-  topLevelLink_1.addEventListener("mouseout", function () {
-    changeImageSourceAndOpacity(0);
-  });
-
-  topLevelLink_2.addEventListener("mouseover", function () {
-    changeImageSourceAndOpacity(3);
-  });
-
-  topLevelLink_2.addEventListener("mouseout", function () {
-    changeImageSourceAndOpacity(0);
-  });
-
-  topLevelLink_3.addEventListener("mouseover", function () {
-    changeImageSourceAndOpacity(3);
-  });
-
-  topLevelLink_3.addEventListener("mouseout", function () {
-    changeImageSourceAndOpacity(0);
-  });
-</script>
-
+        </script>
 
         <!-- <script>
         const topLevelLinks = [

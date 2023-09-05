@@ -2281,7 +2281,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .announcement-bar__link .announcement-bar__message {
   padding: 0;
-  color: white!important;
+  color: white!important
 }
 
 .announcement-bar__message {
@@ -4681,7 +4681,7 @@ div.banner__media::after {
 }
 
 .mega-menu-img {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease-in-out;
   object-fit: cover;
   border-radius: 3px;
 }
