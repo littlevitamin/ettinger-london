@@ -327,15 +327,15 @@
       {% endif %}
       {{ block.shopify_attributes }}
     >
-      {%- for option in product.options_with_values -%}
+      {%- for option in card_product.options_with_values -%}
         <div class="">
         <fieldset class="js product-form__input fieldset-class">
           <legend class="form__label">{{ option.name }}</legend>
           {%- liquid
-  assign variants_available_arr = product.variants | map: 'available'
-  assign variants_option1_arr = product.variants | map: 'option1'
-  assign variants_option2_arr = product.variants | map: 'option2'
-  assign variants_option3_arr = product.variants | map: 'option3'
+  assign variants_available_arr = card_product.variants | map: 'available'
+  assign variants_option1_arr = card_product.variants | map: 'option1'
+  assign variants_option2_arr = card_product.variants | map: 'option2'
+  assign variants_option3_arr = card_product.variants | map: 'option3'
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
