@@ -5441,3 +5441,12 @@ content: '\f08a';
   margin-top: -48px;
   opacity: 0;
 }
+
+.template-search__results .grid__item:hover .search-fieldset-class {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+.template-search__results .grid__item:hover .number-of-colours {
+  display: none;
+}
