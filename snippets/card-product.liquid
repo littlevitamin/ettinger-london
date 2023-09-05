@@ -452,7 +452,7 @@
       </div>
     </div>
               {% if request.path contains '/search' %}
-              <variant-radios
+              <!-- <variant-radios
                 id="variant-radios-{{ section.id }}"
                 class="no-js-hidden"
                 data-section="{{ section.id }}"
@@ -461,7 +461,7 @@
                   data-update-url="false"
                 {% endif %}
                 {{ block.shopify_attributes }}
-              >
+              > -->
                 {%- for option in card_product.options_with_values -%}
                   <fieldset class="js product-form__input fieldset-class">
                     {%- liquid
@@ -519,7 +519,7 @@
                 <script type="application/json">
                   {{ card_product.variants | json }}
                 </script>
-              </variant-radios>
+              <!-- </variant-radios> -->
             {% endif %}
   </div>
 {%- else -%}
