@@ -453,7 +453,7 @@
     </div>
               {% if request.path contains '/search' %}
                 {%- for option in card_product.options_with_values -%}
-                  <fieldset class="js product-form__input fieldset-class">
+                  <fieldset class="js product-form__input fieldset-class search-fieldset-class">
                     {%- liquid
                       assign variants_available_arr = card_product.variants | map: 'available'
                       assign variants_option1_arr = card_product.variants | map: 'option1'
