@@ -139,7 +139,7 @@
         </div>
       </div>
       <div class="card__content">
-      {%- if show_quick_add -%}
+      {%- if show_quick_add or request.path contains '/search' -%}
           <div class="quick-add no-js-hidden">
             {%- liquid
               assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id
