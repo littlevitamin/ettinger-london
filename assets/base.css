@@ -4655,6 +4655,17 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.product__accordion details[open] > .accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.product__accordion details[open] > .accordion__content.rte {
+  max-height: fit-content;
+}
+
+
 .multirow-product .image-with-text__content {
   display: flex;
 }
