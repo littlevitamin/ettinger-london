@@ -5447,7 +5447,7 @@ content: '\f08a';
 }
 
 .template-search__results .grid__item:hover .search-fieldset-class,
-.template-search__results .grid__item:hover .swym-add-to-wishlist-view-product {
+.template-search__results .grid__item:hover > .swym-add-to-wishlist-view-product {
   transition: opacity 0.5s ease!important;
   opacity: 1!important;
 }
