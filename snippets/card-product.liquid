@@ -317,7 +317,28 @@
 
             {% render 'price', product: card_product, price_class: '' %}
             {% if request.path contains '/search' %}
-               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+                   <variant-radios
+      id="variant-radios-{{ section.id }}"
+      class="no-js-hidden"
+      data-section="{{ section.id }}"
+      data-url="{{ product.url }}"
+      {% if update_url == false %}
+        data-update-url="false"
+      {% endif %}
+      {{ block.shopify_attributes }}
+    >
+      {%- for option in product.options_with_values -%}
+        <div class="">
+        <fieldset class="js product-form__input fieldset-class">
+          <legend class="form__label">{{ option.name }}</legend>
+          {% render 'product-variant-options', product: product, option: option, block: block %}
+        </fieldset>
+        </div>
+      {%- endfor -%}
+      <script type="application/json">
+        {{ product.variants | json }}
+      </script>
+    </variant-radios>
             {% endif %}
           </div>
         </div>
