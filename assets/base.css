@@ -5463,11 +5463,11 @@ content: '\f08a';
 }
 
 .search-quick-add {
-  min-width: 33%;
+  min-width: 33%!important;
   max-width: 33%;
-  margin-top: -150px;
+  margin-top: -150px!important;
   float: right;
-  margin-right: 10px;
+  margin-right: 10px!important;
   opacity: 0;
 }
 
