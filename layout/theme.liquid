@@ -551,14 +551,26 @@
         </script>
 
         {% comment %}Toggle customer services menu on mobile{% endcomment %}
-        <script>
-          const menuTitle = document.querySelector('.customer-services-menu-drawer-flex');
-          const submenu = document.getElementById('submenu-drawer');
+<script>
+  const menuTitle = document.querySelector('.customer-services-menu-drawer-flex');
+  const submenu = document.getElementById('submenu-drawer');
+  const svgElement = document.querySelector('#menu-drawer > div > div > div > div > div > svg');
 
-          menuTitle.addEventListener('click', () => {
-            submenu.classList.toggle('show-submenu');
-          });
-        </script>
+  let isRotated = false;
+
+  menuTitle.addEventListener('click', () => {
+    submenu.classList.toggle('show-submenu');
+
+    if (isRotated) {
+      svgElement.style.transform = 'none';
+    } else {
+      svgElement.style.transform = 'rotate(180deg)'; 
+    }
+
+    isRotated = !isRotated;
+  });
+</script>
+
 
         {% comment %}Mega menu hover effects{% endcomment %}
         <script>
