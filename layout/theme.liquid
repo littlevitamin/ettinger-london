@@ -740,37 +740,6 @@
     }
   }
 
-  // Define the function to handle quick view
-  function handleQuickView() {
-    // Find all quick view modals with the class 'quick-add__modal'
-    var quickViewModals = document.querySelectorAll('.quick-add__modal');
-  
-    // Loop through all the modals
-    quickViewModals.forEach(function(quickViewModal) {
-      // Add an event listener for when each quick view modal is opened
-      quickViewModal.addEventListener('modalOpened', function() {
-        // Find the inputs in the current modal
-        var inputs = quickViewModal.querySelectorAll('input[name="Colour"]');
-  
-        // Apply the changeLabelBackground function to the inputs
-        inputs.forEach(function(input) {
-          if (input.checked) {
-            changeLabelBackground(input);
-          }
-          input.addEventListener('change', function() {
-            changeLabelBackground(this);
-          });
-        });
-      });
-    });
-  }
-  
-  // Add an event listener for DOMContentLoaded
-  document.addEventListener('DOMContentLoaded', function() {
-    // Call the handleQuickView function to set up the event listener for quick view
-    handleQuickView();
-  });
-
   function getColorClass(color) {
     switch (color) {
       case 'Green/London Tan':
