@@ -320,14 +320,14 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {% comment %}{% render 'personalization' %}{% endcomment %}
-            {% if request.path contains '/search' %}
-                {%- for option in card_product.options_with_values -%}
+            {% if block.settings.enable_quick_add %}
+                {%- for option in product.options_with_values -%}
                   <fieldset class="js product-form__input fieldset-class search-fieldset-class">
                     {%- liquid
-                      assign variants_available_arr = card_product.variants | map: 'available'
-                      assign variants_option1_arr = card_product.variants | map: 'option1'
-                      assign variants_option2_arr = card_product.variants | map: 'option2'
-                      assign variants_option3_arr = card_product.variants | map: 'option3'
+                      assign variants_available_arr = product.variants | map: 'available'
+                      assign variants_option1_arr = product.variants | map: 'option1'
+                      assign variants_option2_arr = product.variants | map: 'option2'
+                      assign variants_option3_arr = product.variants | map: 'option3'
                     
                       assign product_form_id = 'product-form-' | append: section.id
                     -%}
@@ -376,7 +376,7 @@
                   </fieldset>
                 {%- endfor -%}
                 <script type="application/json">
-                  {{ card_product.variants | json }}
+                  {{ product.variants | json }}
                 </script>
             {% endif %}
               <a href="{{ product.url }}" class="link button personalization-btn product__view-details animate-arrow">
