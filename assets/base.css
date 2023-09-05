@@ -4656,6 +4656,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.footer-block .active {
+  transform: rotate(180deg);
+}
+
 .product__accordion details > .accordion__content {
   max-height: 0;
   overflow: hidden;
