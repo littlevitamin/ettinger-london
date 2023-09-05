@@ -320,7 +320,6 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {% comment %}{% render 'personalization' %}{% endcomment %}
-            {% if block.settings.enable_quick_add %}
                 {%- for option in product.options_with_values -%}
                   <fieldset class="js product-form__input fieldset-class search-fieldset-class">
                     {%- liquid
@@ -378,7 +377,6 @@
                 <script type="application/json">
                   {{ product.variants | json }}
                 </script>
-            {% endif %}
               <a href="{{ product.url }}" class="link button personalization-btn product__view-details animate-arrow">
                 ADD PERSONALISATION
               </a>
