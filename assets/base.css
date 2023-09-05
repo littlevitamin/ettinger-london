@@ -5457,7 +5457,7 @@ content: '\f08a';
   color: transparent;
   position: absolute;
   right: -40px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .template-search__results .grid__item:hover .number-of-colors {
