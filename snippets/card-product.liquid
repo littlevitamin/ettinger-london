@@ -316,7 +316,6 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '' %}
-                    {%- for option in product.options_with_values -%}
                     <fieldset class="js product-form__input variant-fieldset collection-fieldset">
                       {%- for value in option.values -%}
                       {%- liquid
@@ -356,7 +355,6 @@
                       </label>
                     {%- endfor -%}
                   </fieldset>
-                {%- endfor -%}
           </div>
         </div>
         {% comment %}{%- if show_quick_add -%}
