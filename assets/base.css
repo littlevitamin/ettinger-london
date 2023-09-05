@@ -4880,7 +4880,8 @@ cart-remove-button > a {
   }
 }
 
-.variant-fieldset > label {
+.variant-fieldset > label,
+.template-search__results .fieldset-class > label {
   border: 0!important;
   font-size: 0;
 }
