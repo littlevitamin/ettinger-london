@@ -452,7 +452,6 @@
       </div>
     </div>
   </div>
-  {% if request.path contains '/search' %}
                                               {%- for option in product.options_with_values -%}
                     <fieldset class="js product-form__input variant-fieldset collection-fieldset">
                       {%- for value in option.values -%}
@@ -494,7 +493,7 @@
                     {%- endfor -%}
                   </fieldset>
                 {%- endfor -%}
-  {% endif %}
+
 {%- else -%}
   <div class="product-card-wrapper card-wrapper underline-links-hover">
     <div
