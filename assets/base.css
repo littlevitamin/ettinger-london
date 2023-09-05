@@ -4658,6 +4658,8 @@ div.banner__media::after {
 
 .footer-block .active {
   transform: rotate(180deg);
+  padding-left: 0;
+  margin-left: 90%;
 }
 
 .product__accordion details > .accordion__content {
