@@ -321,7 +321,7 @@
             {%- when 'buy_buttons' -%}
               {% comment %}{% render 'personalization' %}{% endcomment %}
                 {%- for option in product.options_with_values -%}
-                  <fieldset class="js product-form__input fieldset-class search-fieldset-class">
+                  <fieldset class="js product-form__input variant-fieldset">
                     {%- liquid
                       assign variants_available_arr = product.variants | map: 'available'
                       assign variants_option1_arr = product.variants | map: 'option1'
