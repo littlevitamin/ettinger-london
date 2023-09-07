@@ -46,7 +46,6 @@
         },
         "02c5725d-8c89-4bfa-a555-a7191c99fd7c": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Size Guide",
             "icon": "pants",
