@@ -89,6 +89,67 @@
                   >
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
+                    {% if product.title == "MEN'S 30MM WAXY LEATHER BELT" %}
+                      <div class="table-wrapper">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Column 1</th>
+                              <th>Column 2</th>
+                              <th>Column 3</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Row 1, Column 1</td>
+                              <td>Row 1, Column 2</td>
+                              <td>Row 1, Column 3</td>
+                            </tr>
+                            <tr>
+                              <td>Row 2, Column 1</td>
+                              <td>Row 2, Column 2</td>
+                              <td>Row 2, Column 3</td>
+                            </tr>
+                            <tr>
+                              <td>Row 3, Column 1</td>
+                              <td>Row 3, Column 2</td>
+                              <td>Row 3, Column 3</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      
+                      <style>
+                      .table-wrapper {
+                        overflow-x: auto;
+                      }
+                      
+                      table {
+                        width: 100%;
+                        border-collapse: collapse;
+                      }
+                      
+                      thead tr {
+                        background-color: #f8f8f8;
+                        border-top: 1px solid #ddd;
+                        border-bottom: 1px solid #ddd;
+                      }
+                      
+                      th {
+                        padding: 10px;
+                        text-align: left;
+                      }
+                      
+                      tbody tr {
+                        border-bottom: 1px solid #ddd;
+                      }
+                      
+                      td {
+                        padding: 10px;
+                        text-align: left;
+                      }
+                      </style>
+                    {% endif %}
                   </div>
                 </details>
               </div>
