@@ -44,15 +44,6 @@
           "settings": {
           }
         },
-        "02c5725d-8c89-4bfa-a555-a7191c99fd7c": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size Guide",
-            "icon": "pants",
-            "content": "<p>Below is a size guide. Please note we would always advice to measure your size prior to ordering the belt to be sure you have selected the right size. The size of our belts is measured from the middle hole to the edge of the buckle. The belt size will often be one size larger than your actual waist size. Please measure your waist with your trousers on and allow some room for different trousers thickness and cuts (for example, low cut jeans will need a much bigger belt than a high waisted pair of suit trousers).<\/p>",
-            "page": ""
-          }
-        },
         "b24c4c73-06cb-45e2-b7ed-bf287bea63d4": {
           "type": "collapsible_tab",
           "settings": {
@@ -95,7 +86,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "02c5725d-8c89-4bfa-a555-a7191c99fd7c",
         "b24c4c73-06cb-45e2-b7ed-bf287bea63d4",
         "c8c754cc-d9bc-4609-90e9-9c9a958efe9f",
         "7964240b-1d84-4bce-9ad4-9100dc78eae4",
