@@ -5458,6 +5458,11 @@ content: '\f08a';
   display: inline;
 }
 
+.hovered .swym-wishlist {
+  -webkit-text-stroke-width: unset;
+  color: #121212;
+}
+
 /* Search card product on hover */
 
 .search-fieldset-class {
