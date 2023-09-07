@@ -3354,7 +3354,9 @@ sticky-header > header > nav > ul > li > a > span {
 
 @media (max-width: 749px) {
   .footer-block__details-content.list-unstyled {
-    display: none;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5 ease;
   }
 
   .icon-down-arrow {
@@ -3363,7 +3365,8 @@ sticky-header > header > nav > ul > li > a > span {
 
   /* Show the list when its parent is active */
   .icon-down-arrow.active + .footer-block__details-content.list-unstyled {
-    display: block;
+    opacity: 1;
+    position: relative;
   }
 
   .footer-block {
@@ -3573,12 +3576,10 @@ sticky-header > header > nav > ul > li > a > span {
   padding-left: 0;
 }
 
-/* .submenu-drawer, */
 .list-social-drawer {
   display: none!important;
 }
 
-/* .show-submenu, */
 .white-background-watermark-drawer {
   display: block!important;
 }
