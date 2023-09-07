@@ -5516,3 +5516,7 @@ content: '\f08a';
     margin-top: 10px!important;
   }
 }
+
+.product__description.rte > table > tbody > tr > td {
+  font-size: 10px!important;
+}
