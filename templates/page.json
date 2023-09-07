@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "paragraph": "<p>Type your store locator page description here<\/p>",
+        "paragraph": "Explore our premium Ettinger leather goods, available at select retailers worldwide. Browse through our directory below to find a store closest to you.",
         "padding_top": 28,
         "padding_bottom": 28
       }
