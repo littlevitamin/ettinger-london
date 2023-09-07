@@ -4656,6 +4656,10 @@ div.banner__media::after {
 
 /* Feedback points */
 
+.template-search .article-card.wrapper .card__heading {
+  padding: 10px 0;
+}
+
 .footer-block .active {
   transform: rotate(180deg);
   padding-left: 0;
