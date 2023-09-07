@@ -3356,7 +3356,7 @@ sticky-header > header > nav > ul > li > a > span {
   .footer-block__details-content.list-unstyled {
     position: absolute;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 1.5s ease;
   }
 
   .icon-down-arrow {
