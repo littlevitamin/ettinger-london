@@ -319,7 +319,6 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
-              {% comment %}{% render 'personalization' %}{% endcomment %}
               {% if product.tags contains 'Personalisation_Embossing' %}
                 <a href="{{ product.url }}" class="link button personalization-btn product__view-details animate-arrow">
                   ADD PERSONALISATION
