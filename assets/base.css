@@ -3573,14 +3573,25 @@ sticky-header > header > nav > ul > li > a > span {
   padding-left: 0;
 }
 
-.submenu-drawer,
+/* .submenu-drawer, */
 .list-social-drawer {
   display: none!important;
 }
 
-.show-submenu,
+/* .show-submenu, */
 .white-background-watermark-drawer {
   display: block!important;
+}
+
+.submenu-drawer {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.show-submenu {
+  position: relative;
+  opacity: 1;
 }
 
 .white-background-watermark-drawer {
