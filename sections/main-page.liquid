@@ -35,7 +35,7 @@
     {{ page.title | escape }}
   </h1>
   {% if request.path contains '/store-locator' %}  
-    {{ section.settings.paragraph }}
+    <p class="banner-text banner__text">{{ section.settings.paragraph }}</p>
   {% endif %}
   <div class="rte main-page-content">
     {{ page.content }}
