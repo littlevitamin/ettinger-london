@@ -5519,4 +5519,5 @@ content: '\f08a';
 
 .product__description.rte > table > tbody > tr > td {
   font-size: 10px!important;
+  padding: 0;
 }
