@@ -5459,7 +5459,7 @@ content: '\f08a';
 }
 
 .hovered .swym-wishlist {
-  -webkit-text-stroke-width: unset;
+  -webkit-text-stroke-width: unset!important;
   color: #121212;
 }
 
