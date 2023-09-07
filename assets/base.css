@@ -5408,6 +5408,10 @@ input[type=radio]:checked+.cl-po--swatch {
   border-color: #121212!important;
 }
 
+.cl-po--swatch-button {
+  border-radius: 3px!important;  
+}
+
 /* Wishlist header icon */
 
 i.icon-swym-wishlist {
