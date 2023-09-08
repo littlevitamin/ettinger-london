@@ -920,21 +920,18 @@
     }
   }
 
-  // Set initial background color based on the checked input
   inputs.forEach(function(input) {
     if (input.checked) {
       changeLabelBackground(input);
     }
   });
 
-  // Attach change event listener to inputs
   inputs.forEach(function(input) {
     input.addEventListener('change', function() {
       changeLabelBackground(this);
     });
   });
 
-  // Loop through all inputs and update their labels initially
   inputs.forEach(function(input) {
     changeLabelBackground(input);
   });
