@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "paragraph": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -31,7 +32,7 @@
         "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_91118.png",
+        "image": "shopify:\/\/shop_images\/about_factory.png",
         "paragraph": "<p>Unexpected shapes with smart <strong>details, functionality, a new luxury feel<\/strong> with a contemporary price point.<\/p>",
         "enable_video": false,
         "video_url": "",
@@ -52,7 +53,7 @@
         "template--19981970145566__32f72ee9-97ec-4028-b64a-51342bf29250-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/James-Homer-Photo-ca-1936-small-surround-HiRes_1.png",
+            "image": "shopify:\/\/shop_images\/James_Homer_Photo_ca_1936_-_Cropped_HiRes.jpg",
             "caption": "",
             "heading": "FACTORY HISTORY",
             "text": "<p>Historically, the finest leather goods in Britain were always made in London, where the country’s best tailors, perfumers and trunk-makers all held shop.<\/p><p>Establishing his company in a smart address just off Regent Street, Gerry Ettinger ensured he could easily connect with the London and international elites as well as the best department stores of his time. <\/p><p>Maintaining leather workshops in central London was unfortunately not tenable, as those areas were being gentrified and rents pushed workshops out of town. Ettinger had been working with one of Walsall’s oldest manufacturers for some time and when in 1999 the factory was up for sale, Ettinger decided it was time to increase its own manufacturing capacity and so bought the factory out with all its workforce.<\/p><p>Walsall, on the northern outskirts of Birmingham was home to thousands of factories and workshops in the leather trade and was very much at the heart of saddlery, harness and small leather goods making in England, albeit perhaps more at the utilitarian end of the industry in an age where Britain’s industries and life and general still relied heavily on horses and leather straps of all kinds. However, mechanisation and especially globalisation meant that most of these factories closed in the late 1990s.<\/p><p>James Homer Ltd was one of the oldest surviving leather goods factories, established in 1890 and having always occupied the same building. When Ettinger took over the factory, production standards were raised in order to meet international luxury standards and considerable investment has been done over the years into maintaining and upgrading the factory, as well as train staff.<\/p>",
@@ -104,7 +105,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shaun_Bloodworth_4_1.png",
-            "caption": "<p><strong>\"<\/strong>Most of us have one or several family members that have worked in the small leather goods making industry<strong>\"<\/strong><\/p><h6><strong>-<\/strong> Gary Billingham, Factory Manager & Pattern Maker<\/h6>",
+            "caption": "<h2><strong>\"<\/strong>Most of us have one or several family members that have worked in the small leather goods making industry<strong>\"<\/strong><\/h2><h5><strong>-<\/strong> Gary Billingham, Factory Manager & Pattern Maker<\/h5>",
             "heading": "CRAFTSPEOPLE",
             "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.<\/p>",
             "button_label": "",
