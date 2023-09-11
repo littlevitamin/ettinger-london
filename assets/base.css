@@ -5542,3 +5542,7 @@ content: '\f08a';
   font-size: 10px!important;
   padding: 0;
 }
+
+.stockist-icon {
+  display: none!important;
+}
