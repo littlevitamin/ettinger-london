@@ -53,7 +53,7 @@
             type="text"
             id="ContactForm-name"
             name="contact[{{ 'templates.contact.form.name' | t }}]"
-            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.first_name }}{% endif %}"
             placeholder="First Name"
           >
           <label class="field__label" for="ContactForm-name">FIRST NAME</label>
