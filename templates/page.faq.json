@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "paragraph": "",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -48,29 +49,39 @@
         "template--20089871270174__8191eb44-9706-4a10-b73e-fef8c9cf32d1-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "What is the delivery time? ",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>All our deliveries are made by our courier, DHL, using their express services. Some international destinations can benefit from next business day delivery (for non-personalised orders), provided that the order is cleared  before 12 noon (GMT) on a business day. A business day is considered any day between Monday and Friday, please note most deliveries may need two days or more. Delivery times are given as estimates from the time of pick-up, and we cannot be held responsible for any delays. Please see the estimated delivery time for your shipping destination here. <\/p>",
             "page": ""
           }
         },
         "template--20089871270174__8191eb44-9706-4a10-b73e-fef8c9cf32d1-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "What are the delivery charges?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for our shipping destination here. <\/p>",
+            "page": ""
+          }
+        },
+        "ae5a0669-228b-47a4-8a29-ddb9b22b60d4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will there be anycustoms fees applied to my order?",
+            "icon": "none",
+            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for  our shipping destination here. <\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "template--20089871270174__8191eb44-9706-4a10-b73e-fef8c9cf32d1-collapsible_row-1",
-        "template--20089871270174__8191eb44-9706-4a10-b73e-fef8c9cf32d1-collapsible_row-2"
+        "template--20089871270174__8191eb44-9706-4a10-b73e-fef8c9cf32d1-collapsible_row-2",
+        "ae5a0669-228b-47a4-8a29-ddb9b22b60d4"
       ],
       "settings": {
         "caption": "",
-        "heading": "Authenticity & Warranty",
+        "heading": "Shipping & Delivery",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
@@ -90,18 +101,18 @@
         "72bed44c-2843-47f1-9e52-faefe7639b98": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "What is covered under our warranty?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>Our warranty covers<br\/>Ettinger items bought from authorised retailers that may present a manufacturing or materials defect under normal conditions of use, including stitching failures, assembly defects, material failures and metal fittings' defects. <\/p><p>Each case will be assessed individually and this warranty does not cover normal wear and tear. Depending on the items and the problem at hand, we will either repair or replace the item. Please see more information about our warranty policy here. <\/p>",
             "page": ""
           }
         },
         "b2ab8c87-5382-4058-a546-0ed9d7ff1b21": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "How do I make a warranty claim?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>Despite the care we put into making and quality-controlling our items throughout the manufacturing process, very occasionally, some things may be missed or problems may arise through the use of the product. In these circumstances, please get in touch with us at <a href=\"mailto:clientservices@ettinger.co.uk\">clientservices@ettinger.co.uk<\/a><br\/>with pictures detailing the issues. Please provide us with the place, month\/year of purchase, along with your order number. We will then get in touch with you with more information on the possible outcome. <\/p>",
             "page": ""
           }
         }
@@ -112,7 +123,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Orders",
+        "heading": "Warranty",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
@@ -132,18 +143,18 @@
         "586044da-7fe3-4632-80ad-4a1258df62c3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "Can I cancel or amend my order?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>We are unable to cancel orders once they have been shipped, therefore if you need to cancel your order we would advise you to contact us immediately after the order has been placed.<\/p><p>For any changes to the order, you must contact us immediately after the order has been placed and before the order has been shipped, and we will discuss the options available to you.<\/p>",
             "page": ""
           }
         },
         "6d963297-f9a7-4c99-8019-8f4a9622def9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "How can I return or exchange my order?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>You can return any online order within fourteen (14) working days from receiving the goods for a full product refund or exchange.  The goods must be in a saleable condition, unused and in the original packaging. Any goods that have been used will not be accepted and will be returned to the customer. Before sending the  items back to us, please contact us and provide your order  number and reason for return.  You must wait for us to send you a confirmation of return, which will give you further instructions  to help you send the goods back to us. Should we receive returned goods without prior notice or beyond the fourteen-day time limit stated above, we reserve the right to refuse the goods. <\/p><p>Please note, personalised and bespoke orders cannot be cancelled, exchanged or refunded. Please see further information about our return policy here.  <\/p>",
             "page": ""
           }
         }
@@ -154,7 +165,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Payments",
+        "heading": "CANCELLATIONS, RETURNS & EXCHANGES",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
@@ -174,18 +185,18 @@
         "1770292e-b9d6-4587-9ad8-64adc751a183": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "How do I place an order?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p>To purchase a product, simply navigate to the ‘ADD TO CART’ button, found on the product page. Continue browsing or access your shopping bag (basket) to proceed to check out. To check out, simply go to your shopping bag then follow the guidelines on each page to review your selected items. Ensure you set the billing and delivery details correctly and safely proceed to payment using our secure e-commerce gateway provided by our trusted partners Global-e. Once your payment has been authorised and verified by your bank, you will get an order confirmation from us via email. We will dispatch your goods once we have ascertained that all product, billing and shipping details are in due form.<\/p><p>It is only once your order has been dispatched that the sale is deemed to be fully accepted and a sale contract is formed, based on our London (UK) address. On occasion you have ordered items requiring personalisation or specific manufacturing needs, the contract is deemed valid once the work has started. Please see further information about our purchasing policy here.<\/p><p> <\/p>",
             "page": ""
           }
         },
         "6e8f2b4e-da65-4665-a99b-d2c52639eb31": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet ?",
+            "heading": "What payment options can I use?",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br\/>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br\/>quis nostrud exercitation ullamco laboris<\/p>",
+            "row_content": "<p><span style=\"text-decoration:underline\"><strong>In partnership with Global-e, our trusted payment provider,<\/strong><\/span> Our chosen partner of hundreds of global brands and retailers worldwide, Global-e is the leading provider of innovative cross-border ecommerce solutions. With Global-e we are able to accept most payments methods, including Visa, MasterCard, American Express, Klarna, PayPal, ApplePay, Amazon Pay, Sofort, AliPay and many  others on <a href=\"http:\/\/www.ettinger.co.uk\">www.ettinger.co.uk<\/a>. We do not store nor have access to your full card number.<\/p><p>We have implemented secure transaction procedures for all online payments on our website with the help of our partners Global-e. A padlock symbol should appear in your browser window when you are in a secure environment. At checkout, please make sure you enter the correct billing address to match your payment card. If the billing address does not match the payment card, our fraud screening system may flag the payment as fraudulent and your order may be delayed or cancelled.<\/p><p> <\/p>",
             "page": ""
           }
         }
@@ -196,7 +207,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Refunds & Returns",
+        "heading": "Purchasing & Placing an order",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
