@@ -4672,6 +4672,15 @@ div.banner__media::after {
   width: 20%!important;
 }
 
+@media screen and (max-width: 1200px) {
+  #MegaMenu-Content-3 .mega-menu__list {
+    width: 80%!important;
+  }
+  #MegaMenu-Content-3 .mega-menu-img {
+    display: none;
+  }
+}
+
 .template-search .article-card-wrapper .card__heading {
   padding: 10px 0;
 }
