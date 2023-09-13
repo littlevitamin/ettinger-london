@@ -5579,6 +5579,10 @@ content: '\f08a';
   background: var(--gradient-base-accent-2)!important;
 }
 
+.swym-wishlist-main-title {
+  font-size: 24px!important;
+}
+
 /* .stockist-icon {
   display: none!important;
 } */
