@@ -5556,6 +5556,11 @@ content: '\f08a';
   padding: 0;
 }
 
+.cl-po--label {
+  font-size: 13px;
+  font-family: 'Gotham Book', sans-serif!important;
+}
+
 /* .stockist-icon {
   display: none!important;
 } */
