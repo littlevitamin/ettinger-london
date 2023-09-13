@@ -5605,6 +5605,10 @@ content: '\f08a';
   font-weight: 300!important;
 }
 
+.swym-variant-title {
+  font-size: 10px!important;
+}
+
 /* .stockist-icon {
   display: none!important;
 } */
