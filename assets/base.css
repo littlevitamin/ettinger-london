@@ -5573,6 +5573,7 @@ content: '\f08a';
   border-radius: 3px!important;
   font-weight: 300!important;
   color: white!important;
+  border: 1px solid var(--gradient-base-accent-2)!important;
 }
 
 .swym-wishlist-grid .swym-add-to-cart-btn:hover {
