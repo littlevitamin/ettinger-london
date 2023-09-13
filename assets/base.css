@@ -4845,6 +4845,7 @@ div.banner__media::after {
 
 .product__info-container .collection-title {
   margin-bottom: 0;
+  display: inline;
 }
 
 .product__info-container .product__title {
@@ -5559,6 +5560,12 @@ content: '\f08a';
 .cl-po--label {
   font-size: 13px!important;
   font-family: 'Gotham Book', sans-serif!important;
+}
+
+.swym-product-icon {
+  opacity: 1!important;
+  position: relative!important;
+  float: right!important;
 }
 
 /* .stockist-icon {
