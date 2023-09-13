@@ -5586,6 +5586,11 @@ content: '\f08a';
   font-size: 24px!important;
 }
 
+.swym-user-login-status, .swym-user-text {
+  text-transform: none!important;
+  color: #F8F8F8!important;
+}
+
 .swym-title {
   font-weight: 400!important;
 }
