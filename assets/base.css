@@ -5584,6 +5584,14 @@ content: '\f08a';
   font-size: 24px!important;
 }
 
+.swym-title {
+  font-weight: 400;
+}
+
+.swym-product-price, .swym-variant-title {
+  font-weight: 300;
+}
+
 /* .stockist-icon {
   display: none!important;
 } */
