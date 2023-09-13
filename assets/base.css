@@ -5557,7 +5557,7 @@ content: '\f08a';
 }
 
 .cl-po--label {
-  font-size: 13px;
+  font-size: 13px!important;
   font-family: 'Gotham Book', sans-serif!important;
 }
 
