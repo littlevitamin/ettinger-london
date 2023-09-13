@@ -5575,7 +5575,7 @@ content: '\f08a';
   color: white!important;
 }
 
-.swym-add-to-cart-btn:hover {
+.swym-wishlist-grid .swym-add-to-cart-btnn:hover {
   color: var(--gradient-base-accent-2)!important;
   background: white!important;
 }
