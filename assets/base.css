@@ -5575,6 +5575,10 @@ content: '\f08a';
   border: 0!important;
 }
 
+.swym-ui-components .swym-bg-2, .swym-ui-component .swym-bg-2 {
+  background: var(--gradient-base-accent-2)!important;
+}
+
 /* .stockist-icon {
   display: none!important;
 } */
