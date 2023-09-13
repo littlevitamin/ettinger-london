@@ -50,7 +50,7 @@
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
         <!-- Swym Wishlist Plus EPI Button-->
-        <button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product product_{{card_product.id}}" data-swaction="addToWishlist" data-product-id="{{card_product.id | json}}" data-variant-id="{{card_product.variants[0].id}}" data-product-url="{{ shop.url }}{{ card_product.url }}"></button>
+        <button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product swym-collection-product product_{{card_product.id}}" data-swaction="addToWishlist" data-product-id="{{card_product.id | json}}" data-variant-id="{{card_product.variants[0].id}}" data-product-url="{{ shop.url }}{{ card_product.url }}"></button>
         <!-- Swym Wishlist Plus EPI Button-->
         {%- if card_product.featured_media -%}
           <div class="card__media">
