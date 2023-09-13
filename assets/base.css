@@ -5577,7 +5577,7 @@ content: '\f08a';
 
 .swym-add-to-cart-btn:hover {
   color: var(--gradient-base-accent-2)!important;
-  background-color: white!important;
+  background: white!important;
 }
 
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item {
