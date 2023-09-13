@@ -5571,6 +5571,7 @@ content: '\f08a';
 
 .swym-add-to-cart-btn {
   border-radius: 3px!important;
+  font-weight: 300!important;
 }
 
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item {
