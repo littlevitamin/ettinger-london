@@ -5572,6 +5572,12 @@ content: '\f08a';
 .swym-add-to-cart-btn {
   border-radius: 3px!important;
   font-weight: 300!important;
+  color: white!important;
+}
+
+.swym-add-to-cart-btn:hover {
+  color: var(--gradient-base-accent-2)!important;
+  background-color: white!important;
 }
 
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-item {
