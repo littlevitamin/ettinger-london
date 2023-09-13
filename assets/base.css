@@ -5562,6 +5562,10 @@ content: '\f08a';
   font-family: 'Gotham Book', sans-serif!important;
 }
 
+.swym-modal-content >* {
+  font-family: 'Gotham Book', sans-serif!important;
+}
+
 /* .stockist-icon {
   display: none!important;
 } */
