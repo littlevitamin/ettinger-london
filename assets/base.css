@@ -4503,14 +4503,14 @@ sticky-header > header > nav > ul > li > a > span {
   position: relative;
   top: 75px;
 }
-
+/* 
 .footer .blog-image-container {
   width: 100%!important;
 }
 
 .image-with-text .blog-image-container {
   width: 99%!important;
-}
+} */
 
 .blog-image {
   display: flex;
