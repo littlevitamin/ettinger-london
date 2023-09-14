@@ -527,7 +527,9 @@
       grandparent.style.display = altText === labelText ? 'block' : 'none';
     });
   }
+
   
+  var labelTexts = this.nextElementSibling.textContent.trim();
   var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
   inputs.forEach(function (input) {
     input.onclick = function () {
