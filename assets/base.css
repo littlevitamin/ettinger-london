@@ -5663,11 +5663,11 @@ content: '\f08a';
 }
 
 .scroll-bound {
-  height: 50vh;
+  height: 18vh;
 }
 
 	.content {
-		height: 18vh;
+		height: 10vh;
 		width: 100%;
 		position: sticky;
 		top:0;
