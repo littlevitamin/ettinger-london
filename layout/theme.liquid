@@ -536,6 +536,8 @@
     });
   }
 
+  console.log(activeLabel)
+
   var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
   inputs.forEach(function (input) {
     input.onclick = function () {
@@ -549,15 +551,6 @@
   inputsContainer.onclick = function () {
     inputsContainer.onclick = null;
   };
-
-  const activeLabel = document.querySelector('.active');
-if (activeLabel) {
-  const labelValue = activeLabel.querySelector('input[name="Colour"]').value;
-  console.log(labelValue);
-} else {
-  console.log('No active label found.');
-}
-
 </script>
 
 
