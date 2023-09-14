@@ -911,6 +911,26 @@
 
     </script>
 
+    <script>
+    // Get all labels within the fieldset
+    var labels = document.querySelectorAll('.quickview-fieldset label.variant-label');
+
+        // Iterate through the labels
+        labels.forEach(function(label) {
+            // Get the text content of the label
+            var labelText = label.textContent.trim();
+    
+            // Remove spaces and slashes to create a class name
+            var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
+    
+            // Add the class to the label and its sibling elements
+            label.classList.add('color-' + className);
+            label.nextElementSibling.classList.add('color-' + className);
+            label.nextElementSibling.nextElementSibling.classList.add('color-' + className);
+        });
+    </script>
+
+
     <script defer="defer">
       function addClassToFirstElement() {
         const firstFieldset = document.querySelector('.fieldset-class');      
