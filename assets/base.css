@@ -4508,6 +4508,10 @@ sticky-header > header > nav > ul > li > a > span {
   width: 100%!important;
 }
 
+.image-with-text .blog-image-container {
+  width: 99%!important;
+}
+
 .blog-image {
   display: flex;
   margin: 80px auto;
