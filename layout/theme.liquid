@@ -536,13 +536,6 @@
     };
   });
 
-  // Initially, display images based on the label of the checked input
-  const checkedInput = document.querySelector('.variant-fieldset input[name="Colour"]:checked');
-  if (checkedInput) {
-    const labelText = checkedInput.nextElementSibling.textContent.trim();
-    displayImagesByLabel(labelText);
-  }
-
   var inputsContainer = document.querySelector('.variant-fieldset');
   inputsContainer.onclick = function () {
     inputsContainer.onclick = null;
