@@ -690,17 +690,23 @@
     </script>
 
     <script>
-      function addClassesToLabels() {
-        var labelss = document.querySelectorAll('.quickview-fieldset label');
+    function addClassesToLabels() {
+      var labelss = document.querySelectorAll('.quickview-fieldset label');
     
-        labelss.forEach(function(label) {
-          var labelText = label.textContent.trim();
-          var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
-          label.classList.add('color-' + className);
-          label.nextElementSibling.classList.add('color-' + className);
-          label.nextElementSibling.nextElementSibling.classList.add('color-' + className);
-        });
-      }
+      labelss.forEach(function(label) {
+        var labelText = label.textContent.trim();
+  
+        var slug = labelText
+          .toLowerCase()
+          .replace(/\s+/g, '-') 
+          .replace(/[^a-zA-Z0-9-]/g, '');
+
+        label.classList.add('color-' + slug);
+        label.nextElementSibling.classList.add('color-' + slug);
+        label.nextElementSibling.nextElementSibling.classList.add('color-' + slug);
+      });
+    }
+
     </script>
 
 
