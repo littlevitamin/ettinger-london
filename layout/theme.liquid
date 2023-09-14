@@ -695,19 +695,16 @@
   var labelss = document.querySelectorAll('.quickview-fieldset label.variant-label');
 
   labelss.forEach(function(label) {
-    var input = label.previousElementSibling; // Get the input element
+    var input = label.previousElementSibling;
 
     if (input && input.getAttribute('type') === 'radio') {
       var value = input.getAttribute('value');
-
-      // Create a slug from the input's value
       var slug = value
         .toLowerCase()
         .replace(/\s+/g, '-') // Replace spaces with hyphens
         .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
         .replace(/\//g, '-'); // Replace slashes with hyphens
 
-      // Check if the class already exists before adding it
       if (!label.classList.contains('color-' + slug)) {
         label.classList.add('color-' + slug);
       }
