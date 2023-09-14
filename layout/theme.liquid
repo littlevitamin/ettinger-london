@@ -519,6 +519,36 @@
 
       {% endif %}
 
+    {% comment %} Play video on scroll {% endcomment %}
+    <script>
+    function playVideoOnScroll() {
+      const video = document.getElementById('scroll-video');
+      const sectionHeight = 1121; 
+      const videoHeight = 180;
+      const halfViewportHeight = window.innerHeight / 2;
+    
+      const startPlaybackPosition = sectionHeight - halfViewportHeight;
+      const reversePlaybackPosition = startPlaybackPosition + halfViewportHeight;
+    
+      const scrollPosition = window.scrollY;
+
+      let playbackTime = 0;
+      if (scrollPosition >= startPlaybackPosition) {
+        if (scrollPosition <= reversePlaybackPosition) {
+          playbackTime = (scrollPosition - startPlaybackPosition) / halfViewportHeight;
+        } else {
+          playbackTime = 1 - ((scrollPosition - reversePlaybackPosition) / halfViewportHeight);
+        }
+
+        video.currentTime = video.duration * playbackTime;
+      }
+      requestAnimationFrame(playVideoOnScroll);
+    }
+    window.addEventListener('scroll', playVideoOnScroll);
+
+    playVideoOnScroll();
+    </script>
+
       <script defer="defer">
         function checkAndHideElements() {
         var elements = document.getElementsByClassName("product-media-container");
