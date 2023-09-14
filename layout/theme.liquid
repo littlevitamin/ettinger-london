@@ -519,33 +519,34 @@
 
 <script defer="defer">
   document.addEventListener('DOMContentLoaded', function() {
-    function displayImagesByActiveLabel() {
-      const activeLabel = document.querySelector('.fieldset-class label.active');
-      if (!activeLabel) return;
-
-      const activeLabelValue = activeLabel.querySelector('input[name="Colour"]').value;
-
-      const images = document.querySelectorAll('.product__media-item');
-      images.forEach((image) => {
-        const altText = image.querySelector('img').getAttribute('alt');
-        const grandparent = image;
-        grandparent.style.display = altText === activeLabelValue ? 'block' : 'none';
-      });
-    }
-
-    var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-    inputs.forEach(function (input) {
-      input.onclick = function () {
-        displayImagesByActiveLabel();
-      };
+  function displayImagesByLabel(labelText) {
+    const images = document.querySelectorAll('.product__media-item');
+    images.forEach((image) => {
+      const altText = image.querySelector('img').getAttribute('alt');
+      const grandparent = image;
+      grandparent.style.display = altText === labelText ? 'block' : 'none';
     });
+  }
 
-    displayImagesByActiveLabel();
-
-    var inputsContainer = document.querySelector('.variant-fieldset');
-    inputsContainer.onclick = function () {
-      inputsContainer.onclick = null;
+  var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
+  inputs.forEach(function (input) {
+    input.onclick = function () {
+      const labelText = this.nextElementSibling.textContent.trim();
+      displayImagesByLabel(labelText);
     };
+  });
+
+  // Initially, display images based on the label of the checked input
+  const checkedInput = document.querySelector('.variant-fieldset input[name="Colour"]:checked');
+  if (checkedInput) {
+    const labelText = checkedInput.nextElementSibling.textContent.trim();
+    displayImagesByLabel(labelText);
+  }
+
+  var inputsContainer = document.querySelector('.variant-fieldset');
+  inputsContainer.onclick = function () {
+    inputsContainer.onclick = null;
+  };
   });
 </script>
 
