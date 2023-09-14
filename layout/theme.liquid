@@ -691,9 +691,9 @@
 
     <script>
       function addClassesToLabels() {
-        var labelss = document.querySelectorAll('.quickview-fieldset label');
+        var labels = document.querySelectorAll('.quickview-fieldset label');
     
-        labelss.forEach(function(label) {
+        labels.forEach(function(label) {
           var labelText = label.textContent.trim();
           var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
           label.classList.add('color-' + className);
