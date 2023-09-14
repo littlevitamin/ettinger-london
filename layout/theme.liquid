@@ -912,9 +912,9 @@
     </script>
 
     <script>
-    var labels = document.querySelectorAll('.quickview-fieldset label.variant-label');
+    var labelss = document.querySelectorAll('.quickview-fieldset label.variant-label');
 
-        labels.forEach(function(label) {
+        labelss.forEach(function(label) {
             var labelText = label.textContent.trim();
             var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
             label.classList.add('color-' + className);
