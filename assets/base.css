@@ -4513,8 +4513,11 @@ sticky-header > header > nav > ul > li > a > span {
 } */
 
 .section-collection-list .blog-image-container {
-  max-width: calc(var(--page-width) + 28px);
-  
+  max-width: calc(var(--page-width) + 28px);  
+}
+
+.section-collection-list .blog-image-container .list-border {
+  width: 41%;  
 }
 
 .blog-image {
