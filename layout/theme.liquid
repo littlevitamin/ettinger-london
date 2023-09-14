@@ -691,17 +691,16 @@
 
     <script>
 
-  function addClassesToLabels() {
+function addClassesToLabels() {
   var labelss = document.querySelectorAll('.quickview-fieldset label.variant-label');
 
   labelss.forEach(function(label) {
-    var input = label.previousElementSibling;
+    var span = label.querySelector('.color-name-span');
 
-    if (input && input.getAttribute('type') === 'radio') {
-      var value = input.getAttribute('value');
-      var slug = value
-        .replace(/([a-z])([A-Z])/g, '$1-$2') // Add hyphen before capital letters
-        .toLowerCase() // Convert to lowercase
+    if (span) {
+      var text = span.textContent;
+      var slug = text
+        .toLowerCase()
         .replace(/\s+/g, '-') // Replace spaces with hyphens
         .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
 
@@ -711,6 +710,7 @@
     }
   });
 }
+
 
     </script>
 
