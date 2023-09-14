@@ -701,6 +701,7 @@
       var value = input.getAttribute('value');
       var slug = value
         .toLowerCase()
+        .replace(/\//g, '-');
         .replace(/\s+/g, '-') // Replace spaces with hyphens
         .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
 
