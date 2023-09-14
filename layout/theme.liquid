@@ -689,18 +689,20 @@
       }
     </script>
 
-      <script>
-        var labelss = document.querySelectorAll('.quickview-fieldset label');
+    <script>
+      function addClassesToLabels() {
+        var labels = document.querySelectorAll('.quickview-fieldset label');
     
-        labelss.forEach(function(label) {
-            var labelText = label.textContent.trim();
-            var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
-    
-            label.classList.add('color-' + className);
-            label.nextElementSibling.classList.add('color-' + className);
-            label.nextElementSibling.nextElementSibling.classList.add('color-' + className);
+        labels.forEach(function(label) {
+          var labelText = label.textContent.trim();
+          var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
+          label.classList.add('color-' + className);
+          label.nextElementSibling.classList.add('color-' + className);
+          label.nextElementSibling.nextElementSibling.classList.add('color-' + className);
         });
-      </script>
+      }
+    </script>
+
 
     <script defer="defer">
     const labelz = document.querySelectorAll('.fieldset-class label');
