@@ -517,6 +517,37 @@
       };
       </script>
 
+<script defer="defer">
+  document.addEventListener('DOMContentLoaded', function() {
+  function displayImagesByLabel(labelText) {
+    const images = document.querySelectorAll('.product__media-item');
+    images.forEach((image) => {
+      const altText = image.querySelector('img').getAttribute('alt');
+      const grandparent = image;
+      grandparent.style.display = altText === labelText ? 'block' : 'none';
+    });
+  }
+
+  
+  var labelTexts = document.querySelectorAll('variant-fieldset label').textContent.trim();
+  var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
+  inputs.forEach(function (input) {
+    input.onclick = function () {
+      const labelText = this.nextElementSibling.textContent.trim();
+      displayImagesByLabel(labelText);
+    };
+  });
+
+  var inputsContainer = document.querySelector('.variant-fieldset');
+  inputsContainer.onclick = function () {
+    inputsContainer.onclick = null;
+  };
+  });
+</script>
+
+
+
+
       {% endif %}
 
       <script defer="defer">
