@@ -5621,13 +5621,13 @@ content: '\f08a';
 }
 
 @media screen and (min-width: 750px) {
-  .footer__blocks-wrapper > .footer-block__heading:nth-child(1) {
+  .footer__blocks-wrapper > div:nth-child(2) > h2 {
     margin-left: -31px;
   }
-  .footer__blocks-wrapper > .footer-block__heading:nth-child(2) {
+  .footer__blocks-wrapper > div:nth-child(3) > h2 {
     margin-left: 9px;
   }
-  .footer__blocks-wrapper > .footer-block__heading:nth-child(3) {
+  .footer__blocks-wrapper > div:nth-child(4) > h2 {
     margin-left: -53px;
   }
   .footer__blocks-wrapper > div:nth-child(5) > h2 {
