@@ -543,6 +543,10 @@
         video.currentTime = video.duration * playbackTime;
       }
       requestAnimationFrame(playVideoOnScroll);
+
+        console.log('Scroll Position:', scrollPosition);
+  console.log('Start Playback Position:', startPlaybackPosition);
+  console.log('Reverse Playback Position:', reversePlaybackPosition);
     }
     window.addEventListener('scroll', playVideoOnScroll);
 
