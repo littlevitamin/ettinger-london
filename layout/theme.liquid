@@ -519,29 +519,6 @@
 
       {% endif %}
 
-    <script> 
-    	const registerVideo = (bound, video) => {
-    		bound = document.querySelector(bound);
-    		video = document.querySelector(video);
-    		let playbackConst = 800;
-    		const scrollVideo = ()=>{
-    			if(video.duration) {
-    				const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
-    				const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
-    				const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
-    
-    				video.currentTime = video.duration * percentScrolled;
-    			}
-    			requestAnimationFrame(scrollVideo);
-    		}
-    		video.addEventListener('loadedmetadata', () => {
-    			bound.style.height = Math.floor(video.duration) * playbackConst + "px";
-    		});
-    		requestAnimationFrame(scrollVideo);
-    	};
-    	registerVideo('.section-collection-list', '.section-collection-list video');
-    </script>
-
       <script defer="defer">
         function checkAndHideElements() {
         var elements = document.getElementsByClassName("product-media-container");
