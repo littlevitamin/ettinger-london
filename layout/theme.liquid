@@ -529,7 +529,7 @@
   }
 
   
-  var labelTexts = this.nextElementSibling.textContent.trim();
+  var labelTexts = querySelector('variant-fieldset > label.active').textContent.trim();
   var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
   inputs.forEach(function (input) {
     input.onclick = function () {
