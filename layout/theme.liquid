@@ -703,7 +703,6 @@
         .replace(/([a-z])([A-Z])/g, '$1-$2') // Add hyphen before capital letters
         .toLowerCase() // Convert to lowercase
         .replace(/\s+/g, '-') // Replace spaces with hyphens
-        .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
 
       if (!label.classList.contains('color-' + slug)) {
         label.classList.add('color-' + slug);
