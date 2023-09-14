@@ -518,38 +518,37 @@
       </script>
 
 <script defer="defer">
-  function displayImagesByActiveLabel() {
-    const activeLabel = document.querySelector('.fieldset-class label.active');
-    if (!activeLabel) return;
+  document.addEventListener('DOMContentLoaded', function() {
+    function displayImagesByActiveLabel() {
+      const activeLabel = document.querySelector('.fieldset-class label.active');
+      if (!activeLabel) return;
 
-    const activeLabelText = activeLabel.querySelector('.color-name-fieldset').textContent.trim();
+      const activeLabelValue = activeLabel.querySelector('input[name="Colour"]').value;
 
-    const images = document.querySelectorAll('.product__media-item');
-    images.forEach((image) => {
-      const altText = image.querySelector('img').getAttribute('alt');
-      const grandparent = image;
-      if (altText === activeLabelText) {
-        grandparent.style.display = 'block';
-      } else {
-        grandparent.style.display = 'none';
-      }
+      const images = document.querySelectorAll('.product__media-item');
+      images.forEach((image) => {
+        const altText = image.querySelector('img').getAttribute('alt');
+        const grandparent = image;
+        grandparent.style.display = altText === activeLabelValue ? 'block' : 'none';
+      });
+    }
+
+    var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
+    inputs.forEach(function (input) {
+      input.onclick = function () {
+        displayImagesByActiveLabel();
+      };
     });
-  }
 
-  var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-  inputs.forEach(function (input) {
-    input.onclick = function () {
-      displayImagesByActiveLabel();
+    displayImagesByActiveLabel();
+
+    var inputsContainer = document.querySelector('.variant-fieldset');
+    inputsContainer.onclick = function () {
+      inputsContainer.onclick = null;
     };
   });
-
-  displayImagesByActiveLabel();
-
-  var inputsContainer = document.querySelector('.variant-fieldset');
-  inputsContainer.onclick = function () {
-    inputsContainer.onclick = null;
-  };
 </script>
+
 
 
 
