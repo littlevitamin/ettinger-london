@@ -705,6 +705,7 @@
         .toLowerCase()
         .replace(/\s+/g, '-') // Replace spaces with hyphens
         .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
+        .replace(/\//g, '-'); // Replace slashes with hyphens
 
       // Check if the class already exists before adding it
       if (!label.classList.contains('color-' + slug)) {
