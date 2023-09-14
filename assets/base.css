@@ -5614,13 +5614,12 @@ content: '\f08a';
   display: none!important;
 }
 
-.footer__blocks-wrapper .footer-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 @media screen and (min-width: 750px) {
+  .footer__blocks-wrapper .footer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .footer__blocks-wrapper > div:nth-child(2) > h2 {
     margin-left: -31px;
   }
