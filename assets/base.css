@@ -5614,7 +5614,7 @@ content: '\f08a';
   display: none!important;
 }
 
-/* @media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
   .footer__blocks-wrapper .footer-block {
     display: flex;
     flex-direction: column;
@@ -5632,4 +5632,4 @@ content: '\f08a';
   .footer__blocks-wrapper > div:nth-child(5) > h2 {
     margin-left: -108px;
   }
-} */
+}
