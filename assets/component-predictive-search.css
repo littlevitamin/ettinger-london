@@ -63,6 +63,7 @@
 predictive-search[open] .predictive-search,
 predictive-search[loading] .predictive-search {
   display: block;
+  z-index: 3;
 }
 
 .predictive-search__result-group {
