@@ -482,7 +482,7 @@
           var images = document.querySelectorAll('.product__media > img');
 
           images.forEach(function (image) {
-            var grandparent = image.parentElement.parentElement.parentElement.parentElement;
+            var grandparent = image.parentElement.parentElement;
             grandparent.style.display = 'none';
           });
 
@@ -494,7 +494,7 @@
             if (input.checked) {
               images.forEach(function (image) {
                 var altText = image.getAttribute('alt');
-                var grandparent = image.parentElement.parentElement;
+                var grandparent = image.parentElement.parentElement.parentElement.parentElement;
                 if (altText === inputValue || altText === labelText) {
                   grandparent.style.display = 'block';
                 }
