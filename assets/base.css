@@ -4512,7 +4512,8 @@ sticky-header > header > nav > ul > li > a > span {
   width: 99.2%!important;
 }
 
-.homepage-blog .blog-image-container {
+.homepage-blog .blog-image-container,
+.relative-blog .blog-image-container {
   width: 97%!important;
 }
 
