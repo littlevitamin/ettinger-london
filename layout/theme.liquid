@@ -520,38 +520,39 @@
       {% endif %}
 
     {% comment %} Play video on scroll {% endcomment %}
-    <script>
-    function playVideoOnScroll() {
-      const video = document.getElementById('scroll-video');
-      const sectionHeight = 1121; 
-      const videoHeight = 180;
-      const halfViewportHeight = window.innerHeight / 2;
-    
-      const startPlaybackPosition = sectionHeight - halfViewportHeight;
-      const reversePlaybackPosition = startPlaybackPosition + halfViewportHeight;
-    
-      const scrollPosition = window.scrollY;
-
-      let playbackTime = 0;
-      if (scrollPosition >= startPlaybackPosition) {
-        if (scrollPosition <= reversePlaybackPosition) {
-          playbackTime = (scrollPosition - startPlaybackPosition) / halfViewportHeight;
-        } else {
-          playbackTime = 1 - ((scrollPosition - reversePlaybackPosition) / halfViewportHeight);
+      <script>
+      function playVideoOnScroll() {
+        const video = document.getElementById('scroll-video');
+        const videoHeight = 180; 
+        const halfViewportHeight = window.innerHeight / 2;
+      
+        const videoRect = video.getBoundingClientRect();
+      
+        const startPlaybackPosition = videoRect.top - halfViewportHeight + window.scrollY;
+        const reversePlaybackPosition = startPlaybackPosition + halfViewportHeight;
+      
+        const scrollPosition = window.scrollY;
+      
+        let playbackTime = 0;
+        if (scrollPosition >= startPlaybackPosition) {
+          if (scrollPosition <= reversePlaybackPosition) {
+            playbackTime = (scrollPosition - startPlaybackPosition) / halfViewportHeight;
+          } else {
+            playbackTime = 1 - ((scrollPosition - reversePlaybackPosition) / halfViewportHeight);
+          }
+      
+          video.currentTime = video.duration * playbackTime;
         }
-
-        video.currentTime = video.duration * playbackTime;
+        requestAnimationFrame(playVideoOnScroll);
       }
-      requestAnimationFrame(playVideoOnScroll);
+      
+      // Listen for scroll events and start playing the video
+      window.addEventListener('scroll', playVideoOnScroll);
+      
+      // Initial call to start the video playback
+      playVideoOnScroll();
+      </script>
 
-        console.log('Scroll Position:', scrollPosition);
-  console.log('Start Playback Position:', startPlaybackPosition);
-  console.log('Reverse Playback Position:', reversePlaybackPosition);
-    }
-    window.addEventListener('scroll', playVideoOnScroll);
-
-    playVideoOnScroll();
-    </script>
 
       <script defer="defer">
         function checkAndHideElements() {
