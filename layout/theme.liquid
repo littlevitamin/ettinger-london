@@ -690,10 +690,10 @@
     </script>
 
     <script>
-function addClassesToLabels() {
-  var labelss = document.querySelectorAll('.quickview-fieldset label.variant-label');
+      function addClassesToLabels() {
+  var labels = document.querySelectorAll('.quickview-fieldset label.variant-label');
 
-  labelss.forEach(function(label) {
+  labels.forEach(function(label) {
     var labelText = label.textContent.trim();
 
     // Create a slug from the label text
@@ -706,17 +706,8 @@ function addClassesToLabels() {
     if (!label.classList.contains('color-' + slug)) {
       label.classList.add('color-' + slug);
     }
-
-    var siblingElements = label.parentElement.querySelectorAll('.color-name-span');
-    siblingElements.forEach(function(sibling) {
-      // Check if the class already exists before adding it to sibling elements
-      if (!sibling.classList.contains('color-' + slug)) {
-        sibling.classList.add('color-' + slug);
-      }
-    });
   });
 }
-
 
     </script>
 
