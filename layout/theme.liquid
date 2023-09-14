@@ -520,72 +520,7 @@
       {% endif %}
 
     {% comment %} Play video on scroll {% endcomment %}
-    <!-- <script>
-      
-	const registerVideo = (bound, video) => {
-		bound = document.querySelector(bound);
-		video = document.querySelector(video);
-		let playbackConst = 800;
-		const scrollVideo = ()=>{
-			if(video.duration) {
-				const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
-				const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
-				const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
 
-				video.currentTime = video.duration * percentScrolled;
-			}
-			requestAnimationFrame(scrollVideo);
-		}
-		video.addEventListener('loadedmetadata', () => {
-			bound.style.height = Math.floor(video.duration) * playbackConst + "px";
-		});
-		requestAnimationFrame(scrollVideo);
-	};
-	registerVideo('#set-height', '#scroll-video');
-	
-    </script> -->
-
-    <script>
-      var playbackConst = 800;
-var videoLoaded = false;
-
-var setHeight = document.getElementById("set-height");
-var vid = document.getElementById('scroll-video');
-var distanceFromTop = setHeight.getBoundingClientRect().top;
-
-// Dynamically set the page height according to video length
-vid.addEventListener('loadedmetadata', function() {
-  setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
-  videoLoaded = true;
-  // Initially hide the video
-  vid.style.display = 'none';
-});
-
-// Use requestAnimationFrame for smooth playback
-function scrollPlay() {
-  if (videoLoaded) {
-    var rawPercentScrolled = (window.scrollY - distanceFromTop) / (setHeight.scrollHeight - window.innerHeight);
-    var percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
-
-    vid.currentTime = vid.duration * percentScrolled;
-
-    // Show the video when it enters the viewport and hide it when it exits
-    if (percentScrolled >= 0 && percentScrolled <= 1) {
-      vid.style.display = 'block';
-    } else {
-      vid.style.display = 'none';
-    }
-  }
-  requestAnimationFrame(scrollPlay);
-}
-
-// Listen for scroll events and start playing the video
-window.addEventListener('scroll', scrollPlay);
-
-// Initial call to start the video playback
-scrollPlay();
-
-    </script>
 
       <script defer="defer">
         function checkAndHideElements() {
