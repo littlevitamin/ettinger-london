@@ -5614,6 +5614,6 @@ content: '\f08a';
   display: none!important;
 }
 
-.cl-po--popup-options {
+.cl-po--popup-options * {
   font-family: 'Times Roman Numeral'!important;
 }
