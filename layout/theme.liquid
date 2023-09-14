@@ -549,6 +549,15 @@
   inputsContainer.onclick = function () {
     inputsContainer.onclick = null;
   };
+
+  const activeLabel = document.querySelector('.active');
+if (activeLabel) {
+  const labelValue = activeLabel.querySelector('input[name="Colour"]').value;
+  console.log(labelValue);
+} else {
+  console.log('No active label found.');
+}
+
 </script>
 
 
