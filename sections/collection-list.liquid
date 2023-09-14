@@ -94,19 +94,18 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="blog-image-container {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
     <span class="list-border"><div class="grey-divider">hello</div></span>
-      <div id="video_container">
-        <canvas id="video_canvas">
-          <video 
-            id="scroll-video"
-            style="height: 180px; width: 180px; margin-top: -15px;" 
-            muted
-            playsinline
-            loading="lazy"
-          >
-            <source src="{{ section.settings.video_url }}" />
-          </video>
-        </canvas>
-      </div>
+      <div id="set-height">
+      <canvas id="video_canvas">
+        <video 
+          id="scroll-video"
+          style="height: 180px; width: 180px; margin-top: -15px;" 
+          muted
+          playsinline
+          loading="lazy"
+        >
+          <source src="{{ section.settings.video_url }}" />
+        </video>
+        </canvas></div>
     <span class="list-border"><div class="grey-divider">hello</div></span>
   </div>
   <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">
