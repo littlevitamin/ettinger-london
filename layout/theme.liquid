@@ -532,7 +532,7 @@
     const images = document.querySelectorAll('.product__media > img');
     images.forEach((image) => {
       const altText = image.getAttribute('alt');
-      const grandparent = image.parentElement.parentElement;
+      const grandparent = image.parentElement.parentElement.parentElement.parentElement;
       grandparent.style.display = altText === activeLabelValue ? 'block' : 'none';
     });
   }
@@ -546,7 +546,7 @@
       const images = document.querySelectorAll('.product__media > img');
       images.forEach((image) => {
         const altText = image.getAttribute('alt');
-        const grandparent = image.parentElement.parentElement.parentElement.parentElement;
+        const grandparent = image.parentElement.parentElement;
         if (altText === inputValue || altText === labelText) {
           grandparent.style.display = 'block';
         }
