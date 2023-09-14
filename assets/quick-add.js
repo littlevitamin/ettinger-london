@@ -39,7 +39,7 @@ if (!customElements.get('quick-add-modal')) {
           this.preventVariantURLSwitching();
           super.show(opener);
 
-          changeLabelBackground(input);
+          addClassesToLabels()
 
         })
         .finally(() => {
