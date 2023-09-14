@@ -39,7 +39,6 @@ if (!customElements.get('quick-add-modal')) {
           this.preventVariantURLSwitching();
           super.show(opener);
 
-          addClassesToLabels();
         })
         .finally(() => {
           opener.removeAttribute('aria-disabled');
