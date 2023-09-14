@@ -4552,6 +4552,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .scrolled-past-header .tan-header-divider {
   display: block;
+  max-width: var(--page-width);
 }
 
 .tan-divider {
