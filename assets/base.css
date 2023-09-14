@@ -4542,6 +4542,7 @@ sticky-header > header > nav > ul > li > a > span {
   margin: 0 auto;
   border-radius: 3px;
   color: transparent;
+  max-width: var(--page-width);
 }
 
 .scrolled-past-header .divider,
