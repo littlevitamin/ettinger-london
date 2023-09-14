@@ -522,8 +522,8 @@
     {% comment %} Play video on scroll {% endcomment %}
     <script>
     	const registerVideo = (bound, video) => {
-    		bound = document.querySelector(bound);
-    		video = document.querySelector(video);
+    		bound = document.querySelector('#set-height');
+    		video = document.querySelector('#scroll-video');
     		let playbackConst = 800;
     		const scrollVideo = ()=>{
     			if(video.duration) {
