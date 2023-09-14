@@ -95,15 +95,17 @@
   <div class="blog-image-container {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
     <span class="list-border"><div class="grey-divider">hello</div></span>
       <div id="set-height"></div>
-      <video 
-        id="scroll-video"
-        style="height: 180px; width: 180px; margin-top: -15px;" 
-        preload
-        muted
-        loading="lazy"
-      >
-        <source src="{{ section.settings.video_url }}" />
-      </video>
+      <canvas id="video_canvas" width="1280" height="595">
+        <video 
+          id="scroll-video"
+          style="height: 180px; width: 180px; margin-top: -15px;" 
+          preload
+          muted
+          loading="lazy"
+        >
+          <source src="{{ section.settings.video_url }}" />
+        </video>
+      </canvas>
     <span class="list-border"><div class="grey-divider">hello</div></span>
   </div>
   <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">

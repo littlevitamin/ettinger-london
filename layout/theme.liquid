@@ -520,19 +520,7 @@
       {% endif %}
 
     {% comment %} Play video on scroll {% endcomment %}
-    <script src="{{ 'scrollplay.js' | asset_url }}" defer="defer"></script>
 
-    <script>
-      window.addEventListener('DOMContentLoaded', (event) => {
-        const scrollvideo = new ScrollPlay({
-          speed: 300,
-          container: "set-height",
-          canvas: "video_canvas",
-          video: "scroll-video",
-          inertia: 6
-        })
-      })
-    </script>
 
       <script defer="defer">
         function checkAndHideElements() {
