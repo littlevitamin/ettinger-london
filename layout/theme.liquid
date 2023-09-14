@@ -690,21 +690,26 @@
     </script>
 
     <script>
-      function addClassesToLabels() {
-  var labelss = document.querySelectorAll('.quickview-fieldset > label.variant-label');
+
+  function addClassesToLabels() {
+  var labelss = document.querySelectorAll('.quickview-fieldset label.variant-label');
 
   labelss.forEach(function(label) {
-    var labelText = label.textContent.trim();
+    var input = label.previousElementSibling; // Get the input element
 
-    // Create a slug from the label text
-    var slug = labelText
-      .toLowerCase()
-      .replace(/\s+/g, '-') // Replace spaces with hyphens
-      .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
+    if (input && input.getAttribute('type') === 'radio') {
+      var value = input.getAttribute('value');
 
-    // Check if the class already exists before adding it
-    if (!label.classList.contains('color-' + slug)) {
-      label.classList.add('color-' + slug);
+      // Create a slug from the input's value
+      var slug = value
+        .toLowerCase()
+        .replace(/\s+/g, '-') // Replace spaces with hyphens
+        .replace(/[^a-zA-Z0-9-]/g, ''); // Remove non-alphanumeric characters
+
+      // Check if the class already exists before adding it
+      if (!label.classList.contains('color-' + slug)) {
+        label.classList.add('color-' + slug);
+      }
     }
   });
 }
