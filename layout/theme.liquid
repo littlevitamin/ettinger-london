@@ -697,9 +697,10 @@
         var labelText = label.textContent.trim();
   
         var slug = labelText
-          .toLowerCase()
-          .replace(/\s+/g, '-') 
-          .replace(/[^a-zA-Z0-9-]/g, '');
+        .toLowerCase()
+        .replace(/\s+/g, '-') // Replace spaces with hyphens
+        .replace(/[^a-zA-Z0-9-]/g, '') // Remove non-alphanumeric characters
+        .replace(/\//g, '-'); // Replace slashes with hyphens
 
         label.classList.add('color-' + slug);
         label.nextElementSibling.classList.add('color-' + slug);
