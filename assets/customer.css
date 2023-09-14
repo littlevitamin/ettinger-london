@@ -658,6 +658,7 @@
 .addresses li > button {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  border: 1px solid #777777;
 }
 
 .addresses li > button + button,
