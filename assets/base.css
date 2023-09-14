@@ -4504,6 +4504,10 @@ sticky-header > header > nav > ul > li > a > span {
   top: 75px;
 }
 
+.footer .blog-image-container {
+  width: 100%!important;
+}
+
 .blog-image {
   display: flex;
   margin: 80px auto;
