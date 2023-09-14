@@ -517,12 +517,12 @@
       };
       </script>
 
-    <script defer="defer">
+<script defer="defer">
   function displayImagesByActiveLabel() {
     const activeLabel = document.querySelector('.fieldset-class label.active');
     if (!activeLabel) return;
 
-    const activeLabelText = activeLabel.textContent.trim();
+    const activeLabelText = activeLabel.querySelector('.color-name-fieldset').textContent.trim();
 
     const images = document.querySelectorAll('.product__media-item');
     images.forEach((image) => {
@@ -546,6 +546,7 @@
     inputsContainer.onclick = null;
   };
 </script>
+
 
       {% endif %}
 
