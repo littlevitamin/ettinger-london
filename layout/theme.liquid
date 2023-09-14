@@ -528,7 +528,11 @@
     images.forEach((image) => {
       const altText = image.querySelector('img').getAttribute('alt');
       const grandparent = image;
-      grandparent.style.display = altText === activeLabelText ? 'block' : 'none';
+      if (altText === activeLabelText) {
+        grandparent.style.display = 'block';
+      } else {
+        grandparent.style.display = 'none';
+      }
     });
   }
 
@@ -546,6 +550,7 @@
     inputsContainer.onclick = null;
   };
 </script>
+
 
 
       {% endif %}
