@@ -516,57 +516,47 @@
         inputsContainer.onclick = null;
       };
       </script> -->
-<script defer="defer">
-  function getActiveLabelValue() {
-    const activeLabel = document.querySelector('.variant-fieldset label.active');
-    if (activeLabel) {
-      return activeLabel.querySelector('input[name="Colour"]').value;
+
+    <script defer="defer">
+  function findFirstValidImage() {
+    const allImages = document.querySelectorAll(".product__media-item img");
+    for (let i = 0; i < allImages.length; i++) {
+      const image = allImages[i];
+      if (image.getAttribute("alt")) {
+        return image;
+      }
     }
     return null;
   }
 
   function displayImagesByActiveLabel() {
-    const activeLabelValue = getActiveLabelValue();
-    if (!activeLabelValue) return;
+    const activeLabel = document.querySelector('.fieldset-class label.active');
+    if (!activeLabel) return;
 
-    const images = document.querySelectorAll('.product__media-item');
-    images.forEach((image) => {
-      const altText = image.querySelector('img').getAttribute('alt');
-      const shouldDisplay = altText === activeLabelValue;
-      image.style.display = shouldDisplay ? 'block' : 'none';
+    const activeLabelValue = activeLabel.querySelector('input[name="Colour"]').value;
+
+    const allImages = document.querySelectorAll(".product__media-item img");
+    allImages.forEach((image) => {
+      const grandparent = image.parentElement.parentElement.parentElement.parentElement;
+      grandparent.style.display = image.getAttribute("alt") === activeLabelValue ? "block" : "none";
     });
   }
 
-  function displayImages(input) {
-    const inputValue = input.value;
-    const label = document.querySelector('label[for="' + input.id + '"]');
-    const labelText = label.textContent.trim();
-
-    if (input.checked) {
-      const images = document.querySelectorAll('.product__media-item');
-      images.forEach((image) => {
-        const altText = image.querySelector('img').getAttribute('alt');
-        const shouldDisplay = altText === inputValue || altText === labelText;
-        image.style.display = shouldDisplay ? 'block' : 'none';
-      });
-    }
-  }
-
-  const inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-  inputs.forEach((input) => {
+  var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
+  inputs.forEach(function (input) {
     input.onclick = function () {
-      displayImages(input);
       displayImagesByActiveLabel();
     };
   });
 
   displayImagesByActiveLabel();
 
-  const inputsContainer = document.querySelector('.variant-fieldset');
+  var inputsContainer = document.querySelector(".variant-fieldset");
   inputsContainer.onclick = function () {
     inputsContainer.onclick = null;
   };
 </script>
+
 
 
       {% endif %}
