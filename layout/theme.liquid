@@ -517,38 +517,30 @@
       };
       </script>
 
-<script defer="defer">
-  document.addEventListener('DOMContentLoaded', function() {
-  function displayImagesByLabel(labelText) {
-    const images = document.querySelectorAll('.product__media-item');
-    images.forEach((image) => {
-      const altText = image.querySelector('img').getAttribute('alt');
-      const grandparent = image;
-      grandparent.style.display = altText === labelText ? 'block' : 'none';
-    });
-  }
-
-  
-  var labelTexts = document.querySelectorAll('variant-fieldset label').textContent.trim();
-  var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-  inputs.forEach(function (input) {
-    input.onclick = function () {
-      const labelText = this.nextElementSibling.textContent.trim();
-      displayImagesByLabel(labelText);
-    };
-  });
-
-  var inputsContainer = document.querySelector('.variant-fieldset');
-  inputsContainer.onclick = function () {
-    inputsContainer.onclick = null;
-  };
-  });
-</script>
-
-
-
-
       {% endif %}
+
+    <script> 
+    	const registerVideo = (bound, video) => {
+    		bound = document.querySelector(bound);
+    		video = document.querySelector(video);
+    		let playbackConst = 800;
+    		const scrollVideo = ()=>{
+    			if(video.duration) {
+    				const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
+    				const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
+    				const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
+    
+    				video.currentTime = video.duration * percentScrolled;
+    			}
+    			requestAnimationFrame(scrollVideo);
+    		}
+    		video.addEventListener('loadedmetadata', () => {
+    			bound.style.height = Math.floor(video.duration) * playbackConst + "px";
+    		});
+    		requestAnimationFrame(scrollVideo);
+    	};
+    	registerVideo('#bound-one', '#bound-one video');
+    </script>
 
       <script defer="defer">
         function checkAndHideElements() {
