@@ -5630,7 +5630,7 @@ content: '\f08a';
   .footer__blocks-wrapper > .footer-block__heading:nth-child(3) {
     margin-left: -53px;
   }
-  .footer__blocks-wrapper > .footer-block__heading:nth-child(4) {
+  .footer__blocks-wrapper > div:nth-child(5) > h2 {
     margin-left: -108px;
   }
 }
