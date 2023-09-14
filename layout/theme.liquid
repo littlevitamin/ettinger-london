@@ -520,19 +520,28 @@
       {% endif %}
 
     {% comment %} Play video on scroll {% endcomment %}
-    <!-- <script src="{{ 'scrollplay.js' | asset_url }}" defer="defer"></script>
+<script>
+	const registerVideo = (bound, video) => {
+		bound = document.querySelector(bound);
+		video = document.querySelector(video);
+		let playbackConst = 800;
+		const scrollVideo = ()=>{
+			if(video.duration) {
+				const distanceFromTop = window.scrollY + bound.getBoundingClientRect().top;
+				const rawPercentScrolled = (window.scrollY - distanceFromTop) / (bound.scrollHeight - window.innerHeight);
+				const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
 
-    <script>
-      window.addEventListener('DOMContentLoaded', (event) => {
-        const scrollvideo = new ScrollPlay({
-          speed: 300,
-          container: "video_container",
-          canvas: "video_canvas",
-          video: "scroll-video",
-          inertia: 6
-        })
-      })
-    </script> -->
+				video.currentTime = video.duration * percentScrolled;
+			}
+			requestAnimationFrame(scrollVideo);
+		}
+		video.addEventListener('loadedmetadata', () => {
+			bound.style.height = Math.floor(video.duration) * playbackConst + "px";
+		});
+		requestAnimationFrame(scrollVideo);
+	};
+	registerVideo('#set-height', '#scroll-video');
+	</script>
 
       <script defer="defer">
         function checkAndHideElements() {
