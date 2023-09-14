@@ -521,36 +521,29 @@
 
     {% comment %} Play video on scroll {% endcomment %}
       <script>
-      function playVideoOnScroll() {
-        const video = document.getElementById('scroll-video');
-        const videoHeight = 180; 
-        const halfViewportHeight = window.innerHeight / 2;
-      
-        const videoRect = video.getBoundingClientRect();
-      
-        const startPlaybackPosition = videoRect.top - halfViewportHeight + window.scrollY;
-        const reversePlaybackPosition = startPlaybackPosition + halfViewportHeight;
-      
-        const scrollPosition = window.scrollY;
-      
-        let playbackTime = 0;
-        if (scrollPosition >= startPlaybackPosition) {
-          if (scrollPosition <= reversePlaybackPosition) {
-            playbackTime = (scrollPosition - startPlaybackPosition) / halfViewportHeight;
-          } else {
-            playbackTime = 1 - ((scrollPosition - reversePlaybackPosition) / halfViewportHeight);
-          }
-      
-          video.currentTime = video.duration * playbackTime;
+        var frameNumber = 0, // start video at frame 0
+            playbackConst = 500, // lower numbers = faster playback
+            setHeight = document.getElementById("set-height"),
+            vid = document.getElementById('scroll-video');
+        
+        // Dynamically set the page height according to video length
+        vid.addEventListener('loadedmetadata', function() {
+          setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+        });
+        
+        // Use requestAnimationFrame for smooth playback
+        function scrollPlay(){  
+          var frameNumber  = (window.pageYOffset - setHeight.getBoundingClientRect().top) / playbackConst;
+          vid.currentTime  = frameNumber;
+          window.requestAnimationFrame(scrollPlay);
         }
-        requestAnimationFrame(playVideoOnScroll);
-      }
-      
-      // Listen for scroll events and start playing the video
-      window.addEventListener('scroll', playVideoOnScroll);
-      
-      // Initial call to start the video playback
-      playVideoOnScroll();
+        
+        // Listen for scroll events and start playing the video
+        window.addEventListener('scroll', scrollPlay);
+        
+        // Initial call to start the video playback
+        scrollPlay();
+
       </script>
 
 
