@@ -516,7 +516,7 @@
         inputsContainer.onclick = null;
       };
       </script> -->
-    <script defer="defer">
+<script defer="defer">
   function getActiveLabelValue() {
     const activeLabel = document.querySelector('.variant-fieldset label.active');
     if (activeLabel) {
@@ -529,11 +529,11 @@
     const activeLabelValue = getActiveLabelValue();
     if (!activeLabelValue) return;
 
-    const images = document.querySelectorAll('.product__media > img');
+    const images = document.querySelectorAll('.product__media-item');
     images.forEach((image) => {
-      const altText = image.getAttribute('alt');
-      const grandparent = image.parentElement.parentElement.parentElement.parentElement;
-      grandparent.style.display = altText === activeLabelValue ? 'block' : 'none';
+      const altText = image.querySelector('img').getAttribute('alt');
+      const shouldDisplay = altText === activeLabelValue;
+      image.style.display = shouldDisplay ? 'block' : 'none';
     });
   }
 
@@ -543,13 +543,11 @@
     const labelText = label.textContent.trim();
 
     if (input.checked) {
-      const images = document.querySelectorAll('.product__media > img');
+      const images = document.querySelectorAll('.product__media-item');
       images.forEach((image) => {
-        const altText = image.getAttribute('alt');
-        const grandparent = image.parentElement.parentElement;
-        if (altText === inputValue || altText === labelText) {
-          grandparent.style.display = 'block';
-        }
+        const altText = image.querySelector('img').getAttribute('alt');
+        const shouldDisplay = altText === inputValue || altText === labelText;
+        image.style.display = shouldDisplay ? 'block' : 'none';
       });
     }
   }
@@ -569,6 +567,7 @@
     inputsContainer.onclick = null;
   };
 </script>
+
 
       {% endif %}
 
