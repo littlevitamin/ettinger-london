@@ -4512,6 +4512,11 @@ sticky-header > header > nav > ul > li > a > span {
   width: 99%!important;
 } */
 
+.collection-list .blog-image-container {
+  max-width: calc(var(--page-width) + 28px);
+  
+}
+
 .blog-image {
   display: flex;
   margin: 80px auto;
