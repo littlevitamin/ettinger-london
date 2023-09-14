@@ -270,7 +270,10 @@
       <button>
         CREATE ACCOUNT
       </button>
-      <a href="/account/login" class="login-message newsletter-message">ALREADY HAVE AN ACCOUNT?</a>
+      <a href="/account/login" class="login-message newsletter-message">
+        ALREADY HAVE AN ACCOUNT?
+        <span style="color: var(--gradient-base-accent-2);" class="icon-wrap">{% render 'icon-arrow' %}</span>
+      </a>
     </div>
   {%- endform -%}
   </div>
