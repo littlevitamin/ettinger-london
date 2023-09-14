@@ -452,7 +452,7 @@
 
       <!-- <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script> -->
     {% if template contains 'product' %}
-      <!-- <script defer="defer">
+      <script defer="defer">
         function findFirstValidImage() {
           const allImages = document.querySelectorAll(".product__media-item img");
           for (let i = 0; i < allImages.length; i++) {
@@ -515,50 +515,7 @@
       inputsContainer.onclick = function () {
         inputsContainer.onclick = null;
       };
-      </script> -->
-
-    <script defer="defer">
-  function findFirstValidImage() {
-    const allImages = document.querySelectorAll(".product__media-item > img");
-    for (let i = 0; i < allImages.length; i++) {
-      const image = allImages[i];
-      if (image.getAttribute("alt")) {
-        return image;
-      }
-    }
-    return null;
-  }
-
-  function displayImagesByActiveLabel() {
-    const activeLabel = document.querySelector('.fieldset-class label.active');
-    if (!activeLabel) return;
-
-    const activeLabelValue = activeLabel.querySelector('input[name="Colour"]').value;
-
-    const allImages = document.querySelectorAll(".product__media-item > img");
-    allImages.forEach((image) => {
-      const grandparent = image.parentElement.parentElement.parentElement.parentElement;
-      grandparent.style.display = image.getAttribute("alt") === activeLabelValue ? "block" : "none";
-    });
-  }
-
-  var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-  inputs.forEach(function (input) {
-    input.onclick = function () {
-      displayImagesByActiveLabel();
-    };
-  });
-
-  displayImagesByActiveLabel();
-
-  var inputsContainer = document.querySelector(".variant-fieldset");
-  inputsContainer.onclick = function () {
-    inputsContainer.onclick = null;
-  };
-</script>
-
-
-
+      </script>
       {% endif %}
 
       <script defer="defer">
