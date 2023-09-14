@@ -519,7 +519,7 @@
 
     <script defer="defer">
   function findFirstValidImage() {
-    const allImages = document.querySelectorAll(".product__media-item img");
+    const allImages = document.querySelectorAll(".product__media-item > img");
     for (let i = 0; i < allImages.length; i++) {
       const image = allImages[i];
       if (image.getAttribute("alt")) {
@@ -535,7 +535,7 @@
 
     const activeLabelValue = activeLabel.querySelector('input[name="Colour"]').value;
 
-    const allImages = document.querySelectorAll(".product__media-item img");
+    const allImages = document.querySelectorAll(".product__media-item > img");
     allImages.forEach((image) => {
       const grandparent = image.parentElement.parentElement.parentElement.parentElement;
       grandparent.style.display = image.getAttribute("alt") === activeLabelValue ? "block" : "none";
