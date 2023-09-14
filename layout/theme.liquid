@@ -689,6 +689,19 @@
       }
     </script>
 
+      <script>
+        var labelss = document.querySelectorAll('.quickview-fieldset label');
+    
+        labelss.forEach(function(label) {
+            var labelText = label.textContent.trim();
+            var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
+    
+            label.classList.add('color-' + className);
+            label.nextElementSibling.classList.add('color-' + className);
+            label.nextElementSibling.nextElementSibling.classList.add('color-' + className);
+        });
+      </script>
+
     <script defer="defer">
     const labelz = document.querySelectorAll('.fieldset-class label');
         
@@ -909,19 +922,6 @@
       });
     });
 
-    </script>
-
-    <script>
-        var labelss = document.querySelectorAll('.quickview-fieldset label.variant-label');
-    
-        labelss.forEach(function(label) {
-            var labelText = label.textContent.trim();
-            var className = labelText.replace(/\s/g, '-').replace(/\//g, '-').toLowerCase();
-    
-            label.classList.add('color-' + className);
-            label.nextElementSibling.classList.add('color-' + className);
-            label.nextElementSibling.nextElementSibling.classList.add('color-' + className);
-        });
     </script>
     
     <script defer="defer">
