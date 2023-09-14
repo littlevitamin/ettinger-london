@@ -38,6 +38,8 @@ if (!customElements.get('quick-add-modal')) {
           this.updateImageSizes();
           this.preventVariantURLSwitching();
           super.show(opener);
+
+          addClassesToLabels();
         })
         .finally(() => {
           opener.removeAttribute('aria-disabled');
