@@ -5614,7 +5614,7 @@ content: '\f08a';
   display: none!important;
 }
 
-.footer__blocks-wrapper .footer-block {
+/* .footer__blocks-wrapper .footer-block {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -5633,4 +5633,4 @@ content: '\f08a';
   .footer__blocks-wrapper .footer-block__heading:nth-child(4) {
     margin-left: -108px;
   }
-}
+} */
