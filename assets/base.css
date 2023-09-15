@@ -5669,7 +5669,9 @@ content: '\f08a';
     position: absolute;
     top: -15px;
     left: -50%;
-    width: max-content;
-    
+    width: max-content;    
+  }
+  .quickview-fieldset .active .color-name-fieldset {
+    display: none!important;
   }
 }
