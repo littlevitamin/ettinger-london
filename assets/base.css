@@ -5661,3 +5661,13 @@ content: '\f08a';
     margin-left: -108px;
   }
 }
+
+@media screen and (max-width: 749px) {
+  .quickview-fieldset .active .color-name-fieldset {
+    display: inline;
+    font-size: 10px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  }
+}
