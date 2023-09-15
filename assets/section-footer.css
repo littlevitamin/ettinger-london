@@ -514,10 +514,8 @@ noscript .localization-selector.link {
     padding-bottom: 0.5rem;
   }
 }
-
-@media screen and (min-width: 750px) {
   .footer-block__details-content .list-menu__item--link {
-    font-family: 'Gotham Medium', sans-serif;
+    font-family: 'Gotham Book', sans-serif!important;
     display: inline-block;
     font-size: 1.4rem;
     font-style: normal;
@@ -529,6 +527,7 @@ noscript .localization-selector.link {
     color: #121212;
   }
 
+@media screen and (min-width: 750px) {
   .footer-block__details-content > :first-child .list-menu__item--link {
     padding-top: 0;
   }
