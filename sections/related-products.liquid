@@ -34,7 +34,7 @@
   }
 
   .related-products .quick-add__submit {
-    margin-top: -150px;
+    margin-top: -155px;
     max-width: 33%;
     min-width: 33%;
     float: right;
@@ -43,12 +43,17 @@
     font-size: 12px;
     min-height: 30px;
     opacity: 0;
+    border: 0;
   }
 
   .grid__item:hover .quick-add__submit,
   .grid__item:hover .swym-button {
     transition: opacity 0.5s ease;
     opacity: 1;
+  }
+  
+  .grid__item:hover .quick-add__submit {
+    border: 1px solid var(--gradient-base-accent-2);
   }
 {%- endstyle -%}
 
