@@ -527,6 +527,11 @@ noscript .localization-selector.link {
     color: #121212;
   }
 
+  .footer-block__heading {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
 @media screen and (min-width: 750px) {
   .footer-block__details-content > :first-child .list-menu__item--link {
     padding-top: 0;
