@@ -174,12 +174,16 @@
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Gotham Medium', sans-serif;
-  user-select: none;
 }
 
 .faq-link:hover,
 .collapsible-content-menu .image-with-text__heading {
   color: var(--gradient-base-accent-2)!important;
+}
+
+.collapsible-content__heading h2::selection {
+  color: none;
+  background: none;
 }
 
 .collapsible-content-menu .image-with-text__heading {
