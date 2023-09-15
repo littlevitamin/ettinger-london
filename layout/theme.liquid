@@ -547,6 +547,13 @@
           } else {
             console.error('Element not found');
           }
+        
+          const element1 = document.querySelector('variant-radios > div:nth-child(2) > fieldset');
+          if (element1) {
+            element1.classList.remove('variant-fieldset');
+          } else {
+            console.error('Element not found');
+          }
       </script>
 
       {% if template contains 'product' %}
