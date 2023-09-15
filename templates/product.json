@@ -198,7 +198,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -216,6 +215,7 @@
     },
     "0c6de396-3de4-4743-947f-bbbc6a034f63": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "YOU MAY ALSO LIKE",
         "heading_size": "h2",
