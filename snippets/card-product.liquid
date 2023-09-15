@@ -451,7 +451,7 @@
         </div>
       </div>
     </div>
-              {% if request.path contains '/search' or request.path contains '/products' %}
+              {% if request.path contains '/search' %}
                 {%- for option in card_product.options_with_values -%}
                   <fieldset class="js product-form__input fieldset-class search-fieldset-class">
                     {%- liquid
