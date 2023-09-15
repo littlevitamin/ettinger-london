@@ -176,6 +176,10 @@
   font-family: 'Gotham Medium', sans-serif;
 }
 
+.faq-link:focus {
+  outline: none;
+}
+
 .faq-link:hover,
 .collapsible-content-menu .image-with-text__heading {
   color: var(--gradient-base-accent-2)!important;
