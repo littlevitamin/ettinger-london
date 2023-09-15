@@ -3588,11 +3588,13 @@ sticky-header > header > nav > ul > li > a > span {
   position: absolute;
   opacity: 0;
   transition: opacity 0.5s ease;
+  z-index: -1;
 }
 
 .show-submenu {
   position: relative;
   opacity: 1;
+  z-index: 1;
 }
 
 .white-background-watermark-drawer {
