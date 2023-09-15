@@ -55,6 +55,27 @@
   .quick-add__submit:hover {
     border: 1px solid var(--gradient-base-accent-2);
   }
+
+  @media screen and (max-width: 749px) {
+    .related-products .card__content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .related-products .card__content .quick-add {
+    order: 1;
+  }
+
+  .related-products .card__content .card__information {
+    order: 2;
+  }
+
+  .related-products .quick-add__submit {
+    opacity: 1;
+    min-width: 98%;
+    border: 1px solid #777777;
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient no-js-hidden">
