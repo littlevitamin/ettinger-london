@@ -177,7 +177,7 @@
 }
 
 .faq-link:focus {
-  outline: none;
+  outline: 2px solid white;
 }
 
 .faq-link:hover,
