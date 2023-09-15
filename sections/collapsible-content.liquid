@@ -103,7 +103,7 @@
 {% comment %}Creating links for the FAQ menu{% endcomment %}
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-  var headings = document.querySelectorAll(".collapsible-content__grid > div > div::last-child");
+  var headings = document.querySelectorAll(".collapsible-content__grid > div > div:last-child");
   
   headings.forEach(function(heading, index) {
     var id = "content-" + (index + 1);
