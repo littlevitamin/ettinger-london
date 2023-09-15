@@ -5671,7 +5671,7 @@ content: '\f08a';
     left: -50%;
     width: max-content;    
   }
-  .quickview-fieldset .active .color-name-span {
+  .quickview-fieldset .color-name-span {
     display: none!important;
   }
 }
