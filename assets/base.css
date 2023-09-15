@@ -4519,14 +4519,19 @@ sticky-header > header > nav > ul > li > a > span {
   width: 97%!important;
 }
 
+.section-collection-list .blog-image-container {
+  width: 96.1%!important;
+}
+
 @media screen and (max-width: 749px) {
   .homepage-blog .blog-image-container,
   .relative-blog .blog-image-container {
     width: 96.5%!important;
   }
-}
-.section-collection-list .blog-image-container {
-  width: 96.1%!important;
+
+  .section-collection-list .blog-image-container {
+    width: 95%!important;
+  }
 }
 
 .section-collection-list .blog-image-container,
