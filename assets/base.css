@@ -5457,7 +5457,7 @@ input[type=radio]:checked+.cl-po--swatch {
 /* Wishlist header icon */
 
 .wishlist-label {
-  display: block;
+  display: block!important;
   color: #121212;
   text-decoration: none;
   font-family: 'Gotham Book', sans-serif!important;
