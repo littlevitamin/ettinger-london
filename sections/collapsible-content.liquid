@@ -100,6 +100,17 @@
   </div>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  var headings = document.querySelectorAll(".collapsible-content__heading");
+  
+  headings.forEach(function(heading, index) {
+    var id = "content-" + (index + 1);
+    heading.setAttribute("id", id);
+  });
+});
+</script>
+
 {% schema %}
 {
   "name": "t:sections.collapsible_content.name",
