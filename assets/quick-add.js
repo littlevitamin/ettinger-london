@@ -39,14 +39,7 @@ if (!customElements.get('quick-add-modal')) {
           this.preventVariantURLSwitching();
           super.show(opener);
 
-          addClassesToLabels();
-          
-          const element = document.querySelector('#variant-radios-quickadd-template--19283160105246__main > div:nth-child(2) > fieldset');
-          if (element) {
-            element.classList.remove('variant-fieldset');
-          } else {
-            console.error('Element not found');
-          }
+          addClassesToLabels()
 
         })
         .finally(() => {
