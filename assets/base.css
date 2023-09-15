@@ -5378,6 +5378,7 @@ predictive-search .field {
   .rich-text > div > div > div:nth-child(4) {
     display: inline-block;
     width: 49%;
+    float: left;
   }
 }
 
