@@ -540,6 +540,15 @@
       document.addEventListener("click", checkAndHideElements);
       </script>
 
+      <script>
+          const element = document.querySelector('#variant-radios-quickadd-template--19283160105246__main > div:nth-child(2) > fieldset');
+          if (element) {
+            element.classList.remove('variant-fieldset');
+          } else {
+            console.error('Element not found');
+          }
+      </script>
+
       {% if template contains 'product' %}
         {% comment %}Display product metafields{% endcomment %}  
         <script defer="defer">
