@@ -645,21 +645,22 @@
           });
         </script>
 
-    <script defer="defer">
-      const topLevelLinks = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
-      const megaMenuImages = document.querySelector(".mega-menu-img");
-      const megaMenuImages1 = document.querySelector(".mega-menu-img_1");
-    
-      topLevelLinks.addEventListener("mouseover", function () {
-        megaMenuImages.classList.add = ('hide');
-        megaMenuImages1.classList.add = ('show');
-      });
-    
-      topLevelLinks.addEventListener("mouseout", function () {
-        megaMenuImages1.classList.add = ('hide');
-        megaMenuImages.classList.add = ('show');
-      });
-    </script>
+        <script defer="defer">
+          const topLevelLink = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+          const megaMenuImage = document.querySelector(".mega-menu-img");
+          const megaMenuImage1 = document.querySelector(".mega-menu-img_1");
+        
+          topLevelLink.addEventListener("mouseover", function () {
+            megaMenuImage.classList.add("hide");
+            megaMenuImage1.classList.add("show");
+          });
+        
+          topLevelLink.addEventListener("mouseout", function () {
+            megaMenuImage.classList.remove("hide");
+            megaMenuImage1.classList.remove("show");
+          });
+        </script>
+
 
     
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
