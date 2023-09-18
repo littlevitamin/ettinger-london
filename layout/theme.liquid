@@ -652,13 +652,13 @@
   const secondImage = document.querySelector(".mega-menu-img_1");
 
   menuItem.addEventListener("mouseover", function () {
-    firstImage.style.display = "none";
-    secondImage.style.display = "block";
+    firstImage.classList.add('hide');
+    secondImage.classList.add('show');
   });
 
   menuItem.addEventListener("mouseout", function () {
-    firstImage.style.display = "block";
-    secondImage.style.display = "none";
+    firstImage.classList.remove('hide');
+    secondImage.classList.remove('show');
   });
 });
 
