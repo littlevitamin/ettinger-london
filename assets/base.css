@@ -5720,3 +5720,7 @@ content: '\f08a';
 .mega-menu-img_1 {
   display: none;
 }
+
+#MegaMenu-Content-3 > ul > li:nth-child(1):hover > .mega-menu-img_1 {
+  display: block;
+}
