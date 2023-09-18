@@ -5714,19 +5714,10 @@ content: '\f08a';
 }
 
 #MegaMenu-Content-4 > .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ABOUT.jpg?v=1695025290')!important;
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ABOUT.jpg?v=1695025290');
 }
 
 #MegaMenu-Content-5 > .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collections.jpg?v=1695025290')!important;
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collections.jpg?v=1695025290');
 }
 
-/* Show mega-menu-img-2 when MegaMenu-Links-1 is hovered */
-.mega-menu-item.MegaMenu-Links-1:hover + .mega-menu-img_1 {
-  display: block;
-}
-
-/* Hide mega-menu-img-1 when MegaMenu-Links-1 is hovered */
-.mega-menu-item.MegaMenu-Links-1:hover + .mega-menu-img {
-  display: none;
-}
