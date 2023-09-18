@@ -4929,6 +4929,10 @@ cart-remove-button > a {
   display: none;
 }
 
+.show {
+  display: block;
+}
+
 .homepage-banner-text .banner__text {
   width: 100%;
 }
