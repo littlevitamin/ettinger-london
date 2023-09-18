@@ -5698,3 +5698,9 @@ content: '\f08a';
     display: none!important;
   }
 }
+
+/* Mega menu images */
+
+#MegaMenu-Content-3 > img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMEN.jpg?v=1695025290')!important;
+}
