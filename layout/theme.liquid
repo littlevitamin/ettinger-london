@@ -594,57 +594,37 @@
           });
         </script>
 
-        <script defer="defer">
-          const secondLevelLink = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
-          const secondLevelLink_1 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(2)");
-          const secondLevelLink_2 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(3)");
-          const secondLevelLink_3 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(4)");
-          const secondMegaMenuImage = document.querySelector(".mega-menu-img");
-        
-          // Define the image URLs
-          const defaultImage = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
-          const newImage = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113";
-          const newImage_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534";
-          const newImage_2 = "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg";
-          const newImage_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972";
-        
-          function changeImageSource(imageUrl) {
-            secondMegaMenuImage.src = imageUrl;
-          }
-        
-          secondLevelLink.addEventListener("mouseover", function () {
-            changeImageSource(newImage);
-          });
-        
-          secondLevelLink.addEventListener("mouseout", function () {
-            changeImageSource(defaultImage);
-          });
-        
-          secondLevelLink_1.addEventListener("mouseover", function () {
-            changeImageSource(newImage_1);
-          });
-        
-          secondLevelLink_1.addEventListener("mouseout", function () {
-            changeImageSource(defaultImage);
-          });
-        
-          secondLevelLink_2.addEventListener("mouseover", function () {
-            changeImageSource(newImage_2);
-          });
-        
-          secondLevelLink_2.addEventListener("mouseout", function () {
-            changeImageSource(defaultImage);
-          });
-        
-          secondLevelLink_3.addEventListener("mouseover", function () {
-            changeImageSource(newImage_3);
-          });
-        
-          secondLevelLink_3.addEventListener("mouseout", function () {
-            changeImageSource(defaultImage);
-          });
-        </script>
+    <script defer="defer">
+  const megaMenuContent = document.querySelector("#MegaMenu-Content-3");
+  const secondMegaMenuImage = document.querySelector(".mega-menu-img");
 
+  // Define the image URLs
+  const defaultImage = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
+  const imageMap = {
+    "Wallets": "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113",
+    "Purses": "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534",
+    "Bags & Cases": "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg",
+    "Accessories": "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972"
+  };
+
+  // Add a single event listener to the common ancestor
+  megaMenuContent.addEventListener("mouseover", function (event) {
+    if (event.target.classList.contains("mega-menu__link--level-2")) {
+      const text = event.target.textContent.trim();
+      const imageUrl = imageMap[text];
+      if (imageUrl) {
+        secondMegaMenuImage.src = imageUrl;
+      } else {
+        secondMegaMenuImage.src = defaultImage;
+      }
+    }
+  });
+
+  // Reset the image on mouseout
+  megaMenuContent.addEventListener("mouseout", function (event) {
+    secondMegaMenuImage.src = defaultImage;
+  });
+</script>
 
 
         {% comment %}Mega menu hover effects{% endcomment %}
