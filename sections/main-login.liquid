@@ -69,9 +69,6 @@
     {% assign image_url_720w = section.settings.image | image_url: width: 720 %}
     {% assign image_url_940w = section.settings.image | image_url: width: 940 %}
     {% assign image_url_1066w = section.settings.image | image_url: width: 1066 %}
-    {% assign image_url_1233w = section.settings.image | image_url: width: 1233 %}
-    {% assign image_url_1366w = section.settings.image | image_url: width: 1366 %}
-    {% assign image_url_1500w = section.settings.image | image_url: width: 1500 %}
     <img 
       srcset="
         {{ image_url_165w }} 165w,
@@ -80,14 +77,11 @@
         {{ image_url_720w }} 720w,
         {{ image_url_940w }} 940w,
         {{ image_url_1066w }} 1066w,
-        {{ image_url_1233w }} 1233w,
-        {{ image_url_1366w }} 1366w,
-        {{ image_url_1500w }} 1500w,
         {{ section.settings.image | img_url }} 2000w
       "
       class="login-image" 
       src="{{ section.settings.image | img_url }}" 
-      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 1 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
       width='100%' 
       height='100%' 
       loading="lazy"/> 
