@@ -600,6 +600,7 @@
           const topLevelLink_1 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)");
           const topLevelLink_2 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)");
           const topLevelLink_3 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(4)");
+          const topLevelLink_4 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
           const megaMenuImage = document.querySelector(".mega-menu-img");
 
           const defaultImageUrl = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
@@ -607,6 +608,7 @@
           const newImageUrl_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__bags_cases.jpg?v=1695025290";
           const newImageUrl_2 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__accessories.jpg?v=1695025290";
           const newImageUrl_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS_gifts.jpg?v=1695025290";
+          const newImageUrl_4 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS__wallets.jpg?v=1695025290";
 
           function changeImageSource(imageUrl) {
             megaMenuImage.src = imageUrl;
@@ -641,6 +643,14 @@
           });
 
           topLevelLink_3.addEventListener("mouseout", function () {
+            changeImageSource(defaultImageUrl);
+          });
+          
+          topLevelLink_4.addEventListener("mouseover", function () {
+            changeImageSource(newImageUrl_3);
+          });
+
+          topLevelLink_4.addEventListener("mouseout", function () {
             changeImageSource(defaultImageUrl);
           });
         </script>
