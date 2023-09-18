@@ -647,22 +647,13 @@
 
 
 <script>
-  $(document).ready(function() {
-    const topLevelLinks = $("#MegaMenu-Content-3 > ul > li:nth-child(1)");
-    const megaMenuImages = $(".mega-menu-img");
-    const megaMenuImages1 = $(".mega-menu-img_1");
-
-    topLevelLinks.hover(
-      function () {
-        megaMenuImages.addClass("hide");
-        megaMenuImages1.addClass("show");
-      },
-      function () {
-        megaMenuImages.removeClass("hide");
-        megaMenuImages1.removeClass("show");
-      }
-    );
-  });
+$(".MegaMenu-Links-1").hover(function() {
+    $(this).siblings(".mega-menu-img").addClass("hide");
+        $(this).siblings(".mega-menu-img_1").addClass("show");
+}, function() {
+    $(this).siblings(".mega-menu-img").removeClass("hide");
+    $(this).siblings(".mega-menu-img_1").removeClass("show");
+});
 </script>
 
 
