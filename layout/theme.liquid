@@ -645,23 +645,26 @@
           });
         </script>
 
-        <script>
-          $(document).ready(function() {
-            const topLevelLink = $("#MegaMenu-Content-3 > ul > li:nth-child(1)");
-            const megaMenuImage = $(".mega-menu-img");
-            const megaMenuImage1 = $(".mega-menu-img_1");
-        
-            topLevelLink.on("mouseenter", function () {
-              megaMenuImage.hide();
-              megaMenuImage1.show();
-            });
-        
-            topLevelLink.on("mouseleave", function () {
-              megaMenuImage.show();
-              megaMenuImage1.hide();
-            });
-          });
-        </script>
+
+<script>
+  $(document).ready(function() {
+    const topLevelLink = $("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+    const megaMenuImage = $(".mega-menu-img");
+    const megaMenuImage1 = $(".mega-menu-img_1");
+
+    topLevelLink.hover(
+      function () {
+        megaMenuImage.hide();
+        megaMenuImage1.show();
+      },
+      function () {
+        megaMenuImage.show();
+        megaMenuImage1.hide();
+      }
+    );
+  });
+</script>
+
     
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
         <script defer="defer">
