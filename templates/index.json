@@ -173,7 +173,8 @@
         "721272bf-e5c7-4937-b5c3-0c5fb73dd926": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sterling"
+            "collection": "sterling",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_sterling_0df768f6-a2b8-46e1-b14d-4f4afbe7b8e2.jpg"
           }
         }
       },
