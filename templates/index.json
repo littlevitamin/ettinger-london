@@ -147,7 +147,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "capra",
-            "collection_list_image": "shopify:\/\/shop_images\/Capra_Collection_Banner_1200x1000_c2f7196e-b7e6-465c-9878-75caf1011ecd.jpg"
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_capra.jpg"
           }
         },
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-1": {
@@ -174,7 +174,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterling",
-            "collection_list_image": "shopify:\/\/shop_images\/Carousel_sterling_0df768f6-a2b8-46e1-b14d-4f4afbe7b8e2.jpg"
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_sterling.jpg"
           }
         }
       },
