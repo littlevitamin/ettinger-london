@@ -5721,12 +5721,8 @@ content: '\f08a';
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collections.jpg?v=1695025290')!important;
 }
 
-#MegaMenu-Content-3 {
-  z-index: 10;
-}
-
-.MegaMenu-Links-5:hover ~ .mega-menu-img {
-  display: none!important;
+.MegaMenu-Links-5:hover ~ .MegaMenu-Links-4 {
+  background: yellow;
 }
 
 .MegaMenu-Links-5:hover ~ .mega-menu-img_1 {
