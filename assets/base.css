@@ -5716,12 +5716,12 @@ content: '\f08a';
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS__wallets.jpg?v=1695025290');
 }
 
-#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-2:hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_purses.jpg?v=1695025290');
+#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-6:hover + .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_purses.jpg?v=1695025290')!important;
 }
 
-#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-3:hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_bags.jpg?v=1695025290');
+#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-7:hover + .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_bags.jpg?v=1695025290')!important;
 }
 
 #MegaMenu-Content-3 > ul > li:nth-child(4):hover + .mega-menu-img {
