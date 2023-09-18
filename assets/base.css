@@ -4452,7 +4452,6 @@ sticky-header > header > nav > ul > li > a > span {
 
 @media screen and (min-width: 990px) {
   .mega-menu__list {
-    width: 70%!important;
     justify-content: flex-start!important;
   }
 }
@@ -5713,11 +5712,11 @@ content: '\f08a';
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMEN.jpg?v=1695025290');
 }
 
-#MegaMenu-Content-4 > .mega-menu-img {
+#MegaMenu-Content-4 > ul > img.mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ABOUT.jpg?v=1695025290');
 }
 
-#MegaMenu-Content-5 > .mega-menu-img {
+#MegaMenu-Content-5 > ul > img.mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collections.jpg?v=1695025290');
 }
 
