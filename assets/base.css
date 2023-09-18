@@ -5727,10 +5727,10 @@ content: '\f08a';
 #MegaMenu-Content-3 > ul > li:nth-child(4):hover + .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS__accessories.jpg?v=1695025290');
 }
-
+/* 
 #MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-5:hover + .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_gifts.jpg?v=1695025290');
-}
+} */
 
 #MegaMenu-Content-4 > ul > img.mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ABOUT.jpg?v=1695025290');
