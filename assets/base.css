@@ -3669,6 +3669,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 #MegaMenu-Content-4 > ul {
   width: 510px!important;
+  height: 300px;
 }
 
 #MegaMenu-Content-4 > ul > li {
@@ -5738,6 +5739,9 @@ content: '\f08a';
 
 #MegaMenu-Content-4 > ul > img.mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/ABOUT.jpg?v=1695025290');
+  position: absolute;
+  top: 50px;
+  right: 30%;
 }
 
 #MegaMenu-Content-5 > ul > img.mega-menu-img {
