@@ -646,23 +646,22 @@
         </script>
 
     <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const menuItem = document.querySelector(".mega-menu-item.MegaMenu-Links-1");
-  const firstImage = document.querySelector(".mega-menu-img");
-  const secondImage = document.querySelector(".mega-menu-img_1");
-
-  menuItem.addEventListener("mouseenter", function () {
-    firstImage.style.display = "none";
-    secondImage.style.display = "block";
-  });
-
-  menuItem.addEventListener("mouseleave", function () {
-    firstImage.style.display = "block";
-    secondImage.style.display = "none";
-  });
-});
-
-
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuItem = document.querySelector("#MegaMenu-Content-3 .mega-menu-item.MegaMenu-Links-1");
+        const firstImage = document.querySelector(".mega-menu-img");
+        const secondImage = document.querySelector(".mega-menu-img_1");
+      
+        menuItem.addEventListener("mouseenter", function () {
+          firstImage.style.display = "none";
+          secondImage.style.display = "block";
+        });
+      
+        menuItem.addEventListener("mouseleave", function () {
+          firstImage.style.display = "block";
+          secondImage.style.display = "none";
+        });
+      });
+      
     </script>
 
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
