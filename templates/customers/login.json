@@ -3,7 +3,7 @@
     "main": {
       "type": "main-login",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Account_page_baef4e2a-308e-45f2-a9a3-886a17358a52.jpg",
+        "image": "shopify:\/\/shop_images\/Account_page.png",
         "padding_top": 36,
         "padding_bottom": 36
       }
