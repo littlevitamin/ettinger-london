@@ -62,36 +62,14 @@
 {%- endstyle -%}
 
 <div class="customer login section-{{ section.id }}-padding page-width">
-
-    {% assign image_url_165w = section.settings.image | image_url: width: 165 %}
-    {% assign image_url_360w = section.settings.image | image_url: width: 360 %}
-    {% assign image_url_533w = section.settings.image | image_url: width: 533 %}
-    {% assign image_url_720w = section.settings.image | image_url: width: 720 %}
-    {% assign image_url_940w = section.settings.image | image_url: width: 940 %}
-    {% assign image_url_1066w = section.settings.image | image_url: width: 1066 %}
-    
-    <img
-      srcset="
-        {{ image_url_165w }} 165w,
-        {{ image_url_360w }} 360w,
-        {{ image_url_533w }} 533w,
-        {{ image_url_720w }} 720w,
-        {{ image_url_940w }} 940w,
-        {{ image_url_1066w }} 1066w,
-        {{ section.settings.image | img_url }} 2000w
-      "
-      src="{{ section.settings.image | img_url: width: 533 }}"
-      alt="Alt Text"
-      class="login-image motion-reduce"
-      loading="lazy"
-      width="2000"
-      height="2000"
-    >
-      <div class="login-content">
-      <h1 id="recover" tabindex="-1">
-        {{ 'customer.recover_password.title' | t }}
-      </h1>
-      {{full_url}}
+  <div class="image-container">
+    <img class="login-image" src="{{ section.settings.image | img_url }}" width='100%' height='100%' loading="lazy"/> 
+  </div>
+  <div class="login-content">
+  <h1 id="recover" tabindex="-1">
+    {{ 'customer.recover_password.title' | t }}
+  </h1>
+  {{full_url}}
   <div>
     <p class="recover-paragraph">
       {% comment %}{{ 'customer.recover_password.subtext' | t }}{% endcomment %}
