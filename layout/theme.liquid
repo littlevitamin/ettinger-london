@@ -645,6 +645,25 @@
           });
         </script>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const menuItem = document.querySelector("#MegaMenu-Content-3 > ul > li.MegaMenu-Links-1");
+  const firstImage = document.querySelector(".mega-menu-img");
+  const secondImage = document.querySelector(".mega-menu-img_1");
+
+  menuItem.addEventListener("mouseover", function () {
+    firstImage.style.display = "none";
+    secondImage.style.display = "block";
+  });
+
+  menuItem.addEventListener("mouseout", function () {
+    firstImage.style.display = "block";
+    secondImage.style.display = "none";
+  });
+});
+
+    </script>
+
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
         <script defer="defer">
           const header = document.querySelector('.header');
