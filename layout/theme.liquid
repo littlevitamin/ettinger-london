@@ -594,6 +594,27 @@
           });
         </script>
 
+    <script defer="defer">
+  const topLevelLink = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+  const megaMenuImage = document.querySelector(".mega-menu-img");
+
+  const defaultImageUrl = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
+  const newImageUrl = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS__wallets.jpg?v=1695025290";
+
+  function changeImageSource(imageUrl) {
+    megaMenuImage.src = imageUrl;
+  }
+
+  topLevelLink.addEventListener("mouseover", function () {
+    changeImageSource(newImageUrl);
+  });
+
+  topLevelLink.addEventListener("mouseout", function () {
+    changeImageSource(defaultImageUrl);
+  });
+</script>
+
+
         {% comment %}Mega menu hover effects{% endcomment %}
         <script defer="defer">
           const topLevelLink = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)");
