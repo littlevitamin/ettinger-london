@@ -600,7 +600,6 @@
           const topLevelLink_1 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)");
           const topLevelLink_2 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)");
           const topLevelLink_3 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(4)");
-          const topLevelLink_6 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(4)");
           const megaMenuImage = document.querySelector(".mega-menu-img");
 
           // Define the image URLs
@@ -609,7 +608,6 @@
           const newImageUrl_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534";
           const newImageUrl_2 = "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg";
           const newImageUrl_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972";
-          const newImageUrl_6 = "https://ettinger-1.myshopify.com/cdn/shop/collections/Mens_Banner_e76293ab-2dbe-4950-b701-4204b7eeafb7.jpg";
 
           function changeImageSource(imageUrl) {
             megaMenuImage.src = imageUrl;
@@ -646,12 +644,55 @@
           topLevelLink_3.addEventListener("mouseout", function () {
             changeImageSource(defaultImageUrl);
           });
+        </script>
+    
+        <script defer="defer">
+          const topLevelLink = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+          const topLevelLink_1 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(2)");
+          const topLevelLink_2 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(3)");
+          const topLevelLink_3 = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(4)");
+          const megaMenuImage = document.querySelector(".mega-menu-img");
 
-          topLevelLink_6.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_6);
+          // Define the image URLs
+          const defaultImageUrl = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
+          const newImageUrl = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113";
+          const newImageUrl_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534";
+          const newImageUrl_2 = "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg";
+          const newImageUrl_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972";
+
+          function changeImageSource(imageUrl) {
+            megaMenuImage.src = imageUrl;
+          }
+
+          topLevelLink.addEventListener("mouseover", function () {
+            changeImageSource(newImageUrl);
           });
 
-          topLevelLink_6.addEventListener("mouseout", function () {
+          topLevelLink.addEventListener("mouseout", function () {
+            changeImageSource(defaultImageUrl);
+          });
+
+          topLevelLink_1.addEventListener("mouseover", function () {
+            changeImageSource(newImageUrl_1);
+          });
+
+          topLevelLink_1.addEventListener("mouseout", function () {
+            changeImageSource(defaultImageUrl);
+          });
+
+          topLevelLink_2.addEventListener("mouseover", function () {
+            changeImageSource(newImageUrl_2);
+          });
+
+          topLevelLink_2.addEventListener("mouseout", function () {
+            changeImageSource(defaultImageUrl);
+          });
+
+          topLevelLink_3.addEventListener("mouseover", function () {
+            changeImageSource(newImageUrl_3);
+          });
+
+          topLevelLink_3.addEventListener("mouseout", function () {
             changeImageSource(defaultImageUrl);
           });
         </script>
