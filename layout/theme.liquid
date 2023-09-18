@@ -654,46 +654,46 @@
           const secondMegaMenuImage = document.querySelector(".mega-menu-img");
 
           // Define the image URLs
-          const defaultImageUrl = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
-          const newImageUrl = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113";
-          const newImageUrl_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534";
-          const newImageUrl_2 = "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg";
-          const newImageUrl_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972";
+          const defaultImage = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
+          const newImage = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113";
+          const newImage_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Travel_Bags_Home_Page_Banner.jpg?v=1688741534";
+          const newImage_2 = "https://ettinger-1.myshopify.com/cdn/shop/collections/Accessories_Men_Banner.jpg";
+          const newImage_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/div.image_8.svg?v=1693478972";
 
           function changeImageSource(imageUrl) {
             megaMenuImage.src = imageUrl;
           }
 
-          topLevelLink.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl);
+          secondLevelLink.addEventListener("mouseover", function () {
+            changeImageSource(newImage);
           });
 
-          topLevelLink.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
+          secondLevelLink.addEventListener("mouseout", function () {
+            changeImageSource(defaultImage);
           });
 
-          topLevelLink_1.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_1);
+          secondLevelLink_1.addEventListener("mouseover", function () {
+            changeImageSource(newImage_1);
           });
 
-          topLevelLink_1.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
+          secondLevelLink_1.addEventListener("mouseout", function () {
+            changeImageSource(defaultImage);
           });
 
-          topLevelLink_2.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_2);
+          secondLevelLink_2.addEventListener("mouseover", function () {
+            changeImageSource(newImage_2);
           });
 
-          topLevelLink_2.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
+          secondLevelLink_2.addEventListener("mouseout", function () {
+            changeImageSource(defaultImage);
           });
 
-          topLevelLink_3.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_3);
+          secondLevelLink_3.addEventListener("mouseover", function () {
+            changeImageSource(newImage_3);
           });
 
-          topLevelLink_3.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
+          secondLevelLink_3.addEventListener("mouseout", function () {
+            changeImageSource(defaultImage);
           });
         </script>
 
