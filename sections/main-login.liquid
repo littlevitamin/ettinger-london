@@ -62,7 +62,7 @@
 {%- endstyle -%}
 
 <div class="customer login section-{{ section.id }}-padding page-width">
-  <div class="image-container">
+
     {% assign image_url_165w = section.settings.image | image_url: width: 165 %}
     {% assign image_url_360w = section.settings.image | image_url: width: 360 %}
     {% assign image_url_533w = section.settings.image | image_url: width: 533 %}
@@ -87,8 +87,6 @@
       width="2000"
       height="2000"
     >
-    
-      </div>
       <div class="login-content">
       <h1 id="recover" tabindex="-1">
         {{ 'customer.recover_password.title' | t }}
