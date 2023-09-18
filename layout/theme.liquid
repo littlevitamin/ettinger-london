@@ -648,18 +648,18 @@
 
 <script>
   $(document).ready(function() {
-    const topLevelLink = $("#MegaMenu-Content-3 > ul > li:nth-child(1)");
-    const megaMenuImage = $(".mega-menu-img");
-    const megaMenuImage1 = $(".mega-menu-img_1");
+    const topLevelLinks = $("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+    const megaMenuImages = $(".mega-menu-img");
+    const megaMenuImages1 = $(".mega-menu-img_1");
 
-    topLevelLink.hover(
+    topLevelLinks.hover(
       function () {
-        megaMenuImage.addClass("hide");
-        megaMenuImage1.addClass("show");
+        megaMenuImages.addClass("hide");
+        megaMenuImages1.addClass("show");
       },
       function () {
-        megaMenuImage.removeClass("hide");
-        megaMenuImage1.removeClass("show");
+        megaMenuImages.removeClass("hide");
+        megaMenuImages1.removeClass("show");
       }
     );
   });
