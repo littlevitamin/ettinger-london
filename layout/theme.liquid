@@ -656,18 +656,18 @@
         </script>
 
     <script defer="defer">
-  const topLevelLink = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
-  const megaMenuImage = document.querySelector(".mega-menu-img");
-  const megaMenuImage1 = document.querySelector(".mega-menu-img_1");
+  const topLevelLinks = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+  const megaMenuImages = document.querySelector(".mega-menu-img");
+  const megaMenuImages1 = document.querySelector(".mega-menu-img_1");
 
-  topLevelLink.addEventListener("mouseover", function () {
-    megaMenuImage.style.display = "none";
-    megaMenuImage1.style.display = "block";
+  topLevelLinks.addEventListener("mouseover", function () {
+    megaMenuImages.classList.add = ('hide');
+    megaMenuImages1.classList.add = ('show');
   });
 
-  topLevelLink.addEventListener("mouseout", function () {
-    megaMenuImage.style.display = "block";
-    megaMenuImage1.style.display = "none";
+  topLevelLinks.addEventListener("mouseout", function () {
+    megaMenuImages1.classList.add = ('hide');
+    megaMenuImages.classList.add = ('show');
   });
 </script>
 
