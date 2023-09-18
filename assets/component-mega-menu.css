@@ -69,7 +69,7 @@
   justify-content: center;
   flex-direction: row;
   column-gap: 0;
-  width: 90%!important;
+  width: 100%!important;
 }
 
 .header--top-center .mega-menu__list > li {
