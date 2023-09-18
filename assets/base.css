@@ -5724,3 +5724,7 @@ content: '\f08a';
 #MegaMenu-Content-3 > ul > li.MegaMenu-Links-1:hover + .mega-menu-img {
   display: none;
 }
+
+#MegaMenu-Content-3 > ul > li.MegaMenu-Links-1:hover + .mega-menu-img_1 {
+  display: block;
+}
