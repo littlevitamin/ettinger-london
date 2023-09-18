@@ -5721,6 +5721,6 @@ content: '\f08a';
   display: none;
 }
 
-#MegaMenu-Content-3 > ul > li:nth-child(1):hover > .mega-menu-img_1 {
+#MegaMenu-Content-3 > ul > li:nth-child(1):hover + .mega-menu-img_1 {
   display: block;
 }
