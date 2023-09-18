@@ -652,16 +652,15 @@
     const megaMenuImage = $(".mega-menu-img");
     const megaMenuImage1 = $(".mega-menu-img_1");
 
-    topLevelLink.hover(
-      function () {
-        megaMenuImage.hide();
-        megaMenuImage1.show();
-      },
-      function () {
-        megaMenuImage.show();
-        megaMenuImage1.hide();
-      }
-    );
+    topLevelLink.mouseenter(function() {
+      megaMenuImage.hide();
+      megaMenuImage1.show();
+    });
+
+    topLevelLink.mouseleave(function() {
+      megaMenuImage.show();
+      megaMenuImage1.hide();
+    });
   });
 </script>
 
