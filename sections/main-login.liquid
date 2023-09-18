@@ -69,6 +69,7 @@
     {% assign image_url_720w = section.settings.image | image_url: width: 720 %}
     {% assign image_url_940w = section.settings.image | image_url: width: 940 %}
     {% assign image_url_1066w = section.settings.image | image_url: width: 1066 %}
+    {% assign image_url_13666w = section.settings.image | image_url: width: 1366 %}
     <img 
       srcset="
         {{ image_url_165w }} 165w,
@@ -77,6 +78,7 @@
         {{ image_url_720w }} 720w,
         {{ image_url_940w }} 940w,
         {{ image_url_1066w }} 1066w,
+        {{ image_url_1366w }} 1366w,
         {{ section.settings.image | img_url }} 2000w
       "
       class="login-image" 
