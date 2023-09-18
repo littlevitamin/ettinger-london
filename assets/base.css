@@ -5712,23 +5712,11 @@ content: '\f08a';
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMEN.jpg?v=1695025290');
 }
 
-.MegaMenu-Links-5:hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS__wallets.jpg?v=1695025290');
+#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-5:hover + .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_gifts.jpg?v=1695025290');
 }
 
-#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-6:hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_purses.jpg?v=1695025290')!important;
-}
-
-#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-7:hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_bags.jpg?v=1695025290')!important;
-}
-
-#MegaMenu-Content-3 > ul > li:nth-child(4):hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS__accessories.jpg?v=1695025290');
-}
-
-#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-9:hover + .mega-menu-img {
+#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-4:hover + .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_gifts.jpg?v=1695025290');
 }
 
@@ -5737,6 +5725,10 @@ content: '\f08a';
 }
 
 #MegaMenu-Content-5 > ul > img.mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS.jpg?v=1695037906');
+}
+
+#MegaMenu-Content-5 > ul > li.mega-menu-item.MegaMenu-Links-1:hover + .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collections.jpg?v=1695025290');
 }
 
