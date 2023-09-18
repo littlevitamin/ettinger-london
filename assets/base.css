@@ -4926,11 +4926,11 @@ cart-remove-button > a {
 }
 
 .hide {
-  display: none;
+  display: none!important;
 }
 
 .show {
-  display: block;
+  display: block!important;
 }
 
 .homepage-banner-text .banner__text {
