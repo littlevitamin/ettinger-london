@@ -153,13 +153,15 @@
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "elegant-purses"
+            "collection": "elegant-purses",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_elegant_purses.jpg"
           }
         },
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "metropolitan"
+            "collection": "metropolitan",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_metropolitan.jpg"
           }
         },
         "3b16e97f-17bf-41e3-98b4-a14a6df71395": {
