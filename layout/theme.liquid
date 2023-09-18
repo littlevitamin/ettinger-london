@@ -654,6 +654,23 @@
             changeImageSource(defaultImageUrl);
           });
         </script>
+
+    <script defer="defer">
+  const topLevelLink = document.querySelector("#MegaMenu-Content-3 > ul > li:nth-child(1)");
+  const megaMenuImage = document.querySelector(".mega-menu-img");
+  const megaMenuImage1 = document.querySelector(".mega-menu-img_1");
+
+  topLevelLink.addEventListener("mouseover", function () {
+    megaMenuImage.style.display = "none";
+    megaMenuImage1.style.display = "block";
+  });
+
+  topLevelLink.addEventListener("mouseout", function () {
+    megaMenuImage.style.display = "block";
+    megaMenuImage1.style.display = "none";
+  });
+</script>
+
     
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
         <script defer="defer">
