@@ -5751,3 +5751,22 @@ content: '\f08a';
 #MegaMenu-Content-5 > ul > li.mega-menu-item.MegaMenu-Links-2:hover + .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collaboration.jpg?v=1695025290');
 }
+
+.mega-menu__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%; /* Adjust the maximum width as needed */
+}
+
+.mega-menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 50%; /* Takes up to 50% of the container width */
+}
+
+.mega-menu-img {
+  max-width: 320px; /* Takes up to 320px width */
+  height: auto;
+}
