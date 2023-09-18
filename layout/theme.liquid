@@ -651,12 +651,12 @@
         const firstImage = document.querySelector(".mega-menu-img");
         const secondImage = document.querySelector(".mega-menu-img_1");
       
-        menuItem.addEventListener("mouseenter", function () {
+        menuItem.addEventListener("mouseover", function () {
           firstImage.style.display = "none";
           secondImage.style.display = "block";
         });
       
-        menuItem.addEventListener("mouseleave", function () {
+        menuItem.addEventListener("mouseout", function () {
           firstImage.style.display = "block";
           secondImage.style.display = "none";
         });
