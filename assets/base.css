@@ -5722,9 +5722,9 @@ content: '\f08a';
 }
 
 .MegaMenu-Links-1:hover .mega-menu-img {
-  display: none;
+  display: none!important;
 }
 
 .MegaMenu-Links-1:hover .mega-menu-img_1 {
-  display: block;
+  display: block!important;
 }
