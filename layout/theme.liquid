@@ -559,7 +559,7 @@
           }
       </script>
 
-       <script defer="defer">
+       <!-- <script defer="defer">
           var elements = document.getElementsByClassName("metafield-multi_line_text_field");
 
           for (var i = 0; i < elements.length; i++) {
@@ -569,7 +569,40 @@
             var convertedContent = contentWithoutLeadingBreaks.replace(/&lt;br&gt;/g, "<br>");
             element.innerHTML = convertedContent;
           }
-        </script>
+        </script> -->
+
+  <script defer="defer">
+  var elements = document.getElementsByClassName("metafield-multi_line_text_field");
+
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var decodedContent = element.innerHTML.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+    
+    var formattedContent = '';
+    var foundLetterOrNumber = false;
+
+    // Loop through each character in the content
+    for (var j = 0; j < decodedContent.length; j++) {
+      var char = decodedContent[j];
+      
+      if (/[a-zA-Z0-9]/.test(char)) {
+        foundLetterOrNumber = true;
+      }
+
+      if (foundLetterOrNumber) {
+        formattedContent += char;
+      } else if (char === '<' && decodedContent.substring(j, j + 4) === '<br>') {
+        formattedContent += '<br class="hide-br">';
+        j += 3; // Skip the next three characters since we've processed '<br>'
+      }
+    }
+
+    // Replace remaining <br> tags with newlines
+    formattedContent = formattedContent.replace(/<br>/g, "\n");
+    
+    element.innerHTML = formattedContent;
+  }
+</script>
 
 
         {% comment %}Toggle customer services menu on mobile{% endcomment %}
