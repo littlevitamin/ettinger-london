@@ -4737,14 +4737,14 @@ div.banner__media::after {
   overflow: hidden;
   transform: scaleY(0);
   transform-origin: top;
-  /* transition: max-height 1.5s ease-in-out, transform 1.5s ease-in-out; */
+  transition: max-height 1.5s ease-in-out, transform 1.5s ease-in-out;
 }
-/* 
+
 .product__accordion details[open] > .accordion__content {
   max-height: fit-content; 
   transform: scaleY(1);
   transition: max-height 1.5s ease-in-out, transform 1.5s ease-in-out;
-} */
+}
 
 .multirow-product .image-with-text__content {
   display: flex;
