@@ -776,6 +776,7 @@ li[data-address] > h2 {
 .customer .field input  {
   border-bottom: 1px solid #D9D9D9;
   border-radius: 0;
+  border: 0;
 }
 
 #customer_login > a:nth-child(5),
