@@ -1008,27 +1008,5 @@
 			})
 		});
     </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const urlHandleToCheck = "/the-ettinger-factory";
-        const sectionElements = document.querySelectorAll(`[data-section-id^="videoscrollsection"]`);
-
-        let sectionCount = 0;
-        sectionElements.forEach(function(element) {
-          if (element.getAttribute("data-section-id") === "videoscrollsection_2") {
-            sectionCount++;
-          }
-        });
-        if (sectionCount > 1) {
-          console.log("The section appears more than once.");
-          sectionElements[1].remove();
-        } else {
-          console.log("The section appears only once.");
-        }
-      });
-
-    </script>
-
 </body>
 </html>
