@@ -139,7 +139,7 @@
 <div class="multirow {% if request.path contains '/the-ettinger-factory' %}multirow-scrolling {% endif %} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
       <div class="blog-image-container empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalisation' %} show-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
-          <div class="videoscrollsection_2" style="width:180px; height:180px;" data-rootMargin="-50% 0px 0px 0px" data-aspectx="180" data-aspecty="180">
+          <div class="{% if request.path contains '/the-ettinger-factory' %}videoscrollsection_2{% elsif request.path contains '/about-us' %}videoscrollsection_3{% elsif request.path contains '/personalisation' %}videoscrollsection_4{% endif %}" style="width:180px; height:180px;" data-rootMargin="-50% 0px 0px 0px" data-aspectx="180" data-aspecty="180">
             <video 
                 style="height: 180px; width: 180px; margin-top: -15px;" 
                 autoplay 
