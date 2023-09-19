@@ -5771,3 +5771,8 @@ content: '\f08a';
 #ProductAccordion-b24c4c73-06cb-45e2-b7ed-bf287bea63d4-template--19283160105246__main > p {
   margin-top: -80px!important;
 }
+
+#shopify-section-template--19982028898590__576fdaac-98b4-49d7-9080-0454e97e59f1 .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item>* {
+  display: flex;
+  justify-content: end;
+}
