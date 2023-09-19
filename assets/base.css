@@ -5544,7 +5544,7 @@ content: '\f08a';
 }
 
 .swym-wishlist-transparent .icon-wishlist-white {
-  display: none;
+  display: none!important;
 }
 
 .swym-wishlist-white-background .icon-swym-white {
