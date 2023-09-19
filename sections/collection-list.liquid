@@ -94,6 +94,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="blog-image-container {% if request.path contains '/the-ettinger-factory' %}empty-divider{% endif %}">
     <span class="list-border"><div class="grey-divider">hello</div></span>
+        <div class="videoscrollsection" style="width:180px; height:180px;" data-rootMargin="-50% 0px 0px 0px" data-aspectx="180" data-aspecty="180">
           <video 
             style="height: 180px; width: 180px; margin-top: -15px;" 
             muted
@@ -103,6 +104,7 @@
           >
             <source src="{{ section.settings.video_url }}" />
           </video>
+        </div>
     <span class="list-border"><div class="grey-divider">hello</div></span>
   </div>
   <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">
