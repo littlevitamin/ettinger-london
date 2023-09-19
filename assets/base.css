@@ -5529,7 +5529,8 @@ content: '\f08a';
   color: #777777!important;
 }
 
-.swym-button.swym-add-to-wishlist-view-product:hover::after {
+.swym-button.swym-add-to-wishlist-view-product:hover::after,
+.icon-accordion-wishlist:hover {
   color: var(--gradient-base-accent-2)!important;
 }
 
