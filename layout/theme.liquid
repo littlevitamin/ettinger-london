@@ -560,20 +560,28 @@
       </script>
 
       {% comment %}Display product metafields{% endcomment %}  
-      <script defer="defer">
-        var elements = document.getElementsByClassName("metafield-multi_line_text_field");
-      
-        for (var i = 0; i < elements.length; i++) {
-          var element = elements[i];
-          var textContent = element.textContent || element.innerText; // Get the text content
-      
-          var formattedContent = textContent.replace(/^\s*[\r\n]+/, ''); // Remove leading line breaks
-          formattedContent = formattedContent.replace(/^[^a-zA-Z0-9]+/, ''); // Remove everything before the first letter or number
-          formattedContent = formattedContent.replace(/<br>/g, "\n"); // Replace remaining <br> tags with newlines
-      
-          element.innerHTML = formattedContent;
-        }
-      </script>
+<script defer="defer">
+  var elements = document.getElementsByClassName("metafield-multi_line_text_field");
+
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var textContent = element.textContent || element.innerText; // Get the text content
+
+    // Use a regular expression to match content until a letter or number is encountered
+    var match = textContent.match(/[a-zA-Z0-9]/);
+
+    if (match) {
+      var startIndex = match.index;
+      var formattedContent = textContent.substring(startIndex);
+
+      // Replace remaining <br> tags with newlines
+      formattedContent = formattedContent.replace(/<br>/g, "\n");
+
+      element.innerHTML = formattedContent;
+    }
+  }
+</script>
+
 
 
         {% comment %}Toggle customer services menu on mobile{% endcomment %}
