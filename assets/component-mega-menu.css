@@ -2,6 +2,10 @@
   position: static;
 }
 
+br {
+  display: none;
+}
+
 .mega-menu__content {
   background-color: white;
   border-left: 0;
