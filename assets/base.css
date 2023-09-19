@@ -4907,7 +4907,7 @@ div.banner__media::after {
 @media screen and (max-width: 749px) {
   #Banner-template--19283159777566__67b740cd-fb79-4fc8-95ba-3ff5337f155a > div:nth-child(2) > div.banner__content.banner__content--middle-left.banner-home-box > div {
     position: absolute;
-    top: -120px;
+    top: -100px;
   }
 }
 
