@@ -959,6 +959,18 @@
 			})
 		});
     </script>
+    
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+			const els = document.querySelectorAll('.videoscrollsection_1');
+			els.forEach(el => {
+				const scrollvideo = new ScrollPlay({
+					speed: 300,
+					container: el
+				})
+			})
+		});
+    </script>
 
 </body>
 </html>
