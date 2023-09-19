@@ -2,10 +2,6 @@
   position: static;
 }
 
-br {
- height: 0;
-}
-
 .mega-menu__content {
   background-color: white;
   border-left: 0;
