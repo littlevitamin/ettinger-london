@@ -975,6 +975,18 @@
     
     <script>
       window.addEventListener("DOMContentLoaded", () => {
+			const els = document.querySelectorAll('.videoscrollsection_2');
+			els.forEach(el => {
+				const scrollvideo = new ScrollPlay({
+					speed: 300,
+					container: el
+				})
+			})
+		});
+    </script>
+    
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
 			const els = document.querySelectorAll('.videoscrollsection_3');
 			els.forEach(el => {
 				const scrollvideo = new ScrollPlay({
@@ -996,16 +1008,26 @@
 			})
 		});
     </script>
+
     <script>
-      window.addEventListener("DOMContentLoaded", () => {
-			const els = document.querySelectorAll('.videoscrollsection_2');
-			els.forEach(el => {
-				const scrollvideo = new ScrollPlay({
-					speed: 300,
-					container: el
-				})
-			})
-		});
+      document.addEventListener("DOMContentLoaded", function() {
+        const urlHandleToCheck = "/the-ettinger-factory";
+        const sectionElements = document.querySelectorAll(`[data-section-id^="videoscrollsection"]`);
+
+        let sectionCount = 0;
+        sectionElements.forEach(function(element) {
+          if (element.getAttribute("data-section-id") === "videoscrollsection_2") {
+            sectionCount++;
+          }
+        });
+        if (sectionCount > 1) {
+          console.log("The section appears more than once.");
+          sectionElements[1].remove();
+        } else {
+          console.log("The section appears only once.");
+        }
+      });
+
     </script>
 
 </body>
