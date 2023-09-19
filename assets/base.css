@@ -5539,6 +5539,22 @@ content: '\f08a';
   display: inline;
 }
 
+.swym-wishlist-white-background .icon-wishlist-white {
+  display: block;
+}
+
+.swym-wishlist-transparent .icon-wishlist-white {
+  display: none;
+}
+
+.swym-wishlist-white-background .icon-swym-white {
+  display: none;
+}
+
+.swym-wishlist-transparent .icon-wishlist-white {
+  display: block;
+}
+
 .hovered i.icon-swym-wishlist {
   -webkit-text-stroke-width: unset!important;
   color: #121212;
