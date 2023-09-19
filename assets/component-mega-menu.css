@@ -3,7 +3,7 @@
 }
 
 br {
-  display: none;
+ height: 0;
 }
 
 .mega-menu__content {
