@@ -5767,3 +5767,7 @@ content: '\f08a';
 #MegaMenu-Content-5 > ul > li.mega-menu-item.MegaMenu-Links-2:hover + .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collaboration.jpg?v=1695025290');
 }
+
+    #ProductAccordion-b24c4c73-06cb-45e2-b7ed-bf287bea63d4-template--19283160105246__main > p {
+      margin-top: -140px!important;
+    }
