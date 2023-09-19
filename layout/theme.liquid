@@ -571,32 +571,6 @@
           }
         </script> -->
 
-<script>
-$(document).ready(function() {
-  $(".metafield-multi_line_text_field").each(function() {
-    var content = $(this).html();
-    var formattedContent = "";
-
-    var lines = content.split("<br>");
-    var foundLetterOrNumber = false;
-
-    for (var i = 0; i < lines.length; i++) {
-      var line = lines[i].trim();
-      
-      if (line.match(/[a-zA-Z0-9]/)) {
-        foundLetterOrNumber = true;
-      }
-
-      if (foundLetterOrNumber) {
-        formattedContent += (formattedContent === "" ? "" : "<br>") + line;
-      }
-    }
-
-    $(this).html(formattedContent.replace(/<br>/g, "\n"));
-  });
-});
-</script>
-
         {% comment %}Toggle customer services menu on mobile{% endcomment %}
         <script defer="defer">
           const menuTitle = document.querySelector('.customer-services-menu-drawer-flex');
