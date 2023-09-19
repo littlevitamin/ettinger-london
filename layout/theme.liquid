@@ -560,16 +560,18 @@
       </script>
 
         {% comment %}Display product metafields{% endcomment %}  
-        <script defer="defer">
-          var elements = document.getElementsByClassName("metafield-multi_line_text_field");
-        
-          for (var i = 0; i < elements.length; i++) {
-            var element = elements[i];
-            var content = element.innerHTML;
-            content = content.replace(/<br>/g, "\n").replace(/&lt;br&gt;/g, "\n");
-            element.innerHTML = content;
-          }
-        </script>
+ <script defer="defer">
+  var elements = document.getElementsByClassName("metafield-multi_line_text_field");
+
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var content = element.innerHTML;
+    content = content.replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+    content = content.replace(/<br>/g, "\n");
+    element.innerHTML = content;
+  }
+</script>
+
 
 
         {% comment %}Toggle customer services menu on mobile{% endcomment %}
