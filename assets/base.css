@@ -5532,6 +5532,7 @@ content: '\f08a';
 .swym-button.swym-add-to-wishlist-view-product:hover::after,
 .icon-accordion-wishlist-swym:hover {
   color: var(--gradient-base-accent-2)!important;
+  fill: var(--gradient-base-accent-2)!important;
 }
 
 .product__info-wrapper .variant-fieldset {
