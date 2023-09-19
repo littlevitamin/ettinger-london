@@ -559,7 +559,6 @@
           }
       </script>
 
-      {% if template contains 'product' %}
         {% comment %}Display product metafields{% endcomment %}  
         <script defer="defer">
           var elements = document.getElementsByClassName("metafield-multi_line_text_field");
@@ -572,7 +571,6 @@
             element.innerHTML = convertedContent;
           }
         </script>
-      {% endif %}
 
         {% comment %}Toggle customer services menu on mobile{% endcomment %}
         <script defer="defer">
