@@ -149,8 +149,8 @@ cart-items {
     margin-top: 2rem;
   }
 
-  .cart-drawer-footer .totals {
-    margin-bottom: 1rem;
+  .cart-drawer__footer .totals {
+    margin-bottom: 2rem;
   }
 
   .tax-note {
