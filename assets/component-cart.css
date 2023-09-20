@@ -134,8 +134,33 @@ cart-items {
 
   .cart__footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     border: 0;
+  }
+
+  .cl-po--discount {
+    margin-left: 0!important;
+  }
+
+  .cart-drawer-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #121212;
+    margin-top: 2rem;
+  }
+
+  .cart-drawer-footer .totals {
+    margin-bottom: 1rem;
+  }
+
+  .tax-note {
+    font-size: 8px;
+    text-transform: uppercase;
+  }
+
+  .cart-drawer-link {
+    text-decoration: none;
+    color: var(--gradient-base-accent-2);
   }
 
   .cart__footer-wrapper:last-child {
@@ -184,7 +209,7 @@ cart-items {
 }
 
 .tax-note {
-  margin: 2.2rem 0 1.6rem auto;
+  margin: 1.2rem 0 1.6rem auto;
   text-align: center;
   display: block;
 }
