@@ -495,7 +495,7 @@ noscript .localization-selector.link {
   color: #121212;
 }
 
-.footer-block__details-content .list-menu__item--active {
+.footer-block__details-content .list-menu__item--active:nth-child(1) {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: var(--gradient-base-accent-2)!important;
 }
