@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Will there be any customs fees applied to my order?",
             "icon": "none",
-            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for our shipping destination <a href=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\" title=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\">here<\/a>. <\/p>",
+            "row_content": "<p>Where we can, we strive to ship all international parcels Delivered Duty Paid (DDP), which means we will pay any customs import duty and taxes on your behalf. There are rare occasions and destinations where specific customs rules prevent the shipper from doing so. Please note that the recipient may be contacted by local authorities to help clear the goods. <\/p><p>If you are sending the parcel to a third party, for example as a gift, please note that they will be responsible for clearing the goods through customs. Please ensure they are made aware of this and that the delivery details, such as the telephone number, are theirs and not yours. For further information regarding customs feeds, duties and tax, and other enquiries for your shipping destination, please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a>. <\/p>",
             "page": ""
           }
         }
