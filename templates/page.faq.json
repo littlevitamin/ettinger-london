@@ -51,7 +51,7 @@
           "settings": {
             "heading": "What is the delivery time? ",
             "icon": "none",
-            "row_content": "<p>All our deliveries are made by our courier, DHL, using their express services. Some international destinations can benefit from next business day delivery (for non-personalised orders), provided that the order is cleared  before 12 noon (GMT) on a business day. A business day is considered any day between Monday and Friday, please note most deliveries may need two days or more. Delivery times are given as estimates from the time of pick-up, and we cannot be held responsible for any delays. Please see the estimated delivery time for your shipping destination here. <\/p>",
+            "row_content": "<p>All our deliveries are made by our courier, DHL, using their express services. Some international destinations can benefit from next business day delivery (for non-personalised orders), provided that the order is cleared  before 12 noon (GMT) on a business day. A business day is considered any day between Monday and Friday, please note most deliveries may need two days or more. Delivery times are given as estimates from the time of pick-up, and we cannot be held responsible for any delays. Please see the estimated delivery time for your shipping destination <a href=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\" title=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\">here<\/a>. <\/p>",
             "page": ""
           }
         },
@@ -60,16 +60,16 @@
           "settings": {
             "heading": "What are the delivery charges?",
             "icon": "none",
-            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for our shipping destination here. <\/p>",
+            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for our shipping destination <a href=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\" title=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\">here<\/a>. <\/p>",
             "page": ""
           }
         },
         "ae5a0669-228b-47a4-8a29-ddb9b22b60d4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Will there be anycustoms fees applied to my order?",
+            "heading": "Will there be any customs fees applied to my order?",
             "icon": "none",
-            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for  our shipping destination here. <\/p>",
+            "row_content": "<p>The delivery fee will appear at checkout once you have entered your delivery details. The delivery cost is for one dispatch, regardless of the size and number of items chosen, and varies depending on the shipping destination. Please see the delivery charge for our shipping destination <a href=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\" title=\"https:\/\/www.ettinger.co.uk\/pages\/delivery\">here<\/a>. <\/p>",
             "page": ""
           }
         }
@@ -103,7 +103,7 @@
           "settings": {
             "heading": "What is covered under our warranty?",
             "icon": "none",
-            "row_content": "<p>Our warranty covers<br\/>Ettinger items bought from authorised retailers that may present a manufacturing or materials defect under normal conditions of use, including stitching failures, assembly defects, material failures and metal fittings' defects. <\/p><p>Each case will be assessed individually and this warranty does not cover normal wear and tear. Depending on the items and the problem at hand, we will either repair or replace the item. Please see more information about our warranty policy here. <\/p>",
+            "row_content": "<p>Our warranty covers<br\/>Ettinger items bought from authorised retailers that may present a manufacturing or materials defect under normal conditions of use, including stitching failures, assembly defects, material failures and metal fittings' defects. <\/p><p>Each case will be assessed individually and this warranty does not cover normal wear and tear. Depending on the items and the problem at hand, we will either repair or replace the item. Please see more information about our warranty policy <a href=\"https:\/\/www.ettinger.co.uk\/pages\/warranty\" target=\"_blank\" title=\"https:\/\/www.ettinger.co.uk\/pages\/warranty\">here<\/a>. <\/p>",
             "page": ""
           }
         },
@@ -154,7 +154,7 @@
           "settings": {
             "heading": "How can I return or exchange my order?",
             "icon": "none",
-            "row_content": "<p>You can return any online order within fourteen (14) working days from receiving the goods for a full product refund or exchange.  The goods must be in a saleable condition, unused and in the original packaging. Any goods that have been used will not be accepted and will be returned to the customer. Before sending the  items back to us, please contact us and provide your order  number and reason for return.  You must wait for us to send you a confirmation of return, which will give you further instructions  to help you send the goods back to us. Should we receive returned goods without prior notice or beyond the fourteen-day time limit stated above, we reserve the right to refuse the goods. <\/p><p>Please note, personalised and bespoke orders cannot be cancelled, exchanged or refunded. Please see further information about our return policy here.  <\/p>",
+            "row_content": "<p>You can return any online order within fourteen (14) working days from receiving the goods for a full product refund or exchange.  The goods must be in a saleable condition, unused and in the original packaging. Any goods that have been used will not be accepted and will be returned to the customer. Before sending the  items back to us, please contact us and provide your order  number and reason for return.  You must wait for us to send you a confirmation of return, which will give you further instructions  to help you send the goods back to us. Should we receive returned goods without prior notice or beyond the fourteen-day time limit stated above, we reserve the right to refuse the goods. <\/p><p>Please note, personalised and bespoke orders cannot be cancelled, exchanged or refunded. Please see further information about our return policy <a href=\"https:\/\/www.ettinger.co.uk\/pages\/returns-exchanges\" target=\"_blank\" title=\"https:\/\/www.ettinger.co.uk\/pages\/returns-exchanges\">here<\/a>.  <\/p>",
             "page": ""
           }
         }
@@ -196,7 +196,7 @@
           "settings": {
             "heading": "What payment options can I use?",
             "icon": "none",
-            "row_content": "<p><span style=\"text-decoration:underline\"><strong>In partnership with Global-e, our trusted payment provider,<\/strong><\/span> Our chosen partner of hundreds of global brands and retailers worldwide, Global-e is the leading provider of innovative cross-border ecommerce solutions. With Global-e we are able to accept most payments methods, including Visa, MasterCard, American Express, Klarna, PayPal, ApplePay, Amazon Pay, Sofort, AliPay and many  others on <a href=\"http:\/\/www.ettinger.co.uk\">www.ettinger.co.uk<\/a>. We do not store nor have access to your full card number.<\/p><p>We have implemented secure transaction procedures for all online payments on our website with the help of our partners Global-e. A padlock symbol should appear in your browser window when you are in a secure environment. At checkout, please make sure you enter the correct billing address to match your payment card. If the billing address does not match the payment card, our fraud screening system may flag the payment as fraudulent and your order may be delayed or cancelled.<\/p><p> <\/p>",
+            "row_content": "<p><span style=\"text-decoration:underline\">In partnership with Global-e, our trusted payment provider<\/span><span style=\"text-decoration:underline\"><strong>,<\/strong><\/span> Our chosen partner of hundreds of global brands and retailers worldwide, Global-e is the leading provider of innovative cross-border ecommerce solutions. With Global-e we are able to accept most payments methods, including Visa, MasterCard, American Express, Klarna, PayPal, ApplePay, Amazon Pay, Sofort, AliPay and many  others on <a href=\"http:\/\/www.ettinger.co.uk\">www.ettinger.co.uk<\/a>. We do not store nor have access to your full card number.<\/p><p>We have implemented secure transaction procedures for all online payments on our website with the help of our partners Global-e. A padlock symbol should appear in your browser window when you are in a secure environment. At checkout, please make sure you enter the correct billing address to match your payment card. If the billing address does not match the payment card, our fraud screening system may flag the payment as fraudulent and your order may be delayed or cancelled.<\/p><p> <\/p>",
             "page": ""
           }
         }
