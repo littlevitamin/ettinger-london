@@ -517,6 +517,8 @@ noscript .localization-selector.link {
   .copyright__content a:hover {
     color: var(--gradient-base-accent-2);
     text-decoration: none!important;
+    font-size: 10px!important;
+    font-weight: 300!important;
   }
 }
 
