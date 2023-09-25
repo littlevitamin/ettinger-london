@@ -5781,3 +5781,11 @@ content: '\f08a';
   display: flex;
   justify-content: end;
 }
+
+.hovered .icon-swym-white {
+  display: none!important;
+}
+
+.hovered .icon-accordion-wishlist-swym {
+  display: block!important;
+}
