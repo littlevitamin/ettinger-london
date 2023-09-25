@@ -954,10 +954,10 @@
 
     {% comment %}Play video on scroll{% endcomment %}
     <script src="{{ 'videoScrollPlay.js' | asset_url }}" defer="defer"></script>
-    
+        
     <script>
       window.addEventListener("DOMContentLoaded", () => {
-			const els = document.querySelectorAll('.videoscrollsection');
+			const els = document.querySelectorAll('.videoscrollsection_1');
 			els.forEach(el => {
 				const scrollvideo = new ScrollPlay({
 					speed: 300,
@@ -966,10 +966,10 @@
 			})
 		});
     </script>
-    
+
     <script>
       window.addEventListener("DOMContentLoaded", () => {
-			const els = document.querySelectorAll('.videoscrollsection_1');
+			const els = document.querySelectorAll('.videoscrollsection');
 			els.forEach(el => {
 				const scrollvideo = new ScrollPlay({
 					speed: 300,
