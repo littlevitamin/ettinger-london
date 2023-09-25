@@ -5806,6 +5806,6 @@ content: '\f08a';
   display: none!important;
 }
 
-.mega-menu__link > ul > li > a:hover {
+.mega-menu-item > ul > li > a:hover {
   font-weight: 300!important;
 }
