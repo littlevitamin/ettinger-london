@@ -5789,3 +5789,19 @@ content: '\f08a';
 .hovered .icon-accordion-wishlist-swym {
   display: block!important;
 }
+
+.badge {
+  font-size: 10px;
+  min-width: 100%;
+  box-sizing: border-box;
+  border-radius: 2.6rem;
+  min-height: 30px;
+  float: right;
+  border: 0;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.grid__item:hover .badge {
+  display: none!important;
+}

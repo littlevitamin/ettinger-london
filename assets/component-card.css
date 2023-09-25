@@ -153,6 +153,7 @@
   align-self: flex-end;
   grid-row-start: 3;
   justify-self: flex-start;
+  width: 35%;
 }
 
 .card__badge.top {
