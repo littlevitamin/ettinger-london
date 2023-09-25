@@ -5805,3 +5805,7 @@ content: '\f08a';
 .grid__item:hover .badge {
   display: none!important;
 }
+
+.mega-menu__list .link:hover {
+  font-weight: 300!important;
+}
