@@ -276,6 +276,18 @@
 });
 </script>
 
+<script>
+      window.addEventListener("DOMContentLoaded", () => {
+			const els = document.querySelectorAll('.videoscrollsection');
+			els.forEach(el => {
+				const scrollvideo = new ScrollPlay({
+					speed: 300,
+					container: el
+				})
+			})
+		});
+    </script>
+
 {% schema %}
 {
   "name": "t:sections.collection-list.name",
