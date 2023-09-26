@@ -53,7 +53,6 @@
     },
     "cc9d72b2-dd14-4150-a8b6-bfd4fb93743d": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--19982020182302__cc9d72b2-dd14-4150-a8b6-bfd4fb93743d-heading-1": {
           "type": "heading",
@@ -83,6 +82,7 @@
         "template--19982020182302__cc9d72b2-dd14-4150-a8b6-bfd4fb93743d-text-1",
         "a6e2e058-0128-4975-942d-e8d15e3168b0"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Capra_group_1_1.png",
         "height": "adapt",
@@ -103,13 +103,13 @@
         "heading": "",
         "heading_size": "h1",
         "blog": "style",
-        "post_limit": 4,
+        "post_limit": 8,
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 0
       }
