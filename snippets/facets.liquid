@@ -736,7 +736,8 @@
                               type="button"
                               class="no-js-hidden button button--primary"
                               onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();
-                                       document.querySelector('#main-collection-filters>div>div.active-facets.active-facets-mobile.medium-hide.large-up-hide').style.display = 'flex';"
+                                       document.querySelector('#main-collection-filters>div>div.active-facets.active-facets-mobile.medium-hide.large-up-hide').style.display = 'flex';
+                                       window.location.reload();"
                             >
                               {{ 'products.facets.apply' | t }}
                             </button>
@@ -846,7 +847,8 @@
                             <button
                               type="button"
                               class="no-js-hidden button button--primary"
-                              onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();"
+                              onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();
+                                       window.location.reload();"
                             >
                               {{ 'products.facets.apply' | t }}
                             </button>
