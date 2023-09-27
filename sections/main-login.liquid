@@ -23,8 +23,8 @@
   #recover:target+div {
     text-align: left;
     margin: auto;
-    min-width: 350px;
-    margin-top: 5%;
+    min-width: 450px;
+    margin-left: 3%;
   }
 
   #recover {
@@ -50,9 +50,16 @@
 
     .login {
       max-width: 100%!important;
+      max-height: 80vh!important;
       padding: 0!important;
       display: block!important;
     }
+
+  @media screen and (min-height: 1000px) {
+    .login {
+      max-height: 700px!important;
+    }
+  }
 
     .login-content {
       padding-left: 5%;
