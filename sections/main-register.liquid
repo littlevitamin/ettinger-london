@@ -24,8 +24,12 @@
     }
   }
 
+  .names-flex {
+    display: flex;
+  }
+
   .first-name, .last-name {
-    width: 48%;
+    width: 100%;
   }
 
   .first-name label, .last-name label {
@@ -214,9 +218,7 @@
         {{ 'customer.register.first_name' | t }}
       </label>
     </div>
-    <div style="width: 49%;
-    margin: 0;
-    max-width: 49%;" class='grey-divider email-divider'>123</div>
+    <div class='grey-divider email-divider'>123</div>
     </div>
     <div class="last-name-flex">
     <div class="field last-name">
@@ -234,9 +236,7 @@
         {{ 'customer.register.last_name' | t }}
       </label>
     </div>
-    <div style="width: 49%;
-    margin: 0;
-    max-width: 49%;" class='grey-divider email-divider'>123</div>
+    <div class='grey-divider email-divider'>123</div>
     </div>
     </div>
     <div class="field">
