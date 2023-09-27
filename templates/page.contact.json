@@ -9,6 +9,40 @@
         "padding_bottom": 36
       }
     },
+    "98fcdde3-334a-4064-9532-adedd5fd0c06": {
+      "type": "multirow",
+      "blocks": {
+        "template--19283159318814__98fcdde3-334a-4064-9532-adedd5fd0c06-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collections_pursuits_de2fb7ae-c752-45a6-b418-b0521b5c6d94.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19283159318814__98fcdde3-334a-4064-9532-adedd5fd0c06-row-1"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "heading_size": "h0",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9456937c-73e1-4da5-9cfb-2e98306c6c66": {
       "type": "rich-text",
       "blocks": {
@@ -66,6 +100,7 @@
   },
   "order": [
     "main",
+    "98fcdde3-334a-4064-9532-adedd5fd0c06",
     "9456937c-73e1-4da5-9cfb-2e98306c6c66",
     "form"
   ]
