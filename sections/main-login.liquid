@@ -15,7 +15,7 @@
 
     @media screen and (min-width: 990px) {
       .image-container {
-        width: 45vw;
+        width: 50vw;
       }
     }
 
@@ -75,6 +75,11 @@
 
   .recover-content {
     margin-left: 0!important;
+  }
+
+  .login-account {
+    font-size: 12px;
+    font-family: 'Gotham Medium', sans-serif!important;
   }
 {%- endstyle -%}
 
@@ -236,7 +241,7 @@
       </button>
 
       <p class="login-question">DON’T HAVE AN ACCOUNT YET?</p>
-      <a href="{{ routes.account_register_url }}">
+      <a class="login-account" href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
         <span style="color: var(--gradient-base-accent-2);" class="icon-wrap">{% render 'icon-arrow' %}</span>
       </a>
