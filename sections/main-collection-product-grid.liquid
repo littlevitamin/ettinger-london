@@ -381,6 +381,7 @@
                 <button class="button load-more-btn" onclick="loadMoreProducts(); setTimeout(updateCountBy26, 1500);">VIEW MORE</button>
                 <span id="product-count">{{ paginate.page_size }} / <span id="total-products-count">{{ collection.all_products_count }}</span> RESULTS</span>
               </div>
+              {{ collection.products_count }}
             {% else %}
               {%- if paginate.pages > 1 -%}
                 {% render 'pagination', paginate: paginate, anchor: '' %}
