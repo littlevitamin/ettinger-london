@@ -97,7 +97,7 @@
     assign posts_displayed = section.settings.post_limit
   endif
 -%}
-<div class="blog {% if template contains 'about' or request.page_type == 'index' %}relative-blog{% endif %} {% if request.page_type == 'index' %}homepage-blog{% endif %} color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+<div class="blog {% if template contains 'about' or template contains 'factory' or request.page_type == 'index' %}relative-blog{% endif %} {% if request.page_type == 'index' %}homepage-blog{% endif %} color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="blog-image-container {% if template contains 'journal' or 'topics' %}empty-blog{% endif %}">
     <span class="blog-border"><div class="tan-divider">hello</div></span>
     {% comment %}{% if request.page_type =='index' %}
