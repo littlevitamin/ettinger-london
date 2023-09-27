@@ -899,15 +899,14 @@
 
               <div class="mobile-facets__footer">
                 <facet-remove class="mobile-facets__clear-wrapper">
-                  <a href="{{ results_url }}" class="mobile-facets__clear underlined-link" onclick="executeCodeOnClick();">
+                  <a href="{{ results_url }}" class="mobile-facets__clear underlined-link">
                     {{- 'products.facets.clear_all' | t -}}
                   </a>
                 </facet-remove>
                 <button
                   type="button"
                   class="no-js-hidden button button--primary"
-                  onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();
-                  executeCodeOnClick();"
+                  onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();"
                 >
                   {{ 'products.facets.apply' | t }}
                 </button>
