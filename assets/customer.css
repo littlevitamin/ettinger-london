@@ -768,7 +768,7 @@ li[data-address] > h2 {
 }
 
 .welcome-message {
-  font-size: 36px;
+  font-size: 24px;
   color: var(--gradient-base-accent-2);
   line-height: 43px;
   font-weight: 400;
