@@ -1216,5 +1216,18 @@
 			})
 		});
     </script>
+
+    <script defer="defer">
+      document.addEventListener("DOMContentLoaded", function () {
+        const sortForm = document.getElementById("sort-form");
+
+        if (sortForm) {
+          sortForm.addEventListener("submit", function () {
+            window.location.reload();
+          });
+        }
+      });
+    </script>
+
 </body>
 </html>
