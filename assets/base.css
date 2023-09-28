@@ -5130,7 +5130,13 @@ predictive-search .field {
   font-family: 'Gotham Medium', sans-serif!important;
 }
 
-.style-text > p > strong {
+.style-text > p > strong,
+.style-text > p > a,
+.style-text > p > a:hover,
+.accordion__content > p > a, 
+.accordion__content > p > a:hover,
+.main-page-content > h5 > span > a, 
+.main-page-content > h5 > span > a:hover {
   color: var(--gradient-base-accent-2);
   text-decoration: underline;
   text-underline-offset: 0.3rem;
