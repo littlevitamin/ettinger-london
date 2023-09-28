@@ -129,7 +129,7 @@
 
 .collapsible-content__heading {
   text-transform: uppercase;
-  font-family: 'Gotham Medium', sans-serif;
+  font-family: 'Gotham Light', sans-serif!important;
   font-weight: 300;
   font-size: 24px;
   line-height: 24px;
@@ -138,7 +138,7 @@
 
 .accordion__title {
   text-transform: uppercase;
-  font-family: 'Gotham Medium', sans-serif;
+  font-family: 'Gotham Light', sans-serif!important;
   font-weight: 300;
   font-size: 12px;
   line-height: 15px;
@@ -196,7 +196,7 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
-  font-family: 'Gotham Medium', sans-serif;
+  font-family: 'Gotham Light', sans-serif!important;
 }
 
 .accordion-menu {
