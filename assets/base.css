@@ -5811,3 +5811,7 @@ content: '\f08a';
 .mega-menu-item > ul > li > a:hover {
   font-weight: 300!important;
 }
+
+#Banner-template--21044204405022__67b740cd-fb79-4fc8-95ba-3ff5337f155a > div:nth-child(2) > div.banner__content.banner__content--middle-left.banner-home-box > div > div > span > p {
+  text-align: left!important;
+}
