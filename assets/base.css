@@ -5552,7 +5552,7 @@ content: '\f08a';
   display: block;
 }
 
-.swym-wishlist-transparent .icon-wishlist-white {
+.swym-wishlist-transparent .icon-swym-white {
   display: none!important;
 }
 
@@ -5562,6 +5562,7 @@ content: '\f08a';
 
 .swym-wishlist-transparent .icon-wishlist-white {
   display: block;
+  fill: white;
 }
 
 .hovered i.icon-swym-wishlist {
@@ -5788,6 +5789,7 @@ content: '\f08a';
 
 .hovered .icon-accordion-wishlist-swym {
   display: block!important;
+  fill: #121212;
 }
 
 .badge {
