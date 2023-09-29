@@ -912,7 +912,8 @@
                 <button
                   type="button"
                   class="no-js-hidden button button--primary"
-                  onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();"
+                  onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click();
+                           window.location.reload();"
                 >
                   {{ 'products.facets.apply' | t }}
                 </button>
