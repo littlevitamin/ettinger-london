@@ -1229,5 +1229,60 @@
       });
     </script>
 
+    <script>
+        function smoothScroll(target, duration) {
+            var target = document.querySelector(target);
+            var targetPosition = target.getBoundingClientRect().top;
+            var startPosition = window.pageYOffset;
+            var distance = targetPosition - startPosition;
+            var startTime = null;
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                var timeElapsed = currentTime - startTime;
+                var run = ease(timeElapsed, startPosition, distance, duration);
+                window.scrollTo(0, run);
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            }
+
+            function ease(t, b, c, d) {
+              t /= d;
+              return c * t * t + b;
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        var home = document.querySelector('#home');
+        var about = document.querySelector('#content-1');
+        var services = document.querySelector('#content-2');
+        var contact = document.querySelector('#content-3');
+
+        var homeLink = document.querySelector('a[href="#shopify-section-template--20089871302942__8191eb44-9706-4a10-b73e-fef8c9cf32d1"]');
+        var aboutLink = document.querySelector('a[href="#content-1"]');
+        var servicesLink = document.querySelector('a[href="#content-2"]');
+        var contactLink = document.querySelector('a[href="#content-3"]');
+
+        homeLink.addEventListener('click', function() {
+            e.preventDefault();
+            smoothScroll('#shopify-section-template--20089871302942__8191eb44-9706-4a10-b73e-fef8c9cf32d1', 1000);
+        });
+
+        aboutLink.addEventListener('click', function() {
+            e.preventDefault();
+            smoothScroll('#content-1', 1000);
+        });
+
+        servicesLink.addEventListener('click', function() {
+            e.preventDefault();
+            smoothScroll('#content-2', 1000);
+        });
+
+        contactLink.addEventListener('click', function() {
+            e.preventDefault();
+            smoothScroll('#content-3', 1000);
+        });
+    </script>
+
 </body>
 </html>

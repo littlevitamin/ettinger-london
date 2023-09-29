@@ -22,6 +22,10 @@
   line-height: 43px!important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
