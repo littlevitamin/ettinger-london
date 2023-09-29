@@ -5107,7 +5107,7 @@ predictive-search .field {
 
 }
 
-.mobile-facets__submenu > ul > li:nth-child(2) > label {
+#FacetMobile-1-template--19763710165278__product-grid > ul > li:nth-child(2) {
   display: none;
 }
 
