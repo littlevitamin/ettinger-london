@@ -4902,7 +4902,8 @@ div.banner__media::after {
   margin-top: 0;
 }
 
-.multicolumn-card__info .rte > p > a {
+.multicolumn-card__info .rte > p > a,
+.page-width--narrow .rte a {
   color: var(--gradient-base-accent-2)!important;
   text-decoration: none;
   text-underline-offset: 0.3rem!important;
