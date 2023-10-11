@@ -5738,11 +5738,28 @@ content: '\f08a';
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMEN.jpg?v=1695025290');
 }
 
-#MegaMenu-Content-2 > ul > li.mega-menu-item.MegaMenu-Links-1:hover + .mega-menu-img {
-  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113')!important;
+#MegaMenu-Content-2 > ul > img.mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511');
 }
 
-#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-5:hover + .mega-menu-img {
+#MegaMenu-Content-2 > ul > li.mega-menu-item.MegaMenu-Links-1:hover ~ .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Coat_Wallets_Mens_1200x1000_7d8d92ae-0b96-43bf-8858-1eb13a60d226.jpg?v=1691159113');
+  width: 420px!important;
+}
+
+#MegaMenu-Content-2 > ul > li.mega-menu-item.MegaMenu-Links-2:hover ~ .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__bags_cases_6cf0769d-8e8c-4926-97a1-fca63ff07d93.jpg?v=1695037906');
+}
+
+#MegaMenu-Content-2 > ul > li.mega-menu-item.MegaMenu-Links-3:hover ~ .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__accessories.jpg?v=1695025290');
+}
+
+#MegaMenu-Content-2 > ul > li.mega-menu-item.MegaMenu-Links-4:hover ~ .mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS_gifts.jpg?v=1695025290');
+}
+
+#MegaMenu-Content-3 > ul > li.mega-menu-item.MegaMenu-Links-5:hover ~ .mega-menu-img {
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/WOMENS_gifts.jpg?v=1695025290');
 }
 

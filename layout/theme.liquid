@@ -581,58 +581,7 @@
             isRotated = !isRotated;
           });
         </script>
-
-        {% comment %}Mega menu hover effects{% endcomment %}
-        <script defer="defer">
-          const topLevelLink = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(1)");
-          const topLevelLink_1 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(2)");
-          const topLevelLink_2 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(3)");
-          const topLevelLink_3 = document.querySelector("#MegaMenu-Content-2 > ul > li:nth-child(4)");
-          const megaMenuImage = document.querySelector(".mega-menu-img");
-
-          const defaultImageUrl = "https://cdn.shopify.com/s/files/1/0580/5617/9892/files/Rectangle_49.png?v=1685454511";
-          const newImageUrl = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__wallets.jpg?v=1695117249";
-          const newImageUrl_1 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__bags_cases_6cf0769d-8e8c-4926-97a1-fca63ff07d93.jpg?v=1695037906";
-          const newImageUrl_2 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS__accessories.jpg?v=1695025290";
-          const newImageUrl_3 = "https://cdn.shopify.com/s/files/1/0743/9476/3550/files/MENS_gifts.jpg?v=1695025290";
-
-          function changeImageSource(imageUrl) {
-            megaMenuImage.src = imageUrl;
-          }
-
-          topLevelLink.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl);
-          });
-
-          topLevelLink.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
-          });
-
-          topLevelLink_1.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_1);
-          });
-
-          topLevelLink_1.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
-          });
-
-          topLevelLink_2.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_2);
-          });
-
-          topLevelLink_2.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
-          });
-
-          topLevelLink_3.addEventListener("mouseover", function () {
-            changeImageSource(newImageUrl_3);
-          });
-
-          topLevelLink_3.addEventListener("mouseout", function () {
-            changeImageSource(defaultImageUrl);
-          });
-        </script>
-
+        
         {% comment %}Adjusting the mobile header on click of the hamburger menu{% endcomment %}
         <script defer="defer">
           const header = document.querySelector('.header');
