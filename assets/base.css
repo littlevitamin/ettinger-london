@@ -5685,12 +5685,12 @@ content: '\f08a';
 }
 
 .swym-ui-component .swym-wishlist-detail-content {
-  margin-top: 10px;
+  margin-top: 10px!important;
 }
 
 .swym-ui-component .swym-wishlist-grid .swym-wishlist-image-wrapper {
-  height: -webkit-fill-available;
-  max-height: -webkit-fill-available;
+  height: -webkit-fill-available!important;
+  max-height: -webkit-fill-available!important;
 }
 
 .swym-user-login-status, .swym-user-text {
