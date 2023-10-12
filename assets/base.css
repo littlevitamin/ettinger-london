@@ -5676,8 +5676,10 @@ content: '\f08a';
   letter-spacing: 0.1rem!important;
 }
 
-.swym-close-btn {
-  top: 5px!important;
+@media screen and (max-width: 990px) {
+  .swym-close-btn {
+    top: 5px!important;
+  }
 }
 
 .swym-close-btn > span::before {
