@@ -5672,6 +5672,16 @@ content: '\f08a';
 
 .swym-wishlist-main-title {
   font-size: 24px!important;
+  line-height: 20px!important;
+  letter-spacing: 0.1rem!important;
+}
+
+.swym-close-btn {
+  top: 5px;
+}
+
+.swym-close-btn > span::before {
+  color: white!important;
 }
 
 .swym-user-login-status, .swym-user-text {
