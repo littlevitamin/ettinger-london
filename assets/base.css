@@ -5684,6 +5684,15 @@ content: '\f08a';
   color: white!important;
 }
 
+.swym-ui-component .swym-wishlist-detail-content {
+  margin-top: 10px;
+}
+
+.swym-ui-component .swym-wishlist-grid .swym-wishlist-image-wrapper {
+  height: -webkit-fill-available;
+  max-height: -webkit-fill-available;
+}
+
 .swym-user-login-status, .swym-user-text {
   text-transform: none!important;
   color: #F8F8F8!important;
