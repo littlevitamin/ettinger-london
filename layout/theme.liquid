@@ -453,8 +453,6 @@
   });
   </script> 
 
-      <!-- <script src="{{ 'product-color-swatch.js' | asset_url }}" defer="defer"></script> -->
-    {% if template contains 'product' %}
       <script defer="defer">
         function findFirstValidImage() {
           const allImages = document.querySelectorAll(".product__media-item img");
@@ -473,54 +471,34 @@
 
         const altTag = firstImage.getAttribute("alt");
 
-        const allImages = document.querySelectorAll(".product__media > img");
+        const allImages = document.querySelectorAll(".product__media-item img");
         allImages.forEach((image) => {
           const grandparent = image.parentElement.parentElement.parentElement.parentElement;
           grandparent.style.display = image.getAttribute("alt") === altTag ? "block" : "none";
         });
       }
-        function displayImages(input) {
-          var variantFieldset = document.querySelector('.variant-fieldset');
-          var inputs = variantFieldset.querySelectorAll('input[name="Colour"]');
-          var images = document.querySelectorAll('.product__media img');
 
-          images.forEach(function (image) {
-            var grandparent = image.parentElement.parentElement.parentElement.parentElement;
-            grandparent.style.display = 'none';
-          });
+      filterImagesByAltTag();
+      </script>
 
-          inputs.forEach(function (input) {
-            var inputValue = input.value;
-            var label = variantFieldset.querySelector('.active');
-            var labelText = label.textContent.trim();
-
-            if (input.checked) {
-              images.forEach(function (image) {
-                var altText = image.getAttribute('alt');
-                var grandparent = image.parentElement.parentElement;
-                if (altText === inputValue || altText === labelText) {
-                  grandparent.style.display = 'block';
-                }
-              });
-            }
+      <script defer="defer">
+        function compareLabelToImages(label) {
+          const input = document.querySelectorAll('input[name="Colour"]');
+          const labelText = input.value;
+          const allImages = document.querySelectorAll(".product__media-item img");
+          allImages.forEach((image) => {
+            const grandparent = image.parentElement.parentElement.parentElement.parentElement;
+            grandparent.style.display = image.getAttribute("alt") === labelText ? "block!important;" : "none!important;";
           });
         }
 
-        var inputs = document.querySelectorAll('.variant-fieldset input[name="Colour"]');
-        inputs.forEach(function (input) {
-          input.onclick = function () {
-            displayImages(input);
-          };
+        var labels = document.querySelectorAll('.variant-fieldset label');
+        labels.forEach(function (label) {
+          label.addEventListener('click', function () {
+            compareLabelToImages(label);
+          });
         });
-
-      filterImagesByAltTag();
-      const inputsContainer = document.querySelector(".variant-fieldset");
-      inputsContainer.onclick = function () {
-        inputsContainer.onclick = null;
-      };
       </script>
-
-      {% endif %}
 
       <script defer="defer">
         function checkAndHideElements() {
