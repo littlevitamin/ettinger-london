@@ -479,47 +479,7 @@
       }
 
       filterImagesByAltTag();
-      </script>
-
-      <script defer="defer">
-        function compareLabelToImages(label) {
-          const input = document.querySelectorAll('input[name="Colour"]');
-          const labelText = input.value;
-          const allImages = document.querySelectorAll(".product__media-item img");
-          allImages.forEach((image) => {
-            const grandparent = image.parentElement.parentElement.parentElement.parentElement;
-            grandparent.style.display = image.getAttribute("alt") === labelText ? "block!important;" : "none!important;";
-          });
-        }
-
-        var labels = document.querySelectorAll('.variant-fieldset label');
-        labels.forEach(function (label) {
-          label.addEventListener('click', function () {
-            compareLabelToImages(label);
-          });
-        });
-      </script>
-
-      <script defer="defer">
-        function checkAndHideElements() {
-        var elements = document.getElementsByClassName("product-media-container");
-      
-        for (var i = 0; i < elements.length; i++) {
-          var element = elements[i];
-          var parentElement = element.parentElement;
-      
-          var elementHeight = window.getComputedStyle(element).getPropertyValue("height");
-      
-          if (elementHeight === "0px") {
-            parentElement.style.display = "none";
-          } else if (elementHeight !== "0px") {
-            parentElement.style.display = "block";
-          }
-        }
-      }
-      
-      document.addEventListener("click", checkAndHideElements);
-      </script>
+      </script> 
 
       <script>
           const element = document.querySelector('#variant-radios-quickadd-template--19283160105246__main > div:nth-child(2) > fieldset');

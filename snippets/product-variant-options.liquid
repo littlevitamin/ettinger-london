@@ -59,7 +59,7 @@
         class="disabled"
       {% endif %}
     >
-    <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" onclick="handleLabelClick(this);">
+    <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" onclick="handleLabelClick(this); window.location.reload();">
       {{ value | escape -}}
       <span class="color-name-fieldset">{{ value | escape }}</span>
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
