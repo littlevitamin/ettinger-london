@@ -4985,7 +4985,8 @@ cart-remove-button > a {
 }
 
 .variant-fieldset label:hover::before,
-.variant-fieldset .active::before {
+.variant-fieldset .active::before,
+.variant-fieldset label[checked]::before {
   content: "";
   border-bottom: 2px solid #777777;
   margin-bottom: -3px;

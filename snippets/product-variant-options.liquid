@@ -59,10 +59,15 @@
         class="disabled"
       {% endif %}
     >
-    <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" onclick="window.location.reload(); handleLabelClick(this);">
-      {{ value | escape -}}
-      <span class="color-name-fieldset {% if option_disabled %}disabled{% endif %}">{{ value | escape }}</span>
-      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+    <label class="variant-options variant-label" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"      
+      {% if option.selected_value == value %}
+        checked
+      {% endif %} 
+      onclick="window.location.reload(); 
+      handleLabelClick(this);">
+        {{ value | escape -}}
+        <span class="color-name-fieldset {% if option_disabled %}disabled{% endif %}">{{ value | escape }}</span>
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
     <span class="color-name-span">{{ value | escape }}</span>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
