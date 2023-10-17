@@ -236,18 +236,18 @@
                                   {{ 'products.product.price.regular_price' | t }}
                                 </span>
                                 <s class="cart-item__old-price price price--end">
-                                  {{ item.original_line_price | money }}
+                                  {{ item.original_line_price | money_without_trailing_zeros }}
                                 </s>
                                 <span class="visually-hidden">
                                   {{ 'products.product.price.sale_price' | t }}
                                 </span>
                                 <span class="price price--end">
-                                  {{ item.final_line_price | money }}
+                                  {{ item.final_line_price | money_without_trailing_zeros }}
                                 </span>
                               </div>
                             {%- else -%}
                               <span class="price price--end">
-                                {{ item.original_line_price | money }}
+                                {{ item.original_line_price | money_without_trailing_zeros }}
                               </span>
                             {%- endif -%}
 
@@ -377,7 +377,12 @@
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
           <div class="totals" role="status">
             <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-            <p class="totals__subtotal-value">{{ cart.total_price }}</p>
+
+            {% capture remove_trailing_zeros %}
+              {{ cart.total_price | money_without_trailing_zeros | replace: '.00', '' }}
+            {% endcapture %}
+
+            <p class="totals__subtotal-value">{{ cart.total_price | remove_trailing_zeros }}</p>
           </div>
 
           <div>

@@ -185,19 +185,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              {{ item.original_line_price | money }}
+                              {{ item.original_line_price | money_without_trailing_zeros }}
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            {{ item.final_line_price | money }}
+                            {{ item.final_line_price | money_without_trailing_zeros }}
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          {{ item.original_line_price | money }}
+                          {{ item.original_line_price | money_without_trailing_zeros }}
                         </span>
                       {%- endif -%}
 
@@ -308,19 +308,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              {{ item.original_line_price | money }}
+                              {{ item.original_line_price | money_without_trailing_zeros }}
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            {{ item.final_line_price | money }}
+                            {{ item.final_line_price | money_without_trailing_zeros }}
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          {{ item.original_line_price | money }}
+                          {{ item.original_line_price | money_without_trailing_zeros }}
                         </span>
                       {%- endif -%}
 
