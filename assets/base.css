@@ -4828,7 +4828,8 @@ div.banner__media::after {
   color: #121212;
 }
 
-.variant-fieldset label:hover + .color-name-span {
+.variant-fieldset label:hover + .color-name-span,
+.variant-fieldset label.active + .color-name-span {
   display: inline;
   position: absolute;
   font-size: 10px;
@@ -5887,7 +5888,7 @@ content: '\f08a';
   display: block!important;
 }
 
-.product__info-container .price--on-sale .price__sale .price-item--last {
+.product__info-container .price--on-sale .price__sale .price-item--last,
+.color-name-fieldset.disabled {
   color: #777777!important;
 }
-
