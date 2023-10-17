@@ -5834,6 +5834,14 @@ content: '\f08a';
   fill: #121212;
 }
 
+.sticky-wishlist .icon-accordion-wishlist-swym {
+  fill: white;
+}
+
+.scrolled-past-header .icon-accordion-wishlist-swym {
+  fill: #121212;
+}
+
 .badge {
   font-size: 10px;
   min-width: 100%;
