@@ -5889,7 +5889,10 @@ content: '\f08a';
   display: block!important;
 }
 
-.product__info-container .price--on-sale .price__sale .price-item--last,
-.color-name-fieldset.disabled {
+.product__info-container .price--on-sale .price__sale .price-item--last {
   color: #777777!important;
+}
+
+.color-name-fieldset.disabled {
+  color: rgba(var(--color-foreground),.3);
 }
