@@ -2738,7 +2738,8 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.75);
@@ -2761,7 +2762,7 @@ details[open] > .header__submenu {
 .mega-menu__link--active {
   text-decoration: none!important;
 }
-
+/* 
 details[open] > .header__menu-item {
   text-decoration: underline;
   text-decoration-color: var(--gradient-base-accent-2)!important;
@@ -2769,7 +2770,7 @@ details[open] > .header__menu-item {
 
 details[open]:hover > .header__menu-item {
   text-decoration-thickness: 0.2rem;
-}
+} */
 
 details[open] > .header__menu-item .icon-caret {
   transform: rotate(180deg);
@@ -3661,8 +3662,7 @@ sticky-header > header > nav > ul > li > a > span {
   min-height: 400px!important;
 }
 
-.header__menu-item {
-  padding-top: 20px;
+.header__menu-item > span {
   padding-bottom: 20px;
 }
 
@@ -4479,12 +4479,13 @@ sticky-header > header > nav > ul > li > a > span {
   display: none!important;
 }
 
-.header__menu-item:hover {
-  border-bottom: 2px solid var(--gradient-base-accent-2);
+.list-menu--inline > li:hover {
   padding-left: 0;
   padding-right: 0;
-  margin-left: 12px;
-  margin-right: 12px;
+}
+
+.list-menu--inline > li:hover .header__menu-item > span {
+  border-bottom: 2px solid var(--gradient-base-accent-2);
 }
 
 /* Search results styling */
@@ -5225,16 +5226,6 @@ predictive-search .field {
   padding: 0!important;
 }
 
-.mega-menu:hover > .header__menu-item {
-  background-color: transparent !important;
-  text-decoration: none !important;
-  border-bottom: 2px solid var(--gradient-base-accent-2) !important;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
 @media screen and (min-width: 750px) {
   .banner__box {
     width: var(--page-width)!important;
@@ -5248,7 +5239,7 @@ predictive-search .field {
 
   .product-grid .card__heading {
     margin: 0!important;
-  }  
+  }
 }
 
 .product-grid .card__heading {
