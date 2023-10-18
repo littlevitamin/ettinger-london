@@ -5907,3 +5907,7 @@ content: '\f08a';
   position: relative;
   top: 3px;
 }
+
+.swym-ui-component .swym-share-btn {
+  border: 0!important;
+}
