@@ -5902,3 +5902,8 @@ content: '\f08a';
   color: white!important;
   font-weight: 300!important;
 }
+
+#marketing {
+  position: relative;
+  top: 3px;
+}
