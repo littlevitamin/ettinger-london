@@ -3664,6 +3664,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .header__menu-item > span {
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #FreeShippingBanner {
