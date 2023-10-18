@@ -3664,7 +3664,6 @@ sticky-header > header > nav > ul > li > a > span {
 
 .header__menu-item > span {
   padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 #FreeShippingBanner {
@@ -4455,6 +4454,7 @@ sticky-header > header > nav > ul > li > a > span {
 .header__menu-item > span {
   font-family: 'Gotham Book',sans-serif!important;
   font-weight: 500;
+  padding-top: 20px!important;
 }
 
 .banner__heading > span {
