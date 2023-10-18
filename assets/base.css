@@ -5881,7 +5881,8 @@ content: '\f08a';
   color: #121212!important;
 }
 
-.product__info-container .price--show-badge .price-item--regular {
+.product__info-container .price--show-badge .price-item--regular,
+.swym-wishlist-detail-separator {
   display: none!important;
 }
 
@@ -5895,4 +5896,16 @@ content: '\f08a';
 
 .color-name-fieldset.disabled {
   color: rgba(var(--color-foreground),.3);
+}
+
+@media only screen and (max-width: 900px) {
+  .swym-ui-component .swym-simple-wishlist-container .swym-wishlist-detail .swym-wishlist-detail-header .swym-action-container {
+      top: 0!important;
+      left: 70%!important;
+  }
+}
+
+.swym-color-4 {
+  color: white!important;
+  font-weight: 300!important;
 }
