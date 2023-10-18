@@ -5355,7 +5355,8 @@ predictive-search .field {
   width: calc(200% + 2rem);
 }
 
-.contact .field__label {
+.contact .field__label,
+.field label {
   font-size: 10px;
   line-height: 15px;
   letter-spacing: 0.04rem;
