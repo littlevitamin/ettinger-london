@@ -64,15 +64,15 @@
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "womens-card-cases",
-            "custom_image": "shopify:\/\/shop_images\/HP_elegant_purses_764f8b8b-5ed3-4c92-a50f-5805ec243a80.jpg"
+            "collection": "mens-gift-sets",
+            "custom_image": "shopify:\/\/shop_images\/Gift_box_Packaging_landscape.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
             "collection": "bags-cases",
-            "custom_image": "shopify:\/\/shop_images\/HP_womens.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Bag_hotbox.jpg"
           }
         }
       },
