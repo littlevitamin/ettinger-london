@@ -5394,12 +5394,16 @@ predictive-search .field {
   background-image: none!important;
 }
 
+#stockist-widget .stockist-list-result>div {
+  padding-left: 0!important;
+}
+
 .stockist-result-name {
   font-weight: 400!improtant;
 }
 
 .stockist-result-address,
-.stockist-result-details {
+.stockist-result-details >* {
   font-size: 12px!important;
 }
 
