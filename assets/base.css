@@ -4602,6 +4602,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .tan-divider {
   width: 95%;
+  max-width: var(--page-width);
   height: 2px;
   background-color: var(--gradient-base-accent-2);
   margin: 0 auto;
