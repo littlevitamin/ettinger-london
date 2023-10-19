@@ -5390,6 +5390,19 @@ predictive-search .field {
 
 /* Stockists page */
 
+.stockist-result {
+  background-image: none!important;
+}
+
+.stockist-result-name {
+  font-weight: 400!improtant;
+}
+
+.stockist-result-address,
+.stockist-result-details {
+  font-size: 12px!important;
+}
+
 .stockist-powered-by-link {
   display: none;
 }
