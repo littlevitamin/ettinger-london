@@ -5398,7 +5398,7 @@ predictive-search .field {
   padding-left: 0!important;
 }
 
-.stockist-result-name {
+#stockist-widget .stockist-result .stockist-result-name {
   font-weight: 400!improtant;
 }
 
