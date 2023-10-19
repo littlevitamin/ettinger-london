@@ -4521,8 +4521,10 @@ sticky-header > header > nav > ul > li > a > span {
   width: 100%!important;
 }
 
-.image-with-text .blog-image-container {
-  width: 100%!important;
+@media screen and (max-width: 1500px) {
+  .image-with-text .blog-image-container {
+    width: 99.2%!important;
+  }
 }
 
 .homepage-blog .blog-image-container,
