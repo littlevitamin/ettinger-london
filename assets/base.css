@@ -5938,3 +5938,8 @@ content: '\f08a';
 .swym-powered-by-text {
   display: none!important;
 }
+
+.swym-image {
+  width: 100px!important;
+  height: 100px!important;
+}
