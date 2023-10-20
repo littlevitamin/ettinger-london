@@ -5934,3 +5934,7 @@ content: '\f08a';
 .swym-ui-component .swym-share-btn {
   border: 0!important;
 }
+
+.swym-powered-by-text {
+  display: none!important;
+}
