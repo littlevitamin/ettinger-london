@@ -21,8 +21,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "DISCOVER NOW",
-            "button_link_1": "shopify:\/\/collections\/new-arrivals",
+            "button_label_1": "SHOP CHRISTMAS",
+            "button_link_1": "shopify:\/\/collections\/christmas-gifts",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
