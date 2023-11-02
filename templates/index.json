@@ -58,21 +58,21 @@
           "type": "collection",
           "settings": {
             "collection": "bestsellers",
-            "custom_image": "shopify:\/\/shop_images\/HP_bestsellers_de292a51-8ac8-48a5-a1a7-2f22626b1a4a.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Christmas_Gifts.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "mens-gift-sets",
-            "custom_image": "shopify:\/\/shop_images\/Gift_box_Packaging_landscape.jpg"
+            "collection": "christmas-gifts-for-her",
+            "custom_image": "shopify:\/\/shop_images\/Gifts_for_her.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "bags-cases",
-            "custom_image": "shopify:\/\/shop_images\/Bag_hotbox.jpg"
+            "collection": "christmas-gifts-for-him",
+            "custom_image": "shopify:\/\/shop_images\/HP_bestsellers_de292a51-8ac8-48a5-a1a7-2f22626b1a4a.jpg"
           }
         }
       },
