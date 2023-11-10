@@ -36,11 +36,11 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas.jpg",
+        "image": "shopify:\/\/shop_images\/Christmas2.jpg",
         "paragraph": "<h4>MAKE IT A TRADITION<\/h4><h1>GIFT AN ETTINGER<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -65,14 +65,14 @@
           "type": "collection",
           "settings": {
             "collection": "christmas-gifts-for-her",
-            "custom_image": "shopify:\/\/shop_images\/Gifts_for_her.jpg"
+            "custom_image": "shopify:\/\/shop_images\/gifts_for_her1.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
             "collection": "christmas-gifts-for-him",
-            "custom_image": "shopify:\/\/shop_images\/HP_bestsellers_de292a51-8ac8-48a5-a1a7-2f22626b1a4a.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Gifts_for_him.jpg"
           }
         }
       },
@@ -100,7 +100,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "christmas-gifts-for-him",
+        "collection": "christmas-gifts",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
