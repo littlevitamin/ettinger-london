@@ -4438,7 +4438,8 @@ sticky-header > header > nav > ul > li > a > span {
 #MegaMenu-Content-2 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
 #MegaMenu-Content-3 > ul > li:nth-child(n+1):nth-child(-n+5) > a,
 #MegaMenu-Content-4 > ul > li:nth-child(n+1) > a,
-#MegaMenu-Content-5 > ul > li:nth-child(n+1):nth-child(-n+4) > a {
+#MegaMenu-Content-5 > ul > li:nth-child(n+1):nth-child(-n+4) > a,
+#MegaMenu-Content-6 > ul > li:nth-child(n+1):nth-child(-n+2) > a, {
   color: #121212;
   font-size: 14px;
   line-height: 16px;
