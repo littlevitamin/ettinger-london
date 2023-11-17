@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
@@ -401,9 +401,11 @@
   {% comment %} Header menu on hover styling {% endcomment %}
   <script defer="defer">
   const cubes = [];
-  const existingIDs = [1, 2, 3, 4, 5]; // IDs of existing elements
+  const existingIDs = [1, 2, 3, 4, 5, 6]; // IDs of existing elements
   const newArrival = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(1) > a');
+  const christmas = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(6) > a');
   newArrival.setAttribute('id', 'Details-HeaderMenu-1');
+  christmas.setAttribute('id', 'Details-HeaderMenu-6');
 
   existingIDs.forEach(id => {
     const cube = document.querySelector(`#Details-HeaderMenu-${id}`);
@@ -1172,6 +1174,19 @@
             smoothScroll('#content-3', 1000);
         });
     </script>
+
+  {% comment %}Dynamically adjusting the styling of the sale badge{% endcomment %}
+  <script defer="defer">
+    document.addEventListener("DOMContentLoaded", function() {
+      var titleElement = document.querySelector('.product__title');
+      var badgeElement = document.querySelector('.price__badge-sale');
+      if (window.innerWidth < 485) {
+        var titleHeight = titleElement.offsetHeight;
+        var marginTopValue = -1 * (titleHeight + 100); // Adjust the constant as needed
+        badgeElement.style.marginTop = marginTopValue + 'px';
+      }
+    });
+  </script>
 
 </body>
 </html>

@@ -152,8 +152,37 @@
 .card__badge {
   align-self: flex-end;
   grid-row-start: 3;
-  justify-self: flex-start;
+  justify-self: flex-end;
   width: 35%;
+}
+
+@media screen and (max-width: 749px) {
+  .featured-collection-grid .card__badge {
+    justify-self: center;
+  }
+
+  #product-grid .card__badge {
+    align-self: center;
+  }
+
+  .featured-collection-grid .badge,
+  #product-grid .badge {
+    margin-left: 10px;
+    margin-bottom: -3px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 989px) {
+  #product-grid .card__badge {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .featured-collection-grid .card__badge,
+  #product-grid .card__badge {
+    width: 45%;
+  }
 }
 
 .card__badge.top {

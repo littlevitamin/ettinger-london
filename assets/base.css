@@ -5863,13 +5863,24 @@ content: '\f08a';
 .badge {
   font-size: 10px;
   min-width: 100%;
+  text-transform: uppercase;
   box-sizing: border-box;
   border-radius: 2.6rem;
   min-height: 30px;
-  float: right;
+  /* float: right; */
   border: 0;
-  padding: 10px;
+  padding: 10px 5px;
   margin-bottom: 2px;
+}
+
+.product__info-wrapper .badge {
+  float: right;
+}
+
+@media screen and (max-width: 749px) {
+  .card__badge .badge {
+    min-width: 180%;
+  }
 }
 
 .grid__item:hover .card__badge {
@@ -5880,6 +5891,20 @@ content: '\f08a';
   min-width: 100px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 749px) {
+  .price__badge-sale {
+    position: relative;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .price__badge-sale {
+    margin-top: 0!important;
+  }
+}
+
 
 .mega-menu-item > ul > li > a:hover {
   font-weight: 300!important;

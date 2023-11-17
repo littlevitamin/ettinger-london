@@ -385,3 +385,31 @@ cart-drawer-items::-webkit-scrollbar-thumb {
 cart-drawer-items::-webkit-scrollbar-track-piece {
   margin-top: 31px;
 }
+
+/* Animating subtotal price value to allow Shopify to calculate and change formatting */
+.drawer.active .totals__subtotal-value {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 2.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.loading-overlay-right {
+  right: 30px;
+  left: unset!important;
+  display: block!important;
+  opacity: 1;
+  animation: fadeOut 0.5s ease 2s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+
