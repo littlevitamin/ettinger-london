@@ -5981,3 +5981,11 @@ content: '\f08a';
 #MegaMenu-Content-6 {
   display: none!important;
 }
+
+#MegaMenu-Content-4 > ul > li > a {
+    color: #121212!important;
+    font-size: 14px!important;
+    line-height: 16px!important;
+    font-weight: 400!important;
+    text-transform: uppercase;
+}
