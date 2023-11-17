@@ -399,8 +399,9 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
 }
 
 .loading-overlay-right {
-  right: 30px;
+  right: 30px!important;
   left: unset!important;
+  top: unset!important;
   display: block!important;
   opacity: 1;
   animation: fadeOut 0.5s ease 2s forwards;
