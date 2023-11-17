@@ -37,7 +37,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Web_Banner.jpg",
-        "paragraph": "<h4>50% OFF<\/h4><h1>BLACK FRIDAY SALE<\/h1>",
+        "paragraph": "<h3>50% OFF<\/h3><h1>BLACK FRIDAY SALE<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
         "image_overlay_opacity": 0,
