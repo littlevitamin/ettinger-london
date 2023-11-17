@@ -21,8 +21,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP CHRISTMAS",
-            "button_link_1": "shopify:\/\/collections\/christmas-gifts",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/black-friday",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,13 +36,13 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas2.jpg",
-        "paragraph": "<h4>MAKE IT A TRADITION<\/h4><h1>GIFT AN ETTINGER<\/h1>",
+        "image": "shopify:\/\/shop_images\/Web_Banner.jpg",
+        "paragraph": "<h4>50% OFF<\/h4><h1>BLACK FRIDAY SALE<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
