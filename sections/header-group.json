@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "We deliver worldwide. Shop now in your local currency, using your local payment methods! Complimentary shipping on all UK orders over £200.",
             "text_alignment": "center",
