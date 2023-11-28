@@ -7,21 +7,11 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "We deliver worldwide. Shop now in your local currency, using your local payment methods! Complimentary shipping on all UK orders over £200.",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "shopify:\/\/pages\/delivery"
-          }
-        },
-        "6377274c-c3d2-4e18-b260-46d7124d19d8": {
-          "type": "announcement",
-          "settings": {
-            "text": "Our Black Friday Sale is now on. Shop 50% off & £10 personalisation for a limited time only",
-            "text_alignment": "center",
-            "color_scheme": "accent-2",
-            "link": "shopify:\/\/collections\/black-friday"
           }
         },
         "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00": {
@@ -37,7 +27,6 @@
       },
       "block_order": [
         "announcement-bar-0",
-        "6377274c-c3d2-4e18-b260-46d7124d19d8",
         "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00"
       ],
       "settings": {
