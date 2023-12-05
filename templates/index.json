@@ -37,6 +37,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/CHRISTMAS3.jpg",
+        "image_2": "shopify:\/\/shop_images\/Christmas2.jpg",
         "paragraph": "<h3>MAKE IT A TRADITION<\/h3><h1>CHRISTMAS GIFTING<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
