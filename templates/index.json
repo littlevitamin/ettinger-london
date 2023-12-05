@@ -36,7 +36,7 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas2.jpg",
+        "image": "shopify:\/\/shop_images\/CHRISTMAS3.jpg",
         "paragraph": "<h3>MAKE IT A TRADITION<\/h3><h1>GIFT AN ETTINGER<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
@@ -49,6 +49,47 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "f1325849-5435-4589-a9c8-02c3bdd74086": {
+      "type": "collage",
+      "blocks": {
+        "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalised-gifts",
+            "custom_image": "shopify:\/\/shop_images\/Gifts_for_him.jpg"
+          }
+        },
+        "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
+          "type": "collection",
+          "settings": {
+            "collection": "christmas-gifts-for-her",
+            "custom_image": "shopify:\/\/shop_images\/Christmas_1ea0efa1-ae08-4a99-9e80-be504ab0eb7a.jpg"
+          }
+        },
+        "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
+          "type": "collection",
+          "settings": {
+            "collection": "christmas-gifts-for-him",
+            "custom_image": "shopify:\/\/shop_images\/Giftsforhim2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2",
+        "42e96eb4-0f68-4971-a68b-04a58647ca5c",
+        "fb0f47d6-4430-4f72-a401-20c38a775ee8"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -75,47 +116,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "f1325849-5435-4589-a9c8-02c3bdd74086": {
-      "type": "collage",
-      "blocks": {
-        "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "personalised-gifts",
-            "custom_image": "shopify:\/\/shop_images\/Christmas_Gifts.jpg"
-          }
-        },
-        "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
-          "type": "collection",
-          "settings": {
-            "collection": "christmas-gifts-for-her",
-            "custom_image": "shopify:\/\/shop_images\/gifts_for_her1.jpg"
-          }
-        },
-        "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
-          "type": "collection",
-          "settings": {
-            "collection": "christmas-gifts-for-him",
-            "custom_image": "shopify:\/\/shop_images\/Gifts_fir_him.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2",
-        "42e96eb4-0f68-4971-a68b-04a58647ca5c",
-        "fb0f47d6-4430-4f72-a401-20c38a775ee8"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -261,8 +261,8 @@
   },
   "order": [
     "image_banner",
-    "featured_collection",
     "f1325849-5435-4589-a9c8-02c3bdd74086",
+    "featured_collection",
     "f7352756-f97c-452c-bd97-8043c9b05af2",
     "67b740cd-fb79-4fc8-95ba-3ff5337f155a",
     "4069cf3b-d352-43bb-82a6-811b35f856af"
