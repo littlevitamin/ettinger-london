@@ -18,16 +18,27 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "£10 personalisation for a limited time only",
+            "text": "Test 1",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "shopify:\/\/collections\/personalised-gifts"
+          }
+        },
+        "de65be83-fab5-496c-b970-491dccd2f052": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Test 2",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "link": "#"
           }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00"
+        "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00",
+        "de65be83-fab5-496c-b970-491dccd2f052"
       ],
       "settings": {
       }
