@@ -36,7 +36,7 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/CHRISTMAS3.jpg",
+        "image": "shopify:\/\/shop_images\/Christmas_Gifts_fe7b826e-e262-4ae2-a62b-6be28d675bfd.jpg",
         "paragraph": "<h3>CHRISTMAS IS COMING <\/h3><h1>TIMELESS GIFTS<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
@@ -49,6 +49,33 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "christmas-gifts",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "f1325849-5435-4589-a9c8-02c3bdd74086": {
@@ -89,33 +116,6 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "christmas-gifts",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
         "padding_bottom": 36
       }
     },
@@ -261,8 +261,8 @@
   },
   "order": [
     "image_banner",
-    "f1325849-5435-4589-a9c8-02c3bdd74086",
     "featured_collection",
+    "f1325849-5435-4589-a9c8-02c3bdd74086",
     "f7352756-f97c-452c-bd97-8043c9b05af2",
     "67b740cd-fb79-4fc8-95ba-3ff5337f155a",
     "4069cf3b-d352-43bb-82a6-811b35f856af"

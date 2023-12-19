@@ -7,7 +7,6 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "We deliver worldwide. Shop now in your local currency, using your local payment methods! Complimentary shipping on all UK orders over £200.",
             "text_alignment": "center",
@@ -24,21 +23,11 @@
             "color_scheme": "accent-2",
             "link": "shopify:\/\/collections\/personalised-gifts"
           }
-        },
-        "e90e50e8-162c-462f-85a1-5ce477da3a71": {
-          "type": "announcement",
-          "settings": {
-            "text": "Get your gifts in time for Christmas! Check our last order dates here",
-            "text_alignment": "center",
-            "color_scheme": "accent-2",
-            "link": "shopify:\/\/pages\/delivery"
-          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00",
-        "e90e50e8-162c-462f-85a1-5ce477da3a71"
+        "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00"
       ],
       "settings": {
       }
