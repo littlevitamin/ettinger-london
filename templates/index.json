@@ -14,7 +14,7 @@
         "e0b630b5-3792-459b-b5a5-d10b6641c09b": {
           "type": "text",
           "settings": {
-            "text": "Gift an Ettinger",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/christmas-gifts",
+            "button_link_1": "shopify:\/\/collections\/mens-wallets",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,8 +36,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas_Gifts_fe7b826e-e262-4ae2-a62b-6be28d675bfd.jpg",
-        "paragraph": "<h3>CHRISTMAS IS COMING <\/h3><h1>TIMELESS GIFTS<\/h1>",
+        "image": "shopify:\/\/shop_images\/Embossing_service_-_Shopify_Homepage_Banner.jpg",
+        "paragraph": "<h3>CLASSIC MEETS CONTEMPORARY<\/h3><h1>TIMELESS WALLETS<\/h1>",
         "enable_video": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
         "image_overlay_opacity": 0,
