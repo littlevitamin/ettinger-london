@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "We deliver worldwide. Shop now in your local currency, using your local payment methods! Complimentary shipping on all UK orders over £200.",
+            "text": "We are closed for Christmas but will return on 3rd January 2024. Find out more",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "shopify:\/\/pages\/delivery"
