@@ -59,7 +59,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "christmas-gifts",
+        "collection": "bestsellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -84,22 +84,22 @@
         "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
           "type": "collection",
           "settings": {
-            "collection": "personalised-gifts",
-            "custom_image": "shopify:\/\/shop_images\/Gifts_for_him.jpg"
+            "collection": "bags-cases",
+            "custom_image": "shopify:\/\/shop_images\/Business_bag_shoot_-_Shopify_Bestsellers_block.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "christmas-gifts-for-her",
-            "custom_image": "shopify:\/\/shop_images\/Christmas_1ea0efa1-ae08-4a99-9e80-be504ab0eb7a.jpg"
+            "collection": "elegant-purses",
+            "custom_image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_56_-_Shopify_Bestsellers_block.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "christmas-gifts-for-him",
-            "custom_image": "shopify:\/\/shop_images\/Giftsforhim2.jpg"
+            "collection": "womens-billfold-wallets",
+            "custom_image": "shopify:\/\/shop_images\/Embossing_service_-_Shopify_Bestsellers_block.jpg"
           }
         }
       },
