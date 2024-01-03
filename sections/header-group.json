@@ -8,10 +8,10 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "We are closed for Christmas but will return on 3rd January 2024. Find out more",
+            "text": "We ship worldwide! Free shipping on UK orders over £200",
             "text_alignment": "center",
             "color_scheme": "accent-2",
-            "link": "https:\/\/www.ettinger.co.uk\/pages\/contact"
+            "link": "shopify:\/\/pages\/delivery"
           }
         },
         "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00": {
