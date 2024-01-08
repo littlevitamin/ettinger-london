@@ -14,7 +14,7 @@
         "e0b630b5-3792-459b-b5a5-d10b6641c09b": {
           "type": "text",
           "settings": {
-            "text": "Gift an Ettinger",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/christmas-gifts",
+            "button_link_1": "shopify:\/\/collections\/january-blues-1",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,10 +36,10 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas_Gifts_fe7b826e-e262-4ae2-a62b-6be28d675bfd.jpg",
-        "paragraph": "<h3>CHRISTMAS IS COMING <\/h3><h1>TIMELESS GIFTS<\/h1>",
+        "image": "shopify:\/\/shop_images\/Blue_Monday_2023_-_Shopify_Homepage_Banner.jpg",
+        "paragraph": "<h3>EMBRACE THE<\/h3><h1>JANUARY BLUES<\/h1>",
         "enable_video": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6b68ebba7bf24a69ae6798fc6c2d4821.mp4",
+        "video_url": "shopify:\/\/collections\/january-blues-1",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -59,7 +59,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "christmas-gifts",
+        "collection": "january-blues-1",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -84,22 +84,22 @@
         "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
           "type": "collection",
           "settings": {
-            "collection": "personalised-gifts",
-            "custom_image": "shopify:\/\/shop_images\/Gifts_for_him.jpg"
+            "collection": "bags-cases",
+            "custom_image": "shopify:\/\/shop_images\/Business_bag_shoot_-_Shopify_Bestsellers_block.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "christmas-gifts-for-her",
-            "custom_image": "shopify:\/\/shop_images\/Christmas_1ea0efa1-ae08-4a99-9e80-be504ab0eb7a.jpg"
+            "collection": "elegant-purses",
+            "custom_image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_56_-_Shopify_Bestsellers_block.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "christmas-gifts-for-him",
-            "custom_image": "shopify:\/\/shop_images\/Giftsforhim2.jpg"
+            "collection": "womens-billfold-wallets",
+            "custom_image": "shopify:\/\/shop_images\/Embossing_service_-_Shopify_Bestsellers_block.jpg"
           }
         }
       },
