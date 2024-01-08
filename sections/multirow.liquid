@@ -161,7 +161,7 @@
         <div class="image-with-text__grid {% if template contains 'about' %}multirow-maxheight{% endif %} {% if template contains 'product' %}multirow-product{% endif %} grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
           <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
             <div
-              class="image-with-text__media {% if template contains 'product' %}multirow-content{% endif %} {% if request.path contains '/faq' or request.path contains 'contact' %}multirow-max-width{% endif %} {% if request.path contains '/faq' %}multirow-faq{% endif %} image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
+              class="image-with-text__media {%  if request.path contains '/visit-our-showroom' %}showroom-media{% endif %} {% if template contains 'product' %}multirow-content{% endif %} {% if request.path contains '/faq' or request.path contains 'contact' %}multirow-max-width{% endif %} {% if request.path contains '/faq' %}multirow-faq{% endif %} image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
               {% if section.settings.image_height == 'adapt' and block.settings.image != blank %}
                 style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
@@ -181,7 +181,7 @@
               {%- endif -%}
             </div>
           </div>
-          <div class="image-with-text__text-item grid__item {% if request.path contains '/faq' or request.path contains '/contact' %}hidden{% endif %}">
+          <div class="image-with-text__text-item grid__item {% if request.path contains '/faq' or request.path contains '/contact' or request.path contains '/visit-our-showroom' %}hidden{% endif %}">
             <div class="image-with-text__content {% if template contains 'product' %}multirow-content{% endif %} {% if request.path contains '/about-us' or request.path contains '/the-ettinger-factory' %} multirow-about{% endif %} {% if request.path contains '/about-us' %}multirow-about-us{% endif %} image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.image_height }} content-container{% unless no_content_background and no_content_styles %} gradient color-{{ section.settings.row_color_scheme }}{% endunless %}">
               {%- if block.settings.heading -%}
                 <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">

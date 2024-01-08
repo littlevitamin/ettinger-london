@@ -1,11 +1,8 @@
 <link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
-<link
-  rel="stylesheet"
-  href="{{ 'section-related-products.css' | asset_url }}"
-  media="print"
-  onload="this.media='all'"
->
+<link rel="stylesheet" href="{{ 'section-related-products.css' | asset_url }}" media="print" onload="this.media='all'">
+<link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
+
 {%- if section.settings.enable_quick_add -%}
   <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
@@ -22,6 +19,11 @@
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .slick-carousel .grid__item {
+      width: 100%!important;
     }
   }
 
@@ -92,26 +94,66 @@
       <h2 class="related-products__heading {{ section.settings.heading_size }}">
         {{ section.settings.heading | escape }}
       </h2>
-      <ul
-        class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
-        role="list"
-      >
-        {% for recommendation in recommendations.products %}
-          <li class="grid__item">
-            {% render 'card-product',
-              card_product: recommendation,
-              media_aspect_ratio: section.settings.image_ratio,
-              show_secondary_image: section.settings.show_secondary_image,
-              show_vendor: section.settings.show_vendor,
-              show_quick_add: section.settings.enable_quick_add,
-              show_rating: section.settings.show_rating
-            %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
+        <div class="swiper-desktop">
+          <ul
+          class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+          role="list"
+          >
+            {% for recommendation in recommendations.products %}
+              <li class="grid__item">
+                {% render 'card-product',
+                  card_product: recommendation,
+                  media_aspect_ratio: section.settings.image_ratio,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  show_vendor: section.settings.show_vendor,
+                  show_quick_add: section.settings.enable_quick_add,
+                  show_rating: section.settings.show_rating
+                %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="swiper-mobile">
+          <swiper-container           
+            slides-per-view="1" 
+            centered-slides="true"
+            autoplay="true"
+            pagination="{ 'el': '.swiper-pagination', 'clickable': true }"
+            style="
+            --swiper-pagination-color: #EC9A00; 
+            --swiper-pagination-bullet-width: 21px;
+            --swiper-pagination-bullet-active-width: 40px;
+            --swiper-pagination-bullet-height: 3px;
+            --swiper-pagination-bullet-border-radius: 3px;"
+          >
+            {% for recommendation in recommendations.products %}
+              <swiper-slide class="swiper-slide">
+                {% render 'card-product',
+                  card_product: recommendation,
+                  media_aspect_ratio: section.settings.image_ratio,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  show_vendor: section.settings.show_vendor,
+                  show_quick_add: section.settings.enable_quick_add,
+                  show_rating: section.settings.show_rating
+                %}
+              </swiper-slide>
+            {% endfor %}
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </swiper-container> 
+        </div>
+      {% endif %}
   </product-recommendations>
 </div>
+
+<script>
+  const swiper = new Swiper('swiper-container', {
+  autoplay: {
+    delay: 2500,
+  },
+});
+</script>
 
 {% schema %}
 {

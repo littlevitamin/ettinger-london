@@ -3843,7 +3843,16 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-pink {
-  background-color: #f1a7af!important;
+  background-color: #fcebed!important;
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;
+}
+
+.color-greige {
+  background-color: #c5baaf!important;
   color: transparent!important;
   display: inline-block;
   width: 14px;
@@ -4313,7 +4322,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-pink-silver {
-  background: linear-gradient(-45deg, #f1a7af 49%, #c5c5c5 51%, #c5c5c5 100%);
+  background: linear-gradient(-45deg, #fcebed 49%, #c5c5c5 51%, #c5c5c5 100%);
   color: transparent!important;
   display: inline-block;
   width: 14px;
@@ -4348,9 +4357,26 @@ sticky-header > header > nav > ul > li > a > span {
   border-radius: 1px;
 }
 
-
 .color-black-silver {
   background: linear-gradient(-45deg, #000000 49%, #c5c5c5 51%, #c5c5c5 100%);
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;
+}
+
+.color-madeira-blue-ecru {
+  background: linear-gradient(-45deg, #333545 49%, #e8dbcb 51%, #e8dbcb 100%);
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;
+}
+
+.color-taupe-ecru {
+  background: linear-gradient(-45deg, #7a6658 49%, #e8dbcb 51%, #e8dbcb 100%);
   color: transparent!important;
   display: inline-block;
   width: 14px;
@@ -5330,6 +5356,10 @@ predictive-search .field {
   text-transform: uppercase;
 }
 
+.showroom-media {
+  max-width: 100%!important;
+}
+
 .contact-text .h1 {
   font-size: 36px;
   line-height: 43px;
@@ -5988,4 +6018,28 @@ content: '\f08a';
     line-height: 16px!important;
     font-weight: 400!important;
     text-transform: uppercase;
+}
+
+/* Swiper JS styling */
+
+@media screen and (min-width: 750px) {
+  .swiper-mobile {
+    display: none!important;
+  }
+  .swiper-desktop {
+    display: block!important;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .swiper-desktop {
+    display: none!important;
+  }
+  .swiper-mobile {
+    display: block!important;
+  }
+}
+
+.swiper-slide {
+  padding-bottom: 20px;
 }
