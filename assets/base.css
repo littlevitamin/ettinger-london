@@ -3897,7 +3897,24 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .color-chestnut {
-  background-color: #5e3324!important;
+  background-color: #562818!important;
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;
+}
+
+.color-indigo {
+  background-color: #142B47!important;
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;
+}
+.color-bottle-green {
+  background-color: #234611!important;
   color: transparent!important;
   display: inline-block;
   width: 14px;
