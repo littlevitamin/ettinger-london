@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/january-blues-1",
+            "button_link_1": "shopify:\/\/collections\/womens-briefcases",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,10 +36,10 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Blue_Monday_2023_-_Shopify_Homepage_Banner.jpg",
-        "paragraph": "<h3>EMBRACE THE<\/h3><h1>JANUARY BLUES<\/h1>",
+        "image": "shopify:\/\/shop_images\/Business_bag_shoot_-_Shopify_Bestsellers_block.jpg",
+        "paragraph": "<h3>BACK TO WORK<\/h3><h1>BUSINESS BAGS<\/h1>",
         "enable_video": false,
-        "video_url": "shopify:\/\/collections\/january-blues-1",
+        "video_url": "shopify:\/\/collections\/mens-briefcases",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
