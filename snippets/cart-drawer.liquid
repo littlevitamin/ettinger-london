@@ -396,7 +396,7 @@
                             </div>
                           </div>
 
-            <p class="totals__subtotal-value">{{ cart.total_price | remove_trailing_zeros }}</p>
+            <p class="totals__subtotal-value">{{ cart.total_price | money_without_trailing_zeros }}</p>
           </div>
 
           <div>
