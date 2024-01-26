@@ -36,7 +36,7 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/valentines_1469X1085px.jpg",
+        "image": "shopify:\/\/shop_images\/valentines_1920X1079_da03b2f6-a3d4-43f0-b02f-d7cb368c13ea.jpg",
         "paragraph": "<h3>WITH LOVE<\/h3><h1>VALENTINE'S GIFTING<\/h1>",
         "enable_video": false,
         "video_url": "shopify:\/\/collections\/personalised-gifts-valentines",
@@ -59,7 +59,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "mens-briefcases",
+        "collection": "personalised-gifts-valentines",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
@@ -84,15 +84,15 @@
         "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
           "type": "collection",
           "settings": {
-            "collection": "january-blues-1",
-            "custom_image": "shopify:\/\/shop_images\/Blue_Monday_2023_-_Shopify_Homepage_Banner.jpg"
+            "collection": "womens-bags-cases",
+            "custom_image": "shopify:\/\/shop_images\/Business_bag_shoot_-_Shopify_Bestsellers_block.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "elegant-purses",
-            "custom_image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_56_-_Shopify_Bestsellers_block.jpg"
+            "collection": "bestsellers",
+            "custom_image": "shopify:\/\/shop_images\/Travel_in_Style_Home_Page_Hero.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
