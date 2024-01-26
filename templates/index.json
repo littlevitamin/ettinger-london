@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/womens-briefcases",
+            "button_link_1": "shopify:\/\/collections\/personalised-gifts-valentines",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,8 +36,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Business_bag_shoot_-_Shopify_Bestsellers_block.jpg",
-        "paragraph": "<h3>BACK TO WORK<\/h3><h1>BUSINESS BAGS<\/h1>",
+        "image": "shopify:\/\/shop_images\/valentines_1920X1079_da03b2f6-a3d4-43f0-b02f-d7cb368c13ea.jpg",
+        "paragraph": "<h3>WITH LOVE<\/h3><h1>VALENTINE'S GIFTS<\/h1>",
         "enable_video": false,
         "video_url": "shopify:\/\/collections\/mens-briefcases",
         "image_overlay_opacity": 0,
