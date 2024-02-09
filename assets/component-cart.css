@@ -140,6 +140,7 @@ cart-items {
 
   .cl-po--discount {
     margin-left: 0!important;
+    display: none;
   }
 
   .cart-drawer-text {
