@@ -131,12 +131,12 @@
   font-size: 0!important;
 }
 
-.cl-po--error:nth-child(1)::before {
+.cl-po--option:nth-child(2) .cl-po--error::before {
   content: "Please add a Colour selection";
   font-size: 8px;
 }
 
-.cl-po--error:nth-child(2)::before {
+.cl-po--option:nth-child(3) .cl-po--error::before {
   content: "Please add your Initials";
   font-size: 8px;
 }
