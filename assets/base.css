@@ -128,11 +128,12 @@
 }
 
 .cl-po--error {
-  visibility: hidden;
+  font-size: 0;
 }
 
 .cl-po--error:nth-child(1)::before {
   content: "Please add a Colour selection";
+  font-size: 8px;
 }
 
 .add-to-cart-btn {
