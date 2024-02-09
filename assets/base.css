@@ -127,6 +127,10 @@
   border-bottom: 1px solid #777777;
 }
 
+.cl-po--error::before {
+  content: "Please add a Colour selection";
+}
+
 .add-to-cart-btn {
   font-weight: 400!important;
 }
