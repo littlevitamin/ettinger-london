@@ -128,11 +128,16 @@
 }
 
 .cl-po--error {
-  font-size: 0;
+  font-size: 0!important;
 }
 
 .cl-po--error:nth-child(1)::before {
   content: "Please add a Colour selection";
+  font-size: 8px;
+}
+
+.cl-po--error:nth-child(2)::before {
+  content: "Please add your Initials";
   font-size: 8px;
 }
 
