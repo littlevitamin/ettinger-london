@@ -127,7 +127,11 @@
   border-bottom: 1px solid #777777;
 }
 
-.cl-po--error::before {
+.cl-po--error {
+  visibility: hidden;
+}
+
+.cl-po--error:nth-child(1)::before {
   content: "Please add a Colour selection";
 }
 
