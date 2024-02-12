@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "We ship worldwide! Free shipping on UK orders over £200",
+            "text": "We ship worldwide! Free shipping on UK orders over £250",
             "text_alignment": "center",
             "color_scheme": "accent-2",
             "link": "shopify:\/\/pages\/delivery"
