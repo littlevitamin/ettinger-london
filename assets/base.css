@@ -6084,8 +6084,10 @@ content: '\f08a';
 
 .gentleman-page .multirow,
 .gentleman-page .color-background-1,
-.gentleman-page .multirow >* {
-  background: #1C1C1C;
+.gentleman-page .multirow >*,
+.gentleman-page,
+.gentleman-page .footer {
+  background: #1C1C1C!important;
 }
 
 .gentleman-page .image-with-text__heading,
