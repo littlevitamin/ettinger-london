@@ -6161,6 +6161,6 @@ content: '\f08a';
     width: 100px;
   }
   .gentlemen-page .homepage-banner-text {
-    margin-top: 0;
+    margin-top: 0!important;
   }
 }
