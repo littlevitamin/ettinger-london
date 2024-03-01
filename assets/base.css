@@ -6083,7 +6083,7 @@ content: '\f08a';
 /* Gentleman page styling */
 
 .gentleman-page .multirow,
-.gentleman-page .color-background-1,
+.gentleman-page .color-background-1:not(.banner__box),
 .gentleman-page .multirow >*,
 .gentleman-page,
 .gentleman-page .footer,
