@@ -6149,3 +6149,9 @@ content: '\f08a';
 .section-gentleman .image-with-text__media > img {
   object-fit: contain;
 }
+
+@media screen and (max-width: 749px) {
+.gentleman-flex > img {
+  max-width: 80vw;
+}
+}
