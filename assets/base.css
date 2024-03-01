@@ -6151,7 +6151,7 @@ content: '\f08a';
 
 @media screen and (max-width: 749px) {
   .gentleman-flex {
-    margin-top: -40px!important;
+    margin-top: 100px!important;
   }
   .gentleman-flex > img:nth-child(1) {
     width: 200px;
