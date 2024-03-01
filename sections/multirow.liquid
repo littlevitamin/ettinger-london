@@ -137,7 +137,7 @@
 -%}
 
 <div class="multirow {% if request.path contains '/the-ettinger-factory' %}multirow-scrolling {% endif %} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-      <div class="blog-image-container  {% if section.index != 2 and request.path contains '/the-gentleman' %}empty-divider{% endif %} empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalisation' or request.path contains '/the-gentleman' %} show-divider{% endif %}">
+      <div class="blog-image-container  {% if section.index == 2 and request.path contains '/the-gentleman' %}show-divider{% endif %} empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalisation' %} show-divider{% endif %}">
         <span class="list-border"><div class="grey-divider">hello</div></span>
         {% if request.path contains '/the-gentleman' %}
         <svg xmlns="http://www.w3.org/2000/svg" width="116" height="115" viewBox="0 0 116 115" fill="none">
