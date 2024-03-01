@@ -6121,3 +6121,7 @@ content: '\f08a';
 .gentleman-page .collection .card__information >* {
   color: white!important;
 }
+
+.gentleman-page .multirow:nth-child(2) .blog-image-container {
+  display: none!important;
+}
