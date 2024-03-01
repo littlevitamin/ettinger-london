@@ -6114,7 +6114,8 @@ content: '\f08a';
 
 .gentleman-page .multirow__inner > div > div > div.image-with-text__text-item.grid__item > div > div > p,
 .gentleman-page .footer-block__heading,
-.gentleman-page .footer-block__details-content .list-menu__item--link {
+.gentleman-page .footer-block__details-content .list-menu__item--link,
+.gentleman-page .list-social__link {
   color: white!important;
 }
 
