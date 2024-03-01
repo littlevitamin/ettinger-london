@@ -6086,6 +6086,7 @@ content: '\f08a';
 .gentleman-page .color-background-1:not(.banner__box),
 .gentleman-page .multirow >*,
 .gentleman-page,
+.gentleman-page .footer__bottom-background, 
 .gentleman-page .footer,
 .gentleman-page .footer-block {
   background: #1C1C1C!important;
