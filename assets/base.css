@@ -6145,3 +6145,7 @@ content: '\f08a';
 .gentleman-flex > img {
   margin: auto;
 }
+
+.section-gentleman .image-with-text__media > img {
+  object-fit: contain;
+}
