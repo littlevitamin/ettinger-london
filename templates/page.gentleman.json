@@ -45,10 +45,10 @@
         "row_LyU7M7": {
           "type": "row",
           "settings": {
-            "caption": "<p>Caption<\/p>",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "LOREM IPSUM",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Auctor eu vel fusce cursus orci. Scelerisque in quam nulla morbi in. In morbi a vitae id consequat non massa. Elementum vitae mattis tempor vestibulum arcu id elementum aliquam. In libero cras et sed. Facilisis vestibulum tincidunt facilisi urna tortor erat integer consequat.<br\/><br\/>Lorem ultrices sapien tempor libero lorem aliquam. Neque porttitor lacinia pretium platea elementum elementum quam mattis. At at ut cursus tempus pellentesque. Tortor risus quisque enim pellentesque egestas aliquet. Feugiat malesuada velit morbi quisque arcu neque id sed. In elit mi tellus lorem viverra netus urna metus. Venenatis consectetur adipiscing eget nunc eleifend nulla cursus sagittis. Feugiat tortor id vel lectus. Tempor adipiscing ultricies scelerisque egestas lorem. Tortor euismod faucibus dapibus arcu nec sed. <br\/><br\/>Egestas adipiscing sollicitudin pretium adipiscing eget non senectus. Massa neque varius adipiscing iaculis faucibus ac odio nisl id. Sagittis sed hendrerit pulvinar quisque lorem a eu elementum.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
