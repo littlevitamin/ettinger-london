@@ -6079,7 +6079,7 @@ content: '\f08a';
 
 .gentleman-page .multirow,
 .gentleman-page .multirow >* {
-  background: black;
+  background: #2E2E2E;
 }
 
 .gentleman-page .image-with-text__heading {
