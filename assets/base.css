@@ -6095,6 +6095,11 @@ content: '\f08a';
   width: 43%!important;
 }
 
+.gentleman-page .banner__heading {
+  max-width: 1000px;
+  text-align: center;
+}
+
 .gentleman-page .multirow__inner.page-width > div > div > div.image-with-text__text-item.grid__item > div > div > p {
   color: white!important;
 }
