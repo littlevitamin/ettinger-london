@@ -6162,4 +6162,8 @@ content: '\f08a';
   .gentleman-page .homepage-banner-text {
     margin-top: 0!important;
   }
+  .gentleman-page .image-with-text__content {
+    max-height: 100%!important;
+    padding: 0 15px!important;
+  }
 }
