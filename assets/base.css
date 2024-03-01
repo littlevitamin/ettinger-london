@@ -6074,3 +6074,10 @@ content: '\f08a';
 .swiper-slide {
   padding-bottom: 20px;
 }
+
+/* Gentleman page styling */
+
+.gentleman-page .multirow >* {
+  background: black;
+  color: white!important;
+}
