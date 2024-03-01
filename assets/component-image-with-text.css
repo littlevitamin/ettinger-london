@@ -412,7 +412,8 @@
     padding-right: 0;
     padding-top: 0;
   }
-
+  
+  .section-gentleman .image-with-text__content,
   body:not(.gentleman-page) .collapse-padding .image-with-text__grid--reverse .image-with-text__content:not(.image-with-text__content--desktop-center) {
     padding-left: 0;
     padding-top: 0;
