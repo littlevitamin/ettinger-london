@@ -2,14 +2,94 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "paragraph": "Explore our premium Ettinger leather goods, available at select retailers worldwide. Browse through our directory below to find a store closest to you.",
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_RiPmqG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Kp7dy9": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kp7dy9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02_1.png",
+        "paragraph": "",
+        "enable_video": false,
+        "video_url": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_wM77Xf": {
+      "type": "multirow",
+      "blocks": {
+        "row_LyU7M7": {
+          "type": "row",
+          "settings": {
+            "caption": "<p>Caption<\/p>",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_LyU7M7"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_FFHgMa": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=gnpfKsqeMrM",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_RiPmqG",
+    "multirow_wM77Xf",
+    "video_FFHgMa"
   ]
 }
