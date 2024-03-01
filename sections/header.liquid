@@ -844,7 +844,7 @@
           {%- endif -%}
         </a>
       </div>
-      <img class="{%- if request.page_type != 'index' -%} white-background-watermark {% else %} header-watermark {% endif %}" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Royal_Warrant_CMYK_1.png?v=1690892666" width="67px" height="57px"/>
+      <img class="{%- if request.page_type == 'index' or request.path contains '/the-gentleman' -%}header-watermark {% else %}white-background-watermark {% endif %}" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Royal_Warrant_CMYK_1.png?v=1690892666" width="67px" height="57px"/>
     </div>
   </header>
   <div class="tan-header-divider">hello</div>
