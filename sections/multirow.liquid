@@ -197,7 +197,16 @@
                   | image_url: width: 1500
                   | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
                 }}
-              {%- else -%}
+                {%- elsif block.settings.url != blank -%}
+                <video 
+                  muted
+                  autoplay
+                  playsinline
+                  loading="lazy"
+                >
+                  <source src="{{ block.settings.url }}" />
+                </video>
+              {% elsif block.settings.image == blank and block.settings.url == blank %}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
             </div>
