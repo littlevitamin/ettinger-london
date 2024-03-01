@@ -6160,4 +6160,7 @@ content: '\f08a';
   .gentleman-flex > img:nth-child(2) {
     width: 100px;
   }
+  .gentlemen-page .homepage-banner-text {
+    margin-top: 0;
+  }
 }
