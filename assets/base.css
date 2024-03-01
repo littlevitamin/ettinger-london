@@ -6108,7 +6108,7 @@ content: '\f08a';
   margin: auto;
 }
 
-.gentleman-page .multirow__inner.page-width > div > div > div.image-with-text__text-item.grid__item > div > div > p {
+.gentleman-page .multirow__inner > div > div > div.image-with-text__text-item.grid__item > div > div > p {
   color: white!important;
 }
 
