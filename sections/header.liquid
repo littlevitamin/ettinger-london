@@ -149,7 +149,7 @@
 
 {% comment %} Enabling top menu option {% endcomment %}
   <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} header-white-background top-icons-white-background {% endunless %}{% endif %}header__icons top-icons page-width">
-    <div class="{%- if request.page_type != 'index' -%} white-background {% endif %} customer-services-menu">
+    <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background{% endunless %}{% endif %} customer-services-menu">
       <span class="menu-title">CUSTOMER SERVICES</span>
       <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.34121 1.03608C8.5412 0.84297 8.5412 0.52251 8.34121 0.329404C8.15088 0.145641 7.84921 0.14564 7.65889 0.329403L4.7009 3.18546C4.50715 3.37253 4.20005 3.37253 4.0063 3.18546L1.04831 0.329404C0.857992 0.145641 0.556314 0.145641 0.365994 0.329404C0.165995 0.52251 0.165995 0.842971 0.365994 1.03608L4.0063 4.55094C4.20005 4.73801 4.50715 4.73801 4.7009 4.55094L8.34121 1.03608Z" fill="white"/>
