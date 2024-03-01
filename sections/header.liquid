@@ -369,7 +369,7 @@
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
-                  <div class="{%- if request.page_type != 'index' -%} white-background {% endif %} customer-services-menu-drawer">
+                  <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background {% endunless %}{% endif %} customer-services-menu-drawer">
                     <div class="customer-services-menu-drawer-flex">
                       <span style="font-size: 14px;" class="menu-title-drawer">CUSTOMER SERVICES</span>
                       <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
