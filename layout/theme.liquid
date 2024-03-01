@@ -262,7 +262,7 @@
   {% include "globale-js" %}
 </head>
 
-  <body class="store-body gradient">
+  <body class="store-body gradient{% if request.path contains '/the-gentleman' %} gentleman-page{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
