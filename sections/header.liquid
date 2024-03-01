@@ -569,7 +569,6 @@
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
             {%- if section.settings.logo != blank and request.page_type == 'index' -%}
-              {% unless request.path contains '/the-gentleman' %}
               {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
               {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
               {{ section.settings.logo | image_url: width: 500 | image_tag:
@@ -579,7 +578,16 @@
                 width: settings.logo_width,
                 alt: logo_alt
               }}
-              {% endunless %}
+            {%- elsif section.settings.logo != blank and request.path contains '/the-gentleman' -%}
+              {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+              {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+              {{ section.settings.logo | image_url: width: 500 | image_tag:
+                class: 'header__heading-logo motion-reduce',
+                widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                height: logo_height,
+                width: settings.logo_width,
+                alt: logo_alt
+              }}
             {% elsif section.settings.logo != blank and request.page_type != 'index'  %}
               {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
               {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
