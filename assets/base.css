@@ -6115,7 +6115,11 @@ content: '\f08a';
 .gentleman-page .multirow__inner > div > div > div.image-with-text__text-item.grid__item > div > div > p,
 .gentleman-page .footer-block__heading,
 .gentleman-page .footer-block__details-content .list-menu__item--link,
-.gentleman-page .list-social__link {
+.gentleman-page .list-social__link,
+.gentleman-page #FooterCountryLabel,
+.gentleman-page .localization-form__select,
+.gentleman-page .localization-form__select .icon-caret,
+.gentleman-page .footer__copyright {
   color: white!important;
 }
 
