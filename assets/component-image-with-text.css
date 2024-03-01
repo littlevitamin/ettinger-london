@@ -153,6 +153,7 @@
   margin: 0 auto;
 }
 
+.gentleman-page .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > *,
 .gentleman-page .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > * {
   max-width: 100%;
 }
