@@ -153,6 +153,10 @@
   margin: 0 auto;
 }
 
+.gentleman-page .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > * {
+  max-width: 100%;
+}
+
 .multirow-factory .image-with-text__media > img {
   max-height: 360px;
 }
