@@ -3265,6 +3265,10 @@ sticky-header > header > nav > ul > li > a > span {
   color: #121212;
 }
 
+.gentleman-page .collection-card-wrapper .full-unstyled-link {
+  color: white;
+}
+
 .collection-card-wrapper .icon-wrap {
   color: var(--gradient-base-accent-2);
 }
