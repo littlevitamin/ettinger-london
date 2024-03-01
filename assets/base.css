@@ -6130,3 +6130,12 @@ content: '\f08a';
 .gentleman-page .collection .card__information >* {
   color: white!important;
 }
+
+.gentleman-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.gentleman-flex > img {
+  margin: auto;
+}
