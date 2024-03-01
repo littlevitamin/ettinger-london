@@ -135,14 +135,6 @@
     assign corners_class = ' collapse-corners'
   endunless
 -%}
-<video 
-    muted
-    autoplay
-    playsinline
-    loading="lazy"
->
-    <source src="{{ block.settings.url }}" />
-</video>
 
 <div class="multirow {% if request.path contains '/the-ettinger-factory' %}multirow-scrolling {% endif %} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
       <div class="blog-image-container empty-divider {% if request.path contains 'factory' or request.path contains '/about-us' or request.path contains '/personalisation' or request.path contains '/the-gentleman' %} show-divider{% endif %}">
