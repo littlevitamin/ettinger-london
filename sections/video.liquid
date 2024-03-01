@@ -122,6 +122,22 @@
   </div>
 </div>
 
+<script>
+window.addEventListener('load', function() {
+    // Select the button with the class video-section__poster
+    var button = document.querySelector('.video-section__poster');
+    
+    // Check if the button is found
+    if (button) {
+        // Simulate a click on the button
+        button.click();
+    } else {
+        console.error('Button not found');
+    }
+});
+
+</script>
+
 {% schema %}
 {
   "name": "t:sections.video.name",
