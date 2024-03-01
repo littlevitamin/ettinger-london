@@ -75,7 +75,7 @@
     "video_FFHgMa": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
         "video_url": "https:\/\/www.youtube.com\/watch?v=gnpfKsqeMrM",
         "description": "",
