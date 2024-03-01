@@ -413,7 +413,7 @@
     padding-top: 0;
   }
 
-  :not(.gentleman-page) .collapse-padding .image-with-text__grid--reverse .image-with-text__content:not(.image-with-text__content--desktop-center) {
+  body:not(.gentleman-page) .collapse-padding .image-with-text__grid--reverse .image-with-text__content:not(.image-with-text__content--desktop-center) {
     padding-left: 0;
     padding-top: 0;
   }
