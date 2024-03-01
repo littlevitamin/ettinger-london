@@ -6086,6 +6086,10 @@ content: '\f08a';
   color: var(--gradient-base-accent-2)!important;
 }
 
+.gentleman-page .image-with-text__media {
+  background: transparent!important;
+}
+
 .gentleman-page .multirow__inner.page-width > div > div > div.image-with-text__text-item.grid__item > div > div > p {
   color: white!important;
 }
