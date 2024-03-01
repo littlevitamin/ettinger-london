@@ -6116,3 +6116,7 @@ content: '\f08a';
     padding-bottom: 250px!important;
   }
 }
+
+.gentleman-page .collection .card__information >* {
+  color: white!important;
+}
