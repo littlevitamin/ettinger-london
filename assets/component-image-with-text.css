@@ -158,6 +158,10 @@
   max-width: 100%;
 }
 
+.gentlmenan-page .image-with-text .grid__item {
+  width: 40%!important;
+}
+
 .multirow-factory .image-with-text__media > img {
   max-height: 360px;
 }
