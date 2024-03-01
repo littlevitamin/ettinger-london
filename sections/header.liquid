@@ -262,7 +262,7 @@
       </a>
     {%- endif -%}
 
-    <a href="{{ routes.cart_url }}" class=" {%- if request.page_type != 'index' -%} white-background {% endif %} header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+    <a href="{{ routes.cart_url }}" class=" {%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background{% endunless %}{% endif %} header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
       {%- liquid
         if cart == empty
           render 'icon-cart-empty'
