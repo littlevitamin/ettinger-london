@@ -6080,5 +6080,8 @@ content: '\f08a';
 .gentleman-page .multirow,
 .gentleman-page .multirow >* {
   background: black;
+}
+
+.gentleman-page .multirow__inner.page-width > div > div > div.image-with-text__text-item.grid__item > div > div > p {
   color: white!important;
 }
