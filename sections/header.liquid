@@ -656,7 +656,7 @@
                 {%- if link.links != blank -%}
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
-                      <summary class="header__menu-item list-menu__item link {% if request.page_type == 'index' %}list-menu__item-homepage{% endif %} focus-inset">
+                      <summary class="header__menu-item list-menu__item link {% if request.page_type == 'index' or request.path contains '/the-gentleman' %}list-menu__item-homepage{% endif %} focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                       </summary>
