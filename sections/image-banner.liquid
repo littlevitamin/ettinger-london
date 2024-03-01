@@ -334,6 +334,9 @@
                 {% elsif request.path contains '/retailers' %}{{ block.settings.heading | escape }} <span style="color: #ec9a00;">RETAILERS</span> 
                 {% else %}{{ block.settings.heading | escape }}{% endif %}</span>
               </h2>
+            {% if request.path contains '/the-gentleman' %}
+              <img src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Robert_Ettinger_signature_black_1.png?v=1709300862" width="300"/>
+            {% endif %}
             {%- when 'text' or section.settings.paragraph != blank -%}
               <div class="banner__text {{ block.settings.text_style }}  {% if template contains 'collection' %} banner-text {% endif %}" {{ block.shopify_attributes }}>
                 <span class="styled-text">{% if template contains 'collection' %}{{ collection.description }}{% else %}{{ section.settings.paragraph | raw }}{% endif %}</span>
