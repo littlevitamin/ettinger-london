@@ -6110,3 +6110,9 @@ content: '\f08a';
 .gentleman-page .multirow__inner.page-width > div > div > div.image-with-text__text-item.grid__item > div > div > p {
   color: white!important;
 }
+
+@media screen and (min-width: 750px) {
+  .gentlemen-page .collection {
+    padding-bottom: 250px!important;
+  }
+}
