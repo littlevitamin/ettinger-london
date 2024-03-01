@@ -6098,6 +6098,7 @@ content: '\f08a';
 .gentleman-page .banner__heading {
   max-width: 1000px;
   text-align: center;
+  margin: auto;
 }
 
 .gentleman-page .multirow__inner.page-width > div > div > div.image-with-text__text-item.grid__item > div > div > p {
