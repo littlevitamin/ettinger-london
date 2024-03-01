@@ -6127,11 +6127,10 @@ content: '\f08a';
   display: none!important;
 }
 
-@media screen and (min-width: 750px) {
   .gentleman-page .collection {
     padding-bottom: 250px!important;
   }
-}
+
 
 .gentleman-page .collection .card__information >* {
   color: white!important;
