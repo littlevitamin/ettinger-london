@@ -3673,7 +3673,7 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 .hovered > sticky-header > header > h1 > a > img,
-.gentleman-page > sticky-header > header > a > img {
+.hovered .gentleman-logo {
   content: url('https://ettinger-1.myshopify.com/cdn/shop/files/Ettinger_TYPE_ONLY_K.jpg?v=1683811637');
 }
 
