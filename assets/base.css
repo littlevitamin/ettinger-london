@@ -6077,6 +6077,7 @@ content: '\f08a';
 
 /* Gentleman page styling */
 
+.gentleman-page .multirow,
 .gentleman-page .multirow >* {
   background: black;
   color: white!important;
