@@ -6151,7 +6151,13 @@ content: '\f08a';
 }
 
 @media screen and (max-width: 749px) {
-.gentleman-flex > img {
-  max-width: 80vw;
-}
+  .gentleman-flex {
+    margin-top: -40px;
+  }
+  .gentleman-flex > img:nth-child(1) {
+    width: 200px;
+  }
+  .gentleman-flex > img:nth-child(2) {
+    width: 100px;
+  }
 }
