@@ -148,10 +148,11 @@
         "row_Pb99by": {
           "type": "row",
           "settings": {
-            "caption": "<p>Caption<\/p>",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/b38c31e9386e043b396e6edeeffe40ae_1.png",
+            "caption": "",
+            "heading": "THE GENTLEMAN COLLECTION",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Eu amet cras tortor viverra dui egestas sem consectetur. Cras condimentum mattis tellus id. <br\/><br\/>Cursus semper massa eu et. Turpis tortor nibh erat enim magna nibh. Faucibus et in ac lorem congue tellus egestas non habitant. Ut sapien posuere nunc vitae faucibus.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
