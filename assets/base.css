@@ -6114,6 +6114,10 @@ content: '\f08a';
   color: white!important;
 }
 
+.gentleman-page .footer .blog-image-container {
+  display: none!important;
+}
+
 @media screen and (min-width: 750px) {
   .gentleman-page .collection {
     padding-bottom: 250px!important;
