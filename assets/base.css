@@ -6088,7 +6088,8 @@ content: '\f08a';
   background: #1C1C1C;
 }
 
-.gentleman-page .image-with-text__heading {
+.gentleman-page .image-with-text__heading,
+.gentleman-page .collection .title {
   color: var(--gradient-base-accent-2)!important;
 }
 
