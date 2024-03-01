@@ -162,7 +162,7 @@
     </div>
     <details-modal class="header__search">
       <details>
-        <summary class=" {%- if request.page_type != 'index' -%} white-background {% endif %} header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
+        <summary class=" {%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background{% endunless %} {% endif %} header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
           <span>
             <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
               <use class="{% if request.page_type == "index" or request.path contains '/the-gentleman' %} icon-homepage {% endif %}" href="#icon-search">
