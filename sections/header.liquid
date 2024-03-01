@@ -281,11 +281,13 @@
       {%- endif -%}
     </a>
   </div>
-  {% if request.page_type == 'index' %}
+  {% if request.page_type == 'index' or request.path contains '/the-gentleman' %}
     <div class="divider">hello</div>
   {% endif %}
   {% if request.page_type != 'index' %}
-    <div class="tan-divider">hello</div>
+    {% unless request.path contains '/the-gentleman' %}
+      <div class="tan-divider">hello</div>
+    {% endunless %}
   {% endif %}
 
 
