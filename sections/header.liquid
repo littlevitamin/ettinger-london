@@ -698,7 +698,7 @@
     {%- endif -%}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
-      {%- if request.page_type == 'index' -%}
+      {%- if request.page_type == 'index' or request.path contains '/the-gentleman' -%}
         <h1 class="header__heading">
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
@@ -716,7 +716,7 @@
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
           </a>
-      {%- if request.page_type == 'index' -%}
+      {%- if request.page_type == 'index' or request.path contains '/the-gentleman' -%}
         </h1>
       {%- endif -%}
     {%- endif -%}
