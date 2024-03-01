@@ -6166,4 +6166,10 @@ content: '\f08a';
     max-height: 100%!important;
     padding: 0 15px!important;
   }
+  .gentleman-page .footer-block {
+    border-color: white;
+  }
+  .gentleman-page .footer-block path {
+    fill: white!important;
+  }
 }
