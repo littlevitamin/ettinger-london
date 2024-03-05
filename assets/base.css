@@ -6184,6 +6184,10 @@ content: '\f08a';
   display: none!important;
 }
 
+.gentleman-page .footer__content-bottom {
+  border: 0;
+}
+
 @media screen and (max-width: 749px) {
   .gentleman-flex {
     margin-top: 100px!important;
