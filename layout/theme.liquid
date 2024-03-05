@@ -425,22 +425,22 @@
      </script>
 
     <script>
-    window.addEventListener('scroll', function() {
-        var bannerBox = document.getElementsById('gentleman-flex');
-        var scrollPosition = window.scrollY;
-        var newTop;
-
-        if (window.innerWidth >= 750) {
-            newTop = 300 - scrollPosition / 5; // Desktop behavior
-            newTop = Math.max(newTop, 200); // Ensure the newTop value doesn't go below 150
-        } else {
-            newTop = -100 - scrollPosition / 10; // Mobile behavior
-            newTop = Math.max(newTop, -200); // Ensure the newTop value doesn't go above 0
-        }
-
-        bannerBox.style.top = newTop + 'px';
-    });
-</script>
+        window.addEventListener('scroll', function() {
+            var bannerBox = document.getElementById('gentleman-flex');
+            var scrollPosition = window.scrollY;
+            var newTop;
+    
+            if (window.innerWidth >= 750) {
+                newTop = 300 - scrollPosition / 5; // Desktop behavior
+                newTop = Math.max(newTop, 200); // Ensure the newTop value doesn't go below 150
+            } else {
+                newTop = -100 - scrollPosition / 10; // Mobile behavior
+                newTop = Math.max(newTop, -200); // Ensure the newTop value doesn't go above 0
+            }
+    
+            bannerBox.style.top = newTop + 'px';
+        });
+    </script>
   {% endif %}
   
   {% comment %} Header menu on hover styling {% endcomment %}
