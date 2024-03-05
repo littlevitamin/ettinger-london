@@ -6149,6 +6149,10 @@ content: '\f08a';
   object-fit: contain;
 }
 
+.gentleman-page .grey-divider {
+  width: 95%!important;
+}
+
 @media screen and (max-width: 749px) {
   .gentleman-flex {
     margin-top: 100px!important;
@@ -6171,5 +6175,8 @@ content: '\f08a';
   }
   .gentleman-page .footer-block path {
     fill: white!important;
+  }
+  .gentleman-page .grey-divider {
+    width: 90%!important;
   }
 }
