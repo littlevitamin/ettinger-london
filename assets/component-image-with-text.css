@@ -158,6 +158,10 @@
   max-width: 100%;
 }
 
+.gentleman-page .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item>* {
+  max-width: calc(var(--page-width)/ 2.75);
+}
+
 .gentleman-page .image-with-text__text-item {
   width: 40%!important;
 }
