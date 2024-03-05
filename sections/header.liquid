@@ -148,8 +148,8 @@
 </svg>
 
 {% comment %} Enabling top menu option {% endcomment %}
-  <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} header-white-background top-icons-white-background {% endunless %}{% endif %}header__icons top-icons page-width">
-    <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background{% endunless %}{% endif %} customer-services-menu">
+  <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentlemen' %} header-white-background top-icons-white-background {% endunless %}{% endif %}header__icons top-icons page-width">
+    <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentlemen' %} white-background{% endunless %}{% endif %} customer-services-menu">
       <span class="menu-title">CUSTOMER SERVICES</span>
       <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.34121 1.03608C8.5412 0.84297 8.5412 0.52251 8.34121 0.329404C8.15088 0.145641 7.84921 0.14564 7.65889 0.329403L4.7009 3.18546C4.50715 3.37253 4.20005 3.37253 4.0063 3.18546L1.04831 0.329404C0.857992 0.145641 0.556314 0.145641 0.365994 0.329404C0.165995 0.52251 0.165995 0.842971 0.365994 1.03608L4.0063 4.55094C4.20005 4.73801 4.50715 4.73801 4.7009 4.55094L8.34121 1.03608Z" fill="white"/>
@@ -162,10 +162,10 @@
     </div>
     <details-modal class="header__search">
       <details>
-        <summary class=" {%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background{% endunless %} {% endif %} header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
+        <summary class=" {%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentlemen' %} white-background{% endunless %} {% endif %} header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
           <span>
             <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
-              <use class="{% if request.page_type == "index" or request.path contains '/the-gentleman' %} icon-homepage {% endif %}" href="#icon-search">
+              <use class="{% if request.page_type == "index" or request.path contains '/the-gentlemen' %} icon-homepage {% endif %}" href="#icon-search">
             </svg>
             <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
               <use href="#icon-close">
@@ -242,7 +242,7 @@
       </details>
     </details-modal>
 
-    <a href="#swym-wishlist" class="swym-wishlist {% if request.page_type == 'index' or request.path contains '/the-gentleman' %}swym-wishlist-transparent{% else %}swym-wishlist-white-background{% endif %}">
+    <a href="#swym-wishlist" class="swym-wishlist {% if request.page_type == 'index' or request.path contains '/the-gentlemen' %}swym-wishlist-transparent{% else %}swym-wishlist-white-background{% endif %}">
       <i aria-hidden="true" focusable="false" role="presentation" class="icon icon-swym-white icon-swym-wishlist"></i>
       <svg class="icon icon-accordion icon-wishlist-white icon-accordion-wishlist-swym color-foreground-text" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M10 5.2393L8.5149 3.77392C6.79996 2.08174 4.01945 2.08174 2.30451 3.77392C0.589562 5.4661 0.589563 8.2097 2.30451 9.90188L10 17.4952L17.6955 9.90188C19.4104 8.2097 19.4104 5.4661 17.6955 3.77392C15.9805 2.08174 13.2 2.08174 11.4851 3.77392L10 5.2393ZM10.765 3.06343C12.8777 0.978857 16.3029 0.978856 18.4155 3.06343C20.5282 5.148 20.5282 8.52779 18.4155 10.6124L10.72 18.2057C10.3224 18.5981 9.67763 18.5981 9.27996 18.2057L1.58446 10.6124C-0.528154 8.52779 -0.528154 5.14801 1.58446 3.06343C3.69708 0.978859 7.12233 0.978858 9.23495 3.06343L10 3.81832L10.765 3.06343Z" fill-rule="evenodd"></path></svg>        
     </a>
@@ -262,7 +262,7 @@
       </a>
     {%- endif -%}
 
-    <a href="{{ routes.cart_url }}" class=" {%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background{% endunless %}{% endif %} header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+    <a href="{{ routes.cart_url }}" class=" {%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentlemen' %} white-background{% endunless %}{% endif %} header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
       {%- liquid
         if cart == empty
           render 'icon-cart-empty'
@@ -281,18 +281,18 @@
       {%- endif -%}
     </a>
   </div>
-  {% if request.page_type == 'index' or request.path contains '/the-gentleman' %}
+  {% if request.page_type == 'index' or request.path contains '/the-gentlemen' %}
     <div class="divider">hello</div>
   {% endif %}
   {% if request.page_type != 'index' %}
-    {% unless request.path contains '/the-gentleman' %}
+    {% unless request.path contains '/the-gentlemen' %}
       <div class="tan-divider">hello</div>
     {% endunless %}
   {% endif %}
 
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %} {% if request.page_type == 'index' or request.path contains '/the-gentleman' %} sticky-wishlist{% endif %}">
-  <header class="{% if request.page_type != 'index' %}{% unless request.path contains '/the-gentleman' %}header-white-background{% endunless %}{% endif %} header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %} {% if request.page_type == 'index' or request.path contains '/the-gentlemen' %} sticky-wishlist{% endif %}">
+  <header class="{% if request.page_type != 'index' %}{% unless request.path contains '/the-gentlemen' %}header-white-background{% endunless %}{% endif %} header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
@@ -369,7 +369,7 @@
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
-                  <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %} white-background {% endunless %}{% endif %} customer-services-menu-drawer">
+                  <div class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentlemen' %} white-background {% endunless %}{% endif %} customer-services-menu-drawer">
                     <div class="customer-services-menu-drawer-flex">
                       <span style="font-size: 14px;" class="menu-title-drawer">CUSTOMER SERVICES</span>
                       <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -578,7 +578,7 @@
                 width: settings.logo_width,
                 alt: logo_alt
               }}
-            {%- elsif section.settings.logo != blank and request.path contains '/the-gentleman' -%}
+            {%- elsif section.settings.logo != blank and request.path contains '/the-gentlemen' -%}
               {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
               {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
               {{ section.settings.logo | image_url: width: 500 | image_tag:
@@ -666,7 +666,7 @@
                 {%- if link.links != blank -%}
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
-                      <summary class="header__menu-item list-menu__item link {% if request.page_type == 'index' or request.path contains '/the-gentleman' %}list-menu__item-homepage{% endif %} focus-inset">
+                      <summary class="header__menu-item list-menu__item link {% if request.page_type == 'index' or request.path contains '/the-gentlemen' %}list-menu__item-homepage{% endif %} focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                       </summary>
@@ -697,7 +697,7 @@
                   </header-menu>
                 {%- else -%}
                   <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                    <span class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentleman' %}black-background{% endunless %}{% endif %}">{{ link.title | escape }}</span>
+                    <span class="{%- if request.page_type != 'index' -%}{% unless request.path contains '/the-gentlemen' %}black-background{% endunless %}{% endif %}">{{ link.title | escape }}</span>
                   </a>
                 {%- endif -%}
               </li>
@@ -708,7 +708,7 @@
     {%- endif -%}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
-      {%- if request.page_type == 'index' or request.path contains '/the-gentleman' -%}
+      {%- if request.page_type == 'index' or request.path contains '/the-gentlemen' -%}
         <h1 class="header__heading">
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
@@ -726,7 +726,7 @@
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
           </a>
-      {%- if request.page_type == 'index' or request.path contains '/the-gentleman' -%}
+      {%- if request.page_type == 'index' or request.path contains '/the-gentlemen' -%}
         </h1>
       {%- endif -%}
     {%- endif -%}
@@ -815,7 +815,7 @@
           </details>
         </details-modal>
                       
-        <a href="#swym-wishlist" class="swym-wishlist {% if request.page_type != 'index' %}{% unless request.path contains '/the-gentleman' %}swym-wishlist-white-background{% endunless %}{% endif %}">
+        <a href="#swym-wishlist" class="swym-wishlist {% if request.page_type != 'index' %}{% unless request.path contains '/the-gentlemen' %}swym-wishlist-white-background{% endunless %}{% endif %}">
           <!-- <i aria-hidden="true" focusable="false" role="presentation" class="icon icon-swym-wishlist"></i> -->
           <svg class="icon icon-accordion icon-accordion-wishlist-swym color-foreground-text" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M10 5.2393L8.5149 3.77392C6.79996 2.08174 4.01945 2.08174 2.30451 3.77392C0.589562 5.4661 0.589563 8.2097 2.30451 9.90188L10 17.4952L17.6955 9.90188C19.4104 8.2097 19.4104 5.4661 17.6955 3.77392C15.9805 2.08174 13.2 2.08174 11.4851 3.77392L10 5.2393ZM10.765 3.06343C12.8777 0.978857 16.3029 0.978856 18.4155 3.06343C20.5282 5.148 20.5282 8.52779 18.4155 10.6124L10.72 18.2057C10.3224 18.5981 9.67763 18.5981 9.27996 18.2057L1.58446 10.6124C-0.528154 8.52779 -0.528154 5.14801 1.58446 3.06343C3.69708 0.978859 7.12233 0.978858 9.23495 3.06343L10 3.81832L10.765 3.06343Z" fill-rule="evenodd"></path></svg>
         </a>
@@ -854,7 +854,7 @@
           {%- endif -%}
         </a>
       </div>
-      <img class="{%- if request.page_type == 'index' or request.path contains '/the-gentleman' -%}header-watermark {% else %}white-background-watermark {% endif %}" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Royal_Warrant_CMYK_1.png?v=1690892666" width="67px" height="57px"/>
+      <img class="{%- if request.page_type == 'index' or request.path contains '/the-gentlemen' -%}header-watermark {% else %}white-background-watermark {% endif %}" src="https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_Royal_Warrant_CMYK_1.png?v=1690892666" width="67px" height="57px"/>
     </div>
   </header>
   <div class="tan-header-divider">hello</div>
