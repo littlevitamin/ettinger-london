@@ -6164,7 +6164,7 @@ content: '\f08a';
 }
 
 .gentleman-page .header-wrapper {
-  background: transparent;
+  background: transparent!important;
 }
 
 @media screen and (max-width: 749px) {
