@@ -6180,6 +6180,10 @@ content: '\f08a';
   color: white!important;
 }
 
+.gentleman-page .top-icons {
+  display: none!important;
+}
+
 @media screen and (max-width: 749px) {
   .gentleman-flex {
     margin-top: 100px!important;
