@@ -6163,6 +6163,10 @@ content: '\f08a';
   z-index: -1;
 }
 
+.gentleman-page .header-wrapper {
+  background: transparent;
+}
+
 @media screen and (max-width: 749px) {
   .gentleman-flex {
     margin-top: 100px!important;
