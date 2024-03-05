@@ -173,7 +173,7 @@
         {% endif %}
         <span class="list-border"><div class="grey-divider">hello</div></span>
     </div>
-  <div class="multirow__inner {% if request.path contains '/about-us' %}multirow-minheight{% endif %}{% unless request.path contains '/the-gentlemen' and section.index == 2 %} page-width{% endunless %}{% if request.path contains '/the-gentlemen' and section.index == 6 %} section-gentleman{% endif %}{% if template contains 'personalization' %}multirow-personalization{% endif %} {% if request.path contains '/the-ettinger-factory' %}multirow-factory{% endif %}">
+  <div {% if request.path contains '/the-gentlemen' and section.index == 2 %}style="background: #201E1E;"{% endif %} class="multirow__inner {% if request.path contains '/about-us' %}multirow-minheight{% endif %}{% unless request.path contains '/the-gentlemen' and section.index == 2 %} page-width{% endunless %}{% if request.path contains '/the-gentlemen' and section.index == 6 %} section-gentleman{% endif %}{% if template contains 'personalization' %}multirow-personalization{% endif %} {% if request.path contains '/the-ettinger-factory' %}multirow-factory{% endif %}">
     {%- for block in section.blocks -%}
       <div
         class="image-with-text isolate{{ borders_class }}{{ corners_class }}{{ padding_class }}"
