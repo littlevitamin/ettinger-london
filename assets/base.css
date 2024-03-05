@@ -6202,6 +6202,10 @@ content: '\f08a';
   border: 0;
 }
 
+.gentleman-page .image-with-text__media > video {
+  object-fit: cover;
+}
+
 @media screen and (max-width: 749px) {
   .gentleman-flex {
     margin-top: 100px!important;
