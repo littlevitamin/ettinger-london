@@ -365,6 +365,7 @@
       });
     </script>
 
+{% unless request.path contains '/the-gentlemen' %}
     {% comment %}Header animations on scroll{% endcomment %}
     <script defer="defer">
       document.addEventListener("DOMContentLoaded", function() {
@@ -397,7 +398,7 @@
         });
       });
     </script>
-
+{% endunless %}
   {% comment %} Header menu on hover styling {% endcomment %}
   <script defer="defer">
   const cubes = [];
