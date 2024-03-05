@@ -400,14 +400,17 @@
     </script>
 {% endunless %}
  <script>
-   window.addEventListener('DOMContentLoaded', function() {
-    var headerGentleman = document.querySelector('.shopify-section-header-sticky');
-    var url = window.location.href;
+    window.addEventListener('DOMContentLoaded', function() {
+        var headerGentleman = document.querySelector('.shopify-section-header-sticky');
     
-    if (url === 'https://www.ettinger.co.uk/pages/the-gentlemen') {
-        headerGentleman.classList.add('scrolled-past-header');
-    }
-});
+        window.addEventListener('scroll', function() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop >= 0 && scrollTop <= 150) {
+                headerGentleman.classList.add('scrolled-past-header');
+            }
+        });
+    });
 
  </script>
   
