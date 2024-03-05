@@ -3159,8 +3159,12 @@ sticky-header > header > nav > ul > li > a > span {
   content: url("https://cdn.shopify.com/s/files/1/0743/9476/3550/files/Ettinger_London_svg_2.png?v=1709651157")!important;
 }
 
-.gentleman-page .new-logo {
+.new-logo {
   display: none!important;
+}
+
+.gentleman-page .new-logo {
+  display: block!important;
 }
 
 .scrolled-past-header .header--top-center {
