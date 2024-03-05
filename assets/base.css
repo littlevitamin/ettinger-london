@@ -6186,8 +6186,11 @@ content: '\f08a';
   .gentleman-page .footer-block path {
     fill: white!important;
   }
-  .gentleman-page .grey-divider {
+  .gentleman-page .blog-image-container:nth-child(1) .grey-divider {
     float: left;
+  }
+  .gentleman-page .blog-image-container:nth-child(3) .grey-divider {
+    float: right;
   }
   .gentleman-page .deferred-media__poster > img {
     object-fit: contain;
