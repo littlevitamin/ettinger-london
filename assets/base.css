@@ -6100,7 +6100,9 @@ content: '\f08a';
 .gentleman-page .footer__bottom-background, 
 .gentleman-page .footer,
 .gentleman-page .footer-block,
-.gentleman-page .deferred-media__poster > img {
+.gentleman-page .deferred-media__poster > img,
+.gentleman-page .header-wrapper,
+.gentleman-page .header-white-background {
   background: #1C1C1C!important;
 }
 
@@ -6167,11 +6169,6 @@ content: '\f08a';
 
 .gentleman-page .ytp-ce-top-right-quad {
   z-index: -1;
-}
-
-.gentleman-page .header-wrapper,
-.gentleman-page .header-white-background {
-  background: #121212!important;
 }
 
 .gentleman-page .header-white-background .icon-hamburger,
