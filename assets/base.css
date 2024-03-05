@@ -6162,7 +6162,8 @@ content: '\f08a';
   z-index: -1;
 }
 
-.gentleman-page .header-wrapper {
+.gentleman-page .header-wrapper,
+.gentleman-page .header-white-background {
   background: #121212!important;
 }
 
@@ -6176,7 +6177,6 @@ content: '\f08a';
 .gentleman-page .scrolled-past-header .header__icon--account,
 .gentleman-page .hovered .header__menu-item > span,
 .gentleman-page .hovered svg.modal__toggle-open.icon.icon-search > use,
-.gentleman-page .header-white-background,
 .gentleman-page .collection .card__information >* {
   color: white!important;
 }
