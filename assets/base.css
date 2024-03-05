@@ -6171,7 +6171,8 @@ content: '\f08a';
 .gentleman-page .header-white-background .icon-hamburger,
 .gentleman-page .icon-hamburger,
 .gentleman-page .icon-search,
-.gentleman-page .header__icon--cart .icon {
+.gentleman-page .header__icon--cart .icon,
+.gentleman-page .header-white-background svg.modal__toggle-open.icon.icon-search>use {
   color: white!important;
 }
 
