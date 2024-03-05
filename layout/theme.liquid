@@ -365,7 +365,7 @@
       });
     </script>
 
-{% unless request.path contains '/the-gentlemen' %}
+  {% unless request.path contains '/the-gentlemen' %}
     {% comment %}Header animations on scroll{% endcomment %}
     <script defer="defer">
       document.addEventListener("DOMContentLoaded", function() {
@@ -398,30 +398,32 @@
         });
       });
     </script>
-{% endunless %}
- <!-- <script>
-   window.addEventListener('DOMContentLoaded', function() {
-    var headerGentleman = document.querySelector('.shopify-section-header-sticky');
-    var url = window.location.href;
-    
-    if (url === 'https://www.ettinger.co.uk/pages/the-gentlemen') {
-        headerGentleman.classList.add('scrolled-past-header');
-    }
-});
-
-    window.addEventListener('DOMContentLoaded', function() {
-        var headerGentleman_1 = document.querySelector('.shopify-section-header-sticky');
-    
-        window.addEventListener('scroll', function() {
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            if (scrollTop >= 0 && scrollTop <= 150) {
-                headerGentleman_1.classList.add('scrolled-past-header');
-            }
-        });
+  {% endunless %}
+  {% if request.path contains '/the-gentleman' %}
+    <script>
+       window.addEventListener('DOMContentLoaded', function() {
+        var headerGentleman = document.querySelector('.shopify-section-header-sticky');
+        var url = window.location.href;
+        
+        if (url === 'https://www.ettinger.co.uk/pages/the-gentlemen') {
+            headerGentleman.classList.add('scrolled-past-header');
+        }
     });
-
- </script> -->
+    
+        window.addEventListener('DOMContentLoaded', function() {
+            var headerGentleman_1 = document.querySelector('.shopify-section-header-sticky');
+        
+            window.addEventListener('scroll', function() {
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop >= 0 && scrollTop <= 150) {
+                    headerGentleman_1.classList.add('scrolled-past-header');
+                }
+            });
+        });
+    
+     </script>
+  {% endif %}
   
   {% comment %} Header menu on hover styling {% endcomment %}
   <script defer="defer">
