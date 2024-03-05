@@ -6189,7 +6189,7 @@ content: '\f08a';
   .gentleman-page .blog-image-container:nth-child(1) .grey-divider {
     float: left;
   }
-  .gentleman-page .blog-image-container:nth-child(4) .grey-divider {
+  .gentleman-page .blog-image-container span:nth-child(4) .grey-divider {
     float: right;
   }
   .gentleman-page .deferred-media__poster > img {
