@@ -915,7 +915,7 @@
 
       observer.observe(this.header);
     }
-
+        {% unless request.path contains '/the-gentlemen' %}
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
@@ -948,7 +948,7 @@
 
       this.currentScrollTop = scrollTop;
     }
-
+          {% endunless %}
     hide() {
       if (this.headerIsAlwaysSticky) return;
       this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
