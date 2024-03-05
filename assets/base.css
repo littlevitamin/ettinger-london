@@ -6153,8 +6153,12 @@ content: '\f08a';
   width: 95%!important;
 } 
 
-.deferred-media {
+.gentleman-page .deferred-media {
   min-height: 285px!important;
+}
+
+.gentleman-page .ytp-ce-top-right-quad {
+  z-index: -1;
 }
 
 @media screen and (max-width: 749px) {
