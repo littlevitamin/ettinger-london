@@ -6177,7 +6177,8 @@ content: '\f08a';
 .gentleman-page .icon-search,
 .gentleman-page .header__icon--cart .icon,
 .gentleman-page .header-white-background svg.modal__toggle-open.icon.icon-search>use,
-.gentleman-page .scrolled-past-header > sticky-header > header > nav > ul > li > a > span {
+.gentleman-page .scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
+.gentleman-page .scrolled-past-header .list-menu__item-homepage {
   color: white!important;
 }
 
