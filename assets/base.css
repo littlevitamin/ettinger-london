@@ -6136,11 +6136,6 @@ content: '\f08a';
     padding-bottom: 250px!important;
   }
 
-
-.gentleman-page .collection .card__information >* {
-  color: white!important;
-}
-
 .gentleman-flex {
   display: flex;
   flex-direction: column;
@@ -6180,7 +6175,9 @@ content: '\f08a';
 .gentleman-page .scrolled-past-header .list-menu__item-homepage,
 .gentleman-page .scrolled-past-header .header__icon--account,
 .gentleman-page .hovered .header__menu-item > span,
-.gentleman-page .hovered svg.modal__toggle-open.icon.icon-search > use {
+.gentleman-page .hovered svg.modal__toggle-open.icon.icon-search > use,
+.gentleman-page .header-white-background,
+.gentleman-page .collection .card__information >* {
   color: white!important;
 }
 
