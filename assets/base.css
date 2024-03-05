@@ -6151,6 +6151,9 @@ content: '\f08a';
 
 .gentleman-page .grey-divider {
   width: 95%!important;
+
+.gentleman-page .video-section__media {
+  min-height: 250px;
 }
 
 @media screen and (max-width: 749px) {
