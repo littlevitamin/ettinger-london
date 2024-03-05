@@ -6187,7 +6187,7 @@ content: '\f08a';
     fill: white!important;
   }
   .gentleman-page .grey-divider {
-    width: 90%!important;
+    float: left;
   }
   .gentleman-page .deferred-media__poster > img {
     object-fit: contain;
