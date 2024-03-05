@@ -6168,7 +6168,10 @@ content: '\f08a';
   background: transparent!important;
 }
 
-.gentleman-page .header-white-background .icon-hamburger {
+.gentleman-page .header-white-background .icon-hamburger,
+.gentleman-page .icon-hamburger,
+.gentleman-page .icon-search,
+.gentleman-page .icon {
   color: white!important;
 }
 
