@@ -6088,7 +6088,8 @@ content: '\f08a';
 .gentleman-page,
 .gentleman-page .footer__bottom-background, 
 .gentleman-page .footer,
-.gentleman-page .footer-block {
+.gentleman-page .footer-block,
+.gentleman-page .deferred-media__poster > img {
   background: #1C1C1C!important;
 }
 
@@ -6186,5 +6187,8 @@ content: '\f08a';
   }
   .gentleman-page .grey-divider {
     width: 90%!important;
+  }
+  .gentleman-page .deferred-media__poster > img {
+    object-fit: contain;
   }
 }
