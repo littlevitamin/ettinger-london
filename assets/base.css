@@ -6165,7 +6165,7 @@ content: '\f08a';
 
 .gentleman-page .header-wrapper,
 .gentleman-page sticky-header > header {
-  background: transparent!important;
+  background: #121212!important;
 }
 
 .gentleman-page .header-white-background .icon-hamburger,
