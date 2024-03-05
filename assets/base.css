@@ -6188,7 +6188,8 @@ content: '\f08a';
   fill: white;
 }
 
-.gentleman-page .top-icons {
+.gentleman-page .top-icons,
+.gentleman-page .section-header .divider {
   display: none!important;
 }
 
