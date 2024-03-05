@@ -429,14 +429,9 @@
             var bannerBox = document.getElementById('gentleman-flex');
             var scrollPosition = window.scrollY;
             var newTop;
-    
-            // if (window.innerWidth >= 750) {
-            //     newTop = 300 - scrollPosition / 5; // Desktop behavior
-            //     newTop = Math.max(newTop, 200); // Ensure the newTop value doesn't go below 150
-            // } else {
-                newTop = -50 - scrollPosition / 5; // Mobile behavior
-                newTop = Math.max(newTop, -200); // Ensure the newTop value doesn't go above 0
-            // }
+  
+            newTop = -50 - scrollPosition / 7.5;
+            newTop = Math.max(newTop, -150);
     
             bannerBox.style.top = newTop + 'px';
         });
