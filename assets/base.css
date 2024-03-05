@@ -3157,6 +3157,7 @@ sticky-header > header > nav > ul > li > a > span {
 
 .gentleman-page .scrolled-past-header > sticky-header > header > a > img {
   content: url("https://www.ettinger.co.uk/cdn/shop/t/3/assets/Ettinger_London_1.svg?v=133300894509758796471709651373")!important;
+  margin-left: 60px;
 }
 
 .scrolled-past-header .header--top-center {
