@@ -6161,6 +6161,12 @@ content: '\f08a';
   left: 0;
 }
 
+@media screen and (min-width: 990px) {
+  .gentleman-media {
+    height: 60rem;
+  }
+}
+
 .gentleman-flex > img {
   margin: auto;
 }
