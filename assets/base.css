@@ -6176,11 +6176,12 @@ content: '\f08a';
 .gentleman-page .icon-hamburger,
 .gentleman-page .icon-search,
 .gentleman-page .header__icon--cart .icon,
-.gentleman-page .header-white-background svg.modal__toggle-open.icon.icon-search>use,
+.gentleman-page .header-white-background svg.modal__toggle-open.icon.icon-search > use,
 .gentleman-page .scrolled-past-header > sticky-header > header > nav > ul > li > a > span,
 .gentleman-page .scrolled-past-header .list-menu__item-homepage,
 .gentleman-page .scrolled-past-header .header__icon--account,
-.gentleman-page .hovered .header__menu-item > span {
+.gentleman-page .hovered .header__menu-item > span,
+.gentleman-page .hovered svg.modal__toggle-open.icon.icon-search > use {
   color: white!important;
 }
 
