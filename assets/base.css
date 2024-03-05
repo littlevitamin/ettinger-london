@@ -6157,6 +6157,7 @@ content: '\f08a';
   position: absolute;
   width: -webkit-fill-available;
   margin: 0 auto;
+  top: -100px;
 }
 
 .gentleman-flex > img {
