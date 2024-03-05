@@ -6167,8 +6167,7 @@ content: '\f08a';
   z-index: -1;
 }
 
-.gentleman-page .header-wrapper,
-.gentleman-page sticky-header > header {
+.gentleman-page .header-wrapper {
   background: #121212!important;
 }
 
