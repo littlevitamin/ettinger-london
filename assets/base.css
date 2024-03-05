@@ -3166,6 +3166,12 @@ sticky-header > header > nav > ul > li > a > span {
   }
 }
 
+@media screen and (min-width: 990px) {
+  .gentleman-page .scrolled-past-header > sticky-header > header > a > img {
+    margin-left: 0px;
+  }
+}
+
 .scrolled-past-header .header--top-center {
   display: flex;
   justify-content: space-between;
