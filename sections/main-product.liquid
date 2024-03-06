@@ -88,6 +88,11 @@
               </p>{% endcomment %}
             {%- when 'title' -%}
             {% assign product_collection_handle = product.collections.first.handle %}
+
+                              {% if template.suffix contains 'gentlemen' %}123{% endif %}
+                  {{ template.suffix }}
+                  {{ template.name }}
+                  {{ template.directory }}
             
             {% for collection in collections %}
               {% if collection.handle == product_collection_handle %}
@@ -104,10 +109,6 @@
                   <h2 class="h1">
                     {{ product.title | escape }}
                   </h2>
-                  {% if template.suffix contains 'gentlemen' %}123{% endif %}
-                  {{ template.suffix }}
-                  {{ template.name }}
-                  {{ template.directory }}
                 </a>
               </div>
             {%- when 'price' -%}
