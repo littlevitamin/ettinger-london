@@ -137,6 +137,8 @@
             {% assign collection_image = block.settings.collection.featured_image | default: block.settings.collection.image %}
             {% assign collection_list_image = block.settings.collection_list_image %}
             {% assign image = collection_list_image | default: collection_image %}
+            {% assign collection_url = block.settings.external_link %}
+            {% assign url = collection_url %}
           
             <swiper-slide
               id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -147,6 +149,7 @@
                 card_collection: block.settings.collection,
                 media_aspect_ratio: section.settings.image_ratio,
                 collection_list_image: image,
+                collection_url: url,
                 columns: columns
               %}
             </swiper-slide>
