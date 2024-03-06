@@ -88,8 +88,6 @@
               </p>{% endcomment %}
             {%- when 'title' -%}
             {% assign product_collection_handle = product.collections.first.handle %}
-
-            {% if request.path contains '/the-gentlemen' %}123{% endif %}
             
             {% for collection in collections %}
               {% if collection.handle == product_collection_handle %}
@@ -101,7 +99,7 @@
                 <button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product swym-product-icon product_{{product.id}}" data-swaction="addToWishlist" data-product-id="{{product.id | json}}" data-variant-id="{{product.variants[0].id}}" data-product-url="{{ shop.url }}{{ product.url }}"></button>
               <!-- Swym Wishlist Plus EPI Button-->
               <div class="product__title" {{ block.shopify_attributes }}>
-                <h1>{{ product.title | escape }}</h1>
+                <h1{% if request.path contains '/the-gentlemen' %} style="color: var(--gradient-base-accent-2)!important;"{% endif %}>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
                     {{ product.title | escape }}
