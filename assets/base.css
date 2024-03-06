@@ -6201,7 +6201,9 @@ content: '\f08a';
 .gentleman-page .collection .card__information >*,
 .gentleman-page .header-white-background .icon-close,
 .gentleman-product .form__label,
-.gentleman-product .product__description > p {
+.gentleman-product .product__description > p,
+.gentleman-product .accordion__title,
+.gentleman-product .accordion__content > p {
   color: white!important;
 }
 
