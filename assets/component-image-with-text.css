@@ -167,6 +167,10 @@
   width: 40%!important;
 }
 
+.product-gentleman-item {
+  width: 50%!important;
+}
+
 .multirow-factory .image-with-text__media > img {
   max-height: 360px;
 }
