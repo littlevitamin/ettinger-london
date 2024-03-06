@@ -6199,7 +6199,8 @@ content: '\f08a';
 .gentleman-page .hovered .header__menu-item > span,
 .gentleman-page .hovered svg.modal__toggle-open.icon.icon-search > use,
 .gentleman-page .collection .card__information >*,
-.gentleman-page .header-white-background .icon-close {
+.gentleman-page .header-white-background .icon-close,
+.gentleman-product .form__label {
   color: white!important;
 }
 
