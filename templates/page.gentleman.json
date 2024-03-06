@@ -186,6 +186,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "bags-cases",
+            "custom_title": "Truefitt & Hill",
             "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_T_H.jpg",
             "external_link": "https:\/\/www.truefittandhill.co.uk\/"
           }
@@ -194,6 +195,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "croco",
+            "custom_title": "",
             "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_Avantcha.jpg",
             "external_link": ""
           }
@@ -202,6 +204,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "capra",
+            "custom_title": "",
             "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_HenryPoole.jpg",
             "external_link": ""
           }
