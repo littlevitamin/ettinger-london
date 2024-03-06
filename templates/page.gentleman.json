@@ -199,26 +199,12 @@
           "settings": {
             "collection": "croco"
           }
-        },
-        "featured_collection_Bq3Prk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "elegant-purses"
-          }
-        },
-        "featured_collection_7EztcD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "womens-flap-over-purses"
-          }
         }
       },
       "block_order": [
         "featured_collection_KmGWNb",
         "featured_collection_96dLUc",
-        "featured_collection_b3nJVa",
-        "featured_collection_Bq3Prk",
-        "featured_collection_7EztcD"
+        "featured_collection_b3nJVa"
       ],
       "settings": {
         "title": "",
