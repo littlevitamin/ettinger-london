@@ -6152,9 +6152,13 @@ content: '\f08a';
   display: none!important;
 }
 
-  .gentleman-page .collection {
+  /* .gentleman-page .collection {
     padding-bottom: 250px!important;
-  }
+  } */
+
+.gentleman-page .banner-gentlemen {
+  margin-top: 0!important;
+}
 
 .gentleman-flex {
   display: flex;
