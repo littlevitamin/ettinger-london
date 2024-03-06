@@ -152,7 +152,11 @@
               class="full-unstyled-link"
             >
               {%- if card_collection.title != blank -%}
-                {{- card_collection.title | escape -}}
+                {% if custom_title != blank %}
+                  {{ custom_title | escape }}
+                {% else %}
+                  {{- card_collection.title | escape -}}
+                {% endif %}
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}
