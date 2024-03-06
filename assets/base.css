@@ -4948,6 +4948,11 @@ div.banner__media::after {
   position: absolute;
 }
 
+.gentleman-page .multicolumn-list__item:nth-child(3) > div > div > h3 {
+  margin-left: 0;
+  position: relative;
+}
+
 .account p {
   font-size: 14px;
   font-weight: 300;
