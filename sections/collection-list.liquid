@@ -135,6 +135,8 @@
           -%}
           {%- for block in section.blocks -%}
             {% assign collection_image = block.settings.collection.featured_image | default: block.settings.collection.image %}
+            {% assign custom_title = block.settings.custom_title %}
+            {% assign title = custom_title %}
             {% assign collection_list_image = block.settings.collection_list_image %}
             {% assign image = collection_list_image | default: collection_image %}
             {% assign collection_url = block.settings.external_link %}
@@ -148,6 +150,7 @@
               {% render 'card-collection',
                 card_collection: block.settings.collection,
                 media_aspect_ratio: section.settings.image_ratio,
+                custom_title: title,
                 collection_list_image: image,
                 collection_url: url,
                 columns: columns
@@ -432,6 +435,11 @@
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
         },
         {
+          "type": "text",
+          "id": "custom_title",
+          "label": "Custom title"
+        },
+        {
           "type": "image_picker",
           "id": "collection_list_image",
           "label": "Collection Image"
@@ -439,7 +447,7 @@
         {
           "type": "url",
           "id": "external_link",
-          "label": "Collection Item Custom Link"
+          "label": "Custom Link"
         }
 
       ]
