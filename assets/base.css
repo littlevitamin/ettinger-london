@@ -6204,13 +6204,13 @@ content: '\f08a';
 .gentleman-product .product__description > p,
 .gentleman-product .accordion__title,
 .gentleman-product .accordion__content > p,
-.gentleman-product .icon-accordion,
 .gentleman-product .share-button__button {
   color: white!important;
 }
 
-.gentleman-page .scrolled-past-header .icon-accordion-wishlist-swym {
-  fill: white;
+.gentleman-page .scrolled-past-header .icon-accordion-wishlist-swym,
+.gentleman-product .icon-accordion {
+  fill: white!important;
 }
 
 .gentleman-page .top-icons,
