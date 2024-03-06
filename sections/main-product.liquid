@@ -105,6 +105,9 @@
                     {{ product.title | escape }}
                   </h2>
                   {% if template.suffix contains 'gentlemen' %}123{% endif %}
+                  {{ template.suffix }}
+                  {{ template.name }}
+                  {{ template.directory }}
                 </a>
               </div>
             {%- when 'price' -%}
