@@ -6207,7 +6207,8 @@ content: '\f08a';
 .gentleman-product .share-button__button,
 .gentleman-page .multicolumn-list h3,
 .gentleman-page .multicolumn-list p,
-.gentleman-page .card__heading {
+.gentleman-page .card__heading,
+.gentleman-page .related-products__heading {
   color: white!important;
 }
 
