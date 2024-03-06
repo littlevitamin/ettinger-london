@@ -185,19 +185,22 @@
         "featured_collection_KmGWNb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bags-cases"
+            "collection": "bags-cases",
+            "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_T_H.jpg"
           }
         },
         "featured_collection_96dLUc": {
           "type": "featured_collection",
           "settings": {
-            "collection": "capra"
+            "collection": "capra",
+            "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_HenryPoole.jpg"
           }
         },
         "featured_collection_b3nJVa": {
           "type": "featured_collection",
           "settings": {
-            "collection": "croco"
+            "collection": "croco",
+            "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_Avantcha.jpg"
           }
         }
       },
