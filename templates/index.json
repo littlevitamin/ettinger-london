@@ -36,7 +36,7 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Tote_Bag0313_-_Shopify_Homepage_Banner.jpg",
+        "image": "shopify:\/\/shop_images\/T_H_The_Gentleman_17.jpg",
         "paragraph": "<h3>NEW ARRIVAL<\/h3><h1>THE KENSINGTON <\/h1><h1>TOTE BAG<\/h1>",
         "enable_video": false,
         "video_url": "shopify:\/\/products\/kensington-tote-bag",
@@ -126,55 +126,71 @@
           "type": "featured_collection",
           "settings": {
             "collection": "sterling",
-            "collection_list_image": "shopify:\/\/shop_images\/Carousel_sterling.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_sterling.jpg",
+            "external_link": ""
           }
         },
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "elegant-purses",
-            "collection_list_image": "shopify:\/\/shop_images\/Carousel_elegant_purses.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_elegant_purses.jpg",
+            "external_link": ""
           }
         },
         "acbdfb55-a4dc-4532-b737-4d6a4762d1d8": {
           "type": "featured_collection",
           "settings": {
             "collection": "belts",
-            "collection_list_image": "shopify:\/\/shop_images\/Belts_Collection_1200x1000_94233b45-e074-4a7a-bd51-cd26970f7372.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Belts_Collection_1200x1000_94233b45-e074-4a7a-bd51-cd26970f7372.jpg",
+            "external_link": ""
           }
         },
         "c44e7549-0ab3-45c1-a939-763c0f5338ca": {
           "type": "featured_collection",
           "settings": {
             "collection": "capra-ecru",
-            "collection_list_image": "shopify:\/\/shop_images\/Capra_Ecru_Collection_Banner_1200x1000_4bdb7994-f363-4de7-a2f2-421c07b24e26.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Capra_Ecru_Collection_Banner_1200x1000_4bdb7994-f363-4de7-a2f2-421c07b24e26.jpg",
+            "external_link": ""
           }
         },
         "8f672b76-e73b-4273-9460-309005d880d3": {
           "type": "featured_collection",
           "settings": {
             "collection": "capra",
-            "collection_list_image": "shopify:\/\/shop_images\/Carousel_capra.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_capra.jpg",
+            "external_link": ""
           }
         },
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "metropolitan",
-            "collection_list_image": "shopify:\/\/shop_images\/Carousel_metropolitan.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Carousel_metropolitan.jpg",
+            "external_link": ""
           }
         },
         "3b16e97f-17bf-41e3-98b4-a14a6df71395": {
           "type": "featured_collection",
           "settings": {
-            "collection": "saint-crispin"
+            "collection": "saint-crispin",
+            "custom_title": "",
+            "external_link": ""
           }
         },
         "template--16002241986740__f7352756-f97c-452c-bd97-8043c9b05af2-168543561088654005-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "bridle-hide",
-            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_Collection_1200x1000_bd98f818-5fd3-4449-9321-4afb72f930d4.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_Collection_1200x1000_bd98f818-5fd3-4449-9321-4afb72f930d4.jpg",
+            "external_link": ""
           }
         }
       },
