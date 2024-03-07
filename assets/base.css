@@ -6178,6 +6178,7 @@ content: '\f08a';
 
 .gentleman-flex > img {
   margin: auto;
+  padding-bottom: 25px;
 }
 
 .section-gentleman .image-with-text__media > img {
@@ -6245,6 +6246,7 @@ content: '\f08a';
   }
   .gentleman-flex > img:nth-child(1) {
     width: 200px;
+    padding-bottom: 10px;
   }
   .gentleman-flex > img:nth-child(2) {
     width: 100px;
