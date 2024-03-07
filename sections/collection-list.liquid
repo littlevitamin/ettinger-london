@@ -71,6 +71,14 @@
   endif
 -%}
 
+            {% assign collection_image = block.settings.collection.featured_image | default: block.settings.collection.image %}
+            {% assign custom_title = block.settings.custom_title %}
+            {% assign title = custom_title %}
+            {% assign collection_list_image = block.settings.collection_list_image %}
+            {% assign image = collection_list_image | default: collection_image %}
+            {% assign collection_url = block.settings.external_link %}
+            {% assign url = collection_url %}
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="blog-image-container {% if request.path contains '/the-ettinger-factory' or request.path contains '/the-gentlemen' %}empty-divider{% endif %}">
     <span class="list-border"><div class="grey-divider">hello</div></span>
@@ -134,13 +142,6 @@
             endif
           -%}
           {%- for block in section.blocks -%}
-            {% assign collection_image = block.settings.collection.featured_image | default: block.settings.collection.image %}
-            {% assign custom_title = block.settings.custom_title %}
-            {% assign title = custom_title %}
-            {% assign collection_list_image = block.settings.collection_list_image %}
-            {% assign image = collection_list_image | default: collection_image %}
-            {% assign collection_url = block.settings.external_link %}
-            {% assign url = collection_url %}
           
             <swiper-slide
               id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -210,13 +211,6 @@
             endif
           -%}
           {%- for block in section.blocks -%}
-                        {% assign collection_image = block.settings.collection.featured_image | default: block.settings.collection.image %}
-            {% assign custom_title = block.settings.custom_title %}
-            {% assign title = custom_title %}
-            {% assign collection_list_image = block.settings.collection_list_image %}
-            {% assign image = collection_list_image | default: collection_image %}
-            {% assign collection_url = block.settings.external_link %}
-            {% assign url = collection_url %}
             <swiper-slide
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}"
