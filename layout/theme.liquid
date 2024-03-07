@@ -405,7 +405,7 @@
         var headerGentleman = document.querySelector('.shopify-section-header-sticky');
         var url = window.location.href;
         
-        if (url.includes('/the-gentlemen')) {
+        if (window.innerWidth > 750 && url.includes('/the-gentlemen')) {
             headerGentleman.classList.add('scrolled-past-header');
         }
     });
