@@ -405,7 +405,7 @@
         var headerGentleman = document.querySelector('.shopify-section-header-sticky');
         var url = window.location.href;
         
-        if (url === 'https://www.ettinger.co.uk/pages/the-gentlemen') {
+        if (url.includes('/the-gentlemen')) {
             headerGentleman.classList.add('scrolled-past-header');
         }
     });
