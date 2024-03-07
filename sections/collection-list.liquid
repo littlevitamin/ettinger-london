@@ -218,6 +218,9 @@
               {% render 'card-collection',
                 card_collection: block.settings.collection,
                 media_aspect_ratio: section.settings.image_ratio,
+                custom_title: title,
+                collection_list_image: image,
+                collection_url: url,
                 columns: columns
               %}
             </swiper-slide>
