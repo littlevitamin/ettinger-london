@@ -443,9 +443,9 @@
   const cubes = [];
   const existingIDs = [1, 2, 3, 4, 5, 6]; // IDs of existing elements
   const newArrival = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(1) > a');
-  // const christmas = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(6) > a');
+  const christmas = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(6) > a');
   newArrival.setAttribute('id', 'Details-HeaderMenu-1');
-  // christmas.setAttribute('id', 'Details-HeaderMenu-6');
+  christmas.setAttribute('id', 'Details-HeaderMenu-6');
 
   existingIDs.forEach(id => {
     const cube = document.querySelector(`#Details-HeaderMenu-${id}`);
