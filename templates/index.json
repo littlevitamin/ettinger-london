@@ -21,8 +21,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "DISCOVER THE STORY",
-            "button_link_1": "shopify:\/\/pages\/the-gentlemen",
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/womens-travel-accessories",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,10 +36,10 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/T_H_The_Gentleman_17.jpg",
-        "paragraph": "<h3>IN COLLABORATION WITH NETFLIX<\/h3><h1>THE GENTLEMEN<\/h1>",
+        "image": "shopify:\/\/shop_images\/Travel_in_Style_Home_Page_Hero_0ed180bf-bd3d-4784-91e1-a492437c47bc.jpg",
+        "paragraph": "<h3>SPRING EDIT<\/h3><h1>TRAVEL ESSENTIALS<\/h1>",
         "enable_video": false,
-        "video_url": "shopify:\/\/products\/kensington-tote-bag",
+        "video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-right",
