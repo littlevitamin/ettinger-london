@@ -36,8 +36,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Travel_in_Style_Home_Page_Hero_0ed180bf-bd3d-4784-91e1-a492437c47bc.jpg",
-        "paragraph": "<h3>SPRING EDIT<\/h3><h1>TRAVEL ESSENTIALS<\/h1>",
+        "image": "shopify:\/\/shop_images\/IMG_7331_-_Shopify_Homepage_Banner.jpg",
+        "paragraph": "<h3>SPRING FAVOURITES<\/h3><h1>STERLING COLLECTION<\/h1>",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
@@ -59,7 +59,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "the-gentleman",
+        "collection": "sterling",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
@@ -84,22 +84,22 @@
         "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
           "type": "collection",
           "settings": {
-            "collection": "womens-bags-cases",
-            "custom_image": "shopify:\/\/shop_images\/Business_bag_shoot_-_Shopify_Homepage_Banner.jpg"
+            "collection": "bestsellers",
+            "custom_image": "shopify:\/\/shop_images\/Embossing_service_-_Shopify_Homepage_Banner_1.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "bestsellers",
+            "collection": "mens-travel-accessories",
             "custom_image": "shopify:\/\/shop_images\/Travel_in_Style_Home_Page_Hero.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "womens-billfold-wallets",
-            "custom_image": "shopify:\/\/shop_images\/Embossing_service_-_Shopify_Bestsellers_block.jpg"
+            "collection": "watch-rolls-boxes",
+            "custom_image": "shopify:\/\/shop_images\/Watch_Rolles_Single_Double_Tripe_Header_Image.jpg"
           }
         }
       },
