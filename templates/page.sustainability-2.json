@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "paragraph": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "69786272-ce6f-41df-88d5-a13f76b893c0": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ETTINGER FACTORY",
+            "heading_size": "h2"
+          }
+        },
+        "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0",
+        "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_factory.png",
+        "paragraph": "<p>Unexpected shapes with smart <strong>details, functionality, a new luxury feel<\/strong> with a contemporary price point.<\/p>",
+        "enable_video": false,
+        "video_url": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "32f72ee9-97ec-4028-b64a-51342bf29250": {
+      "type": "multirow",
+      "blocks": {
+        "template--19981970145566__32f72ee9-97ec-4028-b64a-51342bf29250-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/James_Homer_Photo_ca_1936_-_Cropped_HiRes.jpg",
+            "caption": "",
+            "heading": "FACTORY HISTORY",
+            "text": "<p>Historically, the finest leather goods in Britain were always made in London, where the country’s best tailors, perfumers and trunk-makers all held shop.<\/p><p>Establishing his company in a smart address just off Regent Street, Gerry Ettinger ensured he could easily connect with the London and international elites as well as the best department stores of his time. <\/p><p>Maintaining leather workshops in central London was unfortunately not tenable, as those areas were being gentrified and rents pushed workshops out of town. Ettinger had been working with one of Walsall’s oldest manufacturers for some time and when in 1999 the factory was up for sale, Ettinger decided it was time to increase its own manufacturing capacity and so bought the factory out with all its workforce.<\/p><p>Walsall, on the northern outskirts of Birmingham was home to thousands of factories and workshops in the leather trade and was very much at the heart of saddlery, harness and small leather goods making in England, albeit perhaps more at the utilitarian end of the industry in an age where Britain’s industries and life and general still relied heavily on horses and leather straps of all kinds. However, mechanisation and especially globalisation meant that most of these factories closed in the late 1990s.<\/p><p>James Homer Ltd was one of the oldest surviving leather goods factories, established in 1890 and having always occupied the same building. When Ettinger took over the factory, production standards were raised in order to meet international luxury standards and considerable investment has been done over the years into maintaining and upgrading the factory, as well as train staff.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19981970145566__32f72ee9-97ec-4028-b64a-51342bf29250-row-1"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
+      "type": "image-banner",
+      "settings": {
+        "paragraph": "",
+        "enable_video": true,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "576fdaac-98b4-49d7-9080-0454e97e59f1": {
+      "type": "multirow",
+      "blocks": {
+        "89a62a6a-7eb9-4091-a125-7cdc9265dd8d": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shaun_Bloodworth_4_1.png",
+            "caption": "<h2><strong>\"<\/strong>Most of us have one or several family members that have worked in the small leather goods making industry<strong>\"<\/strong><\/h2><h5><strong>-<\/strong> Gary Billingham, Factory Manager & Pattern Maker<\/h5>",
+            "heading": "CRAFTSPEOPLE",
+            "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "89a62a6a-7eb9-4091-a125-7cdc9265dd8d"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "82a7aa87-fb54-44c8-972a-8acec6db5d6d": {
+      "type": "third-scrolling-section",
+      "blocks": {
+        "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ludovic_Robert_Photographer-20130404-0407.png",
+            "caption": "Factory Manager & Pattern Maker",
+            "heading": "Gary Billingham",
+            "text": "<p>Gary has worked in our factory since he was 16 and, needless to say, has a wealth of experience under his belt. He is our main pattern and sample maker and is also the factory manager. Pattern making means transforming a 2D drawing (or sometimes nothing more than a small description over the phone) into a working 3D model by creating all the necessary parts of the item. These parts are generally made of cardboard first and then hand cut in leather.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ludovic_Robert_Photographer-20130404-0748.png",
+            "caption": "Quality Controller",
+            "heading": "Meg Sims",
+            "text": "<p>Meg ensures our quality control is second to none. She's been working in the the Ettinger factory since she was 16, so her eagle eye is certainly well trained. In the factory she ensures our production runs smoothly and manages a team of outworkers.<\/p><p>Meg is the first point of contact for our suppliers, and ensures we have the best product available on the market.<\/p><p>In recent years Meg has been at the helm of our initialling service, perfecting the skills and producing the finest results.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-1",
+        "template--19981970145566__82a7aa87-fb54-44c8-972a-8acec6db5d6d-row-2"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8c0e7dba-1be8-4a00-91ab-5202adf80b6d": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "canvas",
+            "collection_list_image": "shopify:\/\/shop_images\/Canvas_1200x1000_90a2c00b-cc46-4e19-9371-13c69f488c3f.jpg"
+          }
+        },
+        "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "goat-leather",
+            "collection_list_image": "shopify:\/\/shop_images\/Goat_Leather_Collection_1200x1000_caf849a2-3ec9-4abf-a877-9a730f662df9.jpg"
+          }
+        },
+        "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "suede",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_Collection_Banner_copy_f3e7e2e1-5706-4105-ac4e-7842f6e52997.jpg"
+          }
+        },
+        "ac1861e4-5e7a-482f-834d-93b1397f69a8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "saint-crispin-calf",
+            "collection_list_image": "shopify:\/\/shop_images\/Saint_Crispin_Calf_Collection_1200x1000_9b61669d-12df-4cf3-a7d0-c5165d86729e.jpg"
+          }
+        },
+        "b06fd603-469d-46b1-b34b-81893e0db821": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smooth-calfskin",
+            "collection_list_image": "shopify:\/\/shop_images\/Smooth_Calf_1200x1000_2eb68e5f-3725-4744-8c6d-2c81583cc0e7.jpg"
+          }
+        },
+        "f107b4ae-08ed-4d89-97a4-a10b57caa1a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shadow-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Shadow_Hide_1200x1000_43c1ccde-8061-4534-b59a-0d505afcf521.jpg"
+          }
+        },
+        "c227ccab-a8c5-44cf-bddb-082bcbe06b92": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "croco-leather",
+            "collection_list_image": "shopify:\/\/shop_images\/Croco_1200x1000_062a89bb-c3f3-4f8e-ab7e-294bf378b973.jpg"
+          }
+        },
+        "8ea102ea-cb2c-4799-9269-ccd78cd244dc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dressed-calf",
+            "collection_list_image": "shopify:\/\/shop_images\/Dressed_Calf_1200x1000_2249b3f6-2c18-4aff-8b61-1c05fb965143.jpg"
+          }
+        },
+        "742403f8-9b18-4fb6-a7da-4dbdd6d02196": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "soft-dressed-calf",
+            "collection_list_image": "shopify:\/\/shop_images\/Soft_Dressed_Calf_1200x1000_37ba488d-8d3f-42a4-ad82-e8b8bca8607c.jpg"
+          }
+        },
+        "9a8654af-8108-4437-8ff3-0fbc757d857d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fine-bridle-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_1200x1000_8bc9894a-5d68-4394-a049-605b6202055f.jpg"
+          }
+        },
+        "32753946-180a-4fd2-8df0-bbd3737cd9fa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "traditional-english-bridle-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Traditional_English_Bridle_Hide_Collection_1200x1000_eaad5c8e-70b6-46c1-80c6-fb78fd0b597e.jpg"
+          }
+        },
+        "62709a05-6740-4708-a735-85a943dc8d19": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "panel-hide",
+            "collection_list_image": "shopify:\/\/shop_images\/Panel_Hide_Collection_1200x1000_e975fa7c-af99-4697-a892-2581ba397b45.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-1",
+        "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-2",
+        "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3",
+        "ac1861e4-5e7a-482f-834d-93b1397f69a8",
+        "b06fd603-469d-46b1-b34b-81893e0db821",
+        "f107b4ae-08ed-4d89-97a4-a10b57caa1a3",
+        "c227ccab-a8c5-44cf-bddb-082bcbe06b92",
+        "8ea102ea-cb2c-4799-9269-ccd78cd244dc",
+        "742403f8-9b18-4fb6-a7da-4dbdd6d02196",
+        "9a8654af-8108-4437-8ff3-0fbc757d857d",
+        "32753946-180a-4fd2-8df0-bbd3737cd9fa",
+        "62709a05-6740-4708-a735-85a943dc8d19"
+      ],
+      "settings": {
+        "title": "OUR LEATHERS",
+        "subheading": "<p>Ettinger commissions and selects the best tanned skins from a number of tanneries, all of whom are based in the E.U. Having developed special relationships with these tanneries over many years ensures we can maintain our leather supply standards and offer an extensive range of leathers, many of which are exclusive to Ettinger. Discover our full ranges here.<\/p>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5715306dfcc849bca518b314d0119430.mp4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "e5724cce-e348-435d-8216-726d0bd7bcf4": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "lifestyle",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "69786272-ce6f-41df-88d5-a13f76b893c0",
+    "32f72ee9-97ec-4028-b64a-51342bf29250",
+    "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
+    "576fdaac-98b4-49d7-9080-0454e97e59f1",
+    "82a7aa87-fb54-44c8-972a-8acec6db5d6d",
+    "8c0e7dba-1be8-4a00-91ab-5202adf80b6d",
+    "e5724cce-e348-435d-8216-726d0bd7bcf4"
+  ]
+}
