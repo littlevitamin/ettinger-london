@@ -15,7 +15,7 @@
         "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0": {
           "type": "heading",
           "settings": {
-            "heading": "ETTINGER FACTORY",
+            "heading": "ETTINGER'S SUSTAINABLE EFFORTS",
             "heading_size": "h2"
           }
         },
@@ -54,6 +54,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/James_Homer_Photo_ca_1936_-_Cropped_HiRes.jpg",
+            "video_url": "",
             "caption": "",
             "heading": "FACTORY HISTORY",
             "text": "<p>Historically, the finest leather goods in Britain were always made in London, where the country’s best tailors, perfumers and trunk-makers all held shop.<\/p><p>Establishing his company in a smart address just off Regent Street, Gerry Ettinger ensured he could easily connect with the London and international elites as well as the best department stores of his time. <\/p><p>Maintaining leather workshops in central London was unfortunately not tenable, as those areas were being gentrified and rents pushed workshops out of town. Ettinger had been working with one of Walsall’s oldest manufacturers for some time and when in 1999 the factory was up for sale, Ettinger decided it was time to increase its own manufacturing capacity and so bought the factory out with all its workforce.<\/p><p>Walsall, on the northern outskirts of Birmingham was home to thousands of factories and workshops in the leather trade and was very much at the heart of saddlery, harness and small leather goods making in England, albeit perhaps more at the utilitarian end of the industry in an age where Britain’s industries and life and general still relied heavily on horses and leather straps of all kinds. However, mechanisation and especially globalisation meant that most of these factories closed in the late 1990s.<\/p><p>James Homer Ltd was one of the oldest surviving leather goods factories, established in 1890 and having always occupied the same building. When Ettinger took over the factory, production standards were raised in order to meet international luxury standards and considerable investment has been done over the years into maintaining and upgrading the factory, as well as train staff.<\/p>",
@@ -105,6 +106,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shaun_Bloodworth_4_1.png",
+            "video_url": "",
             "caption": "<h2><strong>\"<\/strong>Most of us have one or several family members that have worked in the small leather goods making industry<strong>\"<\/strong><\/h2><h5><strong>-<\/strong> Gary Billingham, Factory Manager & Pattern Maker<\/h5>",
             "heading": "CRAFTSPEOPLE",
             "text": "<p>Ettinger takes great pride in its craftspeople. Among the last to still make leather goods in the UK, the quality of our goods and attention to detail are paramount to our success. We continuously improve our quality control to ensure the highest standards throughout the production process.<\/p>",
@@ -185,84 +187,108 @@
           "type": "featured_collection",
           "settings": {
             "collection": "canvas",
-            "collection_list_image": "shopify:\/\/shop_images\/Canvas_1200x1000_90a2c00b-cc46-4e19-9371-13c69f488c3f.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Canvas_1200x1000_90a2c00b-cc46-4e19-9371-13c69f488c3f.jpg",
+            "external_link": ""
           }
         },
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "goat-leather",
-            "collection_list_image": "shopify:\/\/shop_images\/Goat_Leather_Collection_1200x1000_caf849a2-3ec9-4abf-a877-9a730f662df9.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Goat_Leather_Collection_1200x1000_caf849a2-3ec9-4abf-a877-9a730f662df9.jpg",
+            "external_link": ""
           }
         },
         "template--19981970145566__8c0e7dba-1be8-4a00-91ab-5202adf80b6d-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
             "collection": "suede",
-            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_Collection_Banner_copy_f3e7e2e1-5706-4105-ac4e-7842f6e52997.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_Collection_Banner_copy_f3e7e2e1-5706-4105-ac4e-7842f6e52997.jpg",
+            "external_link": ""
           }
         },
         "ac1861e4-5e7a-482f-834d-93b1397f69a8": {
           "type": "featured_collection",
           "settings": {
             "collection": "saint-crispin-calf",
-            "collection_list_image": "shopify:\/\/shop_images\/Saint_Crispin_Calf_Collection_1200x1000_9b61669d-12df-4cf3-a7d0-c5165d86729e.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Saint_Crispin_Calf_Collection_1200x1000_9b61669d-12df-4cf3-a7d0-c5165d86729e.jpg",
+            "external_link": ""
           }
         },
         "b06fd603-469d-46b1-b34b-81893e0db821": {
           "type": "featured_collection",
           "settings": {
             "collection": "smooth-calfskin",
-            "collection_list_image": "shopify:\/\/shop_images\/Smooth_Calf_1200x1000_2eb68e5f-3725-4744-8c6d-2c81583cc0e7.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Smooth_Calf_1200x1000_2eb68e5f-3725-4744-8c6d-2c81583cc0e7.jpg",
+            "external_link": ""
           }
         },
         "f107b4ae-08ed-4d89-97a4-a10b57caa1a3": {
           "type": "featured_collection",
           "settings": {
             "collection": "shadow-hide",
-            "collection_list_image": "shopify:\/\/shop_images\/Shadow_Hide_1200x1000_43c1ccde-8061-4534-b59a-0d505afcf521.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Shadow_Hide_1200x1000_43c1ccde-8061-4534-b59a-0d505afcf521.jpg",
+            "external_link": ""
           }
         },
         "c227ccab-a8c5-44cf-bddb-082bcbe06b92": {
           "type": "featured_collection",
           "settings": {
             "collection": "croco-leather",
-            "collection_list_image": "shopify:\/\/shop_images\/Croco_1200x1000_062a89bb-c3f3-4f8e-ab7e-294bf378b973.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Croco_1200x1000_062a89bb-c3f3-4f8e-ab7e-294bf378b973.jpg",
+            "external_link": ""
           }
         },
         "8ea102ea-cb2c-4799-9269-ccd78cd244dc": {
           "type": "featured_collection",
           "settings": {
             "collection": "dressed-calf",
-            "collection_list_image": "shopify:\/\/shop_images\/Dressed_Calf_1200x1000_2249b3f6-2c18-4aff-8b61-1c05fb965143.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Dressed_Calf_1200x1000_2249b3f6-2c18-4aff-8b61-1c05fb965143.jpg",
+            "external_link": ""
           }
         },
         "742403f8-9b18-4fb6-a7da-4dbdd6d02196": {
           "type": "featured_collection",
           "settings": {
             "collection": "soft-dressed-calf",
-            "collection_list_image": "shopify:\/\/shop_images\/Soft_Dressed_Calf_1200x1000_37ba488d-8d3f-42a4-ad82-e8b8bca8607c.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Soft_Dressed_Calf_1200x1000_37ba488d-8d3f-42a4-ad82-e8b8bca8607c.jpg",
+            "external_link": ""
           }
         },
         "9a8654af-8108-4437-8ff3-0fbc757d857d": {
           "type": "featured_collection",
           "settings": {
             "collection": "fine-bridle-hide",
-            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_1200x1000_8bc9894a-5d68-4394-a049-605b6202055f.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Bridle_Hide_1200x1000_8bc9894a-5d68-4394-a049-605b6202055f.jpg",
+            "external_link": ""
           }
         },
         "32753946-180a-4fd2-8df0-bbd3737cd9fa": {
           "type": "featured_collection",
           "settings": {
             "collection": "traditional-english-bridle-hide",
-            "collection_list_image": "shopify:\/\/shop_images\/Traditional_English_Bridle_Hide_Collection_1200x1000_eaad5c8e-70b6-46c1-80c6-fb78fd0b597e.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Traditional_English_Bridle_Hide_Collection_1200x1000_eaad5c8e-70b6-46c1-80c6-fb78fd0b597e.jpg",
+            "external_link": ""
           }
         },
         "62709a05-6740-4708-a735-85a943dc8d19": {
           "type": "featured_collection",
           "settings": {
             "collection": "panel-hide",
-            "collection_list_image": "shopify:\/\/shop_images\/Panel_Hide_Collection_1200x1000_e975fa7c-af99-4697-a892-2581ba397b45.jpg"
+            "custom_title": "",
+            "collection_list_image": "shopify:\/\/shop_images\/Panel_Hide_Collection_1200x1000_e975fa7c-af99-4697-a892-2581ba397b45.jpg",
+            "external_link": ""
           }
         }
       },
