@@ -66,10 +66,10 @@
           "type": "row",
           "settings": {
             "video_url": "",
-            "caption": "<p>Caption<\/p>",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "caption": "<p><strong>Waste Management<\/strong><\/p>",
+            "heading": "",
+            "text": "<p>We do not generate sufficient leather waste for recycling as we are very cautious with our leather and <strong>cut it very carefully to avoid waste<\/strong> as much as possible.<\/p><p>However, when we get leather leftover, we create <strong>small products <\/strong>such as bookmarks to minimize waste. That way, almost the <strong>entire skin is used<\/strong>. <\/p><p>Our <strong>packaging and printing ink cartridges are recycled <\/strong>as well as the paper who’s shredded before being recycled through SDR. <\/p><p>Regarding the leather, we cannot make recycled leather products to the standard required for our company, however,<strong> leather naturally breaks down organically in the right condition<\/strong> without negatively impacting the environment. <\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
