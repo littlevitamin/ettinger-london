@@ -53,11 +53,12 @@
         "row_gWPp3y": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7208.jpg",
             "video_url": "",
-            "caption": "<p>Caption<\/p>",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "caption": "<p><strong>Reducing Energy Consumption & CO2 Emissions<\/strong><\/p>",
+            "heading": "",
+            "text": "<p>In the last 5 years, we have <strong>decreased our energy<br\/>consumption by 26%<\/strong> thanks to the renovation of our building, new boilers and staff awareness which led to an overall better insulation. <\/p><p>In our Walsall factory, over <strong>80% of our manufacturing is made by hand<\/strong> which largely reduces the use of energy. Only a small amount of sewing machines need electricity. <\/p><p>We minimise the impact of our deliveries by grouping them as much as possible and by using <strong>DHL GoGreen Plus<\/strong> delivery solution. <\/p><p>GoGreen Plus helps us <strong>reduce the carbon emissions<\/strong> associated with our shipments using <strong>Sustainable<br\/>Aviation Fuel<\/strong> (SAF). <\/p><p>SAF is a biofuel that is produced from <strong>renewable sources<\/strong> such as vegetable oils, animal fats, waste products, and agricultural crops. <\/p><p>SAF is specifically designed to be used as a substitute for traditional jet fuel and can <strong>reduce greenhouse gas emissions by up to 80%<\/strong> compared to fossil fuels.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -115,6 +116,48 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_baMBPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ixAHUx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_dkP8Vg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_G6zAgX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ixAHUx",
+        "text_dkP8Vg",
+        "button_G6zAgX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2": {
@@ -191,6 +234,7 @@
     "main",
     "69786272-ce6f-41df-88d5-a13f76b893c0",
     "multirow_zxBnt6",
+    "rich_text_baMBPC",
     "b6fa30c6-c475-40ac-ab6b-eb139783dea2",
     "576fdaac-98b4-49d7-9080-0454e97e59f1",
     "e5724cce-e348-435d-8216-726d0bd7bcf4"
