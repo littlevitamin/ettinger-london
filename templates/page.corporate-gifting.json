@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "paragraph": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "98fcdde3-334a-4064-9532-adedd5fd0c06": {
+      "type": "multirow",
+      "blocks": {
+        "template--19283159318814__98fcdde3-334a-4064-9532-adedd5fd0c06-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collections_pursuits_de2fb7ae-c752-45a6-b418-b0521b5c6d94.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19283159318814__98fcdde3-334a-4064-9532-adedd5fd0c06-row-1"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9456937c-73e1-4da5-9cfb-2e98306c6c66": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20341652062494__9456937c-73e1-4da5-9cfb-2e98306c6c66-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CONTACT US<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--20341652062494__9456937c-73e1-4da5-9cfb-2e98306c6c66-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We would be delighted to assist you in any way we can, or simply to hear any comments you may have regarding our products and services, so please do get in touch.<\/p><p><br\/>Telephone number<\/p><p><strong>+44 (0)20 8877 1616<\/strong><\/p><p>Press enquiries UK<br\/><a href=\"mailto:ettinger@hunt-communications.com\" title=\"mailto:ettinger@hunt-communications.com\"><strong>ettinger@hunt-communications.com<\/strong><\/a><\/p><p>Press enquiries US<br\/><a href=\"mailto:hello@falconeragency.com\" title=\"mailto:hello@falconeragency.com\"><strong>hello@falconeragency.com<\/strong><\/a><\/p><p>Customer enquiries<br\/><a href=\"mailto:clientservices@ettinger.co.uk\" title=\"mailto:clientservices@ettinger.co.uk\"><strong>clientservices@ettinger.co.uk<\/strong><\/a><\/p><p>Wholesale enquiries<br\/><a href=\"mailto:sales@ettinger.co.uk\" title=\"mailto:sales@ettinger.co.uk\"><strong>sales@ettinger.co.uk<\/strong><\/a><\/p><p><\/p>"
+          }
+        },
+        "c256c256-60bd-4f89-ac6a-b99a1074be89": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>SHOWROOM <\/h6><p>215 Putney Bridge Road,<br\/>London,<br\/>SW15 2NY<br\/>(by appointment only)<\/p>"
+          }
+        },
+        "41b0010d-02a1-4818-8d8c-9dfde4a434cb": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>HOURS<\/h6><p>Monday – Friday: 8.00am – 4.00pm <br\/>Saturday – Sunday: Closed<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20341652062494__9456937c-73e1-4da5-9cfb-2e98306c6c66-heading-1",
+        "template--20341652062494__9456937c-73e1-4da5-9cfb-2e98306c6c66-text-1",
+        "c256c256-60bd-4f89-ac6a-b99a1074be89",
+        "41b0010d-02a1-4818-8d8c-9dfde4a434cb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "98fcdde3-334a-4064-9532-adedd5fd0c06",
+    "9456937c-73e1-4da5-9cfb-2e98306c6c66",
+    "form"
+  ]
+}
