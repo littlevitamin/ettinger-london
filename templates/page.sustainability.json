@@ -65,6 +65,7 @@
         "row_RahjTh": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9649.jpg",
             "video_url": "",
             "caption": "<p><strong>Waste Management<\/strong><\/p>",
             "heading": "",
