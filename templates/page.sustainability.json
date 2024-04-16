@@ -33,7 +33,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ben_Yarrow_2_-_Shopify_Collection_Pages.png",
-        "paragraph": "<p><strong>Sustainability <\/strong>is more than just a trend; it stands tall as<br\/>one of the most <strong>impactful movements<\/strong> across industries today, including the<br\/>leather goods industry. <\/p><p>Ettinger is proudly working towards <strong>various goals<\/strong> to<br\/>improve its environmental footprint and foster <strong>sustainable practices<\/strong><br\/>throughout its production processes.<\/p>",
+        "paragraph": "<p><strong>Sustainability <\/strong>is more than just a trend; Ettinger is proudly working towards<strong> reducing its environmental footprint<\/strong> and fostering <strong>sustainable practices <\/strong><br\/>throughout its production processes.<\/p>",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
@@ -50,30 +50,6 @@
     "multirow_zxBnt6": {
       "type": "multirow",
       "blocks": {
-        "row_gWPp3y": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_7208.jpg",
-            "video_url": "",
-            "caption": "<p><strong>Reducing Energy Consumption & CO2 Emissions<\/strong><\/p>",
-            "heading": "",
-            "text": "<p>In the <strong>past five years<\/strong>, we've achieved a great <strong>26% reduction in our energy consumption<\/strong>, attributable to<br\/>several key factors: the renovation of our building, installation of new boilers, and enhanced staff awareness, all of which have contributed to significantly <strong>improved insulation<\/strong>. <\/p><p>Moreover, at our Walsall factory, over <strong>80% of our manufacturing processes are done manually<\/strong>, minimizing our energy usage. Only a fraction of our operations relies on electricity, primarily through the use of sewing machines.<\/p><p>To improve our CO2 emissions, we've also implemented strategies to streamline our delivery processes. By grouping shipments wherever possible and adopting the <strong>DHL GoGreen Plus<\/strong> delivery solution, we're actively reducing the carbon footprint associated with our logistics operations.<\/p><p>GoGreen Plus represents a significant step forward in sustainability for our company and helps us <strong>reduce the carbon emissions<\/strong> associated with our shipments using <strong>Sustainable Aviation Fuel<\/strong> (SAF). <\/p><p>SAF is a <strong>biofuel <\/strong>that is produced from <strong>renewable sources<\/strong> such as vegetable oils, animal fats, waste products, and agricultural crops. <\/p><p>It is specifically designed to be used as a substitute for traditional jet fuel and can <strong>reduce greenhouse gas emissions by up to 80%<\/strong> compared to fossil fuels.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_RahjTh": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9468.jpg",
-            "video_url": "",
-            "caption": "<p><strong>Waste Management<\/strong><\/p>",
-            "heading": "",
-            "text": "<p>We take great care in our leather crafting process to <strong>minimize waste<\/strong> which means we do not generate sufficient leather waste for recycling. <\/p><p>Our meticulous approach to cutting ensures that <strong>we use most of the leather<\/strong> when making our products. <\/p><p>However, if we do get leather leftover, it is <strong>repurposed <\/strong>into smaller items such as bookmarks ensuring that nearly every part of the skin is utilized, thus reducing waste. <\/p><p>In addition to our leather reuse efforts, our <strong>packaging materials and printing ink cartridges are recycled<\/strong>, along with shredded paper, which<br\/>undergoes recycling through SDR. <\/p><p>It's worth noting that <strong>leather naturally decomposes organically<\/strong> under the right conditions without causing harm to the environment. <\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_pNe8PJ": {
           "type": "row",
           "settings": {
@@ -81,7 +57,7 @@
             "video_url": "",
             "caption": "<p><strong>LONGEVITY<\/strong><\/p>",
             "heading": "",
-            "text": "<p>Ensuring the longevity of our products is a top priority for us. <\/p><p>We focus on utilizing the<strong> finest leather, craftsmanship, and meticulous care<\/strong> to guarantee that our products last for years. <\/p><p>In addition to that, we provide a <strong>repair and refurbishment service<\/strong> to give some extra years of life to your products. <\/p><p>Our vision very much aligns with the <strong>slow fashion movement<\/strong> that promotes quality, sustainability, and longevity. <\/p><p>Ettinger does not encourage in any way seasonal changes of products, and we firmly believe that it is possible for our products to last a <strong>lifetime <\/strong>or more, if properly cared for.<\/p>",
+            "text": "<p>Ensuring the longevity of our products is a top priority for us. <\/p><p>We focus on utilizing the<strong> finest leather, <\/strong><a href=\"\/pages\/the-ettinger-factory\" title=\"The Ettinger Factory\"><strong>craftsmanship<\/strong><\/a><strong>, and meticulous care<\/strong> to guarantee that our products last for years. <\/p><p>In addition to that, we provide a <strong>repair and refurbishment service<\/strong> to give some extra years of life to your products. <\/p><p>Our vision very much aligns with the <strong>slow fashion movement<\/strong> that promotes quality, sustainability, and longevity. <\/p><p>Ettinger does not encourage in any way seasonal changes of products, and we firmly believe that it is possible for our products to last a <strong>lifetime <\/strong>or more, if properly cared for.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -91,19 +67,43 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ettinger-8277.8765.jpg",
             "video_url": "",
-            "caption": "<p><strong>Sustainable Leather Production<\/strong><\/p>",
+            "caption": "<p><strong>SUSTAINABLE LEATHER PRODUCTION<\/strong><\/p>",
             "heading": "",
             "text": "<p>When crafting our products, we use goat, cow, and pig skins, each <strong>sourced responsibly<\/strong>. <\/p><p>Our goat hides are raised and tanned in Europe, while cow and pig skins originate from animals raised and tanned in the <strong>UK or Europe<\/strong>.<\/p><p>All our skins adhere strictly to <strong>European Standards or UK legislations<\/strong>, ensuring<strong> ethical and sustainable practices<\/strong>.<\/p><p>It’s essential to note that all cattle are strictly limited<br\/>to those sourced from animals <strong>raised for both meat and leather production<\/strong>. <\/p><p>We <strong>do not support the use of animals reared for their pelts <\/strong>alone such as mink or crocodiles or any exotics. <\/p><p>Most of our suppliers are certified <strong>Leather Working Group<\/strong>, which is a community dedicated to building a sustainable future with responsible leather. <\/p><p>They are working with the <strong>traceability group <\/strong>to provide us with essential animal welfare information. <\/p><p>We actively collaborate with our tanneries to uphold<br\/>high standards of <strong>animal welfare<\/strong>.<\/p><p>We recognise the <strong>environmental challenges <\/strong>surrounding the leather industry, including rainforest deforestation, animal welfare issues and chemical, water use in tanning, therefore we take our <strong>responsibility <\/strong>very seriously.<\/p><p>That is why we make sure that all our tanneries are <strong>REACH certified<\/strong> and either use <strong>vegetable dyes<\/strong> and\/or are REACH compliant.<\/p><p>REACH is a <strong>EU regulation<\/strong>, adopted to improve the protection of human health and the environment from the risks that can be posed by chemicals, while enhancing the competitiveness of the EU chemicals industry. <\/p><p>It also encourages the usage of alternative methods for the hazard assessment of substances to <strong>reduce animal testing<\/strong>. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_RahjTh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9468.jpg",
+            "video_url": "",
+            "caption": "<p><strong>WASTE MANAGEMENT<\/strong><\/p>",
+            "heading": "",
+            "text": "<p>We take great care in our leather crafting process to <strong>minimize waste<\/strong> which means we do not generate sufficient leather waste for recycling. <\/p><p>Our meticulous approach to cutting ensures that <strong>we use most of the leather<\/strong> when making our products. <\/p><p>However, if we do get leather leftover, it is <strong>repurposed <\/strong>into smaller items such as <a href=\"https:\/\/www.ettinger.co.uk\/products\/capra-bookmark\" title=\"https:\/\/www.ettinger.co.uk\/products\/capra-bookmark\">bookmarks<\/a> ensuring that nearly every part of the skin is utilized, thus reducing waste. <\/p><p>In addition to our leather reuse efforts, our <strong>packaging materials and printing ink cartridges are recycled<\/strong>, along with shredded paper, which<br\/>undergoes recycling through SDR. <\/p><p>It's worth noting that <strong>leather naturally decomposes organically<\/strong> under the right conditions without causing harm to the environment. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_gWPp3y": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7208.jpg",
+            "video_url": "",
+            "caption": "<p><strong>REDUCING ENERGY CONSUMPTION & CO2 EMISSIONS<\/strong><\/p>",
+            "heading": "",
+            "text": "<p>In the <strong>past five years<\/strong>, we've achieved a great <strong>26% reduction in our energy consumption<\/strong>, attributable to<br\/>several key factors: the renovation of our building, installation of new boilers, and enhanced staff awareness, all of which have contributed to significantly <strong>improved insulation<\/strong>. <\/p><p>Moreover, at our Walsall factory, over <strong>80% of our manufacturing processes are done manually<\/strong>, minimizing our energy usage. Only a fraction of our operations relies on electricity, primarily through the use of sewing machines.<\/p><p>To improve our CO2 emissions, we've also implemented strategies to streamline our delivery processes. By grouping shipments wherever possible and adopting the <strong>DHL GoGreen Plus<\/strong> delivery solution, we're actively reducing the carbon footprint associated with our logistics operations.<\/p><p>GoGreen Plus represents a significant step forward in sustainability for our company and helps us <strong>reduce the carbon emissions<\/strong> associated with our shipments using <strong>Sustainable Aviation Fuel<\/strong> (SAF). <\/p><p>SAF is a <strong>biofuel <\/strong>that is produced from <strong>renewable sources<\/strong> such as vegetable oils, animal fats, waste products, and agricultural crops. <\/p><p>It is specifically designed to be used as a substitute for traditional jet fuel and can <strong>reduce greenhouse gas emissions by up to 80%<\/strong> compared to fossil fuels.<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_gWPp3y",
-        "row_RahjTh",
         "row_pNe8PJ",
-        "row_AykzpT"
+        "row_AykzpT",
+        "row_RahjTh",
+        "row_gWPp3y"
       ],
       "settings": {
         "image_height": "medium",
