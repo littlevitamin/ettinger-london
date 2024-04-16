@@ -64,7 +64,7 @@
         "template--19981996163358__c248f5cf-92b0-48f4-b23d-58c3a95af572-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Refine by article theme from all editions<br\/><br\/><a href=\"\/blogs\/news\" title=\"News\">NEWS<\/a><br\/><a href=\"\/blogs\/style\" title=\"Style\">STYLE<\/a><br\/><a href=\"\/blogs\/lifestyle\" title=\"Lifestyle\">LIFESTYLE<\/a><br\/><a href=\"\/blogs\/behind-the-brand\" title=\"Behind The Brand\">BEHIND THE BRAND<\/a><br\/><a href=\"\/blogs\/interviews\" title=\"Interviews\">INTERVIEWS<\/a><\/p>",
+            "text": "<p>Refine by article theme from all editions<br\/><br\/><a href=\"\/blogs\/news\" title=\"News\">NEWS<\/a><br\/><a href=\"\/blogs\/lifestyle\" title=\"Lifestyle\">LIFESTYLE<\/a><br\/><a href=\"\/blogs\/behind-the-brand\" title=\"Behind The Brand\">BEHIND THE BRAND<\/a><br\/><a href=\"\/blogs\/interviews\" title=\"Interviews\">INTERVIEWS<\/a><\/p>",
             "text_style": "body"
           }
         },
