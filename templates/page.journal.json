@@ -11,36 +11,12 @@
     },
     "69786272-ce6f-41df-88d5-a13f76b893c0": {
       "type": "image-banner",
-      "blocks": {
-        "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "INSIDE EMERY WALKER'S HOUSE",
-            "heading_size": "h2"
-          }
-        },
-        "f81eee54-4545-4d99-a755-640e20cdc6fd": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "READ MORE",
-            "button_link_1": "shopify:\/\/blogs\/interviews\/inside-emery-walkers-house",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19689578070302__69786272-ce6f-41df-88d5-a13f76b893c0-16883774891d43d2ca-0",
-        "f81eee54-4545-4d99-a755-640e20cdc6fd"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_55.png",
+        "image": "shopify:\/\/shop_images\/Group_15.jpg",
         "paragraph": "",
         "enable_video": false,
         "video_url": "",
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
