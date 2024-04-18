@@ -2,30 +2,108 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "paragraph": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "98fcdde3-334a-4064-9532-adedd5fd0c06": {
+    "slideshow_yN6ceg": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_7XJna9": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Ab4Pag": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_7XJna9",
+        "slide_Ab4Pag"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multirow_bjUNnK": {
       "type": "multirow",
       "blocks": {
-        "template--19283159318814__98fcdde3-334a-4064-9532-adedd5fd0c06-row-1": {
+        "row_UxWADM": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/collections_pursuits_de2fb7ae-c752-45a6-b418-b0521b5c6d94.jpg",
-            "caption": "",
-            "heading": "",
-            "text": "",
-            "button_label": "",
+            "video_url": "",
+            "caption": "<p>Caption<\/p>",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_dnLLfd": {
+          "type": "row",
+          "settings": {
+            "video_url": "",
+            "caption": "<p>Caption<\/p>",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_QNNYUV": {
+          "type": "row",
+          "settings": {
+            "video_url": "",
+            "caption": "<p>Caption<\/p>",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--19283159318814__98fcdde3-334a-4064-9532-adedd5fd0c06-row-1"
+        "row_UxWADM",
+        "row_dnLLfd",
+        "row_QNNYUV"
       ],
       "settings": {
         "image_height": "medium",
@@ -34,11 +112,11 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -100,7 +178,8 @@
   },
   "order": [
     "main",
-    "98fcdde3-334a-4064-9532-adedd5fd0c06",
+    "slideshow_yN6ceg",
+    "multirow_bjUNnK",
     "9456937c-73e1-4da5-9cfb-2e98306c6c66",
     "form"
   ]
