@@ -46,6 +46,62 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "multicolumn_BBQKQF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_W6jyem": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Flask_Cognac_Lifestyle_1.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xTadYg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/traveltray1.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yBMebj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ettinger_x_Breitling_Red_Arrows_2021_4_-_Small_4cd3c5c4-150a-4b96-ad92-040a4b86f20f.jpg",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_W6jyem",
+        "column_xTadYg",
+        "column_yBMebj"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_bjUNnK": {
       "type": "multirow",
       "blocks": {
@@ -78,6 +134,7 @@
         "row_UxWADM",
         "row_dnLLfd"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -147,70 +204,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn_BBQKQF": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_W6jyem": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Flask_Cognac_Lifestyle_1.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xTadYg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/traveltray1.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yBMebj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ettinger_x_Breitling_Red_Arrows_2021_4_-_Small_4cd3c5c4-150a-4b96-ad92-040a4b86f20f.jpg",
-            "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_W6jyem",
-        "column_xTadYg",
-        "column_yBMebj"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "slideshow_yN6ceg",
+    "multicolumn_BBQKQF",
     "multirow_bjUNnK",
     "9456937c-73e1-4da5-9cfb-2e98306c6c66",
-    "form",
-    "multicolumn_BBQKQF"
+    "form"
   ]
 }
