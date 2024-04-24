@@ -4437,6 +4437,15 @@ sticky-header > header > nav > ul > li > a > span {
   border-radius: 1px;
 }
 
+.color-ocean-granite {
+  background: linear-gradient(-45deg, #245261 49%, #736b6a 51%, #736b6a 100%);
+  color: transparent!important;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 1px;
+}
+
 .form__label {
   font-size: 13px;
   font-weight: 400;
