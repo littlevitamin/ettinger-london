@@ -11,6 +11,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_978h3T": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YCFbMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_LMxmBb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As one of the last UK manufacturer of leather goods, Ettinger offers a unique range of leather accessories for corporate gifting made in our factory in Walsall, England. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YCFbMK",
+        "text_LMxmBb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "slideshow_yN6ceg": {
       "type": "slideshow",
       "blocks": {
@@ -208,6 +238,7 @@
   },
   "order": [
     "main",
+    "rich_text_978h3T",
     "slideshow_yN6ceg",
     "multicolumn_BBQKQF",
     "multirow_bjUNnK",
