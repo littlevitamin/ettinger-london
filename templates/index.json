@@ -85,21 +85,21 @@
           "type": "collection",
           "settings": {
             "collection": "bestsellers",
-            "custom_image": "shopify:\/\/shop_images\/Embossing_service_-_Shopify_Homepage_Banner_1.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Morgan_Car_Shoot_2018_25.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "mens-travel-accessories",
-            "custom_image": "shopify:\/\/shop_images\/Travel_in_Style_Home_Page_Hero.jpg"
+            "collection": "watch-rolls-boxes",
+            "custom_image": "shopify:\/\/shop_images\/IMG_9754.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "watch-rolls-boxes",
-            "custom_image": "shopify:\/\/shop_images\/Watch_Rolles_Single_Double_Tripe_Header_Image.jpg"
+            "collection": "mens-travel-bags",
+            "custom_image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_18__square_crop.jpg"
           }
         }
       },
