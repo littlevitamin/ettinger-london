@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-related-products.css' | asset_url }}" media="print" onload="this.media='all'">
-<link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
 
 {%- if section.settings.enable_quick_add -%}
   <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -100,16 +99,18 @@
           role="list"
           >
             {% for recommendation in recommendations.products %}
-              <li class="grid__item">
-                {% render 'card-product',
-                  card_product: recommendation,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_vendor: section.settings.show_vendor,
-                  show_quick_add: section.settings.enable_quick_add,
-                  show_rating: section.settings.show_rating
-                %}
-              </li>
+              {% unless recommendation.tags contains 'not-recommended' %}
+                <li class="grid__item">
+                    {% render 'card-product',
+                        card_product: recommendation,
+                        media_aspect_ratio: section.settings.image_ratio,
+                        show_secondary_image: section.settings.show_secondary_image,
+                        show_vendor: section.settings.show_vendor,
+                        show_quick_add: section.settings.enable_quick_add,
+                        show_rating: section.settings.show_rating
+                    %}                  
+                </li>
+              {% endunless %}
             {% endfor %}
           </ul>
         </div>
@@ -127,16 +128,18 @@
             --swiper-pagination-bullet-border-radius: 3px;"
           >
             {% for recommendation in recommendations.products %}
-              <swiper-slide class="swiper-slide">
-                {% render 'card-product',
-                  card_product: recommendation,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_vendor: section.settings.show_vendor,
-                  show_quick_add: section.settings.enable_quick_add,
-                  show_rating: section.settings.show_rating
-                %}
-              </swiper-slide>
+              {% unless recommendation.tags contains 'not-recommended' %}
+                <swiper-slide class="swiper-slide">
+                  {% render 'card-product',
+                    card_product: recommendation,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_quick_add: section.settings.enable_quick_add,
+                    show_rating: section.settings.show_rating
+                  %}
+                </swiper-slide>
+              {% endunless %}
             {% endfor %}
 
             <div class="swiper-button-next"></div>
@@ -334,3 +337,4 @@
   ]
 }
 {% endschema %}
+
