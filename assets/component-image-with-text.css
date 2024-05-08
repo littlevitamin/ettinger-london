@@ -192,7 +192,7 @@
 @media screen and (max-height: 700px) {
   .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
   .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item > * {
-    max-height: -webkit-fit-content;
+    max-height: -webkit-fit-available;
   }
   
   .multirow-personalization .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
