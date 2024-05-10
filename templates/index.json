@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/bags-cases",
+            "button_link_1": "shopify:\/\/collections\/elegant-purses",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,8 +36,8 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HP_bestsellers.jpg",
-        "paragraph": "<h3>DISCOVER<\/h3><h1>TIMELESS BAGS<\/h1>",
+        "image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_56_-_Shopify_Homepage_Banner.jpg",
+        "paragraph": "<h3>DISCOVER<\/h3><h1>ELEGANT PURSES<\/h1>",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
@@ -59,7 +59,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "bags-cases",
+        "collection": "elegant-purses",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
@@ -85,21 +85,21 @@
           "type": "collection",
           "settings": {
             "collection": "bestsellers",
-            "custom_image": "shopify:\/\/shop_images\/Morgan_Car_Shoot_2018_25.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Rectangle_1.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "watch-rolls-boxes",
-            "custom_image": "shopify:\/\/shop_images\/IMG_9754.jpg"
+            "collection": "jewellery-storage",
+            "custom_image": "shopify:\/\/shop_images\/IMG_9533_-_Shopify_Homepage_Banner.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "mens-travel-bags",
-            "custom_image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_18__square_crop.jpg"
+            "collection": "mens-gift-sets",
+            "custom_image": "shopify:\/\/shop_images\/orange_e530fc53-2a43-406a-8e38-351e1245c3f3.webp"
           }
         }
       },
