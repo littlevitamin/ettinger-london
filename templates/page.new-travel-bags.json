@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "paragraph": "Explore our premium Ettinger leather goods, available at select retailers worldwide. Browse through our directory below to find a store closest to you.",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_RiPmqG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Kp7dy9": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kp7dy9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02_1.png",
+        "paragraph": "",
+        "enable_video": false,
+        "video_url": "",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_wM77Xf": {
+      "type": "multirow",
+      "blocks": {
+        "row_LyU7M7": {
+          "type": "row",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b841c22bf4d54e2088cc579ee8bf8f3b.mov",
+            "caption": "",
+            "heading": "The Gentlemen Collection",
+            "text": "<p>Designed in collaboration with Netflix to support the release of their new series, The Gentlemen. <\/p><p>This collection has been designed to celebrate the nobility and elegance portrayed in the series while maintaining a certain edge to reflect the journey of its main character ‘Eddie’, played by Theo James, as he navigates his way from aristocrat to criminal mastermind. <\/p><p>Made using black capra leather, each piece from the capsule features the striking Halstead family shield, adding to the distinct “Britishness” that Ettinger is known for.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_LyU7M7"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_Aq4ETk": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "the-gentleman",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "video_FFHgMa": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/EN-GB_Gentlemen_Main_Horizontal_19-6x48_CMYK_PRE.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=gnpfKsqeMrM",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_4FbVR4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tiCTVb": {
+          "type": "heading",
+          "settings": {
+            "heading": "“We were so excited that Netflix approached us to collaborate on this collection. They are designs that exemplify British Gentlemen.”",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tiCTVb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TG_SG_PATTERN_01_1.png",
+        "paragraph": "",
+        "enable_video": false,
+        "video_url": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_383bJR": {
+      "type": "multirow",
+      "blocks": {
+        "row_Pb99by": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TG_SG_ICONS_01.png",
+            "video_url": "",
+            "caption": "",
+            "heading": "THE GENTLEMEN PARTNERS",
+            "text": "<p>To bring the world of the series to life, Netflix has partnered with three additional luxury brands to create products central to the series’ plotline. The embodiment of British craftsmanship, high-quality and traditions, each of these brands have created a product that characterises an element of the series.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Pb99by"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_nXKBEJ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_KmGWNb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags-cases",
+            "custom_title": "Truefitt & Hill",
+            "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_T_H.jpg",
+            "external_link": "https:\/\/www.truefittandhill.co.uk\/collections\/the-gentlemen"
+          }
+        },
+        "featured_collection_b3nJVa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "croco",
+            "custom_title": "Avantcha",
+            "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_Avantcha.jpg",
+            "external_link": "https:\/\/uk.avantcha.com\/netflix-the-gentlemen\/"
+          }
+        },
+        "featured_collection_96dLUc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "capra",
+            "custom_title": "Henry Poole",
+            "collection_list_image": "shopify:\/\/shop_images\/The_Gentlemen_Brand_Partners_HenryPoole.jpg",
+            "external_link": "https:\/\/www.henrypoole.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KmGWNb",
+        "featured_collection_b3nJVa",
+        "featured_collection_96dLUc"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "video_url": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_RiPmqG",
+    "multirow_wM77Xf",
+    "featured_collection_Aq4ETk",
+    "video_FFHgMa",
+    "image_banner_4FbVR4",
+    "multirow_383bJR",
+    "collection_list_nXKBEJ"
+  ]
+}
