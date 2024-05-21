@@ -15,7 +15,7 @@
         "heading_Kp7dy9": {
           "type": "heading",
           "settings": {
-            "heading": "INTRODUCING OUR REINVENTED TRAVEL BAGS",
+            "heading": "INTRODUCING OUR BESTSELLING TRAVEL BAGS, NOW IN AN UPGRADED VERSION",
             "heading_size": "h1"
           }
         }
@@ -39,11 +39,46 @@
         "show_text_below": true
       }
     },
+    "rich_text_3jr6Jq": {
+      "type": "rich-text",
+      "blocks": {
+        "text_PXiww4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After seeing the success of our two travel bags, the Pursuits Cotswold & the Pursuits Hurlingham we decided to improve their design for even more luxurious travels. <\/p>"
+          }
+        },
+        "button_YwnYUg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_PXiww4",
+        "button_YwnYUg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_wM77Xf": {
       "type": "multirow",
       "blocks": {
         "row_LyU7M7": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b841c22bf4d54e2088cc579ee8bf8f3b.mov",
             "caption": "",
@@ -73,6 +108,80 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn_cbMFHX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_C836aF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1travelbags.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JXktRR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1travelbags.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FW9ymq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1travelbags.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_C836aF",
+        "column_JXktRR",
+        "column_FW9ymq"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_XwzirG": {
+      "type": "multirow",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_Aq4ETk": {
       "type": "featured-collection",
       "settings": {
@@ -81,9 +190,9 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "the-gentleman",
+        "collection": "mens-travel-bags",
         "products_to_show": 6,
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -163,6 +272,7 @@
       "block_order": [
         "row_Pb99by"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -215,6 +325,7 @@
         "featured_collection_b3nJVa",
         "featured_collection_96dLUc"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "subheading": "",
@@ -234,7 +345,10 @@
   "order": [
     "main",
     "image_banner_RiPmqG",
+    "rich_text_3jr6Jq",
     "multirow_wM77Xf",
+    "multicolumn_cbMFHX",
+    "multirow_XwzirG",
     "featured_collection_Aq4ETk",
     "video_FFHgMa",
     "image_banner_4FbVR4",
