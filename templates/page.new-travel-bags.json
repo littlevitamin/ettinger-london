@@ -45,13 +45,13 @@
         "text_PXiww4": {
           "type": "text",
           "settings": {
-            "text": "<p>After seeing the success of our two travel bags, the Pursuits Cotswold & the Pursuits Hurlingham we decided to improve their design for even more luxurious travels. <\/p>"
+            "text": "<p>We are delighted to present our newly improved travel bags, the Pursuits Cotswold Weekend Bag & the Pursuits Hurlingham Overnight Bag. <\/p><p>After being one of our bestselling products for so many years, we thought it was time for an upgrade.<\/p><p>We have  taken into account our customers' opinion and have worked hand in hand with our sample maker in Walsall factory to create the best travel bags possible.<\/p><p>More structured due to internal padding, the new bags are incredibly convenient and should become very quickly your new must-have for your future holidays. <\/p>"
           }
         },
         "button_YwnYUg": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "DISCOVER HERE",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -116,7 +116,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-1travelbags.jpg",
             "title": "",
-            "text": "",
+            "text": "<p>We have reinforced the leather on the opening with a thicker and better quality zip to improve the security of the bag.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -126,7 +126,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-1travelbags.jpg",
             "title": "",
-            "text": "",
+            "text": "<p>Jacquard lining has been added, replacing the previous cotton, providing better waterproofing, perfect if you transport liquid.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -136,7 +136,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled-1travelbags.jpg",
             "title": "",
-            "text": "",
+            "text": "<p>Finally, additional pockets have been included to allow you more space to fit your valuables. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -148,14 +148,14 @@
         "column_FW9ymq"
       ],
       "settings": {
-        "title": "",
+        "title": "NEW FEATURES",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "DISCOVER HERE",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -209,20 +209,6 @@
         "padding_bottom": 100
       }
     },
-    "video_FFHgMa": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/EN-GB_Gentlemen_Main_Horizontal_19-6x48_CMYK_PRE.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=gnpfKsqeMrM",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "image_banner_4FbVR4": {
       "type": "image-banner",
       "blocks": {
@@ -251,6 +237,20 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "video_FFHgMa": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/EN-GB_Gentlemen_Main_Horizontal_19-6x48_CMYK_PRE.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=gnpfKsqeMrM",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "multirow_383bJR": {
@@ -350,8 +350,8 @@
     "multicolumn_cbMFHX",
     "multirow_XwzirG",
     "featured_collection_Aq4ETk",
-    "video_FFHgMa",
     "image_banner_4FbVR4",
+    "video_FFHgMa",
     "multirow_383bJR",
     "collection_list_nXKBEJ"
   ]
