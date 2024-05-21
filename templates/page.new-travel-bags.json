@@ -15,7 +15,7 @@
         "heading_Kp7dy9": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "INTRODUCING OUR REINVENTED TRAVEL BAGS",
             "heading_size": "h1"
           }
         }
@@ -24,12 +24,12 @@
         "heading_Kp7dy9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/02_1.png",
+        "image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_18__square_crop.jpg",
         "paragraph": "",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
