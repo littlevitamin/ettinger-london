@@ -15,13 +15,25 @@
         "heading_Kp7dy9": {
           "type": "heading",
           "settings": {
-            "heading": "INTRODUCING OUR BESTSELLING TRAVEL BAGS, NOW IN AN UPGRADED VERSION",
+            "heading": "INTRODUCING OUR NEW TRAVEL BAGS, NOW IN AN UPGRADED VERSION",
             "heading_size": "h1"
+          }
+        },
+        "buttons_jxnqTX": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LEARN MORE",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_Kp7dy9"
+        "heading_Kp7dy9",
+        "buttons_jxnqTX"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_18__square_crop.jpg",
@@ -47,22 +59,10 @@
           "settings": {
             "text": "<p>We are delighted to present our newly improved travel bags, the Pursuits Cotswold Weekend Bag & the Pursuits Hurlingham Overnight Bag. <\/p><p>After being one of our bestselling products for so many years, we thought it was time for an upgrade.<\/p><p>We have  taken into account our customers' feedback and have worked hand in hand with our sample maker in Walsall factory to create the best travel bags possible.<\/p><p>More structured due to internal padding, the new bags are incredibly convenient and should become very quickly your new must-have for your future holidays. <\/p>"
           }
-        },
-        "button_YwnYUg": {
-          "type": "button",
-          "settings": {
-            "button_label": "DISCOVER HERE",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "text_PXiww4",
-        "button_YwnYUg"
+        "text_PXiww4"
       ],
       "settings": {
         "desktop_content_position": "center",
