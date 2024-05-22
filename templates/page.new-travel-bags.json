@@ -47,10 +47,22 @@
           "settings": {
             "text": "<p>We are delighted to present our newly improved travel bags, the Pursuits Cotswold Weekend Bag & the Pursuits Hurlingham Overnight Bag. <\/p><p>After being one of our bestselling products for so many years, we thought it was time for an upgrade.<\/p><p>We have  taken into account our customers' feedback and have worked hand in hand with our sample maker in Walsall factory to create the best travel bags possible.<\/p><p>More structured due to internal padding, the new bags are incredibly convenient and should become very quickly your new must-have for your future holidays. <\/p>"
           }
+        },
+        "button_MRcmaz": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "text_PXiww4"
+        "text_PXiww4",
+        "button_MRcmaz"
       ],
       "settings": {
         "desktop_content_position": "center",
