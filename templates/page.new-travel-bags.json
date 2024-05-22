@@ -149,6 +149,7 @@
     },
     "multirow_XwzirG": {
       "type": "multirow",
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
