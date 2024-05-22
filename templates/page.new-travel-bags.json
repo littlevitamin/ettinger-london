@@ -223,6 +223,24 @@
         "show_text_below": true
       }
     },
+    "multirow_Xhmran": {
+      "type": "multirow",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_jD9tJE": {
       "type": "multirow",
       "blocks": {
@@ -371,6 +389,7 @@
     "multirow_XwzirG",
     "featured_collection_Aq4ETk",
     "image_banner_3DBm3E",
+    "multirow_Xhmran",
     "multirow_jD9tJE",
     "video_FFHgMa",
     "multirow_383bJR",
