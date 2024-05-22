@@ -18,22 +18,10 @@
             "heading": "INTRODUCING OUR NEW TRAVEL BAGS, NOW IN AN UPGRADED VERSION",
             "heading_size": "h1"
           }
-        },
-        "buttons_jxnqTX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "LEARN MORE",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "heading_Kp7dy9",
-        "buttons_jxnqTX"
+        "heading_Kp7dy9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Langrish_House_Shoot_2018_18__square_crop.jpg",
