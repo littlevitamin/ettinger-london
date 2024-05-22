@@ -52,7 +52,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/accessories",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -139,7 +139,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "LEARN MORE",
-        "button_link": "",
+        "button_link": "shopify:\/\/blogs\/interviews",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
