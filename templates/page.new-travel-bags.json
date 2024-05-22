@@ -209,14 +209,49 @@
         "padding_bottom": 100
       }
     },
+    "image_with_text_eUzyXC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jp9jVB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_4kUHTR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jp9jVB",
+        "text_4kUHTR"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_4FbVR4": {
       "type": "image-banner",
       "blocks": {
         "heading_tiCTVb": {
           "type": "heading",
           "settings": {
-            "heading": "“We were so excited that Netflix approached us to collaborate on this collection. They are designs that exemplify British Gentlemen.”",
-            "heading_size": "h1"
+            "heading": "MAKE IT TRULY YOURS",
+            "heading_size": "h2"
           }
         }
       },
@@ -224,7 +259,7 @@
         "heading_tiCTVb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TG_SG_PATTERN_01_1.png",
+        "image": "shopify:\/\/shop_images\/Rectangle_13.jpg",
         "paragraph": "",
         "enable_video": false,
         "video_url": "",
@@ -350,6 +385,7 @@
     "multicolumn_cbMFHX",
     "multirow_XwzirG",
     "featured_collection_Aq4ETk",
+    "image_with_text_eUzyXC",
     "image_banner_4FbVR4",
     "video_FFHgMa",
     "multirow_383bJR",
