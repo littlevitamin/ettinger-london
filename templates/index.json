@@ -85,21 +85,21 @@
           "type": "collection",
           "settings": {
             "collection": "bestsellers",
-            "custom_image": "shopify:\/\/shop_images\/Rectangle_1.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Group_39_4f4ecb0c-3361-4299-bd3f-0068dc80a899.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "jewellery-storage",
-            "custom_image": "shopify:\/\/shop_images\/IMG_9533_-_Shopify_Homepage_Banner.jpg"
+            "collection": "mens-briefcases",
+            "custom_image": "shopify:\/\/shop_images\/Group_40.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "mens-gift-sets",
-            "custom_image": "shopify:\/\/shop_images\/orange_e530fc53-2a43-406a-8e38-351e1245c3f3.webp"
+            "collection": "womens-flap-over-purses",
+            "custom_image": "shopify:\/\/shop_images\/Sarah_Murray_2018_9_-_Shopify_Bestsellers_block.jpg"
           }
         }
       },
