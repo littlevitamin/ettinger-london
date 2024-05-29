@@ -75,6 +75,7 @@
     },
     "multirow_63wDa7": {
       "type": "multirow",
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
