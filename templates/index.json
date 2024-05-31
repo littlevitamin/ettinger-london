@@ -37,7 +37,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Morgan_Car_2018_39_-_Shopify_Homepage_Banner.jpg",
-        "paragraph": "<h3>DISCOVER<\/h3><h1>FATHER'S DAY GIFT SELECTION<\/h1>",
+        "paragraph": "<h3>DISCOVER<\/h3><h1>FATHER'S DAY GIFTS<\/h1>",
         "enable_video": false,
         "video_url": "",
         "image_overlay_opacity": 0,
@@ -59,7 +59,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "watch-rolls-boxes",
+        "collection": "fathers-day-1",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
