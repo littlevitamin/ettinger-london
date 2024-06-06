@@ -98,14 +98,14 @@
 
 .price__badge-sale {
   position: absolute;
-  left: -140px;
-  top: -95px;
+  left: -160px;
+  top: -150px;
 }
 
 @media screen and (max-width: 749px) {
   .price__badge-sale {
-    left: calc(100vw - 130px);
-    top: 10px;
+    left: calc(100vw - 150px);
+    top: 20px;
   }  
   .price {
     position: unset;
