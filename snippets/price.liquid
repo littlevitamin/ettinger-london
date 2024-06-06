@@ -95,11 +95,10 @@
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
         {{ badge_text }}
       </span>
+    {% elsif product.compare_at_price > product.price and product.available and show_badges %}
+      <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+        {{ 'products.product.on_sale' | t }}
+      </span>
     {% endif %}
-  {% endif %}
-  {% if product.compare_at_price > product.price and product.available and show_badges %}
-    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-      {{ 'products.product.on_sale' | t }}
-    </span>
   {% endif %}
 </div>
