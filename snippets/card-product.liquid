@@ -121,11 +121,9 @@
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {% assign badge_text = '' %}
-            {% assign prefix = 'badge_' | downcase %}
             {% for tag in card_product.tags %}
-              {% assign tag_lower = tag | downcase %}
-              {% if tag_lower contains prefix %}
-                {% assign badge_text = tag | slice: prefix.size %}
+              {% if tag contains 'badge_' %}
+                {% assign badge_text = tag | remove: 'badge_' %}
                 {% break %}
               {% endif %}
             {% endfor %}
