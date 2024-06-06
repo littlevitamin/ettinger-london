@@ -83,13 +83,23 @@
       </span>
     </small>
   </div>
-  {%- if show_badges -%}
+  {% if show_badges %}
+    {% assign badge_text = '' %}
+      {% for tag in product.tags %}
+        {% if tag contains 'badge_' %}
+          {% assign badge_text = tag | remove: 'badge_' %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% if badge_text != '' %}
+      <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+        {{ badge_text }}
+      </span>
+    {% endif %}
+  {% endif %}
+  {% if product.compare_at_price > product.price and product.available and show_badges %}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
       {{ 'products.product.on_sale' | t }}
     </span>
-
-    {% comment %} <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
-      {{ 'products.product.sold_out' | t }}
-    </span> {% endcomment %}
-  {%- endif -%}
+  {% endif %}
 </div>
