@@ -5989,8 +5989,10 @@ content: '\f08a';
   }
 }
 
-.grid__item:hover .card__badge {
-  display: none!important;
+@media screen and (min-width: 990px) {
+  .grid__item:hover .card__badge {
+    display: none!important;
+  }
 }
 
 .price__badge-sale {
