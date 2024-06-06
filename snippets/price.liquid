@@ -86,7 +86,7 @@
   {% if show_badges %}
     {% assign badge_text = '' %}
     {% assign prefix = 'badge_' | downcase %}
-      {% for tag in card_product.tags %}
+      {% for tag in product.tags %}
         {% assign tag_lower = tag | downcase %}
         {% if tag_lower contains prefix %}
           {% assign badge_text = tag | slice: 6, 100 %}
