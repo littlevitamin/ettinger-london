@@ -3,7 +3,7 @@
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
-  position: relative;
+  /* position: relative; */
 }
 
 .price > * {
@@ -96,21 +96,25 @@
   color: rgba(var(--color-foreground), 0.7);
 }
 
+.product {
+  position: relative;
+}
+
 .price__badge-sale {
   position: absolute;
-  left: -160px;
-  top: -150px;
+  right: 35%;
+  top: 20px;
+}
+
+@media (min-width: 750px) and (max-width: 989px) {
+  .price__badge-sale {
+    right: 50%;
+  }  
 }
 
 @media screen and (max-width: 749px) {
   .price__badge-sale {
     left: calc(100vw - 150px);
-    top: 20px;
+    right: unset;
   }  
-  .price {
-    position: unset;
-  }
-  .product {
-    position: relative;
-  }
 }
