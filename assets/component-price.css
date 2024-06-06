@@ -104,6 +104,7 @@
   position: absolute;
   right: 37%;
   top: 20px;
+  margin-top: 0!important;
 }
 
 @media (min-width: 750px) and (max-width: 989px) {
