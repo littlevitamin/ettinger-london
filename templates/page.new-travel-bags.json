@@ -219,6 +219,7 @@
       "block_order": [
         "slide_jWVwAD"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -231,9 +232,8 @@
     },
     "image_banner_3DBm3E": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_42.jpg",
+        "image": "shopify:\/\/shop_images\/Group_42_b83901c7-4dd8-4ea8-bf97-a7d6a2c4bb84.jpg",
         "paragraph": "",
         "enable_video": false,
         "video_url": "",
