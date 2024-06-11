@@ -85,21 +85,21 @@
           "type": "collection",
           "settings": {
             "collection": "bestsellers",
-            "custom_image": "shopify:\/\/shop_images\/Travel_in_Style_Home_Page_Hero_0ed180bf-bd3d-4784-91e1-a492437c47bc.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Rectangle_1.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "canvas",
-            "custom_image": "shopify:\/\/shop_images\/Untitled-1-Recovered_1.webp"
+            "collection": "womens-briefcases",
+            "custom_image": "shopify:\/\/shop_images\/Group_40.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "flasks",
-            "custom_image": "shopify:\/\/shop_images\/Untitled-1_2_65988c9e-bbf9-47f9-9f47-e58dd3737b0f.webp"
+            "collection": "jewellery-storage",
+            "custom_image": "shopify:\/\/shop_images\/Untitled-3_1_76b6479e-9e42-485d-92b5-e38a126faa7c.webp"
           }
         }
       },
