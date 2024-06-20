@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -37,9 +46,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TravelBags2024_KingsCross_-_Shopify_Homepage_Banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_2.jpg",
         "paragraph": "<h3>DISCOVER<\/h3><h1>OUR NEW TRAVEL BAGS<\/h1>",
         "enable_video": false,
         "video_url": "",
+        "mobile_video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-right",
@@ -246,6 +257,7 @@
         "paragraph": "<p>Make your accessory one of a kind with our <strong>exclusive personalisation<\/strong> service. At Ettinger, every emboss is blocked by our best craftspeople using a <strong>traditional embossing<\/strong> machine to guarantee the best results.<br\/><\/p>",
         "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
+        "mobile_video_url": "",
         "image_overlay_opacity": 30,
         "image_height": "small",
         "desktop_content_position": "middle-left",
