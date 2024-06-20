@@ -92,12 +92,13 @@
 .journal-text .rich-text__text > p {
   display: flex;
   justify-content: space-between;
-  font-family: Gotham Medium, sans-serif;
+  font-family: Gotham Light, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 150%;
   letter-spacing: .02em;
+  text-transform: uppercase;
 }
 
 .journal-text .rich-text__text > p > a {
