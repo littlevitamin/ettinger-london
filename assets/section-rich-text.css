@@ -84,3 +84,27 @@
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
 }
+
+.journal-text {
+  max-width: -webkit-fill-available;
+}
+
+.journal-text .rich-text__text > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.journal-text .rich-text__text > p > a {
+  color: var(--gradient-base-accent-2)!important;
+  letter-spacing: 17%;
+}
+
+@media screen and (max-width: 749px) {
+  .journal-text .rich-text__text > p {
+    flex-direction: column;
+  }
+}
+
+.blog-image-container {
+  max-width: 1500px!important;
+}
