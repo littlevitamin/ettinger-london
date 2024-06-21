@@ -273,7 +273,7 @@
   {% endif %}
   <div style="width: 100%;">
     {%- if section.settings.image != blank -%}
-      <div style="{% if section.settings.enable_video %}display: none;{% endif %}" class="banner__media media{% if section.settings.mobile_image != blank or collection.metafields.custom.mobile_image.value != blank %} desktop{% endif %}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %} {% if template contains 'collection' %}banner-collection{% endif %}">
+      <div style="{% if section.settings.enable_video %}display: none;{% endif %}" class="banner__media media{% if section.settings.mobile_image != blank %} desktop{% endif %}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %} {% if template contains 'collection' %}banner-collection{% endif %}">
         {%- liquid
           assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
           if section.settings.image_2 != blank
@@ -310,7 +310,7 @@
             widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
         }}{% endif %}
       </div>
-    {%- if section.settings.mobile_image != blank or collection.metafields.custom.mobile_image.value != blank -%}
+    {%- if section.settings.mobile_image != blank -%}
       <div style="{% if section.settings.enable_video %}display: none;{% endif %}" class="banner__media media mobile{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %} {% if template contains 'collection' %}banner-collection{% endif %}">
         {%- liquid
           assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
@@ -326,7 +326,7 @@
           endif
         -%}
         {% if template contains 'collection' and collection.image != blank %}{{
-          collection.metafields.custom.mobile_image.value
+          collection.image
           | image_url: width: 3840
           | image_tag:
             loading: 'lazy',
@@ -793,5 +793,4 @@
   ]
 }
 {% endschema %}
-
 

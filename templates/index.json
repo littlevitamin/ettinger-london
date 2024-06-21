@@ -31,7 +31,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/pages\/new-travel-bags",
+            "button_link_1": "shopify:\/\/collections\/capra",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,9 +45,9 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TravelBags2024_KingsCross_-_Shopify_Homepage_Banner.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Rectangle_2_cc5b1673-859f-46c8-9790-04fe3030a54f.jpg",
-        "paragraph": "<h3>DISCOVER<\/h3><h1>OUR NEW TRAVEL BAGS<\/h1>",
+        "image": "shopify:\/\/shop_images\/Rectangle_5_b8aac823-dcae-4ac0-9757-77524ffb4f58.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_7422_476442ad-565d-493e-8bb7-709547e7a769.jpg",
+        "paragraph": "<h3>REDISCOVER<\/h3><h1>OUR CAPRA COLLECTION<\/h1>",
         "enable_video": false,
         "video_url": "",
         "mobile_video_url": "",
@@ -70,7 +70,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "new-arrivals",
+        "collection": "capra",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
@@ -96,21 +96,21 @@
           "type": "collection",
           "settings": {
             "collection": "bestsellers",
-            "custom_image": "shopify:\/\/shop_images\/Rectangle_1.jpg"
+            "custom_image": "shopify:\/\/shop_images\/Morgan_Car_2018_39_-_Shopify_Homepage_Banner.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "womens-briefcases",
-            "custom_image": "shopify:\/\/shop_images\/Group_40.jpg"
+            "collection": "mens-travel-bags",
+            "custom_image": "shopify:\/\/shop_images\/Group_54_0304dd96-a07c-4e27-a043-debdc01130f9.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "jewellery-storage",
-            "custom_image": "shopify:\/\/shop_images\/Untitled-3_1_76b6479e-9e42-485d-92b5-e38a126faa7c.webp"
+            "collection": "country-life-x-ettinger",
+            "custom_image": "shopify:\/\/shop_images\/Untitled-1_4_bc676f56-b91c-4eff-8eff-f6ccd7ef49b1.webp"
           }
         }
       },
