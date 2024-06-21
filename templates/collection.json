@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "7bf7d60b-6cf8-473a-abf1-f06a2e0f1c85": {
@@ -24,9 +33,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/NEW_ARRIVALS_7793931e-caae-41b5-9f41-8c9ed263223c.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_3_1d960a20-0ce1-446d-9a3b-cff066aa7852.jpg",
         "paragraph": "",
         "enable_video": false,
         "video_url": "",
+        "mobile_video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
