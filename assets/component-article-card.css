@@ -2,6 +2,9 @@
   .articles-wrapper .article {
     width: 100%;
   }
+  .article-card-wrapper .card__heading {
+    padding-top: 0!important;
+  }
 }
 
 .article {
