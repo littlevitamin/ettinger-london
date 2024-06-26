@@ -428,6 +428,130 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_Pkt67r": {
+      "type": "multirow",
+      "blocks": {
+        "row_yEEfDW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_76.jpg",
+            "video_url": "",
+            "caption": "<p>TRADITIONAL ENGLISH BRIDLE HIDE <\/p>",
+            "heading": "",
+            "text": "<p>The most English of all leathers, the Traditional Bridle Hide is made using a <strong>lengthy and natural process<\/strong> involving centuries <strong>old tanning pits<\/strong> and <strong>painstaking hand-finishing<\/strong>.<\/p><p>It is only in this way that we can achieve the <strong>thickness,<\/strong> <strong>durability <\/strong>and especially the distinctive look and feel of this traditional equestrian leather. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_yEEfDW"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_gGbjfy": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "traditional-english-bridle-hide",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_8thrYn": {
+      "type": "multirow",
+      "blocks": {
+        "row_VU9cAJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_77_1f94977c-e6b4-4850-a79a-8cc7232a9b78.jpg",
+            "video_url": "",
+            "caption": "<p><strong>PANEL HIDE<\/strong><\/p>",
+            "heading": "",
+            "text": "<p>Ettinger's iconic London Tan Panel leather is a <strong>vegetable tanned full grain <\/strong>cowhide that is made especially for us to our strict specifications.<\/p><p>Unique in many ways, this leatheris a true marker of the Ettinger style, copied elsewhere but never matched. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_VU9cAJ"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_3w4Tf6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "panel-hide",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -444,6 +568,10 @@
     "multirow_X9g7Vx",
     "featured_collection_LeVfzB",
     "multirow_4XRXp4",
-    "featured_collection_wReKbN"
+    "featured_collection_wReKbN",
+    "multirow_Pkt67r",
+    "featured_collection_gGbjfy",
+    "multirow_8thrYn",
+    "featured_collection_3w4Tf6"
   ]
 }
