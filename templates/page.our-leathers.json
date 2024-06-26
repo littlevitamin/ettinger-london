@@ -126,10 +126,10 @@
           "type": "row",
           "settings": {
             "video_url": "",
-            "caption": "<p>Caption<\/p>",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "caption": "<p><strong>SOFT DRESSED CALF<\/strong><\/p>",
+            "heading": "",
+            "text": "<p>This leather is made with top quality Italian calf sides, which have been chrome tanned, dyed through and then drum rolled to give the leather a buttery soft touch and a slightly more pronounced grain. <\/p><p>It is wonderful to handle and will not wear out easily.  <\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
