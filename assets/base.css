@@ -6299,3 +6299,7 @@ content: '\f08a';
     padding: 30px 0;
   }
 }  
+
+#Details-HeaderMenu-7 {
+  display: none;
+}
