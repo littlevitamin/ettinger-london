@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_4_8856e2da-c75d-4e46-9c65-bb93faeed091.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Rectangle_444.jpg",
-        "paragraph": "<p>ETTINGER <strong>SELECTS THE BEST TANNED SKINS<\/strong> FROM A NUMBER OF TANNERIES ALL BASED IN THE E.U.<\/p><p>OVER THE YEARS, WE HAVE DEVELOPED SPECIAL RELATIONASHIPS WICH ENSURE WE MAINTAIN OUR LEATHER SUPPLY STANDARDS AND OFFER AND EXTENSIVE RANGE OF LEATHERS, MANY OF WHICH ARE <strong>EXCLUSIVE TO ETTINGER.<\/strong><\/p>",
+        "paragraph": "<p>ETTINGER <strong>SELECTS THE BEST TANNED SKINS<\/strong> FROM A NUMBER OF TANNERIES ALL BASED IN THE E.U.<\/p><p>OVER THE YEARS, WE HAVE DEVELOPED SPECIAL RELATIONASHIPS WHICH ENSURE WE MAINTAIN OUR LEATHER SUPPLY STANDARDS AND OFFER AND EXTENSIVE RANGE OF LEATHERS, MANY OF WHICH ARE <strong>EXCLUSIVE TO ETTINGER.<\/strong><\/p>",
         "enable_video": false,
         "video_url": "",
         "mobile_video_url": "",
@@ -64,7 +64,7 @@
         "row_gWPp3y": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_70.jpg",
+            "image": "shopify:\/\/shop_images\/Group_70_e74fe737-e4c3-4e83-bd68-9337f7c2c3ca.jpg",
             "video_url": "",
             "caption": "<p><strong>FINE BRIDLE HIDE<\/strong><\/p>",
             "heading": "",
@@ -316,7 +316,7 @@
             "video_url": "",
             "caption": "<p><strong>GOAT LEATHER<\/strong><\/p>",
             "heading": "",
-            "text": "<p>Goat Leather, traditionally called Morocco leather, is often considered one of the finest leathers in the world. <\/p><p>Used for bookbinding since Shakespearean times, it is known for its <strong>softness, flexibility and strength<\/strong>.<\/p><p>It is one of the most <strong>resilient <\/strong>leathers, with a visible <strong>natural grain<\/strong> that absorbs colour better than any other hide.<\/p>",
+            "text": "<p>Goat Leather, traditionally called Morocco leather, is often considered one of the finest leathers in the world. <\/p><p>Used for bookbinding since Shakespearean times, it is known for its <strong>softness, flexibility and strength<\/strong>.<\/p><p>It is one of the most <strong>resilient <\/strong>leathers, with a visible <strong>natural grain<\/strong>.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -498,7 +498,7 @@
         "row_VU9cAJ": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_77_1f94977c-e6b4-4850-a79a-8cc7232a9b78.jpg",
+            "image": "shopify:\/\/shop_images\/Group_80.jpg",
             "video_url": "",
             "caption": "<p><strong>PANEL HIDE<\/strong><\/p>",
             "heading": "",
@@ -560,7 +560,7 @@
         "row_wrrMNP": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_79.jpg",
+            "image": "shopify:\/\/shop_images\/Group_81.jpg",
             "video_url": "",
             "caption": "<p><strong>SMOOTH ITALIAN CALF<\/strong><\/p>",
             "heading": "",
