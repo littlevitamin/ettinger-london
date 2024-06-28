@@ -2767,12 +2767,6 @@ details[open] > .header__submenu {
   transition: text-decoration var(--duration-short) ease;
 }
 
-.header__menu-item:hover span,
-.mega-menu__link:hover {
-  text-decoration: none;
-  color: var(--gradient-base-accent-2)!important;
-}
-
 .mega-menu__link--active {
   text-decoration: none!important;
 }
@@ -3722,12 +3716,14 @@ sticky-header > header > nav > ul > li > a > span {
 }
 
 #MegaMenu-Content-5 > ul,
-#MegaMenu-Content-6 > ul {
+#MegaMenu-Content-6 > ul,
+#MegaMenu-Content-7 > ul {
   width: 765px!important;
 }
 
 #MegaMenu-Content-5 > ul > li,
-#MegaMenu-Content-6 > ul > li {
+#MegaMenu-Content-6 > ul > li,
+#MegaMenu-Content-7 > ul > li {
   width: 50%!important;
 }
 
@@ -4518,7 +4514,7 @@ sticky-header > header > nav > ul > li > a > span {
 #MegaMenu-Content-3 > ul > li> ul > li > a,
 #MegaMenu-Content-4 > ul > li> ul > li > a,
 #MegaMenu-Content-5 > ul > li> ul > li > a,
-#MegaMenu-Content-6 > ul > li> ul > li > a {
+#MegaMenu-Content-7 > ul > li> ul > li > a {
   font-size: 10px;
   line-height: 12px;
   color: #777777;
@@ -5944,6 +5940,10 @@ content: '\f08a';
   content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/COLLECTIONS__collaboration.jpg?v=1695025290');
 }
 
+#MegaMenu-Content-7 > ul > img.mega-menu-img {
+  content: url('https://cdn.shopify.com/s/files/1/0743/9476/3550/files/d190317acf88fe071505f1b29e906748.jpg?v=1719494631');
+}
+
 #shopify-section-template--19982028898590__576fdaac-98b4-49d7-9080-0454e97e59f1 .image-with-text:not(.image-with-text--overlap) .image-with-text__text-item>* {
   display: flex;
   justify-content: end;
@@ -6076,12 +6076,9 @@ content: '\f08a';
   width: 120px!important;
   height: 120px!important;
 }
-/* 
-#MegaMenu-Content-6 {
-  display: none!important;
-}
- */
-#MegaMenu-Content-4 > ul > li > a {
+
+#MegaMenu-Content-4 > ul > li > a,
+#MegaMenu-Content-7 > ul > li > a {
     color: #121212!important;
     font-size: 14px!important;
     line-height: 16px!important;
@@ -6300,6 +6297,16 @@ content: '\f08a';
   }
 }  
 
-#Details-HeaderMenu-7 {
+/* Implement hover state on all mega menu items */
+.header__menu-item:hover span,
+.mega-menu__link:hover,
+#Details-HeaderMenu-7 > summary > span,
+#Details-menu-drawer-menu-item-7 > summary {
+  text-decoration: none;
+  color: var(--gradient-base-accent-2)!important;
+}
+
+#Details-HeaderMenu-6,
+#menu-drawer > div > div > nav > ul > li:nth-child(6) {
   display: none;
 }
