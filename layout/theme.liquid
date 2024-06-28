@@ -441,7 +441,7 @@
   {% comment %} Header menu on hover styling {% endcomment %}
   <script defer="defer">
   const cubes = [];
-  const existingIDs = [1, 2, 3, 4, 5, 6]; // IDs of existing elements
+  const existingIDs = [1, 2, 3, 4, 5, 6, 7]; // add menu item ID to implement header hover state
   const newArrival = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(1) > a');
   const christmas = document.querySelector('.section-header > sticky-header > header > nav > ul > li:nth-child(6) > a');
   newArrival.setAttribute('id', 'Details-HeaderMenu-1');
@@ -462,6 +462,18 @@
       });
     }
   });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const listItems = document.querySelectorAll(".mega-menu__link");
+      listItems.forEach(function(item) {
+        // Check if the text content matches "VIEW ALL" (case insensitive)
+        if (item.textContent.trim().toUpperCase() === "VIEW ALL") {
+          item.style.color = "#EC9A00";
+        }
+      });
+    });
   </script>
 
   <script defer="defer">
