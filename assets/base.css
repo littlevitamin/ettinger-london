@@ -6300,13 +6300,8 @@ content: '\f08a';
 /* Implement hover state on all mega menu items */
 .header__menu-item:hover span,
 .mega-menu__link:hover,
-#Details-HeaderMenu-7 > summary > span,
-#Details-menu-drawer-menu-item-7 > summary {
+#Details-HeaderMenu-6 > summary > span,
+#Details-menu-drawer-menu-item-6 > summary {
   text-decoration: none;
   color: var(--gradient-base-accent-2)!important;
-}
-
-#Details-HeaderMenu-6,
-#menu-drawer > div > div > nav > ul > li:nth-child(6) {
-  display: none;
 }
