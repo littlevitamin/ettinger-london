@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -48,7 +57,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
-            "icon": "leather",
+            "icon": "ruler",
             "content": "<p>{{ product.metafields.custom.features.value | newline_to_br }}<\/p>",
             "page": ""
           }
@@ -57,7 +66,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
-            "icon": "ruler",
+            "icon": "leather",
             "content": "<p>{{ product.metafields.custom.materials.value | newline_to_br }}<\/p>",
             "page": ""
           }
@@ -113,6 +122,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/ettinger-8237_1.png",
+            "video_url": "",
             "caption": "<p>EACH TO THEIR OWN<\/p>",
             "heading": "MAKE IT PERSONAL",
             "text": "<p>Make your accessory one of a kind with our exclusive personalisation service. At Ettinger, every emboss is blocked by our best craftspeople using a traditional embossing machine to guarantee the best results.<br\/><\/p>",
