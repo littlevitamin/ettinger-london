@@ -31,7 +31,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/capra",
+            "button_link_1": "shopify:\/\/collections\/summer-sale",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,9 +45,9 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b8aac823-dcae-4ac0-9757-77524ffb4f58.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Rectangle_7422_476442ad-565d-493e-8bb7-709547e7a769.jpg",
-        "paragraph": "<h3>REDISCOVER<\/h3><h1>OUR CAPRA COLLECTION<\/h1>",
+        "image": "shopify:\/\/shop_images\/Rectangle_9_0daa8ea7-cfac-4ec2-87a8-7c0717c03f9f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_8_314d7ad8-d0eb-46ad-a334-48fdb3e66851.jpg",
+        "paragraph": "<h1>SUMMER SALE<\/h1><h2>UP TO 40% OFF<\/h2>",
         "enable_video": false,
         "video_url": "",
         "mobile_video_url": "",
@@ -70,7 +70,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "capra",
+        "collection": "summer-sale",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
