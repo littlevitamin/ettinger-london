@@ -94,7 +94,7 @@
         {{ section.settings.heading | escape }}
       </h2>
         <div class="swiper-desktop">
-          <ul
+          {% comment %}<ul
           class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
           role="list"
           >
@@ -112,7 +112,36 @@
                 </li>
               {% endunless %}
             {% endfor %}
-          </ul>
+          </ul>{% endcomment %}
+          <swiper-container           
+            slides-per-view="{{ section.settings.columns_desktop }}" 
+            autoplay="true"
+            pagination="{ 'el': '.swiper-pagination', 'clickable': true }"
+            style="
+            --swiper-pagination-color: #EC9A00; 
+            --swiper-pagination-bullet-width: 21px;
+            --swiper-pagination-bullet-active-width: 40px;
+            --swiper-pagination-bullet-height: 3px;
+            --swiper-pagination-bullet-border-radius: 3px;"
+          >
+            {% for recommendation in recommendations.products %}
+              {% unless recommendation.tags contains 'not-recommended' %}
+                <swiper-slide class="swiper-slide">
+                  {% render 'card-product',
+                    card_product: recommendation,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_quick_add: section.settings.enable_quick_add,
+                    show_rating: section.settings.show_rating
+                  %}
+                </swiper-slide>
+              {% endunless %}
+            {% endfor %}
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </swiper-container> 
         </div>
         <div class="swiper-mobile">
           <swiper-container           

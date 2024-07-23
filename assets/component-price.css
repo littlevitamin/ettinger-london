@@ -107,6 +107,11 @@
   margin-top: 0!important;
 }
 
+.quick-add-modal__content-info .price__badge-sale {
+  right: 56%!important;
+  top: 10px;
+}
+
 @media (min-width: 750px) and (max-width: 989px) {
   .price__badge-sale {
     right: 52%;
@@ -118,4 +123,8 @@
     left: calc(100vw - 150px);
     right: unset;
   }  
+  .quick-add-modal__content-info .price__badge-sale {
+    left: calc(100vw - 210px);
+    top: 25px;
+  }
 }
