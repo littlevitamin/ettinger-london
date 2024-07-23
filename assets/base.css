@@ -5983,6 +5983,9 @@ content: '\f08a';
   .card__badge .badge {
     min-width: 180%;
   }
+  .swiper-mobile .card__badge .badge {
+    min-width: 100%;
+  }
 }
 
 @media screen and (min-width: 990px) {
