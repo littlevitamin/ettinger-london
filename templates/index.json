@@ -31,7 +31,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/summer-sale",
+            "button_link_1": "shopify:\/\/collections\/mens-travel-accessories",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,9 +45,9 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_37_b4b4c291-648f-48b1-bc8f-1ad1a5d881a4.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Rectangle_7_08cb4644-35e8-435c-b901-213c0a77aa60.jpg",
-        "paragraph": "<h1>SUMMER SALE<\/h1><h2>UP TO 40% OFF<\/h2>",
+        "image": "shopify:\/\/shop_images\/Rectangle_38_66535e9d-4494-4804-b5b8-6c4675911523.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_90.jpg",
+        "paragraph": "<h2>EXPLORE<\/h2><h1>TRAVEL ACCESSORIES<\/h1>",
         "enable_video": false,
         "video_url": "",
         "mobile_video_url": "",
