@@ -14,15 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00": {
-          "type": "announcement",
-          "settings": {
-            "text": "Summer Sale | Up to 40% off",
-            "text_alignment": "center",
-            "color_scheme": "accent-2",
-            "link": "shopify:\/\/collections\/summer-sale"
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -44,7 +35,6 @@
         }
       },
       "block_order": [
-        "91b89fe3-f6f4-4b54-a6f6-8b989f45fd00",
         "announcement-bar-0",
         "de65be83-fab5-496c-b970-491dccd2f052"
       ],
