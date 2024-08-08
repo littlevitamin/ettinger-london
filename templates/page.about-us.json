@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -33,9 +42,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Robert_Ettinger_Pondering_the_Future_with_UBS.png",
-        "paragraph": "<p>Unexpected shapes with smart <strong>details, functionality, a new luxury feel<\/strong> with a contemporary price point.<\/p>",
+        "paragraph": "<p>With a rich heritage and history <strong>spanning 90 years,<\/strong> Ettinger is one of last remaining leather manufacturers in the UK and remains a family-owned business.<\/p>",
         "enable_video": false,
         "video_url": "",
+        "mobile_video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -54,6 +64,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Press_Launch_-_Gerard_Ettinger_on_the_far_right_1.png",
+            "video_url": "",
             "caption": "<p><strong>\"<\/strong>When my father first started the business in 1934, he bought a leather suitcase factory<strong>\" <\/strong><\/p><h6><strong>- <\/strong>Robert Ettinger<\/h6>",
             "heading": "OUR STORY",
             "text": "<p>Founded by Gerry Ettinger in 1934, the company is still family owned and run by his elder son, Robert Ettinger. We are one of the few remaining British luxury leather goods companies still manufacturing in the UK and pride ourselves on designing and handcrafting only the finest leather goods.<\/p><p>In 1996, in recognition of the work carried out for the Royal Household, Ettinger of London was appointed with a Royal Warrant to HRH the Prince of Wales.<\/p>",
@@ -169,6 +180,7 @@
         "paragraph": "",
         "enable_video": true,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/992e490a43a145dfae71103d1985c49c.mp4",
+        "mobile_video_url": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
