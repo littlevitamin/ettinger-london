@@ -95,22 +95,22 @@
         "template--16002245951668__f1325849-5435-4589-a9c8-02c3bdd74086-16853676232ad2afc3-2": {
           "type": "collection",
           "settings": {
-            "collection": "key-accessories-w",
-            "custom_image": "shopify:\/\/shop_images\/Rectangle_86.jpg"
+            "collection": "bestsellers",
+            "custom_image": "shopify:\/\/shop_images\/Rectangle_92.jpg"
           }
         },
         "42e96eb4-0f68-4971-a68b-04a58647ca5c": {
           "type": "collection",
           "settings": {
-            "collection": "mens-travel-bags",
-            "custom_image": "shopify:\/\/shop_images\/Rectangle_87.jpg"
+            "collection": "womens-coat-wallet",
+            "custom_image": "shopify:\/\/shop_images\/Rectangle_91.jpg"
           }
         },
         "fb0f47d6-4430-4f72-a401-20c38a775ee8": {
           "type": "collection",
           "settings": {
-            "collection": "stationery",
-            "custom_image": "shopify:\/\/shop_images\/Rectangle_88.jpg"
+            "collection": "mens-travel-accessories",
+            "custom_image": "shopify:\/\/shop_images\/Rectangle_93.jpg"
           }
         }
       },
