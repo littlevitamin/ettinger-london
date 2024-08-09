@@ -31,7 +31,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/mens-travel-accessories",
+            "button_link_1": "shopify:\/\/collections\/jewellery-storage",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,9 +45,9 @@
         "aa572a5a-fbd6-4d86-b654-123f5837aacb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_38_66535e9d-4494-4804-b5b8-6c4675911523.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Rectangle_90.jpg",
-        "paragraph": "<h2>EXPLORE<\/h2><h1>TRAVEL ACCESSORIES<\/h1>",
+        "image": "shopify:\/\/shop_images\/Rectangle_89.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_90_462613cf-d85e-4006-a8c6-4a835307a6e5.jpg",
+        "paragraph": "<h2>Discover<\/h2><h1>JEWELLERY STORAGE<\/h1>",
         "enable_video": false,
         "video_url": "",
         "mobile_video_url": "",
@@ -70,7 +70,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "mens-travel-accessories",
+        "collection": "jewellery-storage",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
